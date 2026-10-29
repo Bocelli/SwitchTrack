@@ -577,6 +577,28 @@ function setupEventListeners() {
   // Sincronizzazione
   elements.syncBtn.addEventListener('click', handleSync);
 
+  // Controlli Desktop Carosello Aggiornamenti
+  const prevBtn = document.getElementById('carousel-prev-btn');
+  const nextBtn = document.getElementById('carousel-next-btn');
+  if (prevBtn && nextBtn && elements.latestContainer) {
+    prevBtn.addEventListener('click', () => {
+      elements.latestContainer.scrollBy({ left: -310, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener('click', () => {
+      elements.latestContainer.scrollBy({ left: 310, behavior: 'smooth' });
+    });
+  }
+
+  // Scorrimento orizzontale con rotella del mouse per utenti desktop
+  if (elements.latestContainer) {
+    elements.latestContainer.addEventListener('wheel', (e) => {
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX) && e.deltaY !== 0) {
+        e.preventDefault();
+        elements.latestContainer.scrollLeft += e.deltaY * 0.9;
+      }
+    }, { passive: false });
+  }
+
   // Chiusura modale
   elements.modalCloseBtn.addEventListener('click', closeGameModal);
   elements.modal.querySelector('.modal-backdrop').addEventListener('click', closeGameModal);
