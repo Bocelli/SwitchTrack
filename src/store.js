@@ -104,6 +104,27 @@ class GameStore {
     return result;
   }
 
+  /**
+   * Ricerca paginata ottimizzata per cataloghi di grandi dimensioni (19.000+ giochi)
+   */
+  queryGames({ platform = 'all', search = '', genre = 'all', sort = 'recent', page = 1, limit = 24 } = {}) {
+    const allFiltered = this.getGames({ platform, search, genre, sort });
+    const total = allFiltered.length;
+    const pageNum = Math.max(1, parseInt(page, 10) || 1);
+    const limitNum = Math.min(100, Math.max(1, parseInt(limit, 10) || 24));
+    const offset = (pageNum - 1) * limitNum;
+    const paginated = allFiltered.slice(offset, offset + limitNum);
+
+    return {
+      total,
+      page: pageNum,
+      limit: limitNum,
+      totalPages: Math.ceil(total / limitNum),
+      hasMore: offset + limitNum < total,
+      data: paginated
+    };
+  }
+
   getGameById(id) {
     if (!id) return null;
     return this.gamesById.get(id) || null;

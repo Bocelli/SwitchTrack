@@ -68,21 +68,34 @@ app.get('/api/stats', (req, res) => {
  */
 app.get('/api/games', (req, res) => {
   try {
-    const { platform = 'all', search = '', genre = 'all', sort = 'recent' } = req.query;
+    const { platform = 'all', search = '', genre = 'all', sort = 'recent', page = '1', limit = '24' } = req.query;
 
     // Sanitizzazione base
-    const sanitizedSearch = String(search).slice(0, 80);
+    const sanitizedSearch = String(search).slice(0, 100);
     const sanitizedPlatform = ['all', 'switch', 'switch2'].includes(platform) ? platform : 'all';
     const sanitizedSort = ['recent', 'title_asc', 'updates_count'].includes(sort) ? sort : 'recent';
+    const pageNum = Math.max(1, parseInt(page, 10) || 1);
+    const limitNum = Math.min(100, Math.max(1, parseInt(limit, 10) || 24));
 
-    const games = store.getGames({
+    const result = store.queryGames({
       platform: sanitizedPlatform,
       search: sanitizedSearch,
       genre: String(genre).slice(0, 40),
-      sort: sanitizedSort
+      sort: sanitizedSort,
+      page: pageNum,
+      limit: limitNum
     });
 
-    res.json({ success: true, count: games.length, data: games });
+    res.json({
+      success: true,
+      total: result.total,
+      page: result.page,
+      limit: result.limit,
+      totalPages: result.totalPages,
+      hasMore: result.hasMore,
+      count: result.data.length,
+      data: result.data
+    });
   } catch (err) {
     res.status(500).json({ success: false, error: 'Errore recupero catalogo giochi' });
   }

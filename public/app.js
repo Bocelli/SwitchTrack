@@ -11,6 +11,11 @@ const state = {
   platform: 'all',
   search: '',
   sort: 'recent',
+  page: 1,
+  limit: 24,
+  total: 0,
+  hasMore: false,
+  isLoadingMore: false,
   games: [],
   latestUpdates: [],
   stats: null,
@@ -35,7 +40,10 @@ const elements = {
   modal: document.getElementById('game-modal'),
   modalContent: document.getElementById('modal-content'),
   modalCloseBtn: document.getElementById('modal-close-btn'),
-  toastContainer: document.getElementById('toast-container')
+  toastContainer: document.getElementById('toast-container'),
+  loadMoreContainer: document.getElementById('load-more-container'),
+  loadMoreBtn: document.getElementById('load-more-btn'),
+  catalogCountInfo: document.getElementById('catalog-count-info')
 };
 
 /**
@@ -96,10 +104,10 @@ async function loadStats() {
     const json = await res.json();
     if (json.success && json.data) {
       state.stats = json.data;
-      elements.statTotalGames.textContent = json.data.totalGames;
-      elements.statTotalUpdates.textContent = json.data.totalUpdates;
-      elements.statSwitch1Count.textContent = json.data.switch1Count;
-      elements.statSwitch2Count.textContent = json.data.switch2Count;
+      elements.statTotalGames.textContent = Number(json.data.totalGames || 0).toLocaleString('it-IT');
+      elements.statTotalUpdates.textContent = Number(json.data.totalUpdates || 0).toLocaleString('it-IT');
+      elements.statSwitch1Count.textContent = Number(json.data.switch1Count || 0).toLocaleString('it-IT');
+      elements.statSwitch2Count.textContent = Number(json.data.switch2Count || 0).toLocaleString('it-IT');
     }
   } catch (err) {
     console.error('Errore caricamento statistiche:', err);
@@ -165,25 +173,224 @@ function renderLatestUpdates() {
 }
 
 /**
- * Carica e filtra il catalogo giochi
+ * Genera il markup HTML di una singola game-card
  */
-async function loadGames() {
+function createGameCardHtml(game) {
+  const platformClass = game.platform === 'switch2' ? 'switch2' : (game.platform === 'both' ? 'both' : 'switch');
+  const platformLabel = game.platform === 'switch2' ? 'Nintendo Switch 2' : (game.platform === 'both' ? 'Switch 1 & 2' : 'Nintendo Switch');
+
+  const latestUpdate = game.updates && game.updates[0];
+  const prevVersion = latestUpdate?.previousVersion || 'v1.0.0';
+  const currentVersion = game.currentVersion || 'v1.0.0';
+
+  return `
+    <article class="game-card" data-id="${escapeHtml(game.id)}">
+      <div class="game-card-banner">
+        <img 
+          class="game-cover-img" 
+          src="${escapeHtml(game.coverImage)}" 
+          data-fallback="/api/cover/${encodeURIComponent(game.id)}"
+          alt="Copertina di ${escapeHtml(game.title)}"
+          loading="lazy"
+        >
+        <div class="game-card-overlay-badges">
+          <span class="platform-pill ${platformClass}">${platformLabel}</span>
+          <span class="badge-version">${escapeHtml(currentVersion)}</span>
+        </div>
+      </div>
+
+      <div class="game-card-content">
+        <div class="game-meta-row">
+          <span class="game-publisher">${escapeHtml(game.publisher || 'Nintendo')}</span>
+          <span class="title-id-badge" title="Clicca per copiare Title ID" data-copy-title-id="${escapeHtml(game.titleId || '')}">
+            ID: ${escapeHtml(game.titleId || 'N/A')}
+          </span>
+        </div>
+
+        <h3 class="game-title">${escapeHtml(game.title)}</h3>
+
+        <!-- Box progressione versione -->
+        <div class="version-progression-box">
+          <div class="version-info-left">
+            <span class="version-status-label">Ultima Versione</span>
+            <span class="version-number-tag">${escapeHtml(currentVersion)}</span>
+          </div>
+          <div class="version-transition-arrow" title="Passaggio dalla versione precedente">
+            <span>${escapeHtml(prevVersion)}</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+            <strong>${escapeHtml(currentVersion)}</strong>
+          </div>
+        </div>
+
+        <div style="font-size: 0.75rem; color: var(--text-dim); display: flex; justify-content: space-between;">
+          <span>Aggiornato: ${formatDate(game.lastUpdated)}</span>
+          <span>${(game.updates || []).length} update archiviati</span>
+        </div>
+
+        <!-- Pulsanti Azione -->
+        <div class="game-card-actions">
+          <button class="btn btn-secondary open-modal-btn" data-game-id="${escapeHtml(game.id)}" style="width: 100%;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            Changelog
+          </button>
+
+          ${game.eshopUrl ? `
+            <a 
+              href="${escapeHtml(game.eshopUrl)}" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn btn-eshop"
+              title="Apri scheda ufficiale su Nintendo eShop"
+              aria-label="Apri ${escapeHtml(game.title)} su Nintendo eShop"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              eShop
+            </a>
+          ` : ''}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+/**
+ * Attacca gli event listener su un sottoinsieme di card
+ */
+function attachCardListeners(container) {
+  container.querySelectorAll('.game-cover-img').forEach(img => {
+    const handleFallback = () => {
+      const fallback = img.getAttribute('data-fallback');
+      if (fallback && img.getAttribute('src') !== fallback) {
+        img.src = fallback;
+      }
+    };
+    if (img.complete && img.naturalWidth === 0) {
+      handleFallback();
+    } else {
+      img.addEventListener('error', handleFallback, { once: true });
+    }
+  });
+
+  container.querySelectorAll('.open-modal-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-game-id');
+      openGameModal(id);
+    });
+  });
+
+  container.querySelectorAll('[data-copy-title-id]').forEach(badge => {
+    badge.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const titleId = badge.getAttribute('data-copy-title-id');
+      if (titleId) {
+        navigator.clipboard.writeText(titleId).then(() => {
+          showToast(`Title ID copiato: ${titleId}`);
+        }).catch(() => {
+          showToast(`Title ID: ${titleId}`);
+        });
+      }
+    });
+  });
+}
+
+/**
+ * Carica e filtra il catalogo giochi con paginazione
+ */
+async function loadGames(reset = true) {
   try {
+    if (reset) {
+      state.page = 1;
+      state.games = [];
+      elements.gamesGrid.innerHTML = '<div class="loading-state">Ricerca catalogo giochi...</div>';
+      if (elements.loadMoreContainer) elements.loadMoreContainer.hidden = true;
+    }
+
     const params = new URLSearchParams({
       platform: state.platform,
       search: state.search,
-      sort: state.sort
+      sort: state.sort,
+      page: state.page,
+      limit: state.limit
     });
 
     const res = await fetch(`/api/games?${params.toString()}`);
     const json = await res.json();
 
     if (json.success && Array.isArray(json.data)) {
-      state.games = json.data;
-      renderGames();
+      state.total = json.total || json.count || 0;
+      state.hasMore = Boolean(json.hasMore);
+
+      if (reset) {
+        state.games = json.data;
+        renderGames();
+      } else {
+        appendGames(json.data);
+      }
+      updatePaginationControls();
     }
   } catch (err) {
-    elements.gamesGrid.innerHTML = '<div class="loading-state">Errore durante il caricamento dei giochi.</div>';
+    if (reset) {
+      elements.gamesGrid.innerHTML = '<div class="loading-state">Errore durante il caricamento dei giochi.</div>';
+    }
+  }
+}
+
+/**
+ * Carica la pagina successiva di giochi
+ */
+async function loadMoreGames() {
+  if (state.isLoadingMore || !state.hasMore) return;
+  state.isLoadingMore = true;
+  if (elements.loadMoreBtn) {
+    elements.loadMoreBtn.disabled = true;
+    elements.loadMoreBtn.innerHTML = `
+      <span class="spin" style="display:inline-block;">⟳</span>
+      <span>Caricamento altri giochi...</span>
+    `;
+  }
+
+  state.page++;
+  await loadGames(false);
+
+  state.isLoadingMore = false;
+  if (elements.loadMoreBtn) {
+    elements.loadMoreBtn.disabled = false;
+    elements.loadMoreBtn.innerHTML = `
+      <span>Carica altri giochi</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    `;
+  }
+}
+
+function updatePaginationControls() {
+  if (!elements.loadMoreContainer) return;
+
+  if (state.games.length === 0) {
+    elements.loadMoreContainer.hidden = true;
+    return;
+  }
+
+  elements.loadMoreContainer.hidden = false;
+  if (elements.loadMoreBtn) {
+    elements.loadMoreBtn.style.display = state.hasMore ? 'inline-flex' : 'none';
+  }
+  if (elements.catalogCountInfo) {
+    elements.catalogCountInfo.textContent = `Mostrati ${state.games.length.toLocaleString('it-IT')} di ${state.total.toLocaleString('it-IT')} giochi a catalogo`;
   }
 }
 
@@ -201,134 +408,22 @@ function renderGames() {
   elements.emptyState.classList.remove('visible');
   elements.emptyState.hidden = true;
 
-  elements.gamesGrid.innerHTML = state.games.map(game => {
-    const platformClass = game.platform === 'switch2' ? 'switch2' : (game.platform === 'both' ? 'both' : 'switch');
-    const platformLabel = game.platform === 'switch2' ? 'Nintendo Switch 2' : (game.platform === 'both' ? 'Switch 1 & 2' : 'Nintendo Switch');
+  elements.gamesGrid.innerHTML = state.games.map(createGameCardHtml).join('');
+  attachCardListeners(elements.gamesGrid);
+}
 
-    const latestUpdate = game.updates && game.updates[0];
-    const prevVersion = latestUpdate?.previousVersion || 'v1.0.0';
-    const currentVersion = game.currentVersion || 'v1.0.0';
+function appendGames(newGames) {
+  if (!newGames.length) return;
+  state.games = state.games.concat(newGames);
 
-    return `
-      <article class="game-card" data-id="${escapeHtml(game.id)}">
-        <div class="game-card-banner">
-          <img 
-            class="game-cover-img" 
-            src="${escapeHtml(game.coverImage)}" 
-            data-fallback="/api/cover/${encodeURIComponent(game.id)}"
-            alt="Copertina di ${escapeHtml(game.title)}"
-            loading="lazy"
-          >
-          <div class="game-card-overlay-badges">
-            <span class="platform-pill ${platformClass}">${platformLabel}</span>
-            <span class="badge-version">${escapeHtml(currentVersion)}</span>
-          </div>
-        </div>
+  const tempContainer = document.createElement('div');
+  tempContainer.innerHTML = newGames.map(createGameCardHtml).join('');
 
-        <div class="game-card-content">
-          <div class="game-meta-row">
-            <span class="game-publisher">${escapeHtml(game.publisher || 'Nintendo')}</span>
-            <span class="title-id-badge" title="Clicca per copiare Title ID" data-copy-title-id="${escapeHtml(game.titleId || '')}">
-              ID: ${escapeHtml(game.titleId || 'N/A')}
-            </span>
-          </div>
+  while (tempContainer.firstChild) {
+    elements.gamesGrid.appendChild(tempContainer.firstChild);
+  }
 
-          <h3 class="game-title">${escapeHtml(game.title)}</h3>
-
-          <!-- Box progressione versione -->
-          <div class="version-progression-box">
-            <div class="version-info-left">
-              <span class="version-status-label">Ultima Versione</span>
-              <span class="version-number-tag">${escapeHtml(currentVersion)}</span>
-            </div>
-            <div class="version-transition-arrow" title="Passaggio dalla versione precedente">
-              <span>${escapeHtml(prevVersion)}</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-              <strong>${escapeHtml(currentVersion)}</strong>
-            </div>
-          </div>
-
-          <div style="font-size: 0.75rem; color: var(--text-dim); display: flex; justify-content: space-between;">
-            <span>Aggiornato: ${formatDate(game.lastUpdated)}</span>
-            <span>${(game.updates || []).length} update archiviati</span>
-          </div>
-
-          <!-- Pulsanti Azione -->
-          <div class="game-card-actions">
-            <button class="btn btn-secondary open-modal-btn" data-game-id="${escapeHtml(game.id)}" style="width: 100%;">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-                <line x1="16" y1="13" x2="8" y2="13"></line>
-                <line x1="16" y1="17" x2="8" y2="17"></line>
-                <polyline points="10 9 9 9 8 9"></polyline>
-              </svg>
-              Changelog
-            </button>
-
-            ${game.eshopUrl ? `
-              <a 
-                href="${escapeHtml(game.eshopUrl)}" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="btn btn-eshop"
-                title="Apri scheda ufficiale su Nintendo eShop"
-                aria-label="Apri ${escapeHtml(game.title)} su Nintendo eShop"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="9" cy="21" r="1"></circle>
-                  <circle cx="20" cy="21" r="1"></circle>
-                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-                </svg>
-                eShop
-              </a>
-            ` : ''}
-          </div>
-        </div>
-      </article>
-    `;
-  }).join('');
-
-  // Fallback immagini CSP-safe per copertine non disponibili o 404
-  elements.gamesGrid.querySelectorAll('.game-cover-img').forEach(img => {
-    const handleFallback = () => {
-      const fallback = img.getAttribute('data-fallback');
-      if (fallback && img.getAttribute('src') !== fallback) {
-        img.src = fallback;
-      }
-    };
-    if (img.complete && img.naturalWidth === 0) {
-      handleFallback();
-    } else {
-      img.addEventListener('error', handleFallback, { once: true });
-    }
-  });
-
-  // Event listener per apertura modale
-  elements.gamesGrid.querySelectorAll('.open-modal-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const id = btn.getAttribute('data-game-id');
-      openGameModal(id);
-    });
-  });
-
-  // Event listener per copia Title ID
-  elements.gamesGrid.querySelectorAll('[data-copy-title-id]').forEach(badge => {
-    badge.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const titleId = badge.getAttribute('data-copy-title-id');
-      if (titleId) {
-        navigator.clipboard.writeText(titleId).then(() => {
-          showToast(`Title ID copiato: ${titleId}`);
-        }).catch(() => {
-          showToast(`Title ID: ${titleId}`);
-        });
-      }
-    });
-  });
+  attachCardListeners(elements.gamesGrid);
 }
 
 /**
@@ -597,6 +692,11 @@ function setupEventListeners() {
         elements.latestContainer.scrollLeft += e.deltaY * 0.9;
       }
     }, { passive: false });
+  }
+
+  // Carica altri giochi (Paginazione & Infinite Scroll)
+  if (elements.loadMoreBtn) {
+    elements.loadMoreBtn.addEventListener('click', loadMoreGames);
   }
 
   // Chiusura modale
