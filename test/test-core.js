@@ -67,3 +67,27 @@ test('GameStore: filtra e gestisce correttamente i titoli non ancora usciti (upc
   assert.ok(recent.length > 0);
   assert.notEqual(recent[0].status, 'upcoming', 'Il primo risultato dei più recenti non deve essere un gioco non ancora uscito');
 });
+
+test('Audit Copertine: ogni scheda in "Ultimi Aggiornamenti" e titoli curati ha cover valida e unica', () => {
+  const latest = store.getLatestUpdates(20);
+  for (const item of latest) {
+    assert.ok(item.gameCover && item.gameCover.startsWith('http'), `Copertina valida per ${item.gameTitle}`);
+    assert.ok(item.gameTitle, 'Titolo presente');
+    assert.ok(item.version, 'Versione presente');
+  }
+
+  // Verifica che i titoli curati chiave abbiano copertine univoche
+  const totk = store.getGameById('zelda-totk');
+  const botw = store.getGameById('zelda-botw');
+  const metroid = store.getGameById('metroid-prime-4-beyond');
+  const silksong = store.getGameById('hollow-knight-silksong');
+  const dd1 = store.getGameById('dragons-dogma-dark-arisen');
+  const dd2 = store.getGameById('dragons-dogma-2-dark-arisen');
+  const hades2 = store.getGameById('hades-2');
+  const cyberpunk = store.getGameById('cyberpunk-2077-switch2');
+  const witcher = store.getGameById('the-witcher-3-wild-hunt');
+
+  const covers = [totk.coverImage, botw.coverImage, metroid.coverImage, silksong.coverImage, dd1.coverImage, dd2.coverImage, hades2.coverImage, cyberpunk.coverImage, witcher.coverImage];
+  const uniqueCovers = new Set(covers);
+  assert.equal(covers.length, uniqueCovers.size, 'Nessuno dei titoli principali deve condividere la stessa copertina');
+});

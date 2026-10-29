@@ -506,7 +506,7 @@ export const CATALOG = [
     publisher: "Supergiant Games",
     releaseDate: "2025-06-18",
     genres: ["Roguelike", "Azione", "Hack & Slash"],
-    coverImage: "https://img-eshop.cdn.nintendo.net/i/dbc8c55a21688b446a5c57711b726956483a14ef8c5ddb861f897c0595ccb6b5.jpg",
+    coverImage: "https://shared.steamstatic.com/store_item_assets/steam/apps/1145350/capsule_616x353.jpg",
     eshopUrl: "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Hades-1830602.html",
     currentVersion: "v1.3.4",
     currentInternalVersion: 262144,
