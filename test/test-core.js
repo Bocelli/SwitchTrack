@@ -54,3 +54,16 @@ test('UpdateTracker: classifica correttamente i salti di versione', () => {
   assert.equal(tracker.classifyVersionJump('v1.1.0', 'v1.2.0').type, 'content');
   assert.equal(tracker.classifyVersionJump('v2.1.0', 'v2.1.2').type, 'patch');
 });
+
+test('GameStore: filtra e gestisce correttamente i titoli non ancora usciti (upcoming)', () => {
+  const upcoming = store.getGames({ platform: 'upcoming' });
+  assert.ok(upcoming.length > 0, 'Devono esserci giochi con status upcoming');
+  for (const g of upcoming) {
+    assert.equal(g.status, 'upcoming');
+  }
+
+  // Verifica che con sort recent i titoli non ancora usciti NON siano in testa
+  const recent = store.getGames({ sort: 'recent', limit: 10 });
+  assert.ok(recent.length > 0);
+  assert.notEqual(recent[0].status, 'upcoming', 'Il primo risultato dei più recenti non deve essere un gioco non ancora uscito');
+});

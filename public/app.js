@@ -176,12 +176,56 @@ function renderLatestUpdates() {
  * Genera il markup HTML di una singola game-card
  */
 function createGameCardHtml(game) {
+  const isUpcoming = game.status === 'upcoming';
   const platformClass = game.platform === 'switch2' ? 'switch2' : (game.platform === 'both' ? 'both' : 'switch');
   const platformLabel = game.platform === 'switch2' ? 'Nintendo Switch 2' : (game.platform === 'both' ? 'Switch 1 & 2' : 'Nintendo Switch');
 
   const latestUpdate = game.updates && game.updates[0];
   const prevVersion = latestUpdate?.previousVersion || 'v1.0.0';
   const currentVersion = game.currentVersion || 'v1.0.0';
+
+  const versionBoxHtml = isUpcoming ? `
+    <div class="version-progression-box upcoming-box">
+      <div class="version-info-left">
+        <span class="version-status-label">Stato Uscita</span>
+        <span class="upcoming-status-tag">In Arrivo</span>
+      </div>
+      <div class="upcoming-date-box" title="Data di rilascio stimata su Nintendo eShop">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        <span>${formatDate(game.releaseDate)}</span>
+      </div>
+    </div>
+  ` : `
+    <div class="version-progression-box">
+      <div class="version-info-left">
+        <span class="version-status-label">Ultima Versione</span>
+        <span class="version-number-tag">${escapeHtml(currentVersion)}</span>
+      </div>
+      <div class="version-transition-arrow" title="Passaggio dalla versione precedente">
+        <span>${escapeHtml(prevVersion)}</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+        <strong>${escapeHtml(currentVersion)}</strong>
+      </div>
+    </div>
+  `;
+
+  const metaDatesHtml = isUpcoming ? `
+    <div style="font-size: 0.75rem; color: var(--text-dim); display: flex; justify-content: space-between;">
+      <span>Lancio previsto: ${formatDate(game.releaseDate)}</span>
+      <span class="text-amber">Non ancora uscito</span>
+    </div>
+  ` : `
+    <div style="font-size: 0.75rem; color: var(--text-dim); display: flex; justify-content: space-between;">
+      <span>Aggiornato: ${formatDate(game.lastUpdated)}</span>
+      <span>${(game.updates || []).length} update archiviati</span>
+    </div>
+  `;
 
   return `
     <article class="game-card" data-id="${escapeHtml(game.id)}">
@@ -195,7 +239,7 @@ function createGameCardHtml(game) {
         >
         <div class="game-card-overlay-badges">
           <span class="platform-pill ${platformClass}">${platformLabel}</span>
-          <span class="badge-version">${escapeHtml(currentVersion)}</span>
+          ${isUpcoming ? '<span class="badge-upcoming">In Arrivo</span>' : `<span class="badge-version">${escapeHtml(currentVersion)}</span>`}
         </div>
       </div>
 
@@ -209,26 +253,8 @@ function createGameCardHtml(game) {
 
         <h3 class="game-title">${escapeHtml(game.title)}</h3>
 
-        <!-- Box progressione versione -->
-        <div class="version-progression-box">
-          <div class="version-info-left">
-            <span class="version-status-label">Ultima Versione</span>
-            <span class="version-number-tag">${escapeHtml(currentVersion)}</span>
-          </div>
-          <div class="version-transition-arrow" title="Passaggio dalla versione precedente">
-            <span>${escapeHtml(prevVersion)}</span>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-            <strong>${escapeHtml(currentVersion)}</strong>
-          </div>
-        </div>
-
-        <div style="font-size: 0.75rem; color: var(--text-dim); display: flex; justify-content: space-between;">
-          <span>Aggiornato: ${formatDate(game.lastUpdated)}</span>
-          <span>${(game.updates || []).length} update archiviati</span>
-        </div>
+        ${versionBoxHtml}
+        ${metaDatesHtml}
 
         <!-- Pulsanti Azione -->
         <div class="game-card-actions">
@@ -240,7 +266,7 @@ function createGameCardHtml(game) {
               <line x1="16" y1="17" x2="8" y2="17"></line>
               <polyline points="10 9 9 9 8 9"></polyline>
             </svg>
-            Changelog
+            ${isUpcoming ? 'Dettagli' : 'Changelog'}
           </button>
 
           ${game.eshopUrl ? `
@@ -472,13 +498,33 @@ async function openGameModal(gameId) {
       `;
     }).join('');
 
+    const isUpcoming = game.status === 'upcoming';
+    const hasUpdates = game.updates && game.updates.length > 0;
+
+    const timelineContentHtml = (!hasUpdates && isUpcoming) ? `
+      <div class="empty-upcoming-notice">
+        <div class="upcoming-icon-wrap">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <h4>Titolo non ancora uscito</h4>
+        <p>Questo gioco è registrato sui server Nintendo eShop con uscita prevista il <strong>${formatDate(game.releaseDate)}</strong>. La cronologia delle versioni e i relativi changelog verranno tracciati automaticamente a partire dal lancio.</p>
+      </div>
+    ` : `
+      <div class="update-timeline" style="margin-top: 1rem;">
+        ${updatesHtml || '<div class="loading-state">Nessuna patch registrata finora. Il gioco è alla release iniziale 1.0.0.</div>'}
+      </div>
+    `;
+
     elements.modalContent.innerHTML = `
       <div class="modal-game-info">
         <img class="modal-cover" src="${escapeHtml(game.coverImage)}" data-fallback="/api/cover/${encodeURIComponent(game.id)}" alt="${escapeHtml(game.title)}">
         <div class="modal-game-meta">
           <div style="display: flex; gap: 0.5rem; align-items: center;">
             <span class="platform-pill ${platformClass}">${platformLabel}</span>
-            <span class="badge-version">${escapeHtml(game.currentVersion)}</span>
+            ${isUpcoming ? '<span class="platform-pill upcoming">In Arrivo</span>' : `<span class="badge-version">${escapeHtml(game.currentVersion)}</span>`}
           </div>
 
           <h2 class="modal-title">${escapeHtml(game.title)}</h2>
@@ -514,11 +560,9 @@ async function openGameModal(gameId) {
             <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
-          Storico Versioni & Changelog (${(game.updates || []).length} release)
+          Storico Versioni & Changelog (${(game.updates || []).length} ${isUpcoming ? 'patch registrate' : 'release'})
         </h3>
-        <div class="update-timeline" style="margin-top: 1rem;">
-          ${updatesHtml}
-        </div>
+        ${timelineContentHtml}
       </div>
     `;
 

@@ -40,7 +40,13 @@ class GameStore {
   rebuildIndexes() {
     this.gamesById.clear();
     this.gamesByTitleId.clear();
+    const today = new Date().toISOString().slice(0, 10);
+
     for (const game of this.games) {
+      // Identifica automaticamente se un gioco non è ancora uscito (pre-order o data futura)
+      const isUpcoming = Boolean(game.releaseDate && game.releaseDate > today && (!game.updates || game.updates.length === 0));
+      game.status = isUpcoming ? 'upcoming' : 'released';
+
       this.gamesById.set(game.id, game);
       if (game.titleId) {
         this.gamesByTitleId.set(game.titleId.toUpperCase(), game);
@@ -67,9 +73,11 @@ class GameStore {
   getGames({ platform = 'all', search = '', genre = 'all', sort = 'recent' } = {}) {
     let result = [...this.games];
 
-    // Filtro Piattaforma
-    if (platform && platform !== 'all') {
-      result = result.filter(g => g.platform === platform || g.platform === 'both');
+    // Filtro Piattaforma & Disponibilità
+    if (platform === 'upcoming') {
+      result = result.filter(g => g.status === 'upcoming');
+    } else if (platform && platform !== 'all') {
+      result = result.filter(g => (g.platform === platform || g.platform === 'both') && g.status !== 'upcoming');
     }
 
     // Filtro Genere
@@ -92,9 +100,25 @@ class GameStore {
       result.sort((a, b) => a.title.localeCompare(b.title));
     } else if (sort === 'updates_count') {
       result.sort((a, b) => (b.updates?.length || 0) - (a.updates?.length || 0));
+    } else if (platform === 'upcoming') {
+      // Per i titoli in arrivo: ordina per data di lancio prevista imminente (più vicina prima)
+      result.sort((a, b) => new Date(a.releaseDate || '2099-01-01').getTime() - new Date(b.releaseDate || '2099-01-01').getTime());
     } else {
-      // Default: ordinamento per ultimo aggiornamento (più recente prima)
+      // Default 'recent':
+      // 1. I giochi con aggiornamenti reali hanno la priorità per data di patch più recente
+      // 2. I giochi usciti senza update seguono per data di uscita
+      // 3. I titoli in arrivo / non ancora usciti vengono messi in fondo, mai in testa
       result.sort((a, b) => {
+        const aUpcoming = a.status === 'upcoming';
+        const bUpcoming = b.status === 'upcoming';
+        if (aUpcoming && !bUpcoming) return 1;
+        if (!aUpcoming && bUpcoming) return -1;
+
+        const aHasUpdates = a.updates && a.updates.length > 0;
+        const bHasUpdates = b.updates && b.updates.length > 0;
+        if (aHasUpdates && !bHasUpdates) return -1;
+        if (!aHasUpdates && bHasUpdates) return 1;
+
         const timeA = new Date(a.lastUpdated || a.releaseDate || 0).getTime();
         const timeB = new Date(b.lastUpdated || b.releaseDate || 0).getTime();
         return timeB - timeA;
@@ -168,9 +192,11 @@ class GameStore {
     let totalUpdates = 0;
     let switch1Count = 0;
     let switch2Count = 0;
+    let upcomingCount = 0;
 
     for (const g of this.games) {
       totalUpdates += (g.updates?.length || 0);
+      if (g.status === 'upcoming') upcomingCount++;
       if (g.platform === 'switch' || g.platform === 'both') switch1Count++;
       if (g.platform === 'switch2' || g.platform === 'both') switch2Count++;
     }
@@ -180,6 +206,7 @@ class GameStore {
       totalUpdates,
       switch1Count,
       switch2Count,
+      upcomingCount,
       lastSync: this.lastSync
     };
   }

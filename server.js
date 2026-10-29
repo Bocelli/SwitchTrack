@@ -72,7 +72,7 @@ app.get('/api/games', (req, res) => {
 
     // Sanitizzazione base
     const sanitizedSearch = String(search).slice(0, 100);
-    const sanitizedPlatform = ['all', 'switch', 'switch2'].includes(platform) ? platform : 'all';
+    const sanitizedPlatform = ['all', 'switch', 'switch2', 'upcoming'].includes(platform) ? platform : 'all';
     const sanitizedSort = ['recent', 'title_asc', 'updates_count'].includes(sort) ? sort : 'recent';
     const pageNum = Math.max(1, parseInt(page, 10) || 1);
     const limitNum = Math.min(100, Math.max(1, parseInt(limit, 10) || 24));
