@@ -294,12 +294,17 @@ function renderGames() {
 
   // Fallback immagini CSP-safe per copertine non disponibili o 404
   elements.gamesGrid.querySelectorAll('.game-cover-img').forEach(img => {
-    img.addEventListener('error', function() {
-      const fallback = this.getAttribute('data-fallback');
-      if (fallback && this.src !== fallback) {
-        this.src = fallback;
+    const handleFallback = () => {
+      const fallback = img.getAttribute('data-fallback');
+      if (fallback && img.getAttribute('src') !== fallback) {
+        img.src = fallback;
       }
-    }, { once: true });
+    };
+    if (img.complete && img.naturalWidth === 0) {
+      handleFallback();
+    } else {
+      img.addEventListener('error', handleFallback, { once: true });
+    }
   });
 
   // Event listener per apertura modale
@@ -435,12 +440,17 @@ async function openGameModal(gameId) {
     // Fallback immagine modale
     const modalCover = elements.modalContent.querySelector('.modal-cover');
     if (modalCover) {
-      modalCover.addEventListener('error', function() {
-        const fallback = this.getAttribute('data-fallback');
-        if (fallback && this.src !== fallback) {
-          this.src = fallback;
+      const handleModalFallback = () => {
+        const fallback = modalCover.getAttribute('data-fallback');
+        if (fallback && modalCover.getAttribute('src') !== fallback) {
+          modalCover.src = fallback;
         }
-      }, { once: true });
+      };
+      if (modalCover.complete && modalCover.naturalWidth === 0) {
+        handleModalFallback();
+      } else {
+        modalCover.addEventListener('error', handleModalFallback, { once: true });
+      }
     }
 
     elements.modal.classList.add('open');

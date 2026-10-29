@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/style.css?v=2.0.1">
+  <link rel="stylesheet" href="/style.css?v=2.1.0">
 </head>
 <body>
   <!-- [TRAIL:UI-DOM] App Header -->
@@ -116,15 +116,17 @@
           <!-- Platform Tabs -->
           <div class="platform-tabs" role="tablist" aria-label="Filtra per console">
             <button class="tab-btn active" data-platform="all" role="tab" aria-selected="true">
-              Tutti
+              <span>Tutti</span>
             </button>
             <button class="tab-btn" data-platform="switch" role="tab" aria-selected="false">
               <span class="platform-dot switch-dot"></span>
-              Nintendo Switch
+              <span class="tab-label-full">Nintendo Switch</span>
+              <span class="tab-label-short">Switch 1</span>
             </button>
             <button class="tab-btn" data-platform="switch2" role="tab" aria-selected="false">
               <span class="platform-dot switch2-dot"></span>
-              Nintendo Switch 2
+              <span class="tab-label-full">Nintendo Switch 2</span>
+              <span class="tab-label-short">Switch 2</span>
             </button>
           </div>
 
@@ -191,6 +193,6 @@
     </div>
   </footer>
 
-  <script src="/app.js?v=2.0.1" type="module"></script>
+  <script src="/app.js?v=2.1.0" type="module"></script>
 </body>
 </html>
