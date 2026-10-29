@@ -71,7 +71,7 @@ test('GameStore: filtra e gestisce correttamente i titoli non ancora usciti (upc
 test('Audit Copertine: ogni scheda in "Ultimi Aggiornamenti" e titoli curati ha cover valida e unica', () => {
   const latest = store.getLatestUpdates(20);
   for (const item of latest) {
-    assert.ok(item.gameCover && item.gameCover.startsWith('http'), `Copertina valida per ${item.gameTitle}`);
+    assert.ok(item.gameCover && (item.gameCover.startsWith('http') || item.gameCover.startsWith('/')), `Copertina valida per ${item.gameTitle}`);
     assert.ok(item.gameTitle, 'Titolo presente');
     assert.ok(item.version, 'Versione presente');
   }

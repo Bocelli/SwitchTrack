@@ -34,7 +34,7 @@ app.use((req, res, next) => {
     "script-src 'self'; " +
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
     "font-src 'self' https://fonts.gstatic.com; " +
-    "img-src 'self' data: https://assets.nintendo.com https://img-eshop.cdn.nintendo.net https://*.cdn.nintendo.net https://*.nintendo.net https://*.nintendo.com https://images.unsplash.com https://placehold.co; " +
+    "img-src 'self' data: https://assets.nintendo.com https://img-eshop.cdn.nintendo.net https://*.cdn.nintendo.net https://*.nintendo.net https://*.nintendo.com https://shared.steamstatic.com https://*.steamstatic.com https://shared.cloudflare.steamstatic.com https://images.unsplash.com https://placehold.co; " +
     "connect-src 'self';"
   );
   next();

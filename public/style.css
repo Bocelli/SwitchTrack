@@ -953,6 +953,10 @@ a {
   height: 100%;
   object-fit: cover;
   transition: transform 300ms ease;
+  font-size: 0.72rem;
+  color: transparent;
+  overflow: hidden;
+  display: block;
 }
 
 .game-card:hover .game-cover-img {
