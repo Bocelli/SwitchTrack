@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Tracker continuo degli aggiornamenti, patch notes, changelog e versioni per giochi Nintendo Switch e Nintendo Switch 2.">
+  <meta name="theme-color" content="#0e1015">
+  <title>SwitchTrack - Tracker Aggiornamenti Nintendo Switch & Switch 2</title>
+
+  <!-- Google Fonts: Outfit & Work Sans & Fira Code (UI UX Pro Max recommended) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css?v=2.0.1">
+</head>
+<body>
+  <!-- [TRAIL:UI-DOM] App Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <div class="joycon-logo" aria-hidden="true">
+          <span class="joycon-left"></span>
+          <span class="joycon-right"></span>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">SwitchTrack</h1>
+          <span class="brand-subtitle">Nintendo Switch & Switch 2 Updates</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="live-pill" title="Monitoraggio attivo">
+          <span class="pulse-dot"></span>
+          <span class="live-text">LIVE</span>
+        </div>
+        <button id="sync-btn" class="btn btn-secondary btn-icon-text" aria-label="Sincronizza aggiornamenti">
+          <svg class="icon sync-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+          </svg>
+          <span class="btn-text">Sincronizza</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Hero / Stats Section -->
+    <section class="stats-section" aria-label="Statistiche aggiornamenti">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-label">Giochi a Catalogo</span>
+          <span id="stat-total-games" class="stat-value">--</span>
+          <span class="stat-sub">Switch 1 & 2</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Aggiornamenti Tracciati</span>
+          <span id="stat-total-updates" class="stat-value highlight-red">--</span>
+          <span class="stat-sub">Patch & versioni storiche</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Switch 1</span>
+          <span id="stat-switch1-count" class="stat-value">--</span>
+          <span class="stat-sub">Titoli supportati</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Switch 2</span>
+          <span id="stat-switch2-count" class="stat-value highlight-cyan">--</span>
+          <span class="stat-sub">Titoli & Patch Next-Gen</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Updates Section (Ultimi rilasciati) -->
+    <section class="latest-section" aria-labelledby="latest-heading">
+      <div class="section-header">
+        <div>
+          <h2 id="latest-heading" class="section-title">
+            <svg class="icon section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            Ultimi Aggiornamenti Rilasciati
+          </h2>
+          <p class="section-desc">Le patch e i passaggi di versione più recenti distribuiti da Nintendo e dagli sviluppatori.</p>
+        </div>
+      </div>
+
+      <div id="latest-updates-carousel" class="latest-scroll-container">
+        <!-- Renderizzato dinamicamente da app.js -->
+        <div class="loading-state">Caricamento ultimi aggiornamenti...</div>
+      </div>
+    </section>
+
+    <!-- Games Explorer Section -->
+    <section class="catalog-section" aria-labelledby="catalog-heading">
+      <div class="catalog-toolbar">
+        <div class="search-box-wrapper">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input 
+            type="search" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="Cerca gioco per nome, Title ID (0100...) o publisher... (Premi / per cercare)" 
+            autocomplete="off"
+            aria-label="Cerca giochi"
+          >
+          <button id="search-clear-btn" class="search-clear-btn" aria-label="Cancella ricerca" hidden>
+            &times;
+          </button>
+        </div>
+
+        <div class="filter-controls">
+          <!-- Platform Tabs -->
+          <div class="platform-tabs" role="tablist" aria-label="Filtra per console">
+            <button class="tab-btn active" data-platform="all" role="tab" aria-selected="true">
+              Tutti
+            </button>
+            <button class="tab-btn" data-platform="switch" role="tab" aria-selected="false">
+              <span class="platform-dot switch-dot"></span>
+              Nintendo Switch
+            </button>
+            <button class="tab-btn" data-platform="switch2" role="tab" aria-selected="false">
+              <span class="platform-dot switch2-dot"></span>
+              Nintendo Switch 2
+            </button>
+          </div>
+
+          <!-- Sort Dropdown -->
+          <div class="sort-wrapper">
+            <label for="sort-select" class="visually-hidden">Ordina per</label>
+            <select id="sort-select" class="sort-select">
+              <option value="recent">Più recenti aggiornati</option>
+              <option value="title_asc">Nome gioco (A - Z)</option>
+              <option value="updates_count">Numero di aggiornamenti</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Games Grid -->
+      <div id="games-grid" class="games-grid" aria-live="polite">
+        <!-- Renderizzato dinamicamente da app.js -->
+        <div class="loading-state">Caricamento catalogo giochi...</div>
+      </div>
+
+      <!-- Empty State -->
+      <div id="empty-state" class="empty-state" hidden>
+        <svg class="empty-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="8" y1="12" x2="16" y2="12"/>
+        </svg>
+        <h3>Nessun titolo trovato</h3>
+        <p>Non ci sono giochi che corrispondono ai criteri di ricerca o ai filtri selezionati.</p>
+        <button id="reset-filters-btn" class="btn btn-secondary">Ripristina filtri</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- [TRAIL:UI-DOM] Detail Modal / Mobile Bottom Sheet -->
+  <div id="game-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
+    <div class="modal-backdrop"></div>
+    <div class="modal-sheet">
+      <div class="sheet-drag-handle" aria-hidden="true"></div>
+      
+      <div class="modal-header">
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Chiudi finestra dettagli">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <div id="modal-content" class="modal-body">
+        <!-- Popolato dinamicamente da app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="assertive"></div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p>SwitchTrack &copy; 2026 &mdash; Database indipendente di tracciamento software per Nintendo Switch & Switch 2.</p>
+      <p class="footer-note">Nintendo Switch e il logo Nintendo sono marchi registrati di Nintendo Co., Ltd.</p>
+    </div>
+  </footer>
+
+  <script src="/app.js?v=2.0.1" type="module"></script>
+</body>
+</html>

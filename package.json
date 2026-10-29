@@ -1,0 +1,25 @@
+{
+  "name": "switch-update-tracker",
+  "version": "1.0.0",
+  "description": "Nintendo Switch & Switch 2 Game Updates Tracker with Changelogs and eShop Integration",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/test-core.js"
+  },
+  "keywords": [
+    "nintendo",
+    "switch",
+    "switch-2",
+    "updates",
+    "patches",
+    "changelog"
+  ],
+  "author": "Antigravity & Ponytail",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
