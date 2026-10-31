@@ -787,6 +787,59 @@ export const CATALOG = [
         ]
       }
     ]
+  },
+  {
+    id: "runescape-dragonwilds",
+    title: "RuneScape: Dragonwilds",
+    platform: "switch2",
+    titleId: "01008E2021A44000",
+    publisher: "Jagex",
+    releaseDate: "2026-09-15",
+    genres: ["Survival", "RPG", "Open World", "Multiplayer"],
+    coverImage: "/covers/runescape-dragonwilds.jpg",
+    eshopUrl: "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=RuneScape",
+    currentVersion: "v1.0.2",
+    currentInternalVersion: 131072,
+    lastUpdated: "2026-10-18T14:00:00Z",
+    updates: [
+      {
+        version: "v1.0.2",
+        previousVersion: "v1.0.1",
+        internalVersion: 131072,
+        releaseDate: "2026-10-18",
+        type: "performance",
+        title: "Hotfix Performance & Stabilità Ashenfall",
+        changelog: [
+          "Ottimizzazione del framerate a 60 FPS in modalità docked durante gli scontri con i draghi maggiori.",
+          "Risolto il problema di stuttering e caricamento tardivo delle texture nelle foreste di Ashenfall su Switch 2.",
+          "Migliorata la stabilità delle lobby multiplayer cooperative fino a 4 giocatori."
+        ]
+      },
+      {
+        version: "v1.0.1",
+        previousVersion: "v1.0.0",
+        internalVersion: 65536,
+        releaseDate: "2026-09-28",
+        type: "patch",
+        title: "Bilanciamento Crafting & Fix Grafici Day-One",
+        changelog: [
+          "Ricalibrate le risorse necessarie per la forgia delle armi draconiche di livello intermedio.",
+          "Risolti glitch visivi sull'illuminazione volumetrica delle fiamme e risoluzione dinamica.",
+          "Corretto un bug che causava la duplicazione degli oggetti nelle casse condivise di gilda."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 0,
+        releaseDate: "2026-09-15",
+        type: "major",
+        title: "Lancio Ufficiale Nintendo Switch 2",
+        changelog: [
+          "Debutto storico del franchise RuneScape su console Nintendo con il survival open-world co-op ambientato nel continente di Ashenfall."
+        ]
+      }
+    ]
   }
 ];
 

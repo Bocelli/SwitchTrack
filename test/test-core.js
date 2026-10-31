@@ -115,4 +115,12 @@ test('GameStore: Ricerca intelligente tollerante a punteggiatura, spazi e accent
 
   const pokemon = store.getGames({ search: 'pokemon legends' });
   assert.ok(pokemon.some(g => g.id === 'pokemon-legends-za'));
+
+  // Ricerca RuneScape (RuneScape: Dragonwilds per Switch 2)
+  const runescape = store.getGames({ search: 'runescape' });
+  assert.ok(runescape.length >= 1, 'Deve trovare RuneScape: Dragonwilds');
+  assert.ok(runescape.some(g => g.id === 'runescape-dragonwilds'));
+  const rsGame = store.getGameById('runescape-dragonwilds');
+  assert.equal(rsGame.platform, 'switch2');
+  assert.ok(rsGame.updates && rsGame.updates.length >= 2, 'RuneScape deve avere patch tracciate');
 });
