@@ -25,6 +25,8 @@ app.use((req, res, next) => {
   res.setHeader('X-Frame-Options', 'DENY');
   res.setHeader('X-XSS-Protection', '1; mode=block');
   res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=()');
+  res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
   res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
   res.setHeader('Pragma', 'no-cache');
   res.setHeader('Expires', '0');
@@ -37,6 +39,23 @@ app.use((req, res, next) => {
     "img-src 'self' data: https://assets.nintendo.com https://img-eshop.cdn.nintendo.net https://*.cdn.nintendo.net https://*.nintendo.net https://*.nintendo.com https://shared.steamstatic.com https://*.steamstatic.com https://shared.cloudflare.steamstatic.com https://images.unsplash.com https://placehold.co; " +
     "connect-src 'self';"
   );
+  next();
+});
+
+// Rate limiting leggero in-memory per prevenire attacchi DoS o scraping massivo (120 req/min per IP)
+const ipRequestCounts = new Map();
+setInterval(() => ipRequestCounts.clear(), 60000);
+
+app.use('/api', (req, res, next) => {
+  const ip = req.ip || req.socket.remoteAddress || '127.0.0.1';
+  const count = (ipRequestCounts.get(ip) || 0) + 1;
+  ipRequestCounts.set(ip, count);
+  if (count > 120) {
+    return res.status(429).json({
+      success: false,
+      error: 'Limite richieste superato: massimo 120 chiamate al minuto. Riprova tra poco.'
+    });
+  }
   next();
 });
 
@@ -151,11 +170,20 @@ app.post('/api/sync', async (req, res) => {
 });
 
 /**
- * POST /api/games/:id/updates (Utility / Test)
+ * POST /api/games/:id/updates (Utility / Test - Protetto in Produzione)
  * Registra un nuovo aggiornamento manualmente per simulazione
  */
 app.post('/api/games/:id/updates', (req, res) => {
   try {
+    // Controllo autenticazione in ambiente di produzione
+    if (process.env.NODE_ENV === 'production') {
+      const adminSecret = process.env.ADMIN_SECRET_KEY;
+      const clientKey = req.headers['x-admin-key'] || req.headers['authorization'];
+      if (!adminSecret || clientKey !== `Bearer ${adminSecret}`) {
+        return res.status(403).json({ success: false, error: 'Accesso negato: token amministrativo richiesto in produzione.' });
+      }
+    }
+
     const id = String(req.params.id).replace(/[^a-zA-Z0-9-_]/g, '');
     const { version, releaseDate, type, title, changelog } = req.body;
 
@@ -194,9 +222,11 @@ app.get('/api/cover/:id', (req, res) => {
     const accentColor = isSwitch2 ? '#8b5cf6' : '#e60012';
     const platformText = isSwitch2 ? 'NINTENDO SWITCH 2' : 'NINTENDO SWITCH';
 
-    // Suddivide il titolo su più righe se troppo lungo
+    // Suddivide il titolo e metadati su più righe e sanifica per SVG sicuro
     const escapedTitle = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     const escapedPub = publisher.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const escapedTitleId = String(titleId).replace(/[^a-zA-Z0-9]/g, '');
+    const escapedVersion = String(version).replace(/[^a-zA-Z0-9._-]/g, '');
 
     const svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -241,7 +271,7 @@ app.get('/api/cover/:id', (req, res) => {
   <!-- Badge Versione -->
   <g transform="translate(${isSwitch2 ? '275' : '250'}, 60)">
     <rect width="80" height="32" rx="6" fill="rgba(0,195,227,0.15)" stroke="rgba(0,195,227,0.4)" stroke-width="1" />
-    <text x="40" y="21" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">${version}</text>
+    <text x="40" y="21" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#38bdf8" text-anchor="middle">${escapedVersion}</text>
   </g>
 
   <!-- Titolo del Gioco -->
@@ -251,7 +281,7 @@ app.get('/api/cover/:id', (req, res) => {
 
   <!-- Editore e Metadati -->
   <text x="50" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="500" fill="#94a3b8">
-    ${escapedPub} &bull; ${titleId ? 'ID: ' + titleId : ''}
+    ${escapedPub} &bull; ${escapedTitleId ? 'ID: ' + escapedTitleId : ''}
   </text>
 
   <!-- Bordo inferiore decorativo Joy-Con -->

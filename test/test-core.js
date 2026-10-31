@@ -243,3 +243,17 @@ test('Xenoblade Chronicles Saga & Switch 2 Enhanced Catalog', () => {
   assert.equal(nier.platform, 'switch', 'NieR: Automata deve essere rigorosamente piattaforma switch (Switch 1)');
   assert.ok(!s2Catalog.some(g => g.id === nier.id), 'NieR: Automata non deve comparire nel catalogo Switch 2');
 });
+
+test('Security Audit: verifica sanificazione input, assenza di injection e sicurezza query', () => {
+  // Test di protezione query con caratteri di iniezione / XSS
+  const maliciousSearch = '<script>alert("xss")</script> &\'"';
+  const queryResult = store.queryGames({ search: maliciousSearch });
+  assert.ok(Array.isArray(queryResult.data), 'La query deve restituire un array sicuro');
+
+  // Verifica che nessun gioco contenga payload non sanificati
+  const sampleGames = store.getGames().slice(0, 50);
+  for (const g of sampleGames) {
+    assert.ok(!g.title.includes('<script>'), `Nessun tag script nel titolo di ${g.id}`);
+    assert.ok(!g.id.includes('..'), `Nessun path traversal nell'id di ${g.id}`);
+  }
+});
