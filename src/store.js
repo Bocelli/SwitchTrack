@@ -326,7 +326,19 @@ class GameStore {
 
     // Ordina dal più recente
     allUpdates.sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime());
-    return allUpdates.slice(0, limit);
+
+    // Deduplica per gameId: ogni gioco compare con il suo singolo aggiornamento più recente
+    const seenGames = new Set();
+    const uniqueGameUpdates = [];
+    for (const item of allUpdates) {
+      if (!seenGames.has(item.gameId)) {
+        seenGames.add(item.gameId);
+        uniqueGameUpdates.push(item);
+        if (uniqueGameUpdates.length >= limit) break;
+      }
+    }
+
+    return uniqueGameUpdates;
   }
 
   /**

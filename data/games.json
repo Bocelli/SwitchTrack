@@ -598,6 +598,78 @@
           "Ottimizzato il frame rate a 60 FPS stabili con oltre 40 nemici su schermo.",
           "Aumentato leggermente il danno di base del Bastone della Strega."
         ]
+      },
+      {
+        "version": "v9.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 589824,
+        "releaseDate": "2026-05-13",
+        "type": "major",
+        "title": "Aggiornamento software v9.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v6.0.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 393216,
+        "releaseDate": "2025-12-01",
+        "type": "patch",
+        "title": "Aggiornamento software v6.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v5.0.0",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-10-31",
+        "type": "patch",
+        "title": "Aggiornamento software v5.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 262144,
+        "releaseDate": "2025-10-14",
+        "type": "patch",
+        "title": "Aggiornamento software v4.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2025-09-20",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-09-14",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
       }
     ],
     "status": "released",
@@ -605,7 +677,9 @@
       "hades-2",
       "Hades II",
       "hades 2",
-      "Hades 2"
+      "Hades 2",
+      "hades-ii-0000",
+      "0100A00019DE0000"
     ]
   },
   {
@@ -933,9 +1007,110 @@
           "Supporto completo alla selezione multipla drag-and-drop con il touchscreen.",
           "Bilanciato il Jolly 'Vampire' e ridotta la varianza sui boss blind."
         ]
+      },
+      {
+        "version": "v13.0.0",
+        "previousVersion": "v12.0.0",
+        "internalVersion": 851968,
+        "releaseDate": "2025-03-26",
+        "type": "major",
+        "title": "Aggiornamento software v13.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v12.0.0",
+        "previousVersion": "v11.0.0",
+        "internalVersion": 786432,
+        "releaseDate": "2025-03-14",
+        "type": "patch",
+        "title": "Aggiornamento software v12.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v11.0.0",
+        "previousVersion": "v10.0.0",
+        "internalVersion": 720896,
+        "releaseDate": "2025-02-24",
+        "type": "patch",
+        "title": "Aggiornamento software v11.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v10.0.0",
+        "previousVersion": "v9.0.0",
+        "internalVersion": 655360,
+        "releaseDate": "2024-12-12",
+        "type": "patch",
+        "title": "Aggiornamento software v10.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v9.0.0",
+        "previousVersion": "v8.0.0",
+        "internalVersion": 589824,
+        "releaseDate": "2024-10-24",
+        "type": "patch",
+        "title": "Aggiornamento software v9.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v8.0.0",
+        "previousVersion": "v7.0.0",
+        "internalVersion": 524288,
+        "releaseDate": "2024-10-01",
+        "type": "patch",
+        "title": "Aggiornamento software v8.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v7.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 458752,
+        "releaseDate": "2024-08-27",
+        "type": "patch",
+        "title": "Aggiornamento software v7.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v6.0.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 393216,
+        "releaseDate": "2024-07-02",
+        "type": "patch",
+        "title": "Aggiornamento software v6.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "aliases": [
+      "balatro-e000",
+      "Balatro",
+      "0100CD801CE5E000"
+    ]
   },
   {
     "id": "tales-of-eternia-remastered-c000",
@@ -1299,6 +1474,66 @@
         ]
       },
       {
+        "version": "v5.0.0",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2026-05-13",
+        "type": "major",
+        "title": "Aggiornamento software v5.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 262144,
+        "releaseDate": "2026-03-25",
+        "type": "patch",
+        "title": "Aggiornamento software v4.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2026-03-18",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-06-10",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2023-11-23",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
         "version": "v1.0.1",
         "previousVersion": "v1.0.0",
         "internalVersion": 32768,
@@ -1311,7 +1546,12 @@
         ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "aliases": [
+      "super-mario-bros-wonder-4000",
+      "Super Mario Bros. Wonder",
+      "010015100B514000"
+    ]
   },
   {
     "id": "scritchy-scratchy-2000",
@@ -5772,7 +6012,7 @@
     ]
   },
   {
-    "id": "hatsune-miku-logic-paint-s-a000",
+    "id": "hatsune-miku-logic-paint-s-plus-a000",
     "title": "Hatsune Miku Logic Paint S+",
     "platform": "switch",
     "titleId": "0100EC6020A8A000",
@@ -19408,9 +19648,50 @@
           "Aggiustata la formula di fusione dei demoni mitologici avanzati.",
           "Aggiunta opzione per salvare ovunque sulla mappa del Da'at."
         ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2024-11-04",
+        "type": "major",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2024-09-03",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2024-05-13",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "aliases": [
+      "shin-megami-tensei-v-vengeance-2000",
+      "Shin Megami Tensei V: Vengeance",
+      "010069C01AB82000"
+    ]
   },
   {
     "id": "folk-hero-a000",
@@ -22873,108 +23154,6 @@
         "releaseDate": "2026-01-27",
         "type": "patch",
         "title": "Aggiornamento software v78.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "the-witcher-3-wild-hunt-complete-edition-6000",
-    "title": "The Witcher 3: Wild Hunt — Complete Edition",
-    "platform": "switch",
-    "titleId": "01003D100E9C6000",
-    "publisher": "CD PROJEKT",
-    "releaseDate": "2019-10-15",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/326d245efb39160ec86f1f48f7808179033b0d1ddef655b85510eb993c1ec1dd.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000020982",
-    "currentVersion": "v8.0.0",
-    "currentInternalVersion": 524288,
-    "lastUpdated": "2026-08-25T12:00:00Z",
-    "updates": [
-      {
-        "version": "v8.0.0",
-        "previousVersion": "v7.0.0",
-        "internalVersion": 524288,
-        "releaseDate": "2026-08-25",
-        "type": "major",
-        "title": "Aggiornamento software v8.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v7.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 458752,
-        "releaseDate": "2023-08-31",
-        "type": "patch",
-        "title": "Aggiornamento software v7.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v6.0.0",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 393216,
-        "releaseDate": "2023-07-19",
-        "type": "patch",
-        "title": "Aggiornamento software v6.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2020-10-20",
-        "type": "patch",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2020-02-18",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2019-10-08",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2019-08-20",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
@@ -54111,6 +54290,18 @@
     "lastUpdated": "2026-07-20T11:00:00Z",
     "updates": [
       {
+        "version": "v8.0.0",
+        "previousVersion": "v7.0.0",
+        "internalVersion": 524288,
+        "releaseDate": "2026-08-25",
+        "type": "major",
+        "title": "Aggiornamento software v8.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
         "version": "v4.0.4",
         "previousVersion": "v3.7.0",
         "internalVersion": 262144,
@@ -54121,9 +54312,86 @@
           "Aggiunta la nuova missione legata alla serie Netflix con armatura di Geralt.",
           "Ottimizzato il cloud save cross-progression con PC e console."
         ]
+      },
+      {
+        "version": "v7.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 458752,
+        "releaseDate": "2023-08-31",
+        "type": "patch",
+        "title": "Aggiornamento software v7.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v6.0.0",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 393216,
+        "releaseDate": "2023-07-19",
+        "type": "patch",
+        "title": "Aggiornamento software v6.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 262144,
+        "releaseDate": "2020-10-20",
+        "type": "patch",
+        "title": "Aggiornamento software v4.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2020-02-18",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2019-10-08",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2019-08-20",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "aliases": [
+      "the-witcher-3-wild-hunt-complete-edition-6000",
+      "The Witcher 3: Wild Hunt — Complete Edition",
+      "01003D100E9C6000"
+    ]
   },
   {
     "id": "the-life-and-suffering-of-sir-brante-a000",
@@ -77265,98 +77533,6 @@
     ]
   },
   {
-    "id": "hades-ii-0000",
-    "title": "Hades II",
-    "platform": "switch",
-    "titleId": "0100A00019DE0000",
-    "publisher": "Supergiant Games",
-    "releaseDate": "2025-09-25",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/a9a30b2adb707f5922eb2a845f821c99516a69e023751491b10584ac1352462f.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000060676",
-    "currentVersion": "v9.0.0",
-    "currentInternalVersion": 589824,
-    "lastUpdated": "2026-05-13T12:00:00Z",
-    "updates": [
-      {
-        "version": "v9.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 589824,
-        "releaseDate": "2026-05-13",
-        "type": "major",
-        "title": "Aggiornamento software v9.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v6.0.0",
-        "previousVersion": "v5.0.0",
-        "internalVersion": 393216,
-        "releaseDate": "2025-12-01",
-        "type": "patch",
-        "title": "Aggiornamento software v6.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v5.0.0",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2025-10-31",
-        "type": "patch",
-        "title": "Aggiornamento software v5.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2025-10-14",
-        "type": "patch",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2025-09-20",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-09-14",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
     "id": "super-kiwi-64-4000",
     "title": "Super Kiwi 64",
     "platform": "switch",
@@ -78046,84 +78222,6 @@
         "releaseDate": "2024-06-06",
         "type": "patch",
         "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "super-mario-bros-wonder-4000",
-    "title": "Super Mario Bros. Wonder",
-    "platform": "switch",
-    "titleId": "010015100B514000",
-    "publisher": "Nintendo",
-    "releaseDate": "2023-10-20",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/5d972e00dd360aebdc275f2f6c0d7ccde7df0f368626a1f9860fac8e2a38bf5c.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000068689",
-    "currentVersion": "v5.0.0",
-    "currentInternalVersion": 327680,
-    "lastUpdated": "2026-05-13T12:00:00Z",
-    "updates": [
-      {
-        "version": "v5.0.0",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2026-05-13",
-        "type": "major",
-        "title": "Aggiornamento software v5.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2026-03-25",
-        "type": "patch",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2026-03-18",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-06-10",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2023-11-23",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
@@ -89599,9 +89697,26 @@
           "Risolti bug di rendering dei sottotitoli in italiano nei filmati anime.",
           "Migliorati i tempi di caricamento nei Palazzi dei Ladri Fantasma."
         ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2023-01-10",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "aliases": [
+      "persona-5-royal-e000",
+      "Persona 5 Royal",
+      "01005CA01580E000"
+    ]
   },
   {
     "id": "veins-of-darkness-horror-8000",
@@ -224783,121 +224898,6 @@
     "updates": []
   },
   {
-    "id": "balatro-e000",
-    "title": "Balatro",
-    "platform": "switch",
-    "titleId": "0100CD801CE5E000",
-    "publisher": "Playstack",
-    "releaseDate": "2024-02-20",
-    "genres": [
-      "Simulazione",
-      "Strategia"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/3e3e6ff91e23f38879a88db3b4e4de64e177e796789033519dca60af22394f81.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000072052",
-    "currentVersion": "v13.0.0",
-    "currentInternalVersion": 851968,
-    "lastUpdated": "2025-03-26T12:00:00Z",
-    "updates": [
-      {
-        "version": "v13.0.0",
-        "previousVersion": "v12.0.0",
-        "internalVersion": 851968,
-        "releaseDate": "2025-03-26",
-        "type": "major",
-        "title": "Aggiornamento software v13.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v12.0.0",
-        "previousVersion": "v11.0.0",
-        "internalVersion": 786432,
-        "releaseDate": "2025-03-14",
-        "type": "patch",
-        "title": "Aggiornamento software v12.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v11.0.0",
-        "previousVersion": "v10.0.0",
-        "internalVersion": 720896,
-        "releaseDate": "2025-02-24",
-        "type": "patch",
-        "title": "Aggiornamento software v11.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v10.0.0",
-        "previousVersion": "v9.0.0",
-        "internalVersion": 655360,
-        "releaseDate": "2024-12-12",
-        "type": "patch",
-        "title": "Aggiornamento software v10.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v9.0.0",
-        "previousVersion": "v8.0.0",
-        "internalVersion": 589824,
-        "releaseDate": "2024-10-24",
-        "type": "patch",
-        "title": "Aggiornamento software v9.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v8.0.0",
-        "previousVersion": "v7.0.0",
-        "internalVersion": 524288,
-        "releaseDate": "2024-10-01",
-        "type": "patch",
-        "title": "Aggiornamento software v8.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v7.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 458752,
-        "releaseDate": "2024-08-27",
-        "type": "patch",
-        "title": "Aggiornamento software v7.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v6.0.0",
-        "previousVersion": "v5.0.0",
-        "internalVersion": 393216,
-        "releaseDate": "2024-07-02",
-        "type": "patch",
-        "title": "Aggiornamento software v6.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
     "id": "the-world-of-kungfu-dragon-and-eagle-a000",
     "title": "The World of Kungfu: Dragon and Eagle",
     "platform": "switch",
@@ -266252,62 +266252,6 @@
         "releaseDate": "2023-12-22",
         "type": "patch",
         "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "shin-megami-tensei-v-vengeance-2000",
-    "title": "Shin Megami Tensei V: Vengeance",
-    "platform": "switch",
-    "titleId": "010069C01AB82000",
-    "publisher": "SEGA",
-    "releaseDate": "2024-06-14",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Azione",
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/aa1b0784f01b32bea6ed63b9ca363e5ecf837c21916cd808aeb1b815457d2124.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000064608",
-    "currentVersion": "v3.0.0",
-    "currentInternalVersion": 196608,
-    "lastUpdated": "2024-11-04T12:00:00Z",
-    "updates": [
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2024-11-04",
-        "type": "major",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2024-09-03",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2024-05-13",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
@@ -384846,7 +384790,7 @@
     ]
   },
   {
-    "id": "dr-fetus-mean-meat-machine-2000",
+    "id": "dr-fetus-mean-meat-machine-1a342000",
     "title": "Dr. Fetus' Mean Meat Machine",
     "platform": "switch",
     "titleId": "010080801A342000",
@@ -419388,36 +419332,6 @@
         "releaseDate": "2022-10-14",
         "type": "patch",
         "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "persona-5-royal-e000",
-    "title": "Persona 5 Royal",
-    "platform": "switch",
-    "titleId": "01005CA01580E000",
-    "publisher": "SEGA",
-    "releaseDate": "2022-10-21",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/684bd8b00abcbf6dd122727a27c01a337f667bef825f4f4662efad9854b72fd4.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000043148",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2023-01-10T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2023-01-10",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
@@ -603419,7 +603333,7 @@
     "updates": []
   },
   {
-    "id": "broken-lines-c000",
+    "id": "broken-lines-0f6ac000",
     "title": "Broken Lines",
     "platform": "switch",
     "titleId": "0100A5800F6AC000",
@@ -652618,7 +652532,7 @@
     "updates": []
   },
   {
-    "id": "solitaire-c000",
+    "id": "solitaire-0b8ec000",
     "title": "Solitaire",
     "platform": "switch",
     "titleId": "0100A2E00B8EC000",
@@ -668631,7 +668545,7 @@
     "updates": []
   },
   {
-    "id": "ittle-dew-2-0000",
+    "id": "ittle-dew-2-plus-022f0000",
     "title": "Ittle Dew 2+",
     "platform": "switch",
     "titleId": "01004070022F0000",
