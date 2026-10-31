@@ -195,3 +195,26 @@ test('Donkey Kong Bananza & Switch 2: piattaforma, DLC ed update verificati', ()
   assert.ok(all04.length >= 20, 'Devono esserci almeno 20 titoli Switch 2 con prefisso 04');
   assert.ok(all04.every(g => g.platform === 'switch2'), 'Tutti i titoli con Title ID 04 devono avere piattaforma switch2');
 });
+
+test('Xenoblade Chronicles Saga & Switch 2 Enhanced Catalog', () => {
+  // Tutti i capitoli principali di Xenoblade devono essere presenti
+  const xenoGames = store.getGames({ search: 'xenoblade' });
+  assert.ok(xenoGames.length >= 5, 'Devono esserci tutti i 5 capitoli della saga Xenoblade');
+
+  const x2 = store.getGameById('xenoblade-chronicles-2');
+  assert.ok(x2, 'Xenoblade Chronicles 2 deve esistere');
+  assert.equal(x2.platform, 'both', 'Xenoblade 2 deve essere cross-gen (Switch 1 & 2)');
+  assert.equal(x2.titleId, '0100E95004038000', 'Title ID corretto per Xenoblade 2');
+  assert.ok(x2.updates.some(u => u.title.includes('Nintendo Switch 2')), 'Xenoblade 2 deve avere la patch Switch 2');
+
+  const x3 = store.getGameById('xenoblade-chronicles-3-2000');
+  assert.ok(x3, 'Xenoblade Chronicles 3 deve esistere');
+  assert.equal(x3.platform, 'both', 'Xenoblade 3 deve essere cross-gen');
+  assert.ok(x3.updates.some(u => u.version === 'v2.3.0'), 'Xenoblade 3 deve avere la patch v2.3.0 Switch 2');
+
+  // Verifica ampiezza catalogo Switch 2 (esclusive + cross-gen enhanced)
+  const s2Catalog = store.getGames({ platform: 'switch2' });
+  assert.ok(s2Catalog.length >= 60, `Il catalogo Switch 2 deve contenere almeno 60 titoli (trovati: ${s2Catalog.length})`);
+  const stats = store.getStats();
+  assert.ok(stats.switch2Count >= 60, `switch2Count deve essere >= 60 (attuale: ${stats.switch2Count})`);
+});

@@ -1,5 +1,82 @@
 [
   {
+    "id": "xenoblade-chronicles-2",
+    "title": "Xenoblade Chronicles 2",
+    "platform": "both",
+    "titleId": "0100E95004038000",
+    "publisher": "Nintendo",
+    "releaseDate": "2017-12-01",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Azione",
+      "Open World"
+    ],
+    "coverImage": "/covers/xenoblade-chronicles-2.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Xenoblade-Chronicles-2-1233955.html",
+    "currentVersion": "v2.1.0",
+    "currentInternalVersion": 196608,
+    "lastUpdated": "2026-06-15T10:00:00Z",
+    "aliases": [
+      "xenoblade 2",
+      "xc2",
+      "alrest",
+      "pyra",
+      "mythra",
+      "xenoblade chronicles 2 switch 2"
+    ],
+    "dlc": [
+      {
+        "id": "xc2-expansion-pass",
+        "title": "Pass di Espansione Xenoblade Chronicles 2",
+        "releaseDate": "2018-09-14",
+        "price": "29,99 €",
+        "type": "Pass di Espansione",
+        "description": "Include la campagna prequel 'Torna - The Golden Country', nuove missioni sfida nel regno di Nopon e le Gladius speciali Shulk, Fiora, Elma e Poppibuster."
+      }
+    ],
+    "updates": [
+      {
+        "version": "v2.1.0",
+        "previousVersion": "v2.0.2",
+        "internalVersion": 196608,
+        "releaseDate": "2026-06-15",
+        "type": "performance",
+        "title": "Upgrade Next-Gen Nintendo Switch 2 (60 FPS & 1080p Fisso Portatile)",
+        "changelog": [
+          "Supporto completo e ottimizzazione grafica per la nuova console Nintendo Switch 2.",
+          "Rimossa la risoluzione dinamica aggressiva in portatile: ora gira a 1080p fisso a 60 FPS fluidi.",
+          "Texture dei titani di Alrest e della vegetazione caricate in alta definizione senza pop-in.",
+          "Ridotti drasticamente i tempi di risveglio dei cristalli nucleo e di caricamento dei menu delle Gladius."
+        ]
+      },
+      {
+        "version": "v2.0.2",
+        "previousVersion": "v2.0.1",
+        "internalVersion": 131072,
+        "releaseDate": "2018-09-14",
+        "type": "patch",
+        "title": "Compatibilità Torna - The Golden Country",
+        "changelog": [
+          "Aggiunto il supporto per il DLC espansione 'Torna - The Golden Country'.",
+          "Aggiunte nuove missioni sfida al Portale della Sfida."
+        ]
+      },
+      {
+        "version": "v1.5.0",
+        "previousVersion": "v1.4.1",
+        "internalVersion": 65536,
+        "releaseDate": "2018-04-27",
+        "type": "major",
+        "title": "Modalità Nuova Partita + (New Game Plus)",
+        "changelog": [
+          "Sbloccata la modalità Nuova Partita + con possibilità di reclutare le Gladius speciali di Torna.",
+          "Aggiunti nuovi nodi di affinità per i Ductor e personalizzazione avanzata dei comandi."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
     "id": "runescape-dragonwilds",
     "title": "RuneScape: Dragonwilds",
     "platform": "switch2",
@@ -395,7 +472,7 @@
   {
     "id": "zelda-totk",
     "title": "The Legend of Zelda: Tears of the Kingdom",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100F2C0115B6000",
     "publisher": "Nintendo",
     "releaseDate": "2023-05-12",
@@ -495,7 +572,7 @@
   {
     "id": "hades-2",
     "title": "Hades II (Nintendo Switch & Switch 2 Edition)",
-    "platform": "switch2",
+    "platform": "both",
     "titleId": "01008C301F00E000",
     "publisher": "Supergiant Games",
     "releaseDate": "2025-06-18",
@@ -528,7 +605,7 @@
   {
     "id": "pokemon-legends-za",
     "title": "Pokémon Legends: Z-A (Enhanced Edition)",
-    "platform": "switch2",
+    "platform": "both",
     "titleId": "010098A01EC4C000",
     "publisher": "The Pokémon Company / Nintendo",
     "releaseDate": "2025-10-30",
@@ -630,7 +707,7 @@
   {
     "id": "metroid-prime-4-beyond",
     "title": "Metroid Prime 4: Beyond",
-    "platform": "switch2",
+    "platform": "both",
     "titleId": "010019A01E2F2000",
     "publisher": "Nintendo",
     "releaseDate": "2025-11-14",
@@ -807,7 +884,7 @@
   {
     "id": "balatro",
     "title": "Balatro",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01000B201BB66000",
     "publisher": "Playstack / LocalThunk",
     "releaseDate": "2024-02-20",
@@ -990,7 +1067,7 @@
   {
     "id": "mario-kart-8-deluxe",
     "title": "Mario Kart 8 Deluxe",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100152000022000",
     "publisher": "Nintendo",
     "releaseDate": "2017-04-28",
@@ -1170,7 +1247,7 @@
   {
     "id": "super-mario-wonder",
     "title": "Super Mario Bros. Wonder",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010015100B5C4000",
     "publisher": "Nintendo",
     "releaseDate": "2023-10-20",
@@ -3320,7 +3397,7 @@
   {
     "id": "minecraft-4000",
     "title": "Minecraft",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100D71004694000",
     "publisher": "Mojang",
     "releaseDate": "2018-06-21",
@@ -3410,7 +3487,7 @@
   {
     "id": "fortnite-e000",
     "title": "Fortnite",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010025400AECE000",
     "publisher": "Epic Games",
     "releaseDate": "2018-06-12",
@@ -13433,7 +13510,7 @@
   {
     "id": "animal-crossing-nh",
     "title": "Animal Crossing: New Horizons",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01006F8002326000",
     "publisher": "Nintendo",
     "releaseDate": "2020-03-20",
@@ -19282,7 +19359,7 @@
   {
     "id": "shin-megami-tensei-v-vengeance",
     "title": "Shin Megami Tensei V: Vengeance",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01007DC01B2E6000",
     "publisher": "SEGA / ATLUS",
     "releaseDate": "2024-06-14",
@@ -21790,7 +21867,7 @@
   {
     "id": "xenoblade-chronicles-2-torna-the-golden-country-a000",
     "title": "Xenoblade Chronicles 2: Torna - The Golden Country",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100C9F009F7A000",
     "publisher": "Nintendo",
     "releaseDate": "2020-01-01",
@@ -21799,56 +21876,20 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/ce305e9807e3e48c49fe92837f2b96ae7557feca982c7d003cda4f340b4f6c95.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000014713",
-    "currentVersion": "v4.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 262144,
-    "lastUpdated": "2026-08-26T12:00:00Z",
+    "lastUpdated": "2026-06-15T10:00:00Z",
     "updates": [
       {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2026-08-26",
-        "type": "major",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2026-08-16",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2018-11-30",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
+        "version": "v1.1.0",
         "previousVersion": "v1.0.0",
         "internalVersion": 65536,
-        "releaseDate": "2018-10-18",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
+        "releaseDate": "2026-06-15",
+        "type": "performance",
+        "title": "Upgrade Next-Gen Switch 2 a 60 FPS Stabili",
         "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+          "Portato il gameplay a 60 FPS stabili con rendering del Titano di Torna a 1440p dinamico.",
+          "Ridotto il motion blur e migliorata la risposta dei cambi avanguardia/retroguardia."
         ]
       }
     ]
@@ -28270,7 +28311,7 @@
   {
     "id": "super-smash-bros-ultimate",
     "title": "Super Smash Bros. Ultimate",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01006A800016E000",
     "publisher": "Nintendo",
     "releaseDate": "2018-12-07",
@@ -54031,8 +54072,8 @@
   {
     "id": "the-witcher-3-wild-hunt",
     "title": "The Witcher 3: Wild Hunt — Complete Edition",
-    "platform": "switch",
-    "titleId": "0100E95004038000",
+    "platform": "both",
+    "titleId": "01003D100E9C6000",
     "publisher": "CD PROJEKT RED",
     "releaseDate": "2019-10-15",
     "genres": [
@@ -63634,7 +63675,7 @@
   {
     "id": "xenoblade-chronicles-definitive-edition-a000",
     "title": "Xenoblade Chronicles Definitive Edition",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100FF500E34A000",
     "publisher": "Nintendo",
     "releaseDate": "2020-05-29",
@@ -63643,46 +63684,42 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/85b50636c18cb70c49138a5510e92badcc019fe4b19044c75dcf1d2e9443aaae.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000029712",
-    "currentVersion": "v4.0.0",
+    "currentVersion": "v1.2.0",
     "currentInternalVersion": 262144,
-    "lastUpdated": "2026-06-09T12:00:00Z",
+    "lastUpdated": "2026-06-10T10:00:00Z",
     "updates": [
       {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2026-06-09",
-        "type": "major",
-        "title": "Aggiornamento software v4.0.0",
+        "version": "v1.2.0",
+        "previousVersion": "v1.1.2",
+        "internalVersion": 131072,
+        "releaseDate": "2026-06-10",
+        "type": "performance",
+        "title": "Upgrade Nintendo Switch 2 (60 FPS & 1440p Docked)",
         "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+          "Prestazioni portate a 60 FPS stabili a 1440p su Nintendo Switch 2 in modalità TV.",
+          "Riconfigurato l'antialiasing e l'occlusione ambientale sui Titani Bionis e Meconis.",
+          "Audio orchestrale rimasterizzato ad altissima fedeltà a campionamento non compresso."
         ]
       },
       {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
+        "version": "v1.1.2",
+        "previousVersion": "v1.1.1",
+        "internalVersion": 65536,
         "releaseDate": "2020-07-09",
         "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
+        "title": "Fix Missioni Secondarie Colonia 6 & Bug Audio",
         "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2020-05-26",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+          "Corretto un errore che impediva l'avanzamento della ricostruzione della Colonia 6.",
+          "Risolti problemi di sincronizzazione audio nelle cutscene della storia aggiuntiva Un futuro comune."
         ]
       }
+    ],
+    "aliases": [
+      "xenoblade 1",
+      "xc1",
+      "xenoblade de",
+      "bionis",
+      "shulk"
     ]
   },
   {
@@ -73174,7 +73211,7 @@
   {
     "id": "zelda-botw",
     "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01007EF00011E000",
     "publisher": "Nintendo",
     "releaseDate": "2017-03-03",
@@ -89513,7 +89550,7 @@
   {
     "id": "persona-5-royal",
     "title": "Persona 5 Royal",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01000A10141EE000",
     "publisher": "SEGA / ATLUS",
     "releaseDate": "2022-10-21",
@@ -108580,7 +108617,7 @@
   {
     "id": "xenoblade-chronicles-x-definitive-edition-8000",
     "title": "Xenoblade Chronicles X: Definitive Edition",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100453019AA8000",
     "publisher": "Nintendo",
     "releaseDate": "2025-03-20",
@@ -108589,46 +108626,41 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/2f892f57beced8e766bb8e023910195b7a3bc475a13574d4b7525ebf396cad3f.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000088833",
-    "currentVersion": "v3.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 196608,
-    "lastUpdated": "2026-02-19T12:00:00Z",
+    "lastUpdated": "2026-03-20T10:00:00Z",
     "updates": [
       {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2026-02-19",
-        "type": "major",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
+        "version": "v1.1.0",
         "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-04-26",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-03-20",
+        "type": "performance",
+        "title": "Supporto Cross-Gen Switch 1 & 2 (Volo Skell a 60 FPS)",
         "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+          "Framerate a 60 FPS granitici nell'esplorazione a terra e in volo con i mech Skell sul pianeta Mira.",
+          "Modalità grafica avanzata Switch 2 con rendering dell'acqua e della vegetazione potenziato.",
+          "Migliorata la reattività dei controlli Joy-Con e dei menu tattici delle Arti."
         ]
       },
       {
         "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-03-14",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2025-03-20",
+        "type": "major",
+        "title": "Lancio Ufficiale Cross-Gen Nintendo Switch & Switch 2",
         "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+          "Debutto della versione definitiva rimasterizzata con nuovi contenuti narrativi epilogo."
         ]
       }
+    ],
+    "aliases": [
+      "xenoblade x",
+      "xcx",
+      "skell",
+      "mira",
+      "xenoblade chronicles x switch 2"
     ]
   },
   {
@@ -116894,7 +116926,7 @@
   {
     "id": "super-mario-party-jamboree-8000",
     "title": "Super Mario Party Jamboree",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100965017338000",
     "publisher": "Nintendo",
     "releaseDate": "2024-10-17",
@@ -119972,7 +120004,7 @@
   {
     "id": "nier-automata-the-end-of-yorha-edition-8000",
     "title": "NieR:Automata The End of YoRHa Edition",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010056B015FE8000",
     "publisher": "SQUARE ENIX",
     "releaseDate": "2022-10-06",
@@ -134587,7 +134619,7 @@
   {
     "id": "pikmin-4-a000",
     "title": "Pikmin 4",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100B7C00933A000",
     "publisher": "Nintendo",
     "releaseDate": "2023-07-21",
@@ -167709,7 +167741,7 @@
   {
     "id": "super-mario-3d-world-bowser-s-fury-a000",
     "title": "Super Mario 3D World + Bowser's Fury",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010028600EBDA000",
     "publisher": "Nintendo",
     "releaseDate": "2021-02-12",
@@ -173369,7 +173401,7 @@
   {
     "id": "kirby-e-la-terra-perduta-e000",
     "title": "Kirby e la terra perduta",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01004D300C5AE000",
     "publisher": "Nintendo",
     "releaseDate": "2022-03-25",
@@ -197730,7 +197762,7 @@
   {
     "id": "super-mario-odyssey",
     "title": "Super Mario Odyssey",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100000000010000",
     "publisher": "Nintendo",
     "releaseDate": "2017-10-27",
@@ -204090,7 +204122,7 @@
   {
     "id": "xenoblade-chronicles-3-2000",
     "title": "Xenoblade Chronicles 3",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010074F013262000",
     "publisher": "Nintendo",
     "releaseDate": "2022-07-29",
@@ -204099,10 +204131,24 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/1845d620b53473dfcdc6b55e85d0a7a1bf7cc531b6af0e92352b25490815230d.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053337",
-    "currentVersion": "v2.2.0",
+    "currentVersion": "v2.3.0",
     "currentInternalVersion": 262144,
-    "lastUpdated": "2024-01-19T10:00:00Z",
+    "lastUpdated": "2026-05-20T10:00:00Z",
     "updates": [
+      {
+        "version": "v2.3.0",
+        "previousVersion": "v2.2.0",
+        "internalVersion": 327680,
+        "releaseDate": "2026-05-20",
+        "type": "performance",
+        "title": "Upgrade Next-Gen Nintendo Switch 2 (60 FPS Dinamici a 1440p)",
+        "changelog": [
+          "Supporto nativo alle funzionalità grafiche potenziate di Nintendo Switch 2.",
+          "Framerate sbloccato a 60 FPS granitici a 1440p dinamico in modalità docked su Switch 2.",
+          "Caricamenti istantanei per i viaggi rapidi tra tutte le colonie di Aionios e il Mare di Cadensia.",
+          "Migliorata la nitidezza delle texture e della profondità di campo nei combattimenti a 7 membri."
+        ]
+      },
       {
         "version": "v2.2.0",
         "previousVersion": "v2.1.0",
@@ -204128,6 +204174,12 @@
           "Nuove musiche composte da Yasunori Mitsuda e Manami Kiyota."
         ]
       }
+    ],
+    "aliases": [
+      "xenoblade 3",
+      "xc3",
+      "aionios",
+      "xenoblade switch 2"
     ]
   },
   {
@@ -204425,7 +204477,7 @@
   {
     "id": "pok-mon-scarlatto-c000",
     "title": "Pokémon Scarlatto",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100A3D008C5C000",
     "publisher": "Nintendo",
     "releaseDate": "2022-11-18",
@@ -204494,7 +204546,7 @@
   {
     "id": "pok-mon-violetto-e000",
     "title": "Pokémon Violetto",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01008F6008C5E000",
     "publisher": "Nintendo",
     "releaseDate": "2022-11-18",
@@ -205300,7 +205352,7 @@
   {
     "id": "hogwarts-legacy-e000",
     "title": "Hogwarts Legacy",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100F7E00C70E000",
     "publisher": "WB Games",
     "releaseDate": "2023-11-14",
@@ -207565,7 +207617,7 @@
   {
     "id": "the-legend-of-zelda-echoes-of-wisdom-c000",
     "title": "The Legend of Zelda: Echoes of Wisdom",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01008CF01BAAC000",
     "publisher": "Nintendo",
     "releaseDate": "2024-09-26",
@@ -296076,7 +296128,7 @@
   {
     "id": "paper-mario-il-portale-millenario-e000",
     "title": "Paper Mario: Il Portale Millenario",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100ECD018EBE000",
     "publisher": "Nintendo",
     "releaseDate": "2024-05-23",
@@ -338838,7 +338890,7 @@
   {
     "id": "monster-hunter-rise-2000",
     "title": "Monster Hunter Rise",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100B04011742000",
     "publisher": "CAPCOM",
     "releaseDate": "2021-03-26",
@@ -346231,7 +346283,7 @@
   {
     "id": "super-mario-rpg-8000",
     "title": "Super Mario RPG",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100BC0018138000",
     "publisher": "Nintendo",
     "releaseDate": "2023-11-17",
@@ -412729,7 +412781,7 @@
   {
     "id": "metroid-prime-remastered-c000",
     "title": "Metroid Prime Remastered",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010012101468C000",
     "publisher": "Nintendo",
     "releaseDate": "2023-02-09",
@@ -412739,10 +412791,24 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/418713343fee828aa15035530a16c3b104b3f1301615cb0f50f2edad775ed1f0.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000063710",
-    "currentVersion": "v1.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 0,
-    "lastUpdated": "2023-02-09T00:00:00Z",
-    "updates": []
+    "lastUpdated": "2026-05-10T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-05-10",
+        "type": "performance",
+        "title": "Modalità 120 FPS Switch 2 & Supporto HDR",
+        "changelog": [
+          "Introdotto il supporto a 120 FPS fluidi a 1440p dinamico su display compatibili HDMI 2.1 per Switch 2.",
+          "Aggiunta opzione per feedback aptico HD avanzato dei Joy-Con di Switch 2 durante lo sparo del Cannone Braccio.",
+          "Migliorata la nitidezza dei riflessi sul visore di Samus."
+        ]
+      }
+    ]
   },
   {
     "id": "hair-salon-cool-stories-4000",
@@ -419339,7 +419405,7 @@
   {
     "id": "bayonetta-3-a000",
     "title": "Bayonetta 3",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01004A4010FEA000",
     "publisher": "Nintendo",
     "releaseDate": "2022-10-28",
@@ -474606,7 +474672,7 @@
   {
     "id": "metroid-dread-c000",
     "title": "Metroid Dread",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010093801237C000",
     "publisher": "Nintendo",
     "releaseDate": "2021-10-08",
@@ -595195,7 +595261,7 @@
   {
     "id": "luigi-s-mansion-3-6000",
     "title": "Luigi's Mansion 3",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100DCA0064A6000",
     "publisher": "Nintendo",
     "releaseDate": "2019-10-31",
