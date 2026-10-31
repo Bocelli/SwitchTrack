@@ -609,6 +609,184 @@ export const CATALOG = [
         ]
       }
     ]
+  },
+  {
+    id: "gear-club-unlimited-8000",
+    title: "Gear.Club Unlimited",
+    platform: "switch",
+    titleId: "010065E003FD8000",
+    publisher: "Microids / Eden Games",
+    releaseDate: "2017-12-01",
+    genres: ["Corse", "Simulazione", "Sport"],
+    coverImage: "https://img-eshop.cdn.nintendo.net/i/cc872022fab7db46645c638147a121398ccf282ec99996c620e4ab238eb991a9.jpg",
+    eshopUrl: "https://ec.nintendo.com/IT/it/titles/70010000000655",
+    currentVersion: "v2.0.0",
+    currentInternalVersion: 131072,
+    lastUpdated: "2018-04-26T12:00:00Z",
+    updates: [
+      {
+        version: "v2.0.0",
+        previousVersion: "v1.0.0",
+        internalVersion: 131072,
+        releaseDate: "2018-04-26",
+        type: "major",
+        title: "Championship Update & Nuove Supercar GT",
+        changelog: [
+          "Aggiunta la nuova modalità Campionato con sfide mondiali classificate.",
+          "Supporto al DLC pack McLaren 570S GT4 e livree ufficiali da gara.",
+          "Perfezionata la sensibilità dello sterzo e la stabilità del frame rate a 1080p docked."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 65536,
+        releaseDate: "2017-12-01",
+        type: "patch",
+        title: "Rilascio iniziale Nintendo Switch",
+        changelog: [
+          "Lancio ufficiale su Nintendo Switch con oltre 400 gare, 30 veicoli con licenza e multigiocatore split-screen a 4 giocatori."
+        ]
+      }
+    ]
+  },
+  {
+    id: "gear-club-unlimited-2-0000",
+    title: "Gear.Club Unlimited 2",
+    platform: "switch",
+    titleId: "010072900AFF0000",
+    publisher: "Microids / Eden Games",
+    releaseDate: "2018-12-04",
+    genres: ["Corse", "Simulazione", "Sport", "Multiplayer"],
+    coverImage: "https://img-eshop.cdn.nintendo.net/i/cf5cba5c7b7fa4613b16f6c7fbf148115fd1bc68420e2ecdad7db5aaf59c4d3c.jpg",
+    eshopUrl: "https://ec.nintendo.com/IT/it/titles/70010000010447",
+    currentVersion: "v1.4.0",
+    currentInternalVersion: 917504,
+    lastUpdated: "2021-06-11T12:00:00Z",
+    updates: [
+      {
+        version: "v1.4.0",
+        previousVersion: "v1.2.0",
+        internalVersion: 917504,
+        releaseDate: "2021-06-11",
+        type: "major",
+        title: "Visuale Paraurti & Nuove Stazioni Radio",
+        changelog: [
+          "Aggiunta nuova inquadratura dal paraurti (Bumper view) per una guida più immersiva e realistica.",
+          "Aggiunte stazioni radio dedicate in gara: Rock, Electro e modalità Shuffle.",
+          "Aggiunti 16 clacson personalizzabili nelle officine di tuning.",
+          "Ricalibrate le traiettorie dell'intelligenza artificiale e selezione tra handling Arcade e Simulazione in qualsiasi momento."
+        ]
+      },
+      {
+        version: "v1.2.0",
+        previousVersion: "v1.0.0",
+        internalVersion: 589824,
+        releaseDate: "2019-02-14",
+        type: "patch",
+        title: "Modalità Campionato Locale & Ottimizzazioni",
+        changelog: [
+          "Introdotta la modalità Campionato multigiocatore locale a schermo diviso fino a 4 giocatori.",
+          "Migliorata la reattività dell'inquadratura esterna e ottimizzati i tempi di caricamento delle officine."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 65536,
+        releaseDate: "2018-12-04",
+        type: "patch",
+        title: "Lancio ufficiale Nintendo Switch",
+        changelog: [
+          "Debutto del gioco con mappa aperta gigante, oltre 3000 km di strade asfaltate e innevate, e 51 auto sportive con licenza."
+        ]
+      }
+    ]
+  },
+  {
+    id: "gear-club-unlimited-2-tracks-edition",
+    title: "Gear.Club Unlimited 2 – Tracks Edition",
+    platform: "switch",
+    titleId: "01009180108A4000",
+    publisher: "Microids / Eden Games",
+    releaseDate: "2020-08-27",
+    genres: ["Corse", "Simulazione", "Sport"],
+    coverImage: "/covers/gear-club-unlimited-2-tracks.jpg",
+    eshopUrl: "https://ec.nintendo.com/IT/it/titles/70010000010447",
+    currentVersion: "v1.1.0",
+    currentInternalVersion: 65536,
+    lastUpdated: "2020-11-20T10:00:00Z",
+    updates: [
+      {
+        version: "v1.1.0",
+        previousVersion: "v1.0.0",
+        internalVersion: 65536,
+        releaseDate: "2020-11-20",
+        type: "patch",
+        title: "Fix Strategia Pit-Stop e Time Attack Le Mans",
+        changelog: [
+          "Ottimizzata la gestione automatica e manuale dei pit stop per cambio gomme e rifornimento nel tracciato di Le Mans.",
+          "Risolto un problema di collisione nei cordoli della chicane Ford.",
+          "Migliorata la stabilità del framerate durante le partenze con griglia completa."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 0,
+        releaseDate: "2020-08-27",
+        type: "major",
+        title: "Lancio Edizione Ufficiale 24 Ore di Le Mans",
+        changelog: [
+          "Edizione completa comprensiva del circuito ufficiale della 24 Ore di Le Mans e della campagna Endurance.",
+          "Introdotta la gestione dell'usura dei pneumatici, del consumo carburante e delle strategie ai box.",
+          "Include bolidi da corsa leggendari: Porsche 919 Hybrid, Ford GT40 MK I, Nissan GT-R LM Nismo e Mercedes AMG GT3."
+        ]
+      }
+    ]
+  },
+  {
+    id: "gear-club-unlimited-3",
+    title: "Gear.Club Unlimited 3",
+    platform: "switch2",
+    titleId: "01006D401FE90000",
+    publisher: "Nacon / Eden Games",
+    releaseDate: "2026-02-19",
+    genres: ["Corse", "Simulazione", "Sport"],
+    coverImage: "/covers/gear-club-unlimited-3.jpg",
+    eshopUrl: "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=Gear.Club",
+    currentVersion: "v1.1.0",
+    currentInternalVersion: 65536,
+    lastUpdated: "2026-04-12T16:00:00Z",
+    updates: [
+      {
+        version: "v1.1.0",
+        previousVersion: "v1.0.0",
+        internalVersion: 65536,
+        releaseDate: "2026-04-12",
+        type: "performance",
+        title: "Profili Grafici 40 FPS & Miglioramento Texture Switch 2",
+        changelog: [
+          "Aggiunto profilo grafico 'Bilanciato' a 40 FPS per il gioco in modalità portatile su Switch 2.",
+          "Aggiunto profilo 'Autonomia' a 30 FPS a basso consumo energetico con possibilità di switch al volo.",
+          "Ridotto il pop-in degli elementi paesaggistici sui tracciati della Costa Azzurra e delle autostrade di Tokyo.",
+          "Migliorata la nitidezza delle texture dei cruscotti e dei riflessi dinamici sulla carrozzeria."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 0,
+        releaseDate: "2026-02-19",
+        type: "major",
+        title: "Lancio Ufficiale Next-Gen Nintendo Switch 2",
+        changelog: [
+          "Debutto next-gen esclusivo su Nintendo Switch 2 con supporto a 60 FPS in 1440p dinamico e feedback aptico HD Joy-Con.",
+          "Nuova ambientazione metropolitana in Giappone con modalità Highway Traffic ad altissima velocità e costa francese.",
+          "Oltre 60 supercar personalizzabili e modalità Carriera con gestione officina avanzata."
+        ]
+      }
+    ]
   }
 ];
 

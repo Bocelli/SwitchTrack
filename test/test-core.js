@@ -91,3 +91,28 @@ test('Audit Copertine: ogni scheda in "Ultimi Aggiornamenti" e titoli curati ha 
   const uniqueCovers = new Set(covers);
   assert.equal(covers.length, uniqueCovers.size, 'Nessuno dei titoli principali deve condividere la stessa copertina');
 });
+
+test('GameStore: Ricerca intelligente tollerante a punteggiatura, spazi e accenti', () => {
+  // Ricerca senza punto (Gear Club invece di Gear.Club)
+  const gcMatches = store.getGames({ search: 'Gear Club Unlimited' });
+  assert.ok(gcMatches.length >= 3, 'Deve trovare tutti i titoli della serie Gear.Club Unlimited anche con spazio');
+  assert.ok(gcMatches.some(g => g.id === 'gear-club-unlimited-8000'));
+  assert.ok(gcMatches.some(g => g.id === 'gear-club-unlimited-2-0000'));
+  assert.ok(gcMatches.some(g => g.id === 'gear-club-unlimited-3'));
+
+  // Verifica Gear.Club Unlimited 3 su Switch 2 con update e changelog
+  const gc3 = store.getGameById('gear-club-unlimited-3');
+  assert.ok(gc3, 'Gear.Club Unlimited 3 deve esistere');
+  assert.equal(gc3.platform, 'switch2');
+  assert.ok(gc3.updates && gc3.updates.length > 0, 'Gear.Club 3 deve avere changelog');
+
+  // Ricerca senza apostrofi / accenti / parole separate
+  const zelda = store.getGames({ search: 'zelda tears' });
+  assert.ok(zelda.some(g => g.id === 'zelda-totk'));
+
+  const dogma = store.getGames({ search: 'dragons dogma' });
+  assert.ok(dogma.length >= 2);
+
+  const pokemon = store.getGames({ search: 'pokemon legends' });
+  assert.ok(pokemon.some(g => g.id === 'pokemon-legends-za'));
+});

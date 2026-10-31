@@ -13,6 +13,21 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DATA_FILE = path.resolve(__dirname, '../data/games.json');
 
+/**
+ * Normalizza il testo per una ricerca flessibile, tollerante a punteggiatura, punti, accenti e apostrofi.
+ */
+export function normalizeSearchText(str) {
+  if (!str) return '';
+  return str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 class GameStore {
   constructor() {
     this.games = [];
@@ -46,6 +61,9 @@ class GameStore {
       // Identifica automaticamente se un gioco non è ancora uscito (pre-order o data futura)
       const isUpcoming = Boolean(game.releaseDate && game.releaseDate > today && (!game.updates || game.updates.length === 0));
       game.status = isUpcoming ? 'upcoming' : 'released';
+
+      // Precalcola indice di ricerca normalizzato per ricerche veloci in <5ms
+      game._searchIndex = normalizeSearchText(`${game.title} ${game.titleId || ''} ${game.publisher || ''}`);
 
       this.gamesById.set(game.id, game);
       if (game.titleId) {
@@ -85,14 +103,26 @@ class GameStore {
       result = result.filter(g => g.genres && g.genres.some(ge => ge.toLowerCase() === genre.toLowerCase()));
     }
 
-    // Ricerca testuale (Titolo, Title ID, Editore)
+    // Ricerca testuale intelligente (Normalizzazione, Token, Title ID, Editore)
     if (search && search.trim()) {
-      const q = search.trim().toLowerCase();
-      result = result.filter(g =>
-        g.title.toLowerCase().includes(q) ||
-        (g.titleId && g.titleId.toLowerCase().includes(q)) ||
-        (g.publisher && g.publisher.toLowerCase().includes(q))
-      );
+      const rawQ = search.trim().toLowerCase();
+      const normQ = normalizeSearchText(search);
+      const tokens = normQ.split(' ').filter(Boolean);
+
+      result = result.filter(g => {
+        // Corrispondenza diretta su Title ID o Titolo
+        if (g.titleId && g.titleId.toLowerCase().includes(rawQ)) return true;
+        if (g.title.toLowerCase().includes(rawQ)) return true;
+
+        const idx = g._searchIndex || normalizeSearchText(`${g.title} ${g.titleId || ''} ${g.publisher || ''}`);
+        // Corrispondenza frase normalizzata
+        if (idx.includes(normQ)) return true;
+
+        // Corrispondenza per token (tutti i termini della ricerca presenti)
+        if (tokens.length > 1 && tokens.every(t => idx.includes(t))) return true;
+
+        return false;
+      });
     }
 
     // Ordinamento
