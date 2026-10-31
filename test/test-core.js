@@ -123,4 +123,53 @@ test('GameStore: Ricerca intelligente tollerante a punteggiatura, spazi e accent
   const rsGame = store.getGameById('runescape-dragonwilds');
   assert.equal(rsGame.platform, 'switch2');
   assert.ok(rsGame.updates && rsGame.updates.length >= 2, 'RuneScape deve avere patch tracciate');
+
+  // Ricerca Cross-Language & Acronimi Internazionali
+  const scarlet = store.getGames({ search: 'pokemon scarlet' });
+  assert.ok(scarlet.length > 0 && scarlet[0].title.includes('Scarlatto'), 'pokemon scarlet deve trovare Pokémon Scarlatto al 1° posto');
+
+  const botw = store.getGames({ search: 'zelda botw' });
+  assert.ok(botw.length > 0 && botw[0].title.includes('Breath of the Wild'), 'zelda botw deve trovare Breath of the Wild al 1° posto');
+
+  const kirby = store.getGames({ search: 'kirby forgotten land' });
+  assert.ok(kirby.length > 0 && kirby[0].title.includes('terra perduta'), 'kirby forgotten land deve trovare Kirby e la terra perduta');
+
+  const ttyd = store.getGames({ search: 'thousand-year door' });
+  assert.ok(ttyd.length > 0 && ttyd[0].title.includes('Portale Millenario'), 'thousand-year door deve trovare Paper Mario');
+
+  const sunbreak = store.getGames({ search: 'sunbreak' });
+  assert.ok(sunbreak.length > 0 && sunbreak[0].title.includes('Monster Hunter'), 'sunbreak deve trovare Monster Hunter Rise');
+
+  const acnh = store.getGames({ search: 'acnh' });
+  assert.ok(acnh.length > 0 && acnh[0].title.includes('Animal Crossing'), 'acnh deve trovare Animal Crossing');
+
+  const mk8d = store.getGames({ search: 'mk8d' });
+  assert.ok(mk8d.length > 0 && mk8d[0].title.includes('Mario Kart 8'), 'mk8d deve trovare Mario Kart 8 Deluxe');
+});
+
+test('Flagship Curati: verifica integrità changelog e patch notes reali', () => {
+  const flagships = [
+    'pok-mon-scarlatto-c000',
+    'pok-mon-violetto-e000',
+    'leggende-pok-mon-arceus-a000',
+    'metroid-dread-c000',
+    'kirby-e-la-terra-perduta-e000',
+    'paper-mario-il-portale-millenario-e000',
+    'luigi-s-mansion-3-6000',
+    'pikmin-4-a000',
+    'splatoon-3-0000',
+    'xenoblade-chronicles-3-2000',
+    'monster-hunter-rise-2000',
+    'minecraft-4000',
+    'fortnite-e000',
+    'stardew-valley-8000'
+  ];
+
+  for (const id of flagships) {
+    const game = store.getGameById(id);
+    assert.ok(game, `Il gioco ${id} deve esistere`);
+    assert.ok(game.updates && game.updates.length > 0, `${game.title} deve avere aggiornamenti`);
+    const hasDetailedNote = game.updates.some(u => u.changelog && u.changelog.some(c => !c.includes('stabilità di sistema')));
+    assert.ok(hasDetailedNote, `${game.title} deve contenere note di patch dettagliate`);
+  }
 });

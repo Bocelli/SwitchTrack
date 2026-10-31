@@ -28,6 +28,81 @@ export function normalizeSearchText(str) {
     .trim();
 }
 
+/**
+ * Genera alias cross-language, acronimi e titoli alternativi per massimizzare la reperibilità.
+ */
+export function getGameAliases(game) {
+  const aliases = [];
+  if (Array.isArray(game.aliases)) aliases.push(...game.aliases);
+  const t = (game.title || '').toLowerCase();
+  const id = (game.id || '').toLowerCase();
+
+  // Zelda acronyms & subtitles
+  if (t.includes('tears of the kingdom') || id === 'zelda-totk') {
+    aliases.push('totk', 'zelda totk', 'tears of the kingdom');
+  }
+  if (t.includes('breath of the wild') || id === 'zelda-botw') {
+    aliases.push('botw', 'zelda botw', 'breath of the wild');
+  }
+  if (t.includes('echoes of wisdom')) {
+    aliases.push('eow', 'zelda echoes of wisdom');
+  }
+
+  // Pokemon localized titles & acronyms
+  if (t.includes('scarlatto') || id.includes('scarlatto')) {
+    aliases.push('scarlet', 'pokemon scarlet', 'pokémon scarlet');
+  }
+  if (t.includes('violetto') || id.includes('violetto')) {
+    aliases.push('violet', 'pokemon violet', 'pokémon violet');
+  }
+  if (t.includes('arceus')) {
+    aliases.push('pokemon legends arceus', 'legends arceus', 'leggende arceus');
+  }
+  if (t.includes('z-a') || id.includes('z-a')) {
+    aliases.push('pokemon legends za', 'legends za', 'pokemon za');
+  }
+
+  // Mario & Nintendo classics
+  if (t.includes('smash bros') || t.includes('smash brothers')) {
+    aliases.push('ssbu', 'smash ultimate', 'smash bros ultimate');
+  }
+  if (t.includes('mario kart 8')) {
+    aliases.push('mk8', 'mk8d', 'mario kart 8 deluxe');
+  }
+  if (t.includes('animal crossing')) {
+    aliases.push('acnh', 'animal crossing new horizons');
+  }
+  if (t.includes('terra perduta')) {
+    aliases.push('kirby and the forgotten land', 'kirby forgotten land', 'forgotten land');
+  }
+  if (t.includes('portale millenario')) {
+    aliases.push('thousand-year door', 'thousand year door', 'ttyd', 'paper mario ttyd');
+  }
+  if (t.includes('luigi') && t.includes('mansion 3')) {
+    aliases.push('lm3', 'luigi mansion 3', 'luigis mansion 3');
+  }
+  if (t.includes('three houses')) {
+    aliases.push('fe3h', 'fire emblem 3 houses', 'fe three houses');
+  }
+  if (t.includes('xenoblade chronicles 3')) {
+    aliases.push('xc3', 'xenoblade 3');
+  }
+  if (t.includes('monster hunter rise')) {
+    aliases.push('mhr', 'sunbreak', 'monster hunter rise sunbreak');
+  }
+  if (t.includes('dragon quest xi') || t.includes('dragon quest® xi')) {
+    aliases.push('dq11', 'dqxi', 'dragon quest 11');
+  }
+  if (t.includes('runescape')) {
+    aliases.push('osrs', 'runescape dragonwilds', 'jagex');
+  }
+  if (t.includes('gear.club') || t.includes('gear club') || id.includes('gear-club')) {
+    aliases.push('gear club unlimited', 'gearclub');
+  }
+
+  return aliases.join(' ');
+}
+
 class GameStore {
   constructor() {
     this.games = [];
@@ -62,8 +137,9 @@ class GameStore {
       const isUpcoming = Boolean(game.releaseDate && game.releaseDate > today && (!game.updates || game.updates.length === 0));
       game.status = isUpcoming ? 'upcoming' : 'released';
 
-      // Precalcola indice di ricerca normalizzato per ricerche veloci in <5ms
-      game._searchIndex = normalizeSearchText(`${game.title} ${game.titleId || ''} ${game.publisher || ''}`);
+      // Precalcola alias e indice di ricerca normalizzato per ricerche veloci in <5ms
+      game._aliases = getGameAliases(game);
+      game._searchIndex = normalizeSearchText(`${game.title} ${game.titleId || ''} ${game.publisher || ''} ${game.id || ''} ${game._aliases}`);
 
       this.gamesById.set(game.id, game);
       if (game.titleId) {
@@ -85,7 +161,7 @@ class GameStore {
   }
 
   /**
-   * Restituisce i giochi filtrati e ordinati
+   * Restituisce i giochi filtrati e ordinati con ricerca semantica a rilevanza
    * @param {Object} filters { platform, search, sort, genre }
    */
   getGames({ platform = 'all', search = '', genre = 'all', sort = 'recent' } = {}) {
@@ -103,56 +179,84 @@ class GameStore {
       result = result.filter(g => g.genres && g.genres.some(ge => ge.toLowerCase() === genre.toLowerCase()));
     }
 
-    // Ricerca testuale intelligente (Normalizzazione, Token, Title ID, Editore)
+    // Ricerca testuale intelligente (Normalizzazione, Token, Title ID, Editore, Alias e Rilevanza)
     if (search && search.trim()) {
       const rawQ = search.trim().toLowerCase();
       const normQ = normalizeSearchText(search);
       const tokens = normQ.split(' ').filter(Boolean);
 
-      result = result.filter(g => {
-        // Corrispondenza diretta su Title ID o Titolo
-        if (g.titleId && g.titleId.toLowerCase().includes(rawQ)) return true;
-        if (g.title.toLowerCase().includes(rawQ)) return true;
-
+      const scoredResults = [];
+      for (const g of result) {
+        let score = 0;
+        const normTitle = normalizeSearchText(g.title);
+        const normAliases = normalizeSearchText(g._aliases || '');
         const idx = g._searchIndex || normalizeSearchText(`${g.title} ${g.titleId || ''} ${g.publisher || ''}`);
-        // Corrispondenza frase normalizzata
-        if (idx.includes(normQ)) return true;
 
-        // Corrispondenza per token (tutti i termini della ricerca presenti)
-        if (tokens.length > 1 && tokens.every(t => idx.includes(t))) return true;
+        // Corrispondenza esatta o prefisso titolo
+        if (normTitle === normQ) score += 1000;
+        else if (normTitle.startsWith(normQ)) score += 500;
+        else if (normTitle.includes(normQ)) score += 300;
 
-        return false;
-      });
-    }
+        // Corrispondenza Title ID
+        if (g.titleId && g.titleId.toLowerCase() === rawQ) score += 950;
+        else if (g.titleId && g.titleId.toLowerCase().includes(rawQ)) score += 450;
 
-    // Ordinamento
-    if (sort === 'title_asc') {
-      result.sort((a, b) => a.title.localeCompare(b.title));
-    } else if (sort === 'updates_count') {
-      result.sort((a, b) => (b.updates?.length || 0) - (a.updates?.length || 0));
-    } else if (platform === 'upcoming') {
-      // Per i titoli in arrivo: ordina per data di lancio prevista imminente (più vicina prima)
-      result.sort((a, b) => new Date(a.releaseDate || '2099-01-01').getTime() - new Date(b.releaseDate || '2099-01-01').getTime());
+        // Corrispondenza diretta su Alias (es. "pokemon scarlet" -> "Pokémon Scarlatto")
+        if (normAliases.includes(normQ)) score += 400;
+        else if (tokens.length > 0 && tokens.every(t => normAliases.includes(t))) score += 250;
+
+        // Corrispondenza per token nel titolo
+        if (tokens.length > 1 && tokens.every(t => normTitle.includes(t))) score += 200;
+
+        // Corrispondenza nell'indice completo
+        if (score === 0 && idx.includes(normQ)) score += 80;
+        if (score === 0 && tokens.length > 1 && tokens.every(t => idx.includes(t))) score += 40;
+
+        if (score > 0) {
+          // Bonus per giochi con update reali e già usciti
+          if (g.updates && g.updates.length > 0) score += 20;
+          if (g.status !== 'upcoming') score += 10;
+          scoredResults.push({ game: g, score });
+        }
+      }
+
+      if (sort === 'title_asc') {
+        scoredResults.sort((a, b) => a.game.title.localeCompare(b.game.title));
+      } else if (sort === 'updates_count') {
+        scoredResults.sort((a, b) => (b.game.updates?.length || 0) - (a.game.updates?.length || 0));
+      } else {
+        // Default 'recent': ordina per pertinenza di rilevanza (relevance) decrescente
+        scoredResults.sort((a, b) => b.score - a.score);
+      }
+
+      result = scoredResults.map(s => s.game);
     } else {
-      // Default 'recent':
-      // 1. I giochi con aggiornamenti reali hanno la priorità per data di patch più recente
-      // 2. I giochi usciti senza update seguono per data di uscita
-      // 3. I titoli in arrivo / non ancora usciti vengono messi in fondo, mai in testa
-      result.sort((a, b) => {
-        const aUpcoming = a.status === 'upcoming';
-        const bUpcoming = b.status === 'upcoming';
-        if (aUpcoming && !bUpcoming) return 1;
-        if (!aUpcoming && bUpcoming) return -1;
+      // Ordinamento standard quando non c'è ricerca attiva
+      if (sort === 'title_asc') {
+        result.sort((a, b) => a.title.localeCompare(b.title));
+      } else if (sort === 'updates_count') {
+        result.sort((a, b) => (b.updates?.length || 0) - (a.updates?.length || 0));
+      } else if (platform === 'upcoming') {
+        result.sort((a, b) => new Date(a.releaseDate || '2099-01-01').getTime() - new Date(b.releaseDate || '2099-01-01').getTime());
+      } else {
+        result.sort((a, b) => {
+          const aUpcoming = a.status === 'upcoming';
+          const bUpcoming = b.status === 'upcoming';
+          if (aUpcoming && !bUpcoming) return 1;
+          if (!aUpcoming && bUpcoming) return -1;
 
-        const aHasUpdates = a.updates && a.updates.length > 0;
-        const bHasUpdates = b.updates && b.updates.length > 0;
-        if (aHasUpdates && !bHasUpdates) return -1;
-        if (!aHasUpdates && bHasUpdates) return 1;
+          const aHasUpdates = a.updates && a.updates.length > 0;
+          const bHasUpdates = b.updates && b.updates.length > 0;
 
-        const timeA = new Date(a.lastUpdated || a.releaseDate || 0).getTime();
-        const timeB = new Date(b.lastUpdated || b.releaseDate || 0).getTime();
-        return timeB - timeA;
-      });
+          if (aHasUpdates && bHasUpdates) {
+            return new Date(b.lastUpdated || b.releaseDate).getTime() - new Date(a.lastUpdated || a.releaseDate).getTime();
+          }
+          if (aHasUpdates && !bHasUpdates) return -1;
+          if (!aHasUpdates && bHasUpdates) return 1;
+
+          return new Date(b.releaseDate || '1970-01-01').getTime() - new Date(a.releaseDate || '1970-01-01').getTime();
+        });
+      }
     }
 
     return result;
