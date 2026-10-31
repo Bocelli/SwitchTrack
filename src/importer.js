@@ -56,7 +56,7 @@ export const CATALOG = [
   },
   {
     id: "dragons-dogma-2-dark-arisen",
-    title: "Dragon's Dogma 2: Dark Arisen (Switch 2 Edition)",
+    title: "Dragon's Dogma 2",
     platform: "switch2",
     titleId: "0100D0601EE70000",
     publisher: "Capcom",
@@ -110,7 +110,7 @@ export const CATALOG = [
   },
   {
     id: "pokemon-legends-za",
-    title: "Pokémon Legends: Z-A (Enhanced Edition)",
+    title: "Pokémon Legends: Z-A",
     platform: "switch2",
     titleId: "010098A01EC4C000",
     publisher: "The Pokémon Company / Nintendo",
@@ -500,7 +500,7 @@ export const CATALOG = [
   },
   {
     id: "hades-2",
-    title: "Hades II (Nintendo Switch & Switch 2 Edition)",
+    title: "Hades II",
     platform: "switch2",
     titleId: "01008C301F00E000",
     publisher: "Supergiant Games",
@@ -562,7 +562,7 @@ export const CATALOG = [
     publisher: "Nintendo",
     releaseDate: "2025-11-14",
     genres: ["Azione", "Fantascienza", "FPS / Avventura"],
-    coverImage: "https://img-eshop.cdn.nintendo.net/i/699771bb191ec442ace32b18c90ff68852e641cce963e901fca2d167897da166.jpg",
+    coverImage: "/covers/metroid-prime-4.jpg",
     eshopUrl: "https://ec.nintendo.com/IT/it/titles/70010000084767",
     currentVersion: "v1.2.0",
     currentInternalVersion: 131072,
@@ -584,7 +584,7 @@ export const CATALOG = [
   },
   {
     id: "cyberpunk-2077-switch2",
-    title: "Cyberpunk 2077: Definitive Switch 2 Edition",
+    title: "Cyberpunk 2077",
     platform: "switch2",
     titleId: "0400DDB020648000",
     publisher: "CD PROJEKT RED",

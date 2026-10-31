@@ -4,8 +4,14 @@
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { store } from '../src/store.js';
 import { tracker } from '../src/tracker.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 test('GameStore: carica correttamente i giochi dal file JSON', () => {
   const games = store.getGames();
@@ -90,6 +96,20 @@ test('Audit Copertine: ogni scheda in "Ultimi Aggiornamenti" e titoli curati ha 
   const covers = [totk.coverImage, botw.coverImage, metroid.coverImage, silksong.coverImage, dd1.coverImage, dd2.coverImage, hades2.coverImage, cyberpunk.coverImage, witcher.coverImage];
   const uniqueCovers = new Set(covers);
   assert.equal(covers.length, uniqueCovers.size, 'Nessuno dei titoli principali deve condividere la stessa copertina');
+
+  // Verifica fedeltà visiva: Metroid Prime 4 non deve mostrare Zelda BOTW e deve puntare a cover dedicata
+  assert.ok(metroid.coverImage.includes('metroid-prime-4'), 'Metroid Prime 4 deve avere cover dedicata Metroid');
+  assert.notEqual(metroid.coverImage, botw.coverImage, 'Metroid Prime 4 non deve condividere cover con BOTW');
+  assert.equal(dd2.title, "Dragon's Dogma 2", "Dragon's Dogma 2 deve avere titolo pulito senza suffissi errati");
+
+  // Verifica esistenza su disco per tutte le copertine locali
+  for (const c of covers) {
+    if (c.startsWith('/covers/')) {
+      const diskPath = path.resolve(__dirname, '../public', c.slice(1));
+      assert.ok(fs.existsSync(diskPath), `Copertina locale presente su disco: ${diskPath}`);
+      assert.ok(fs.statSync(diskPath).size > 1000, `Copertina con dimensione valida: ${diskPath}`);
+    }
+  }
 });
 
 test('GameStore: Ricerca intelligente tollerante a punteggiatura, spazi e accenti', () => {
