@@ -19359,7 +19359,7 @@
   {
     "id": "shin-megami-tensei-v-vengeance",
     "title": "Shin Megami Tensei V: Vengeance",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "01007DC01B2E6000",
     "publisher": "SEGA / ATLUS",
     "releaseDate": "2024-06-14",
@@ -89550,7 +89550,7 @@
   {
     "id": "persona-5-royal",
     "title": "Persona 5 Royal",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "01000A10141EE000",
     "publisher": "SEGA / ATLUS",
     "releaseDate": "2022-10-21",
@@ -116926,7 +116926,7 @@
   {
     "id": "super-mario-party-jamboree-8000",
     "title": "Super Mario Party Jamboree",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "0100965017338000",
     "publisher": "Nintendo",
     "releaseDate": "2024-10-17",
@@ -120004,7 +120004,7 @@
   {
     "id": "nier-automata-the-end-of-yorha-edition-8000",
     "title": "NieR:Automata The End of YoRHa Edition",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "010056B015FE8000",
     "publisher": "SQUARE ENIX",
     "releaseDate": "2022-10-06",
@@ -134619,7 +134619,7 @@
   {
     "id": "pikmin-4-a000",
     "title": "Pikmin 4",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "0100B7C00933A000",
     "publisher": "Nintendo",
     "releaseDate": "2023-07-21",
@@ -167741,7 +167741,7 @@
   {
     "id": "super-mario-3d-world-bowser-s-fury-a000",
     "title": "Super Mario 3D World + Bowser's Fury",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "010028600EBDA000",
     "publisher": "Nintendo",
     "releaseDate": "2021-02-12",
@@ -173401,7 +173401,7 @@
   {
     "id": "kirby-e-la-terra-perduta-e000",
     "title": "Kirby e la terra perduta",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "01004D300C5AE000",
     "publisher": "Nintendo",
     "releaseDate": "2022-03-25",
@@ -207617,7 +207617,7 @@
   {
     "id": "the-legend-of-zelda-echoes-of-wisdom-c000",
     "title": "The Legend of Zelda: Echoes of Wisdom",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "01008CF01BAAC000",
     "publisher": "Nintendo",
     "releaseDate": "2024-09-26",
@@ -296128,7 +296128,7 @@
   {
     "id": "paper-mario-il-portale-millenario-e000",
     "title": "Paper Mario: Il Portale Millenario",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "0100ECD018EBE000",
     "publisher": "Nintendo",
     "releaseDate": "2024-05-23",
@@ -346283,7 +346283,7 @@
   {
     "id": "super-mario-rpg-8000",
     "title": "Super Mario RPG",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "0100BC0018138000",
     "publisher": "Nintendo",
     "releaseDate": "2023-11-17",
@@ -419405,7 +419405,7 @@
   {
     "id": "bayonetta-3-a000",
     "title": "Bayonetta 3",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "01004A4010FEA000",
     "publisher": "Nintendo",
     "releaseDate": "2022-10-28",
@@ -595261,7 +595261,7 @@
   {
     "id": "luigi-s-mansion-3-6000",
     "title": "Luigi's Mansion 3",
-    "platform": "both",
+    "platform": "switch",
     "titleId": "0100DCA0064A6000",
     "publisher": "Nintendo",
     "releaseDate": "2019-10-31",

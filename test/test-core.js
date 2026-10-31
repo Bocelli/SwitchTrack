@@ -214,7 +214,12 @@ test('Xenoblade Chronicles Saga & Switch 2 Enhanced Catalog', () => {
 
   // Verifica ampiezza catalogo Switch 2 (esclusive + cross-gen enhanced)
   const s2Catalog = store.getGames({ platform: 'switch2' });
-  assert.ok(s2Catalog.length >= 60, `Il catalogo Switch 2 deve contenere almeno 60 titoli (trovati: ${s2Catalog.length})`);
+  assert.ok(s2Catalog.length >= 50, `Il catalogo Switch 2 deve contenere almeno 50 titoli (trovati: ${s2Catalog.length})`);
   const stats = store.getStats();
-  assert.ok(stats.switch2Count >= 60, `switch2Count deve essere >= 60 (attuale: ${stats.switch2Count})`);
+  assert.ok(stats.switch2Count >= 50, `switch2Count deve essere >= 50 (attuale: ${stats.switch2Count})`);
+
+  // Verifica rigore: NieR: Automata e titoli retrocompatibili standard sono solo Switch 1
+  const nier = store.getGameById('nier-automata-the-end-of-yorha-edition-8000');
+  assert.equal(nier.platform, 'switch', 'NieR: Automata deve essere rigorosamente piattaforma switch (Switch 1)');
+  assert.ok(!s2Catalog.some(g => g.id === nier.id), 'NieR: Automata non deve comparire nel catalogo Switch 2');
 });
