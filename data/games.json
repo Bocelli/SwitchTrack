@@ -1019,7 +1019,17 @@
         ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "dlc": [
+      {
+        "id": "mk8d-booster-pass",
+        "title": "Pass percorsi aggiuntivi (Booster Course Pass)",
+        "releaseDate": "2023-11-09",
+        "price": "24,99 €",
+        "type": "Pass di Espansione",
+        "description": "48 percorsi rimasterizzati tratti da tutta la serie Mario Kart suddivisi in 6 pacchetti, oltre a nuovi piloti (Kamek, Pipino Piranha, Torcibruco, Diddy Kong, Funky Kong, Paolina)."
+      }
+    ]
   },
   {
     "id": "rally-hypercar-bundle-e000",
@@ -27057,6 +27067,16 @@
           "Nuovo hub di piazza Coloropoli vintage ispirato a Inkopolis Square.",
           "Nuovi set di armi Ordine con finiture monocromatiche esclusive."
         ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "splatoon3-pass",
+        "title": "Pass di Espansione: Coloropoli & Torre dell'Ordine",
+        "releaseDate": "2024-02-22",
+        "price": "24,99 €",
+        "type": "Pass di Espansione",
+        "description": "Due ondate di contenuti: il ritorno dell'iconico hub di Coloropoli dal primo capitolo e la campagna roguelite per giocatore singolo \"Torre dell'Ordine\" con chip colore e progressione a piani."
       }
     ]
   },
@@ -73182,7 +73202,17 @@
         ]
       }
     ],
-    "status": "released"
+    "status": "released",
+    "dlc": [
+      {
+        "id": "botw-expansion-pass",
+        "title": "Pass di Espansione: Le prove della spada & La ballata dei campioni",
+        "releaseDate": "2017-12-08",
+        "price": "19,99 €",
+        "type": "Pass di Espansione",
+        "description": "Include i due DLC \"Le prove della spada\" (sfida di combattimento a piani, modalità difficile) e \"La ballata dei campioni\" (nuovi sacrari, dungeon, ricordi dei Campioni e il destriero di Hyrule Zero)."
+      }
+    ]
   },
   {
     "id": "lost-islands-c000",
@@ -182553,7 +182583,7 @@
   {
     "id": "ea-sports-madden-nfl-26-a000",
     "title": "EA SPORTS™ Madden NFL 26",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400BE601F38A000",
     "publisher": "Electronic Arts",
     "releaseDate": "2025-08-14",
@@ -188142,7 +188172,7 @@
   {
     "id": "wild-hearts-s-2000",
     "title": "WILD HEARTS S",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400E23021102000",
     "publisher": "KOEI TECMO EUROPE",
     "releaseDate": "2025-07-25",
@@ -188161,7 +188191,7 @@
   {
     "id": "no-sleep-for-kaname-date-from-ai-the-somnium-files-c000",
     "title": "No Sleep For Kaname Date - From AI: THE SOMNIUM FILES",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "04005C902322C000",
     "publisher": "Spike Chunsoft US",
     "releaseDate": "2025-07-25",
@@ -190377,20 +190407,101 @@
   {
     "id": "donkey-kong-bananza-2000",
     "title": "Donkey Kong Bananza",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040074A01BF12000",
     "publisher": "Nintendo",
     "releaseDate": "2025-07-17",
     "genres": [
       "Azione",
+      "Piattaforme 3D",
       "Avventura"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/da121d1c9b9374b8840c3cd6a3f340658ced989f62a57d2ccbd0e2bbe516f419.jpg",
+    "coverImage": "/covers/donkey-kong-bananza.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000096810",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2025-07-17T00:00:00Z",
-    "updates": []
+    "currentVersion": "v3.2.0",
+    "currentInternalVersion": 262144,
+    "lastUpdated": "2026-02-14T10:00:00Z",
+    "updates": [
+      {
+        "version": "v3.2.0",
+        "previousVersion": "v2.0.1",
+        "internalVersion": 262144,
+        "releaseDate": "2026-02-14",
+        "type": "patch",
+        "title": "Update Accessibilità & Rotazione Eventi Emerald Rush",
+        "changelog": [
+          "Aggiunte nuove sfide a rotazione settimanale per la modalità mineraria Emerald Rush della Void Co.",
+          "Introdotta la localizzazione linguistica completa in polacco e thailandese su Nintendo Switch 2.",
+          "Migliorata la gestione dello streaming memoria negli scorci panoramici aperti dell'Isola di DK."
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2025-09-22",
+        "type": "patch",
+        "title": "Hotfix DLC & Correzione Carrelli da Miniera Void Kong",
+        "changelog": [
+          "Risolti glitch di collisione e angolazione telecamera durante le sequenze sui carrelli da miniera nel cantiere di Void Kong.",
+          "Corretta la sincronizzazione del lip-sync per le voci e urla dei Kong nei filmati d'intermezzo dell'Isola di DK."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-09-12",
+        "type": "major",
+        "title": "Lancio DLC Espansione: DK Island & Emerald Rush",
+        "changelog": [
+          "Supporto nativo all'espansione a pagamento \"DK Island & Emerald Rush\", accessibile via Warp Gong dopo la campagna.",
+          "Esplorazione libera dell'Isola di DK con Diddy Kong, Dixie Kong, Cranky Kong, Rambi il rinoceronte e negozio di Squawks.",
+          "Nuova modalità rogue-lite a round Emerald Rush con sfide minerarie a tempo e costumi esclusivi sbloccabili."
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-08-18",
+        "type": "performance",
+        "title": "Ottimizzazione 60 FPS Dinamici Switch 2 & Sensori Joy-Con",
+        "changelog": [
+          "Ottimizzato il rendering per garantire 60 FPS granitici a 1440p dinamico in modalità TV su Switch 2.",
+          "Ricalibrata la sensibilità del sensore di movimento Joy-Con per l'esecuzione dei pugni sismici a terra di Donkey Kong.",
+          "Ridotti i tempi di caricamento del passaggio tra i biomi della giungla e le miniere sotterranee."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2025-07-17",
+        "type": "major",
+        "title": "Debutto Mondiale Esclusiva Nintendo Switch 2",
+        "changelog": [
+          "Lancio ufficiale globale del nuovo capitolo platform 3D in esclusiva next-gen su console Nintendo Switch 2."
+        ]
+      }
+    ],
+    "aliases": [
+      "dk bananza",
+      "donkey kong bananza",
+      "donkey kong switch 2",
+      "emerald rush",
+      "dk island"
+    ],
+    "dlc": [
+      {
+        "id": "dkb-dlc-emerald-rush",
+        "title": "DK Island & Emerald Rush",
+        "releaseDate": "2025-09-12",
+        "price": "19,99 €",
+        "type": "Espansione Maggiore",
+        "description": "Espansione post-game completa: sblocca l'iconica area aperta dell'Isola di DK (con Diddy, Dixie, Cranky Kong, Rambi il rinoceronte e Squawks) e l'adrenalinica modalità a tempo rogue-lite Emerald Rush della Void Co. con smeraldi luminescenti, perk con fossili e Banandium Gems."
+      }
+    ]
   },
   {
     "id": "korean-drone-flying-tour-pocheon-si-8000",
@@ -192959,7 +193070,7 @@
   {
     "id": "tony-hawk-s-pro-skater-3-4-e000",
     "title": "Tony Hawk's™ Pro Skater™ 3 + 4",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400EBD0236AE000",
     "publisher": "Activision",
     "releaseDate": "2025-07-11",
@@ -198813,7 +198924,7 @@
   {
     "id": "raidou-remastered-the-mystery-of-the-soulless-army-e000",
     "title": "RAIDOU Remastered: The Mystery of the Soulless Army",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "04003FB022F4E000",
     "publisher": "SEGA",
     "releaseDate": "2025-06-19",
@@ -204368,6 +204479,16 @@
           "Aggiunta la Roto-stick e la modalità Caccia all'orco."
         ]
       }
+    ],
+    "dlc": [
+      {
+        "id": "sv-area-zero",
+        "title": "Il tesoro dell'Area Zero (La maschera turchese & Il disco indaco)",
+        "releaseDate": "2023-12-14",
+        "price": "34,99 €",
+        "type": "Pass di Espansione",
+        "description": "Due espansioni narrative complete: Parte 1 nella terra rurale di Nordivia con Ogerpon e Parte 2 all'Istituto Mirtillo nel Terarium sottomarino con Terapagos e il volo libero per i leggendari."
+      }
     ]
   },
   {
@@ -204426,6 +204547,16 @@
           "Nuova funzione Fotocamera con bastone per selfie ed espressioni Pokémon personalizzate.",
           "Aggiunta la Roto-stick e la modalità Caccia all'orco."
         ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "sv-area-zero",
+        "title": "Il tesoro dell'Area Zero (La maschera turchese & Il disco indaco)",
+        "releaseDate": "2023-12-14",
+        "price": "34,99 €",
+        "type": "Pass di Espansione",
+        "description": "Due espansioni narrative complete: Parte 1 nella terra rurale di Nordivia con Ogerpon e Parte 2 all'Istituto Mirtillo nel Terarium sottomarino con Terapagos e il volo libero per i leggendari."
       }
     ]
   },
@@ -210034,7 +210165,7 @@
   {
     "id": "street-fighter-6-6000",
     "title": "Street Fighter™ 6",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040078001CCF6000",
     "publisher": "CAPCOM",
     "releaseDate": "2025-06-05",
@@ -210052,7 +210183,7 @@
   {
     "id": "nobunaga-s-ambition-awakening-complete-edition-c000",
     "title": "NOBUNAGA'S AMBITION: Awakening Complete Edition",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400D9E02053C000",
     "publisher": "KOEI TECMO EUROPE",
     "releaseDate": "2025-06-05",
@@ -210070,7 +210201,7 @@
   {
     "id": "yakuza-0-director-s-cut-0000",
     "title": "Yakuza 0 Director's Cut",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400BBB020FF0000",
     "publisher": "SEGA",
     "releaseDate": "2025-06-05",
@@ -210088,7 +210219,7 @@
   {
     "id": "sonic-x-shadow-generations-4000",
     "title": "SONIC X SHADOW GENERATIONS",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400E140216D4000",
     "publisher": "SEGA",
     "releaseDate": "2025-06-05",
@@ -210123,7 +210254,7 @@
   {
     "id": "suikoden-i-ii-hd-remaster-for-nintendo-switch-2-gate-rune-and-dunan-unification-wars-2000",
     "title": "Suikoden I&II HD Remaster for Nintendo Switch™ 2 Gate Rune and Dunan Unification Wars",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400F6D020A02000",
     "publisher": "KONAMI",
     "releaseDate": "2025-06-05",
@@ -210140,7 +210271,7 @@
   {
     "id": "bravely-default-flying-fairy-hd-remaster-a000",
     "title": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400CBA0221EA000",
     "publisher": "SQUARE ENIX",
     "releaseDate": "2025-06-05",
@@ -210157,7 +210288,7 @@
   {
     "id": "kunitsu-gami-path-of-the-goddess-e000",
     "title": "Kunitsu-Gami: Path of the Goddess",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "04000470212CE000",
     "publisher": "CAPCOM",
     "releaseDate": "2025-06-05",
@@ -210176,7 +210307,7 @@
   {
     "id": "puyo-puyo-tetris-2s-2000",
     "title": "Puyo Puyo™ Tetris® 2S",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040047D020DB2000",
     "publisher": "SEGA",
     "releaseDate": "2025-06-05",
@@ -210214,7 +210345,7 @@
   {
     "id": "hogwarts-legacy-8000",
     "title": "Hogwarts Legacy",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "04009570209F8000",
     "publisher": "WB Games",
     "releaseDate": "2025-06-05",
@@ -210231,7 +210362,7 @@
   {
     "id": "split-fiction-pass-amici-8000",
     "title": "Split Fiction - Pass amici",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400CA40208C8000",
     "publisher": "Electronic Arts",
     "releaseDate": "2025-06-05",
@@ -210251,7 +210382,7 @@
   {
     "id": "hitman-world-of-assassination-signature-edition-2000",
     "title": "HITMAN World of Assassination - Signature Edition",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "04006CC0223D2000",
     "publisher": "IO Interactive",
     "releaseDate": "2025-06-05",
@@ -210306,7 +210437,7 @@
   {
     "id": "deltarune-c000",
     "title": "DELTARUNE",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400303021AAC000",
     "publisher": "8-4",
     "releaseDate": "2025-06-05",
@@ -210323,7 +210454,7 @@
   {
     "id": "nintendo-gamecube-nintendo-classics-0000",
     "title": "Nintendo GameCube – Nintendo Classics",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040029A01D3E0000",
     "publisher": "Nintendo",
     "releaseDate": "2025-06-05",
@@ -210340,7 +210471,7 @@
   {
     "id": "mario-kart-world-e000",
     "title": "Mario Kart World",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400C3F00006E000",
     "publisher": "Nintendo",
     "releaseDate": "2025-06-05",
@@ -210357,7 +210488,7 @@
   {
     "id": "nintendo-switch-2-welcome-tour-a000",
     "title": "Nintendo Switch 2 Welcome Tour",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040057C02159A000",
     "publisher": "Nintendo",
     "releaseDate": "2025-06-05",
@@ -210376,7 +210507,7 @@
   {
     "id": "fortnite-2000",
     "title": "Fortnite",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "0400813022B32000",
     "publisher": "Epic Games",
     "releaseDate": "2025-06-05",
@@ -210416,7 +210547,7 @@
   {
     "id": "fast-fusion-e000",
     "title": "Fast Fusion",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040041E0212AE000",
     "publisher": "Shin’en Multimedia",
     "releaseDate": "2025-06-05",
@@ -210531,7 +210662,7 @@
   {
     "id": "arcade-archives-2-ridge-racer-c000",
     "title": "Arcade Archives 2 RIDGE RACER",
-    "platform": "switch",
+    "platform": "switch2",
     "titleId": "040082902313C000",
     "publisher": "HAMSTER",
     "releaseDate": "2025-06-05",
@@ -338746,6 +338877,16 @@
           "Aggiunto lo Shagaru Magala Risorto con attacchi frenesia ampliati.",
           "Nuova funzione di fusione talismani \"Fusione Qurious\"."
         ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "mhr-sunbreak",
+        "title": "Monster Hunter Rise: Sunbreak",
+        "releaseDate": "2022-06-30",
+        "price": "39,99 €",
+        "type": "Espansione Massiccia",
+        "description": "Massiccia espansione Master Rank ambientata all'Avamposto di Elgado: nuovi mostri iconici (Malzeno, Lunagaron, Garangolm), nuove abilità Scambio Filinsetto e indagini sulle Anomalie."
       }
     ]
   },

@@ -99,6 +99,9 @@ export function getGameAliases(game) {
   if (t.includes('gear.club') || t.includes('gear club') || id.includes('gear-club')) {
     aliases.push('gear club unlimited', 'gearclub');
   }
+  if (t.includes('bananza') || id.includes('bananza')) {
+    aliases.push('dk bananza', 'donkey kong bananza', 'donkey kong switch 2', 'emerald rush', 'dk island');
+  }
 
   return aliases.join(' ');
 }
@@ -133,6 +136,13 @@ class GameStore {
     const today = new Date().toISOString().slice(0, 10);
 
     for (const game of this.games) {
+      // Identifica automaticamente piattaforma Switch 2 (prefisso Title ID 0400... o titolo esplicito)
+      if (game.titleId && game.titleId.toUpperCase().startsWith('04')) {
+        game.platform = 'switch2';
+      } else if (game.title && game.title.toLowerCase().includes('switch 2') && game.platform !== 'both') {
+        game.platform = 'switch2';
+      }
+
       // Identifica automaticamente se un gioco non è ancora uscito (pre-order o data futura)
       const isUpcoming = Boolean(game.releaseDate && game.releaseDate > today && (!game.updates || game.updates.length === 0));
       game.status = isUpcoming ? 'upcoming' : 'released';

@@ -162,7 +162,8 @@ test('Flagship Curati: verifica integrità changelog e patch notes reali', () =>
     'monster-hunter-rise-2000',
     'minecraft-4000',
     'fortnite-e000',
-    'stardew-valley-8000'
+    'stardew-valley-8000',
+    'donkey-kong-bananza-2000'
   ];
 
   for (const id of flagships) {
@@ -172,4 +173,25 @@ test('Flagship Curati: verifica integrità changelog e patch notes reali', () =>
     const hasDetailedNote = game.updates.some(u => u.changelog && u.changelog.some(c => !c.includes('stabilità di sistema')));
     assert.ok(hasDetailedNote, `${game.title} deve contenere note di patch dettagliate`);
   }
+});
+
+test('Donkey Kong Bananza & Switch 2: piattaforma, DLC ed update verificati', () => {
+  const dkb = store.getGameById('donkey-kong-bananza-2000');
+  assert.ok(dkb, 'Donkey Kong Bananza deve esistere nel catalogo');
+  assert.equal(dkb.platform, 'switch2', 'Donkey Kong Bananza deve essere classificato come esclusiva Switch 2');
+  assert.ok(dkb.titleId.startsWith('04'), 'Il Title ID di DK Bananza deve iniziare per 04');
+  assert.equal(dkb.currentVersion, 'v3.2.0', 'La versione corrente deve essere v3.2.0');
+  assert.equal(dkb.updates.length, 5, 'Deve avere 5 versioni storicizzate con changelog');
+  assert.ok(dkb.dlc && dkb.dlc.length >= 1, 'Deve avere la sezione DLC con l\'espansione DK Island & Emerald Rush');
+  assert.equal(dkb.dlc[0].title, 'DK Island & Emerald Rush');
+
+  // Ricerca con alias
+  const searchResults = store.getGames({ search: 'dk bananza' });
+  assert.ok(searchResults.length > 0, 'La ricerca "dk bananza" deve trovare il gioco');
+  assert.equal(searchResults[0].id, 'donkey-kong-bananza-2000');
+
+  // Verifica che tutti i giochi con prefisso 04 siano marcati switch2
+  const all04 = store.games.filter(g => g.titleId && g.titleId.startsWith('04'));
+  assert.ok(all04.length >= 20, 'Devono esserci almeno 20 titoli Switch 2 con prefisso 04');
+  assert.ok(all04.every(g => g.platform === 'switch2'), 'Tutti i titoli con Title ID 04 devono avere piattaforma switch2');
 });

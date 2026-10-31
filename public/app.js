@@ -227,6 +227,8 @@ function createGameCardHtml(game) {
     </div>
   `;
 
+  const hasDlc = Array.isArray(game.dlc) && game.dlc.length > 0;
+
   return `
     <article class="game-card" data-id="${escapeHtml(game.id)}">
       <div class="game-card-banner">
@@ -240,6 +242,7 @@ function createGameCardHtml(game) {
         <div class="game-card-overlay-badges">
           <span class="platform-pill ${platformClass}">${platformLabel}</span>
           ${isUpcoming ? '<span class="badge-upcoming">In Arrivo</span>' : `<span class="badge-version">${escapeHtml(currentVersion)}</span>`}
+          ${hasDlc ? '<span class="badge-dlc">DLC</span>' : ''}
         </div>
       </div>
 
@@ -518,6 +521,30 @@ async function openGameModal(gameId) {
       </div>
     `;
 
+    const hasDlc = Array.isArray(game.dlc) && game.dlc.length > 0;
+
+    const dlcHtml = hasDlc ? `
+      <div class="modal-dlc-section" style="margin-bottom: 1.5rem; background: rgba(52, 211, 153, 0.06); border: 1px solid rgba(52, 211, 153, 0.25); border-radius: var(--radius-md); padding: 1.25rem;">
+        <h3 class="timeline-heading" style="color: #34d399; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+          </svg>
+          Contenuti Aggiuntivi & DLC Espansioni (${game.dlc.length})
+        </h3>
+        <div class="dlc-list" style="display: flex; flex-direction: column; gap: 0.75rem;">
+          ${game.dlc.map(d => `
+            <div class="dlc-item-card" style="padding: 0.85rem 1rem; background: rgba(14, 17, 24, 0.6); border: 1px solid rgba(52, 211, 153, 0.2); border-left: 3px solid #34d399; border-radius: var(--radius-sm);">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem; flex-wrap: wrap; gap: 0.5rem;">
+                <strong style="color: #fff; font-size: 0.95rem;">${escapeHtml(d.title)}</strong>
+                <span style="font-size: 0.75rem; color: #34d399; font-family: var(--font-mono); font-weight: 600;">${escapeHtml(d.price ? d.price + ' • ' : '')}${formatDate(d.releaseDate)}</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-dim); margin: 0; line-height: 1.45;">${escapeHtml(d.description)}</p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    ` : '';
+
     elements.modalContent.innerHTML = `
       <div class="modal-game-info">
         <img class="modal-cover" src="${escapeHtml(game.coverImage)}" data-fallback="/api/cover/${encodeURIComponent(game.id)}" alt="${escapeHtml(game.title)}">
@@ -533,6 +560,7 @@ async function openGameModal(gameId) {
             <span class="modal-detail-pill">Editore: ${escapeHtml(game.publisher || 'Nintendo')}</span>
             <span class="modal-detail-pill">Lancio: ${formatDate(game.releaseDate)}</span>
             <span class="modal-detail-pill" style="font-family: var(--font-mono);">ID: ${escapeHtml(game.titleId || 'N/D')}</span>
+            ${hasDlc ? `<span class="modal-detail-pill" style="color: #34d399; border-color: rgba(52, 211, 153, 0.5);"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>DLC: ${escapeHtml(game.dlc[0].title)}</span>` : ''}
           </div>
 
           <div class="modal-actions-bar">
@@ -555,6 +583,7 @@ async function openGameModal(gameId) {
       </div>
 
       <div>
+        ${dlcHtml}
         <h3 class="timeline-heading">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--switch-cyan)" stroke-width="2">
             <circle cx="12" cy="12" r="10"></circle>
