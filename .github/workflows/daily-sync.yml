@@ -1,0 +1,53 @@
+name: Daily Nintendo Updates Sync
+
+on:
+  schedule:
+    # Esegue automaticamente ogni giorno alle 04:00 UTC (05:00 / 06:00 italiane)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    # Permette di avviare la sincronizzazione manualmente dal tab 'Actions' di GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-updates:
+    name: Sync Upstream Patches
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Execute Upstream Sync
+        run: node scripts/sync-upstream-updates.js
+
+      - name: Run Quality & Core Verification Tests
+        run: npm test
+
+      - name: Commit and Push changes if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/games.json)" ]; then
+            git add data/games.json
+            git commit -m "Auto: daily catalog sync - new Nintendo Switch & Switch 2 updates [skip ci]"
+            git push origin main
+            echo "Nuovi aggiornamenti pubblicati su GitHub. Vercel avvierà il deploy automatico in tempo reale."
+          else
+            echo "Tutti i giochi sono già aggiornati alle versioni più recenti. Nessun commit necessario."
+          fi

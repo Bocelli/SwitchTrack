@@ -7,6 +7,7 @@
  */
 
 import { store } from './store.js';
+import { runSync } from '../scripts/sync-upstream-updates.js';
 
 export class UpdateTracker {
   constructor() {
@@ -32,9 +33,8 @@ export class UpdateTracker {
   }
 
   /**
-   * Esegue un controllo di sincronizzazione
-   * Nella versione live, interroga le repository community (es. TitleDB versions feed)
-   * o genera l'aggiornamento delta se rileva un incremento sul CDN.
+   * Esegue un controllo di sincronizzazione upstream
+   * Interroga il feed live delle versioni Nintendo TitleDB e aggiorna il catalogo.
    */
   async syncNow() {
     if (this.isSyncing) {
@@ -43,10 +43,12 @@ export class UpdateTracker {
 
     this.isSyncing = true;
     const now = new Date().toISOString();
-    const discoveredUpdates = [];
 
     try {
       console.log(`[TRAIL:SYNC] Controllo aggiornamenti avviato: ${now}`);
+
+      // Esegue la sincronizzazione dal feed upstream
+      const syncResult = await runSync();
 
       // Ricarica e indicizza gli ultimi aggiornamenti persistiti
       store.load();
@@ -58,8 +60,8 @@ export class UpdateTracker {
         syncedAt: now,
         totalGames: stats.totalGames,
         totalUpdates: stats.totalUpdates,
-        newUpdatesFound: discoveredUpdates.length,
-        discoveredUpdates
+        newUpdatesFound: syncResult?.updatedGamesCount || 0,
+        patches: syncResult?.newPatches || []
       };
     } catch (err) {
       console.error('[TRAIL:SYNC] Errore durante la sincronizzazione:', err.message);
