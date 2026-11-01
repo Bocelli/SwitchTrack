@@ -165,6 +165,27 @@ export async function runSync() {
   console.log(`\n📊 RISULTATI SINCRONIZZAZIONE:`);
   console.log(`- Nuovi aggiornamenti rilevati: ${updatedGamesCount}`);
 
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    try {
+      const summaryContent = [
+        '### 🔄 SwitchTrack - Report Sincronizzazione Upstream',
+        '',
+        `| Metrica | Valore |`,
+        `| :--- | :--- |`,
+        `| **Giochi nel catalogo** | ${games.length.toLocaleString('it-IT')} |`,
+        `| **Nuovi aggiornamenti rilevati** | **${updatedGamesCount}** |`,
+        `| **Esito** | ${updatedGamesCount > 0 ? '✅ Catalogo aggiornato e salvato' : '✨ Tutti i giochi sono già allineati all\'ultima versione'} |`,
+        '',
+        updatedGamesCount > 0
+          ? `#### 📦 Titoli aggiornati:\n` + newPatches.slice(0, 15).map(p => `- **${p.title}**: \`${p.from}\` ➔ \`${p.to}\` (${p.date})`).join('\n')
+          : `> Nessuna nuova patch rilevata nei feed upstream di Nintendo nelle ultime ore. Nessun commit vuoto necessario.`
+      ].join('\n');
+      fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summaryContent + '\n', 'utf8');
+    } catch (e) {
+      console.warn('[SYNC] Impossibile scrivere GITHUB_STEP_SUMMARY:', e.message);
+    }
+  }
+
   if (updatedGamesCount > 0) {
     newPatches.slice(0, 10).forEach((p, idx) => {
       console.log(`  ${idx + 1}. [${p.date}] ${p.title} (${p.from} -> ${p.to})`);
