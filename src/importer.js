@@ -15,6 +15,64 @@ const DATA_FILE = path.resolve(__dirname, '../data/games.json');
 
 export const CATALOG = [
   {
+    id: "another-eden-begins-c000",
+    title: "Another Eden Begins",
+    platform: "both",
+    titleId: "0100F3E024DFC000",
+    publisher: "WRIGHT FLYER STUDIOS",
+    releaseDate: "2026-09-16",
+    genres: ["Gioco di ruolo (RPG)", "JRPG", "Avventura", "Pixel Art"],
+    coverImage: "https://img-eshop.cdn.nintendo.net/i/b7174f638c78af1a163c70f5bbd675b6e0badd0ff48b29841a189fdd6fba8fba.jpg",
+    eshopUrl: "https://ec.nintendo.com/IT/it/titles/70010000105771",
+    currentVersion: "v1.1.3",
+    currentInternalVersion: 196608,
+    lastUpdated: "2026-10-31T18:30:00Z",
+    aliases: ["another eden", "un altro eden", "un altro eden begins", "eden begins", "aldo", "feinne", "another force"],
+    updates: [
+      {
+        version: "v1.1.3",
+        previousVersion: "v1.1.0",
+        internalVersion: 196608,
+        releaseDate: "2026-10-31",
+        type: "patch",
+        title: "Patch 1.1.3: Correzioni New Game+, Fix Boss Battle & Ottimizzazioni Switch 2",
+        changelog: [
+          "Corretti bug specifici e blocchi di progressione nella modalità New Game+.",
+          "Risolti crash e blocchi improvvisi verificatisi durante le battaglie contro i boss avanzati.",
+          "Aggiornate e rifinite le descrizioni delle abilità e corretti i testi di gioco in italiano.",
+          "Miglioramenti generali della stabilità di sistema e tempi di caricamento ridotti per Nintendo Switch e Switch 2.",
+          "Nota degli sviluppatori: confermato l'arrivo nei futuri aggiornamenti dell'opzione Story Skip (salto dei dialoghi) e della rimappatura comandi del controller."
+        ]
+      },
+      {
+        version: "v1.1.0",
+        previousVersion: "v1.0.0",
+        internalVersion: 131072,
+        releaseDate: "2026-09-25",
+        type: "major",
+        title: "Aggiornamento New Game+ ed espansione percorsi narrativi",
+        changelog: [
+          "Sblocco della modalità New Game+ al termine della campagna principale con mantenimento della progressione dei personaggi.",
+          "Aggiunti nuovi bivi narrativi che conducono a oltre 10 conclusioni differenti con il nuovo personaggio guida.",
+          "Bilanciamento generale del sistema di combattimento a turni e della barra Another Force."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 65536,
+        releaseDate: "2026-09-16",
+        type: "major",
+        title: "Lancio ufficiale Nintendo Switch & Nintendo Switch 2",
+        changelog: [
+          "Rilascio ufficiale su Nintendo eShop per Nintendo Switch e Nintendo Switch 2.",
+          "Supporto per comandi tattili in modalità portatile, salvataggi cloud e HD Rumble."
+        ]
+      }
+    ],
+    status: "released"
+  },
+  {
     id: "dragons-dogma-dark-arisen",
     title: "Dragon's Dogma: Dark Arisen",
     platform: "switch",

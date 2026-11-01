@@ -257,3 +257,24 @@ test('Security Audit: verifica sanificazione input, assenza di injection e sicur
     assert.ok(!g.id.includes('..'), `Nessun path traversal nell'id di ${g.id}`);
   }
 });
+
+test('Another Eden Begins: verifica patch v1.1.3, supporto Switch 2 e changelog', () => {
+  store.load();
+  const game = store.getGameById('another-eden-begins-c000');
+  assert.ok(game, 'Another Eden Begins deve esistere nel catalogo');
+  assert.equal(game.platform, 'both', 'Deve supportare sia Nintendo Switch che Nintendo Switch 2');
+  assert.equal(game.currentVersion, 'v1.1.3', 'La versione corrente deve essere v1.1.3');
+
+  // Verifica ricerca tramite alias italiano / internazionale
+  const searchIt = store.getGames({ search: 'un altro eden' });
+  assert.ok(searchIt.some(g => g.id === 'another-eden-begins-c000'), 'La ricerca "un altro eden" deve trovare il gioco');
+
+  const searchAldo = store.getGames({ search: 'aldo feinne' });
+  assert.ok(searchAldo.some(g => g.id === 'another-eden-begins-c000'), 'La ricerca per protagonisti Aldo/Feinne deve trovare il gioco');
+
+  // Verifica che sia il primo titolo in "Ultimi Aggiornamenti"
+  const latest = store.getLatestUpdates(1);
+  assert.equal(latest[0].gameTitle, 'Another Eden Begins', 'Deve essere in vetta agli ultimi aggiornamenti');
+  assert.equal(latest[0].version, 'v1.1.3');
+  assert.ok(latest[0].changelog.some(c => c.includes('New Game+')), 'Il changelog deve menzionare New Game+');
+});

@@ -1,233 +1,5 @@
 [
   {
-    "id": "xenoblade-chronicles-2",
-    "title": "Xenoblade Chronicles 2",
-    "platform": "both",
-    "titleId": "0100E95004038000",
-    "publisher": "Nintendo",
-    "releaseDate": "2017-12-01",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Azione",
-      "Open World"
-    ],
-    "coverImage": "/covers/xenoblade-chronicles-2.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Xenoblade-Chronicles-2-1233955.html",
-    "currentVersion": "v2.1.0",
-    "currentInternalVersion": 196608,
-    "lastUpdated": "2026-06-15T10:00:00Z",
-    "aliases": [
-      "xenoblade 2",
-      "xc2",
-      "alrest",
-      "pyra",
-      "mythra",
-      "xenoblade chronicles 2 switch 2"
-    ],
-    "dlc": [
-      {
-        "id": "xc2-expansion-pass",
-        "title": "Pass di Espansione Xenoblade Chronicles 2",
-        "releaseDate": "2018-09-14",
-        "price": "29,99 €",
-        "type": "Pass di Espansione",
-        "description": "Include la campagna prequel 'Torna - The Golden Country', nuove missioni sfida nel regno di Nopon e le Gladius speciali Shulk, Fiora, Elma e Poppibuster."
-      }
-    ],
-    "updates": [
-      {
-        "version": "v2.1.0",
-        "previousVersion": "v2.0.2",
-        "internalVersion": 196608,
-        "releaseDate": "2026-06-15",
-        "type": "performance",
-        "title": "Upgrade Next-Gen Nintendo Switch 2 (60 FPS & 1080p Fisso Portatile)",
-        "changelog": [
-          "Supporto completo e ottimizzazione grafica per la nuova console Nintendo Switch 2.",
-          "Rimossa la risoluzione dinamica aggressiva in portatile: ora gira a 1080p fisso a 60 FPS fluidi.",
-          "Texture dei titani di Alrest e della vegetazione caricate in alta definizione senza pop-in.",
-          "Ridotti drasticamente i tempi di risveglio dei cristalli nucleo e di caricamento dei menu delle Gladius."
-        ]
-      },
-      {
-        "version": "v2.0.2",
-        "previousVersion": "v2.0.1",
-        "internalVersion": 131072,
-        "releaseDate": "2018-09-14",
-        "type": "patch",
-        "title": "Compatibilità Torna - The Golden Country",
-        "changelog": [
-          "Aggiunto il supporto per il DLC espansione 'Torna - The Golden Country'.",
-          "Aggiunte nuove missioni sfida al Portale della Sfida."
-        ]
-      },
-      {
-        "version": "v1.5.0",
-        "previousVersion": "v1.4.1",
-        "internalVersion": 65536,
-        "releaseDate": "2018-04-27",
-        "type": "major",
-        "title": "Modalità Nuova Partita + (New Game Plus)",
-        "changelog": [
-          "Sbloccata la modalità Nuova Partita + con possibilità di reclutare le Gladius speciali di Torna.",
-          "Aggiunti nuovi nodi di affinità per i Ductor e personalizzazione avanzata dei comandi."
-        ]
-      }
-    ],
-    "status": "released"
-  },
-  {
-    "id": "runescape-dragonwilds",
-    "title": "RuneScape: Dragonwilds",
-    "platform": "switch2",
-    "titleId": "01008E2021A44000",
-    "publisher": "Jagex",
-    "releaseDate": "2026-09-15",
-    "genres": [
-      "Survival",
-      "RPG",
-      "Open World",
-      "Multiplayer"
-    ],
-    "coverImage": "/covers/runescape-dragonwilds.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=RuneScape",
-    "currentVersion": "v1.0.2",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2026-10-18T14:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.2",
-        "previousVersion": "v1.0.1",
-        "internalVersion": 131072,
-        "releaseDate": "2026-10-18",
-        "type": "performance",
-        "title": "Hotfix Performance & Stabilità Ashenfall",
-        "changelog": [
-          "Ottimizzazione del framerate a 60 FPS in modalità docked durante gli scontri con i draghi maggiori.",
-          "Risolto il problema di stuttering e caricamento tardivo delle texture nelle foreste di Ashenfall su Switch 2.",
-          "Migliorata la stabilità delle lobby multiplayer cooperative fino a 4 giocatori."
-        ]
-      },
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-09-28",
-        "type": "patch",
-        "title": "Bilanciamento Crafting & Fix Grafici Day-One",
-        "changelog": [
-          "Ricalibrate le risorse necessarie per la forgia delle armi draconiche di livello intermedio.",
-          "Risolti glitch visivi sull'illuminazione volumetrica delle fiamme e risoluzione dinamica.",
-          "Corretto un bug che causava la duplicazione degli oggetti nelle casse condivise di gilda."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 0,
-        "releaseDate": "2026-09-15",
-        "type": "major",
-        "title": "Lancio Ufficiale Nintendo Switch 2",
-        "changelog": [
-          "Debutto storico del franchise RuneScape su console Nintendo con il survival open-world co-op ambientato nel continente di Ashenfall."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gear-club-unlimited-3",
-    "title": "Gear.Club Unlimited 3",
-    "platform": "switch2",
-    "titleId": "01006D401FE90000",
-    "publisher": "Nacon / Eden Games",
-    "releaseDate": "2026-02-19",
-    "genres": [
-      "Corse",
-      "Simulazione",
-      "Sport"
-    ],
-    "coverImage": "/covers/gear-club-unlimited-3.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=Gear.Club",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-04-12T16:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-04-12",
-        "type": "performance",
-        "title": "Profili Grafici 40 FPS & Miglioramento Texture Switch 2",
-        "changelog": [
-          "Aggiunto profilo grafico 'Bilanciato' a 40 FPS per il gioco in modalità portatile su Switch 2.",
-          "Aggiunto profilo 'Autonomia' a 30 FPS a basso consumo energetico con possibilità di switch al volo.",
-          "Ridotto il pop-in degli elementi paesaggistici sui tracciati della Costa Azzurra e delle autostrade di Tokyo.",
-          "Migliorata la nitidezza delle texture dei cruscotti e dei riflessi dinamici sulla carrozzeria."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 0,
-        "releaseDate": "2026-02-19",
-        "type": "major",
-        "title": "Lancio Ufficiale Next-Gen Nintendo Switch 2",
-        "changelog": [
-          "Debutto next-gen esclusivo su Nintendo Switch 2 con supporto a 60 FPS in 1440p dinamico e feedback aptico HD Joy-Con.",
-          "Nuova ambientazione metropolitana in Giappone con modalità Highway Traffic ad altissima velocità e costa francese.",
-          "Oltre 60 supercar personalizzabili e modalità Carriera con gestione officina avanzata."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "gear-club-unlimited-2-tracks-edition",
-    "title": "Gear.Club Unlimited 2 – Tracks Edition",
-    "platform": "switch",
-    "titleId": "01009180108A4000",
-    "publisher": "Microids / Eden Games",
-    "releaseDate": "2020-08-27",
-    "genres": [
-      "Corse",
-      "Simulazione",
-      "Sport"
-    ],
-    "coverImage": "/covers/gear-club-unlimited-2-tracks.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000010447",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2020-11-20T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2020-11-20",
-        "type": "patch",
-        "title": "Fix Strategia Pit-Stop e Time Attack Le Mans",
-        "changelog": [
-          "Ottimizzata la gestione automatica e manuale dei pit stop per cambio gomme e rifornimento nel tracciato di Le Mans.",
-          "Risolto un problema di collisione nei cordoli della chicane Ford.",
-          "Migliorata la stabilità del framerate durante le partenze con griglia completa."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 0,
-        "releaseDate": "2020-08-27",
-        "type": "major",
-        "title": "Lancio Edizione Ufficiale 24 Ore di Le Mans",
-        "changelog": [
-          "Edizione completa comprensiva del circuito ufficiale della 24 Ore di Le Mans e della campagna Endurance.",
-          "Introdotta la gestione dell'usura dei pneumatici, del consumo carburante e delle strategie ai box.",
-          "Include bolidi da corsa leggendari: Porsche 919 Hybrid, Ford GT40 MK I, Nissan GT-R LM Nismo e Mercedes AMG GT3."
-        ]
-      }
-    ]
-  },
-  {
     "id": "yu-gi-oh-tag-force-gx-0000",
     "title": "Yu-Gi-Oh! TAG FORCE GX",
     "platform": "switch",
@@ -431,6 +203,76 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-11-01T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "another-eden-begins-c000",
+    "title": "Another Eden Begins",
+    "platform": "both",
+    "titleId": "0100F3E024DFC000",
+    "publisher": "WRIGHT FLYER STUDIOS",
+    "releaseDate": "2026-09-16",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "JRPG",
+      "Avventura",
+      "Pixel Art"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/b7174f638c78af1a163c70f5bbd675b6e0badd0ff48b29841a189fdd6fba8fba.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000105771",
+    "currentVersion": "v1.1.3",
+    "currentInternalVersion": 196608,
+    "lastUpdated": "2026-10-31T18:30:00Z",
+    "updates": [
+      {
+        "version": "v1.1.3",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 196608,
+        "releaseDate": "2026-10-31",
+        "type": "patch",
+        "title": "Patch 1.1.3: Correzioni New Game+, Fix Boss Battle & Ottimizzazioni Switch 2",
+        "changelog": [
+          "Corretti bug specifici e blocchi di progressione nella modalità New Game+.",
+          "Risolti crash e blocchi improvvisi verificatisi durante le battaglie contro i boss avanzati.",
+          "Aggiornate e rifinite le descrizioni delle abilità e corretti i testi di gioco in italiano.",
+          "Miglioramenti generali della stabilità di sistema e tempi di caricamento ridotti per Nintendo Switch e Switch 2.",
+          "Nota degli sviluppatori: confermato l'arrivo nei futuri aggiornamenti dell'opzione Story Skip (salto dei dialoghi) e della rimappatura comandi del controller."
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-09-25",
+        "type": "major",
+        "title": "Aggiornamento New Game+ ed espansione percorsi narrativi",
+        "changelog": [
+          "Sblocco della modalità New Game+ al termine della campagna principale con mantenimento della progressione dei personaggi.",
+          "Aggiunti nuovi bivi narrativi che conducono a oltre 10 conclusioni differenti con il nuovo personaggio guida.",
+          "Bilanciamento generale del sistema di combattimento a turni e della barra Another Force."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-09-16",
+        "type": "major",
+        "title": "Lancio ufficiale Nintendo Switch & Nintendo Switch 2",
+        "changelog": [
+          "Rilascio ufficiale su Nintendo eShop per Nintendo Switch e Nintendo Switch 2.",
+          "Supporto per comandi tattili in modalità portatile, salvataggi cloud e HD Rumble."
+        ]
+      }
+    ],
+    "aliases": [
+      "another eden",
+      "un altro eden",
+      "un altro eden begins",
+      "eden begins",
+      "aldo",
+      "feinne",
+      "another force"
+    ]
   },
   {
     "id": "the-cat-in-the-hat-scompiglio-in-un-giorno-di-pioggia-2000",
@@ -1110,6 +952,64 @@
       "balatro-e000",
       "Balatro",
       "0100CD801CE5E000"
+    ]
+  },
+  {
+    "id": "runescape-dragonwilds",
+    "title": "RuneScape: Dragonwilds",
+    "platform": "switch2",
+    "titleId": "01008E2021A44000",
+    "publisher": "Jagex",
+    "releaseDate": "2026-09-15",
+    "genres": [
+      "Survival",
+      "RPG",
+      "Open World",
+      "Multiplayer"
+    ],
+    "coverImage": "/covers/runescape-dragonwilds.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=RuneScape",
+    "currentVersion": "v1.0.2",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-10-18T14:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.2",
+        "previousVersion": "v1.0.1",
+        "internalVersion": 131072,
+        "releaseDate": "2026-10-18",
+        "type": "performance",
+        "title": "Hotfix Performance & Stabilità Ashenfall",
+        "changelog": [
+          "Ottimizzazione del framerate a 60 FPS in modalità docked durante gli scontri con i draghi maggiori.",
+          "Risolto il problema di stuttering e caricamento tardivo delle texture nelle foreste di Ashenfall su Switch 2.",
+          "Migliorata la stabilità delle lobby multiplayer cooperative fino a 4 giocatori."
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-09-28",
+        "type": "patch",
+        "title": "Bilanciamento Crafting & Fix Grafici Day-One",
+        "changelog": [
+          "Ricalibrate le risorse necessarie per la forgia delle armi draconiche di livello intermedio.",
+          "Risolti glitch visivi sull'illuminazione volumetrica delle fiamme e risoluzione dinamica.",
+          "Corretto un bug che causava la duplicazione degli oggetti nelle casse condivise di gilda."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2026-09-15",
+        "type": "major",
+        "title": "Lancio Ufficiale Nintendo Switch 2",
+        "changelog": [
+          "Debutto storico del franchise RuneScape su console Nintendo con il survival open-world co-op ambientato nel continente di Ashenfall."
+        ]
+      }
     ]
   },
   {
@@ -3658,39 +3558,6 @@
     "updates": []
   },
   {
-    "id": "minecraft-4000",
-    "title": "Minecraft",
-    "platform": "both",
-    "titleId": "0100D71004694000",
-    "publisher": "Mojang",
-    "releaseDate": "2018-06-21",
-    "genres": [
-      "Azione",
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000000963",
-    "currentVersion": "v1.21.30",
-    "currentInternalVersion": 1048576,
-    "lastUpdated": "2024-10-22T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.21.30",
-        "previousVersion": "v1.20.0",
-        "internalVersion": 1048576,
-        "releaseDate": "2024-10-22",
-        "type": "major",
-        "title": "Tricky Trials (Prove Impegnative) & Nuova Arma Mazza",
-        "changelog": [
-          "Introdotte le monumentali Camere delle Prove sotterranee con i Generatori di Prove e i forzieri protetti.",
-          "Nuova arma da mischia Mazza (Mace) con colpi devastanti proporzionali all'altezza di caduta.",
-          "Nuovi mob ostili: il Breeze che rimbalza proiettili d'aria e il Bogged (scheletro delle paludi velenoso).",
-          "Aggiunto il blocco Artigiano (Crafter) per l'autofabbricazione automatica alimentata da pietrarossa."
-        ]
-      }
-    ]
-  },
-  {
     "id": "quest-of-dungeons-2000",
     "title": "Quest of Dungeons",
     "platform": "switch",
@@ -3743,40 +3610,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "fortnite-e000",
-    "title": "Fortnite",
-    "platform": "both",
-    "titleId": "010025400AECE000",
-    "publisher": "Epic Games",
-    "releaseDate": "2018-06-12",
-    "genres": [
-      "Azione",
-      "Sparatutto",
-      "Strategia",
-      "Altro"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/56567fccfd11a87038d1e0cfbe65231438a5efa47499d1940db838cee3f9eab5.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000010190",
-    "currentVersion": "v31.40",
-    "currentInternalVersion": 1048576,
-    "lastUpdated": "2024-10-12T10:00:00Z",
-    "updates": [
-      {
-        "version": "v31.40",
-        "previousVersion": "v30.00",
-        "internalVersion": 1048576,
-        "releaseDate": "2024-10-12",
-        "type": "major",
-        "title": "Fortnitemares 2024 & Ottimizzazione Motore Switch",
-        "changelog": [
-          "Evento di Halloween Fortnitemares con motosega da combattimento e fucile a pompa a pallettoni.",
-          "Ottimizzazione del rendering Unreal Engine per mantenere 30 FPS più stabili durante i combattimenti ravvicinati.",
-          "Ridotti i tempi di caricamento delle texture all'atterraggio dal bus della battaglia."
         ]
       }
     ]
@@ -7094,49 +6927,6 @@
         "previousVersion": "v1.0.0",
         "internalVersion": 65536,
         "releaseDate": "2025-10-02",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "another-eden-begins-c000",
-    "title": "Another Eden Begins",
-    "platform": "switch",
-    "titleId": "0100F3E024DFC000",
-    "publisher": "WRIGHT FLYER STUDIOS",
-    "releaseDate": "2026-09-16",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/b7174f638c78af1a163c70f5bbd675b6e0badd0ff48b29841a189fdd6fba8fba.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000105771",
-    "currentVersion": "v2.0.0",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2026-09-17T12:00:00Z",
-    "updates": [
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2026-09-17",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-09-11",
         "type": "patch",
         "title": "Aggiornamento software v1.0.0",
         "changelog": [
@@ -22169,36 +21959,6 @@
     "updates": []
   },
   {
-    "id": "xenoblade-chronicles-2-torna-the-golden-country-a000",
-    "title": "Xenoblade Chronicles 2: Torna - The Golden Country",
-    "platform": "both",
-    "titleId": "0100C9F009F7A000",
-    "publisher": "Nintendo",
-    "releaseDate": "2020-01-01",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/ce305e9807e3e48c49fe92837f2b96ae7557feca982c7d003cda4f340b4f6c95.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000014713",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 262144,
-    "lastUpdated": "2026-06-15T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-06-15",
-        "type": "performance",
-        "title": "Upgrade Next-Gen Switch 2 a 60 FPS Stabili",
-        "changelog": [
-          "Portato il gameplay a 60 FPS stabili con rendering del Titano di Torna a 1440p dinamico.",
-          "Ridotto il motion blur e migliorata la risposta dei cambi avanguardia/retroguardia."
-        ]
-      }
-    ]
-  },
-  {
     "id": "isekai-bride-hunting-c000",
     "title": "異世界娘と婚活中 ～ Isekai Bride Hunting ～",
     "platform": "switch",
@@ -27255,73 +27015,6 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-08-20T00:00:00Z",
     "updates": []
-  },
-  {
-    "id": "splatoon-3-0000",
-    "title": "Splatoon 3",
-    "platform": "switch",
-    "titleId": "0100C2500FC20000",
-    "publisher": "Nintendo",
-    "releaseDate": "2022-09-09",
-    "genres": [
-      "Sparatutto"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/42a7307607d6f66477cc21eb39fb1dfb2d648f7208ff5b18e2f5263d53b042d2.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000046396",
-    "currentVersion": "v9.0.0",
-    "currentInternalVersion": 589824,
-    "lastUpdated": "2024-09-12T10:00:00Z",
-    "updates": [
-      {
-        "version": "v9.0.0",
-        "previousVersion": "v8.0.0",
-        "internalVersion": 589824,
-        "releaseDate": "2024-09-12",
-        "type": "major",
-        "title": "Grand Festival Finale & Ricalibrazione Totale Armi",
-        "changelog": [
-          "Supporto al Grand Festival celebrativo mondiale di 72 ore con tre palchi dal vivo per i gruppi musicali.",
-          "Ricalibrate le statistiche di danno e raggio per oltre 40 armi principali e speciali.",
-          "Sbloccati i badge celebrativi per i fan di Sea Sirens, Off the Hook e Deep Cut."
-        ]
-      },
-      {
-        "version": "v8.0.0",
-        "previousVersion": "v7.0.0",
-        "internalVersion": 524288,
-        "releaseDate": "2024-06-01",
-        "type": "major",
-        "title": "Sizzle Season 2024: Nuove Armi Decavitator e Wellstring V",
-        "changelog": [
-          "Aggiunte le armi Decavitator (Lama tergicristallo pesante) e Wellstring V (Arco a ventaglio a 5 frecce).",
-          "Nuovo scenario di battaglia competitivo: Lemuria Hub.",
-          "Nuova modalità Big Run speciale su Salmon Run Next Wave."
-        ]
-      },
-      {
-        "version": "v7.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 458752,
-        "releaseDate": "2024-02-22",
-        "type": "major",
-        "title": "DLC Torre dell'Ordine (Side Order) & Fresh Season",
-        "changelog": [
-          "Rilasciato il DLC per giocatore singolo \"Torre dell'Ordine\" con progressione a chip di colore e stile roguelite.",
-          "Nuovo hub di piazza Coloropoli vintage ispirato a Inkopolis Square.",
-          "Nuovi set di armi Ordine con finiture monocromatiche esclusive."
-        ]
-      }
-    ],
-    "dlc": [
-      {
-        "id": "splatoon3-pass",
-        "title": "Pass di Espansione: Coloropoli & Torre dell'Ordine",
-        "releaseDate": "2024-02-22",
-        "price": "24,99 €",
-        "type": "Pass di Espansione",
-        "description": "Due ondate di contenuti: il ritorno dell'iconico hub di Coloropoli dal primo capitolo e la campagna roguelite per giocatore singolo \"Torre dell'Ordine\" con chip colore e progressione a piani."
-      }
-    ]
   },
   {
     "id": "naruto-x-boruto-ultimate-ninja-storm-connections-6000",
@@ -61189,6 +60882,113 @@
     ]
   },
   {
+    "id": "xenoblade-chronicles-2",
+    "title": "Xenoblade Chronicles 2",
+    "platform": "both",
+    "titleId": "0100E95004038000",
+    "publisher": "Nintendo",
+    "releaseDate": "2017-12-01",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Azione",
+      "Open World"
+    ],
+    "coverImage": "/covers/xenoblade-chronicles-2.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Xenoblade-Chronicles-2-1233955.html",
+    "currentVersion": "v2.1.0",
+    "currentInternalVersion": 196608,
+    "lastUpdated": "2026-06-15T10:00:00Z",
+    "aliases": [
+      "xenoblade 2",
+      "xc2",
+      "alrest",
+      "pyra",
+      "mythra",
+      "xenoblade chronicles 2 switch 2"
+    ],
+    "dlc": [
+      {
+        "id": "xc2-expansion-pass",
+        "title": "Pass di Espansione Xenoblade Chronicles 2",
+        "releaseDate": "2018-09-14",
+        "price": "29,99 €",
+        "type": "Pass di Espansione",
+        "description": "Include la campagna prequel 'Torna - The Golden Country', nuove missioni sfida nel regno di Nopon e le Gladius speciali Shulk, Fiora, Elma e Poppibuster."
+      }
+    ],
+    "updates": [
+      {
+        "version": "v2.1.0",
+        "previousVersion": "v2.0.2",
+        "internalVersion": 196608,
+        "releaseDate": "2026-06-15",
+        "type": "performance",
+        "title": "Upgrade Next-Gen Nintendo Switch 2 (60 FPS & 1080p Fisso Portatile)",
+        "changelog": [
+          "Supporto completo e ottimizzazione grafica per la nuova console Nintendo Switch 2.",
+          "Rimossa la risoluzione dinamica aggressiva in portatile: ora gira a 1080p fisso a 60 FPS fluidi.",
+          "Texture dei titani di Alrest e della vegetazione caricate in alta definizione senza pop-in.",
+          "Ridotti drasticamente i tempi di risveglio dei cristalli nucleo e di caricamento dei menu delle Gladius."
+        ]
+      },
+      {
+        "version": "v2.0.2",
+        "previousVersion": "v2.0.1",
+        "internalVersion": 131072,
+        "releaseDate": "2018-09-14",
+        "type": "patch",
+        "title": "Compatibilità Torna - The Golden Country",
+        "changelog": [
+          "Aggiunto il supporto per il DLC espansione 'Torna - The Golden Country'.",
+          "Aggiunte nuove missioni sfida al Portale della Sfida."
+        ]
+      },
+      {
+        "version": "v1.5.0",
+        "previousVersion": "v1.4.1",
+        "internalVersion": 65536,
+        "releaseDate": "2018-04-27",
+        "type": "major",
+        "title": "Modalità Nuova Partita + (New Game Plus)",
+        "changelog": [
+          "Sbloccata la modalità Nuova Partita + con possibilità di reclutare le Gladius speciali di Torna.",
+          "Aggiunti nuovi nodi di affinità per i Ductor e personalizzazione avanzata dei comandi."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
+    "id": "xenoblade-chronicles-2-torna-the-golden-country-a000",
+    "title": "Xenoblade Chronicles 2: Torna - The Golden Country",
+    "platform": "both",
+    "titleId": "0100C9F009F7A000",
+    "publisher": "Nintendo",
+    "releaseDate": "2020-01-01",
+    "genres": [
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/ce305e9807e3e48c49fe92837f2b96ae7557feca982c7d003cda4f340b4f6c95.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000014713",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 262144,
+    "lastUpdated": "2026-06-15T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-06-15",
+        "type": "performance",
+        "title": "Upgrade Next-Gen Switch 2 a 60 FPS Stabili",
+        "changelog": [
+          "Portato il gameplay a 60 FPS stabili con rendering del Titano di Torna a 1440p dinamico.",
+          "Ridotto il motion blur e migliorata la risposta dei cambi avanguardia/retroguardia."
+        ]
+      }
+    ]
+  },
+  {
     "id": "lumeera-and-the-glow-reefs-c000",
     "title": "Lumeera and the Glow Reefs",
     "platform": "switch",
@@ -63929,41 +63729,6 @@
     ]
   },
   {
-    "id": "aleesha-s-tower-c000",
-    "title": "Aleesha's Tower",
-    "platform": "switch",
-    "titleId": "010052E02200C000",
-    "publisher": "Penguin Pop Games",
-    "releaseDate": "2026-06-10",
-    "genres": [
-      "Azione",
-      "Arcade"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2a8889b9f7ce21c347550e30c8ea369f835b90afadaa67d4f77177c435c79b2b.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000092415",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-06-10T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "secret-paws-cozy-apartments-4000",
-    "title": "Secret Paws - Cozy Apartments",
-    "platform": "switch",
-    "titleId": "0100AFF026DB4000",
-    "publisher": "eastasiasoft",
-    "releaseDate": "2026-06-10",
-    "genres": [
-      "Puzzle"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2da4eb5cde734ba6dfaabab5a64e4a90814b3647bb83f267629ac69569c5f64d.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000116474",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-06-10T00:00:00Z",
-    "updates": []
-  },
-  {
     "id": "xenoblade-chronicles-definitive-edition-a000",
     "title": "Xenoblade Chronicles Definitive Edition",
     "platform": "both",
@@ -64012,6 +63777,41 @@
       "bionis",
       "shulk"
     ]
+  },
+  {
+    "id": "aleesha-s-tower-c000",
+    "title": "Aleesha's Tower",
+    "platform": "switch",
+    "titleId": "010052E02200C000",
+    "publisher": "Penguin Pop Games",
+    "releaseDate": "2026-06-10",
+    "genres": [
+      "Azione",
+      "Arcade"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2a8889b9f7ce21c347550e30c8ea369f835b90afadaa67d4f77177c435c79b2b.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000092415",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-06-10T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "secret-paws-cozy-apartments-4000",
+    "title": "Secret Paws - Cozy Apartments",
+    "platform": "switch",
+    "titleId": "0100AFF026DB4000",
+    "publisher": "eastasiasoft",
+    "releaseDate": "2026-06-10",
+    "genres": [
+      "Puzzle"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2da4eb5cde734ba6dfaabab5a64e4a90814b3647bb83f267629ac69569c5f64d.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000116474",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-06-10T00:00:00Z",
+    "updates": []
   },
   {
     "id": "asdivine-cross-6000",
@@ -72422,6 +72222,69 @@
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
         ]
       }
+    ]
+  },
+  {
+    "id": "xenoblade-chronicles-3-2000",
+    "title": "Xenoblade Chronicles 3",
+    "platform": "both",
+    "titleId": "010074F013262000",
+    "publisher": "Nintendo",
+    "releaseDate": "2022-07-29",
+    "genres": [
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/1845d620b53473dfcdc6b55e85d0a7a1bf7cc531b6af0e92352b25490815230d.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053337",
+    "currentVersion": "v2.3.0",
+    "currentInternalVersion": 262144,
+    "lastUpdated": "2026-05-20T10:00:00Z",
+    "updates": [
+      {
+        "version": "v2.3.0",
+        "previousVersion": "v2.2.0",
+        "internalVersion": 327680,
+        "releaseDate": "2026-05-20",
+        "type": "performance",
+        "title": "Upgrade Next-Gen Nintendo Switch 2 (60 FPS Dinamici a 1440p)",
+        "changelog": [
+          "Supporto nativo alle funzionalità grafiche potenziate di Nintendo Switch 2.",
+          "Framerate sbloccato a 60 FPS granitici a 1440p dinamico in modalità docked su Switch 2.",
+          "Caricamenti istantanei per i viaggi rapidi tra tutte le colonie di Aionios e il Mare di Cadensia.",
+          "Migliorata la nitidezza delle texture e della profondità di campo nei combattimenti a 7 membri."
+        ]
+      },
+      {
+        "version": "v2.2.0",
+        "previousVersion": "v2.1.0",
+        "internalVersion": 262144,
+        "releaseDate": "2024-01-19",
+        "type": "patch",
+        "title": "Supporto Completo amiibo Noah e Mio",
+        "changelog": [
+          "Aggiunto il supporto agli amiibo di Noah e Mio per sbloccare l'abito da console N e la divisa casual di Mio.",
+          "Ottimizzata la gestione della memoria nei viaggi rapidi per prevenire stuttering nell'area di Cadensia."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.3.0",
+        "internalVersion": 196608,
+        "releaseDate": "2023-04-26",
+        "type": "major",
+        "title": "Un Futuro Redento (Future Redeemed) - Volume 4 Expansion Pass",
+        "changelog": [
+          "Rilasciata la nuova campagna prequel \"Un Futuro Redento\" con Matthew, Shulk, Rex, A, Nikol e Glimmer.",
+          "Nuovo sistema di sviluppo \"Manuale d'armonia\" e attacchi d'intesa combinati.",
+          "Nuove musiche composte da Yasunori Mitsuda e Manami Kiyota."
+        ]
+      }
+    ],
+    "aliases": [
+      "xenoblade 3",
+      "xc3",
+      "aionios",
+      "xenoblade switch 2"
     ]
   },
   {
@@ -86497,6 +86360,38 @@
     "updates": []
   },
   {
+    "id": "metroid-prime-remastered-c000",
+    "title": "Metroid Prime Remastered",
+    "platform": "both",
+    "titleId": "010012101468C000",
+    "publisher": "Nintendo",
+    "releaseDate": "2023-02-09",
+    "genres": [
+      "Azione",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/418713343fee828aa15035530a16c3b104b3f1301615cb0f50f2edad775ed1f0.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000063710",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-05-10T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-05-10",
+        "type": "performance",
+        "title": "Modalità 120 FPS Switch 2 & Supporto HDR",
+        "changelog": [
+          "Introdotto il supporto a 120 FPS fluidi a 1440p dinamico su display compatibili HDMI 2.1 per Switch 2.",
+          "Aggiunta opzione per feedback aptico HD avanzato dei Joy-Con di Switch 2 durante lo sparo del Cannone Braccio.",
+          "Migliorata la nitidezza dei riflessi sul visore di Samus."
+        ]
+      }
+    ]
+  },
+  {
     "id": "i-am-dog-chaos-simulator-4000",
     "title": "I Am Dog - Chaos Simulator",
     "platform": "switch",
@@ -89607,6 +89502,53 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-04-14T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "gear-club-unlimited-3",
+    "title": "Gear.Club Unlimited 3",
+    "platform": "switch2",
+    "titleId": "01006D401FE90000",
+    "publisher": "Nacon / Eden Games",
+    "releaseDate": "2026-02-19",
+    "genres": [
+      "Corse",
+      "Simulazione",
+      "Sport"
+    ],
+    "coverImage": "/covers/gear-club-unlimited-3.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=Gear.Club",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-04-12T16:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-04-12",
+        "type": "performance",
+        "title": "Profili Grafici 40 FPS & Miglioramento Texture Switch 2",
+        "changelog": [
+          "Aggiunto profilo grafico 'Bilanciato' a 40 FPS per il gioco in modalità portatile su Switch 2.",
+          "Aggiunto profilo 'Autonomia' a 30 FPS a basso consumo energetico con possibilità di switch al volo.",
+          "Ridotto il pop-in degli elementi paesaggistici sui tracciati della Costa Azzurra e delle autostrade di Tokyo.",
+          "Migliorata la nitidezza delle texture dei cruscotti e dei riflessi dinamici sulla carrozzeria."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2026-02-19",
+        "type": "major",
+        "title": "Lancio Ufficiale Next-Gen Nintendo Switch 2",
+        "changelog": [
+          "Debutto next-gen esclusivo su Nintendo Switch 2 con supporto a 60 FPS in 1440p dinamico e feedback aptico HD Joy-Con.",
+          "Nuova ambientazione metropolitana in Giappone con modalità Highway Traffic ad altissima velocità e costa francese.",
+          "Oltre 60 supercar personalizzabili e modalità Carriera con gestione officina avanzata."
+        ]
+      }
+    ]
   },
   {
     "id": "cherry-girls-vs-zombie-carnage-brutal-anime-kawaii-4000",
@@ -96909,6 +96851,55 @@
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
         ]
       }
+    ]
+  },
+  {
+    "id": "xenoblade-chronicles-x-definitive-edition-8000",
+    "title": "Xenoblade Chronicles X: Definitive Edition",
+    "platform": "both",
+    "titleId": "0100453019AA8000",
+    "publisher": "Nintendo",
+    "releaseDate": "2025-03-20",
+    "genres": [
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2f892f57beced8e766bb8e023910195b7a3bc475a13574d4b7525ebf396cad3f.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000088833",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 196608,
+    "lastUpdated": "2026-03-20T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-03-20",
+        "type": "performance",
+        "title": "Supporto Cross-Gen Switch 1 & 2 (Volo Skell a 60 FPS)",
+        "changelog": [
+          "Framerate a 60 FPS granitici nell'esplorazione a terra e in volo con i mech Skell sul pianeta Mira.",
+          "Modalità grafica avanzata Switch 2 con rendering dell'acqua e della vegetazione potenziato.",
+          "Migliorata la reattività dei controlli Joy-Con e dei menu tattici delle Arti."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2025-03-20",
+        "type": "major",
+        "title": "Lancio Ufficiale Cross-Gen Nintendo Switch & Switch 2",
+        "changelog": [
+          "Debutto della versione definitiva rimasterizzata con nuovi contenuti narrativi epilogo."
+        ]
+      }
+    ],
+    "aliases": [
+      "xenoblade x",
+      "xcx",
+      "skell",
+      "mira",
+      "xenoblade chronicles x switch 2"
     ]
   },
   {
@@ -108753,55 +108744,6 @@
     ]
   },
   {
-    "id": "xenoblade-chronicles-x-definitive-edition-8000",
-    "title": "Xenoblade Chronicles X: Definitive Edition",
-    "platform": "both",
-    "titleId": "0100453019AA8000",
-    "publisher": "Nintendo",
-    "releaseDate": "2025-03-20",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2f892f57beced8e766bb8e023910195b7a3bc475a13574d4b7525ebf396cad3f.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000088833",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 196608,
-    "lastUpdated": "2026-03-20T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-03-20",
-        "type": "performance",
-        "title": "Supporto Cross-Gen Switch 1 & 2 (Volo Skell a 60 FPS)",
-        "changelog": [
-          "Framerate a 60 FPS granitici nell'esplorazione a terra e in volo con i mech Skell sul pianeta Mira.",
-          "Modalità grafica avanzata Switch 2 con rendering dell'acqua e della vegetazione potenziato.",
-          "Migliorata la reattività dei controlli Joy-Con e dei menu tattici delle Arti."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 0,
-        "releaseDate": "2025-03-20",
-        "type": "major",
-        "title": "Lancio Ufficiale Cross-Gen Nintendo Switch & Switch 2",
-        "changelog": [
-          "Debutto della versione definitiva rimasterizzata con nuovi contenuti narrativi epilogo."
-        ]
-      }
-    ],
-    "aliases": [
-      "xenoblade x",
-      "xcx",
-      "skell",
-      "mira",
-      "xenoblade chronicles x switch 2"
-    ]
-  },
-  {
     "id": "vault-of-the-void-6000",
     "title": "Vault of the Void",
     "platform": "switch",
@@ -109466,39 +109408,6 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-02-19T00:00:00Z",
     "updates": []
-  },
-  {
-    "id": "stardew-valley-8000",
-    "title": "Stardew Valley",
-    "platform": "switch",
-    "titleId": "0100E65002BB8000",
-    "publisher": "ConcernedApe",
-    "releaseDate": "2017-10-05",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Simulazione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/71a9f69d79b31b589f88fd9f945c8ae34b064ac718276a2fe829ec3f3469cd85.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000001802",
-    "currentVersion": "v1.6.9",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2024-11-04T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.6.9",
-        "previousVersion": "v1.5.4",
-        "internalVersion": 131072,
-        "releaseDate": "2024-11-04",
-        "type": "major",
-        "title": "Aggiornamento Monumentale Stardew Valley 1.6 su Console",
-        "changelog": [
-          "Nuovo festival monumentale della Fiera del Deserto di tre giorni in primavera, e due festival di pesca.",
-          "Nuovo tipo di fattoria: Meadowlands Farm con erba blu nutriente per gli animali.",
-          "Aggiunto il sistema di maestria avanzata per forgiare attrezzi di iridio con abilità speciali.",
-          "Supporto per animali domestici multipli (cani, gatti, tartarughe) e oltre 280 nuovi oggetti d'arredo."
-        ]
-      }
-    ]
   },
   {
     "id": "vividlope-2000",
@@ -110603,6 +110512,105 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-02-15T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "donkey-kong-bananza-2000",
+    "title": "Donkey Kong Bananza",
+    "platform": "switch2",
+    "titleId": "040074A01BF12000",
+    "publisher": "Nintendo",
+    "releaseDate": "2025-07-17",
+    "genres": [
+      "Azione",
+      "Piattaforme 3D",
+      "Avventura"
+    ],
+    "coverImage": "/covers/donkey-kong-bananza.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000096810",
+    "currentVersion": "v3.2.0",
+    "currentInternalVersion": 262144,
+    "lastUpdated": "2026-02-14T10:00:00Z",
+    "updates": [
+      {
+        "version": "v3.2.0",
+        "previousVersion": "v2.0.1",
+        "internalVersion": 262144,
+        "releaseDate": "2026-02-14",
+        "type": "patch",
+        "title": "Update Accessibilità & Rotazione Eventi Emerald Rush",
+        "changelog": [
+          "Aggiunte nuove sfide a rotazione settimanale per la modalità mineraria Emerald Rush della Void Co.",
+          "Introdotta la localizzazione linguistica completa in polacco e thailandese su Nintendo Switch 2.",
+          "Migliorata la gestione dello streaming memoria negli scorci panoramici aperti dell'Isola di DK."
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2025-09-22",
+        "type": "patch",
+        "title": "Hotfix DLC & Correzione Carrelli da Miniera Void Kong",
+        "changelog": [
+          "Risolti glitch di collisione e angolazione telecamera durante le sequenze sui carrelli da miniera nel cantiere di Void Kong.",
+          "Corretta la sincronizzazione del lip-sync per le voci e urla dei Kong nei filmati d'intermezzo dell'Isola di DK."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-09-12",
+        "type": "major",
+        "title": "Lancio DLC Espansione: DK Island & Emerald Rush",
+        "changelog": [
+          "Supporto nativo all'espansione a pagamento \"DK Island & Emerald Rush\", accessibile via Warp Gong dopo la campagna.",
+          "Esplorazione libera dell'Isola di DK con Diddy Kong, Dixie Kong, Cranky Kong, Rambi il rinoceronte e negozio di Squawks.",
+          "Nuova modalità rogue-lite a round Emerald Rush con sfide minerarie a tempo e costumi esclusivi sbloccabili."
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-08-18",
+        "type": "performance",
+        "title": "Ottimizzazione 60 FPS Dinamici Switch 2 & Sensori Joy-Con",
+        "changelog": [
+          "Ottimizzato il rendering per garantire 60 FPS granitici a 1440p dinamico in modalità TV su Switch 2.",
+          "Ricalibrata la sensibilità del sensore di movimento Joy-Con per l'esecuzione dei pugni sismici a terra di Donkey Kong.",
+          "Ridotti i tempi di caricamento del passaggio tra i biomi della giungla e le miniere sotterranee."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2025-07-17",
+        "type": "major",
+        "title": "Debutto Mondiale Esclusiva Nintendo Switch 2",
+        "changelog": [
+          "Lancio ufficiale globale del nuovo capitolo platform 3D in esclusiva next-gen su console Nintendo Switch 2."
+        ]
+      }
+    ],
+    "aliases": [
+      "dk bananza",
+      "donkey kong bananza",
+      "donkey kong switch 2",
+      "emerald rush",
+      "dk island"
+    ],
+    "dlc": [
+      {
+        "id": "dkb-dlc-emerald-rush",
+        "title": "DK Island & Emerald Rush",
+        "releaseDate": "2025-09-12",
+        "price": "19,99 €",
+        "type": "Espansione Maggiore",
+        "description": "Espansione post-game completa: sblocca l'iconica area aperta dell'Isola di DK (con Diddy, Dixie, Cranky Kong, Rambi il rinoceronte e Squawks) e l'adrenalinica modalità a tempo rogue-lite Emerald Rush della Void Co. con smeraldi luminescenti, perk con fossili e Banandium Gems."
+      }
+    ]
   },
   {
     "id": "barista-life-simulator-2026-c000",
@@ -117057,39 +117065,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "super-mario-party-jamboree-8000",
-    "title": "Super Mario Party Jamboree",
-    "platform": "switch",
-    "titleId": "0100965017338000",
-    "publisher": "Nintendo",
-    "releaseDate": "2024-10-17",
-    "genres": [
-      "Party",
-      "Multiplayer",
-      "Da tavolo"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/d75d7dadb24b36c6ff761285a134f28a4f1e9912198707994e9d89ee3b139908.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084609",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2024-10-28T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2024-10-28",
-        "type": "patch",
-        "title": "Bilanciamento Minigiochi Bowserathlon & Stabilità Online",
-        "changelog": [
-          "Ricalibrati i punti e la difficoltà nei minigiochi della modalità Bowserathlon a 20 giocatori.",
-          "Migliorata la stabilità delle stanze di gioco online per le partite a tabellone classico.",
-          "Corretti bug nelle animazioni dei compagni Jamboree durante le prove speciali dei tabelloni."
         ]
       }
     ]
@@ -134750,49 +134725,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pikmin-4-a000",
-    "title": "Pikmin 4",
-    "platform": "switch",
-    "titleId": "0100B7C00933A000",
-    "publisher": "Nintendo",
-    "releaseDate": "2023-07-21",
-    "genres": [
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/78e5730069e6073f43a420e83c135d526354e35e65b25f0426360598ef4e50ad.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000005306",
-    "currentVersion": "v1.0.2",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2023-09-26T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.2",
-        "previousVersion": "v1.0.1",
-        "internalVersion": 131072,
-        "releaseDate": "2023-09-26",
-        "type": "patch",
-        "title": "Fix Progressione Esplorazione 100% & Dandori Split-Screen",
-        "changelog": [
-          "Corretto un errore in cui il contatore di completamento delle caverne poteva rimanere bloccato al 99%.",
-          "Risolto un bug che poteva far incastrare Occin durante il trasporto di tesori subacquei con i Pikmin blu.",
-          "Migliorato il framerate e ridotti i cali di fluidità durante le Battaglie Dandori a 2 giocatori su schermo diviso."
-        ]
-      },
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2023-07-28",
-        "type": "patch",
-        "title": "Miglioramento Salvataggi Missioni Notturne",
-        "changelog": [
-          "Risolto un problema nei salvataggi automatici durante le difese notturne dei lumipolli.",
-          "Corrette anomalie nel puntamento del fischietto con il controllo sensori di movimento dei Joy-Con."
         ]
       }
     ]
@@ -167877,37 +167809,6 @@
     "updates": []
   },
   {
-    "id": "super-mario-3d-world-bowser-s-fury-a000",
-    "title": "Super Mario 3D World + Bowser's Fury",
-    "platform": "switch",
-    "titleId": "010028600EBDA000",
-    "publisher": "Nintendo",
-    "releaseDate": "2021-02-12",
-    "genres": [
-      "Piattaforme"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/40a70858c413f8a416fb3b31342624f2ca1f04a70f356fcc3f4f07dadbd2cc90.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000034440",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2021-03-24T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2021-03-24",
-        "type": "patch",
-        "title": "Miglioramento Stabilità Online & Movimento Sgattaiolante",
-        "changelog": [
-          "Migliorata la sincronizzazione di rete nelle sessioni cooperative online a 4 giocatori.",
-          "Corretti glitch di collisione che potevano verificarsi controllando Bowser Jr. in modalità cooperativa su Sgattaiolago.",
-          "Risolto un problema grafico durante l'apparizione della tempesta di Bowser Furioso."
-        ]
-      }
-    ]
-  },
-  {
     "id": "pico-park-2-c000",
     "title": "PICO PARK 2",
     "platform": "switch",
@@ -173532,38 +173433,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "kirby-e-la-terra-perduta-e000",
-    "title": "Kirby e la terra perduta",
-    "platform": "switch",
-    "titleId": "01004D300C5AE000",
-    "publisher": "Nintendo",
-    "releaseDate": "2022-03-25",
-    "genres": [
-      "Azione",
-      "Piattaforme"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/41c295a0de741ba76606a0ab91dcc1b5b9a4ee002e7621c6fce6a8146190f5fd.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000046406",
-    "currentVersion": "v1.0.1",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2022-04-20T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2022-04-20",
-        "type": "patch",
-        "title": "Miglioramento Stabilità Coop & Rendering Boccomorfosi",
-        "changelog": [
-          "Risolto un bug che poteva non conteggiare correttamente i Waddle Dee salvati durante la modalità cooperativa a 2 giocatori.",
-          "Migliorata la fluidità della telecamera durante le sequenze Boccomorfosi nei livelli acquatici e industriali.",
-          "Corretto un glitch di collisione che poteva spingere Kirby fuori dalla mappa nella Città di Waddle Dee."
         ]
       }
     ]
@@ -190575,105 +190444,6 @@
     "updates": []
   },
   {
-    "id": "donkey-kong-bananza-2000",
-    "title": "Donkey Kong Bananza",
-    "platform": "switch2",
-    "titleId": "040074A01BF12000",
-    "publisher": "Nintendo",
-    "releaseDate": "2025-07-17",
-    "genres": [
-      "Azione",
-      "Piattaforme 3D",
-      "Avventura"
-    ],
-    "coverImage": "/covers/donkey-kong-bananza.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000096810",
-    "currentVersion": "v3.2.0",
-    "currentInternalVersion": 262144,
-    "lastUpdated": "2026-02-14T10:00:00Z",
-    "updates": [
-      {
-        "version": "v3.2.0",
-        "previousVersion": "v2.0.1",
-        "internalVersion": 262144,
-        "releaseDate": "2026-02-14",
-        "type": "patch",
-        "title": "Update Accessibilità & Rotazione Eventi Emerald Rush",
-        "changelog": [
-          "Aggiunte nuove sfide a rotazione settimanale per la modalità mineraria Emerald Rush della Void Co.",
-          "Introdotta la localizzazione linguistica completa in polacco e thailandese su Nintendo Switch 2.",
-          "Migliorata la gestione dello streaming memoria negli scorci panoramici aperti dell'Isola di DK."
-        ]
-      },
-      {
-        "version": "v2.0.1",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2025-09-22",
-        "type": "patch",
-        "title": "Hotfix DLC & Correzione Carrelli da Miniera Void Kong",
-        "changelog": [
-          "Risolti glitch di collisione e angolazione telecamera durante le sequenze sui carrelli da miniera nel cantiere di Void Kong.",
-          "Corretta la sincronizzazione del lip-sync per le voci e urla dei Kong nei filmati d'intermezzo dell'Isola di DK."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.1.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-09-12",
-        "type": "major",
-        "title": "Lancio DLC Espansione: DK Island & Emerald Rush",
-        "changelog": [
-          "Supporto nativo all'espansione a pagamento \"DK Island & Emerald Rush\", accessibile via Warp Gong dopo la campagna.",
-          "Esplorazione libera dell'Isola di DK con Diddy Kong, Dixie Kong, Cranky Kong, Rambi il rinoceronte e negozio di Squawks.",
-          "Nuova modalità rogue-lite a round Emerald Rush con sfide minerarie a tempo e costumi esclusivi sbloccabili."
-        ]
-      },
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-08-18",
-        "type": "performance",
-        "title": "Ottimizzazione 60 FPS Dinamici Switch 2 & Sensori Joy-Con",
-        "changelog": [
-          "Ottimizzato il rendering per garantire 60 FPS granitici a 1440p dinamico in modalità TV su Switch 2.",
-          "Ricalibrata la sensibilità del sensore di movimento Joy-Con per l'esecuzione dei pugni sismici a terra di Donkey Kong.",
-          "Ridotti i tempi di caricamento del passaggio tra i biomi della giungla e le miniere sotterranee."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 0,
-        "releaseDate": "2025-07-17",
-        "type": "major",
-        "title": "Debutto Mondiale Esclusiva Nintendo Switch 2",
-        "changelog": [
-          "Lancio ufficiale globale del nuovo capitolo platform 3D in esclusiva next-gen su console Nintendo Switch 2."
-        ]
-      }
-    ],
-    "aliases": [
-      "dk bananza",
-      "donkey kong bananza",
-      "donkey kong switch 2",
-      "emerald rush",
-      "dk island"
-    ],
-    "dlc": [
-      {
-        "id": "dkb-dlc-emerald-rush",
-        "title": "DK Island & Emerald Rush",
-        "releaseDate": "2025-09-12",
-        "price": "19,99 €",
-        "type": "Espansione Maggiore",
-        "description": "Espansione post-game completa: sblocca l'iconica area aperta dell'Isola di DK (con Diddy, Dixie, Cranky Kong, Rambi il rinoceronte e Squawks) e l'adrenalinica modalità a tempo rogue-lite Emerald Rush della Void Co. con smeraldi luminescenti, perk con fossili e Banandium Gems."
-      }
-    ]
-  },
-  {
     "id": "korean-drone-flying-tour-pocheon-si-8000",
     "title": "Korean Drone Flying Tour Pocheon-si",
     "platform": "switch",
@@ -204258,69 +204028,6 @@
     ]
   },
   {
-    "id": "xenoblade-chronicles-3-2000",
-    "title": "Xenoblade Chronicles 3",
-    "platform": "both",
-    "titleId": "010074F013262000",
-    "publisher": "Nintendo",
-    "releaseDate": "2022-07-29",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/1845d620b53473dfcdc6b55e85d0a7a1bf7cc531b6af0e92352b25490815230d.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053337",
-    "currentVersion": "v2.3.0",
-    "currentInternalVersion": 262144,
-    "lastUpdated": "2026-05-20T10:00:00Z",
-    "updates": [
-      {
-        "version": "v2.3.0",
-        "previousVersion": "v2.2.0",
-        "internalVersion": 327680,
-        "releaseDate": "2026-05-20",
-        "type": "performance",
-        "title": "Upgrade Next-Gen Nintendo Switch 2 (60 FPS Dinamici a 1440p)",
-        "changelog": [
-          "Supporto nativo alle funzionalità grafiche potenziate di Nintendo Switch 2.",
-          "Framerate sbloccato a 60 FPS granitici a 1440p dinamico in modalità docked su Switch 2.",
-          "Caricamenti istantanei per i viaggi rapidi tra tutte le colonie di Aionios e il Mare di Cadensia.",
-          "Migliorata la nitidezza delle texture e della profondità di campo nei combattimenti a 7 membri."
-        ]
-      },
-      {
-        "version": "v2.2.0",
-        "previousVersion": "v2.1.0",
-        "internalVersion": 262144,
-        "releaseDate": "2024-01-19",
-        "type": "patch",
-        "title": "Supporto Completo amiibo Noah e Mio",
-        "changelog": [
-          "Aggiunto il supporto agli amiibo di Noah e Mio per sbloccare l'abito da console N e la divisa casual di Mio.",
-          "Ottimizzata la gestione della memoria nei viaggi rapidi per prevenire stuttering nell'area di Cadensia."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.3.0",
-        "internalVersion": 196608,
-        "releaseDate": "2023-04-26",
-        "type": "major",
-        "title": "Un Futuro Redento (Future Redeemed) - Volume 4 Expansion Pass",
-        "changelog": [
-          "Rilasciata la nuova campagna prequel \"Un Futuro Redento\" con Matthew, Shulk, Rex, A, Nikol e Glimmer.",
-          "Nuovo sistema di sviluppo \"Manuale d'armonia\" e attacchi d'intesa combinati.",
-          "Nuove musiche composte da Yasunori Mitsuda e Manami Kiyota."
-        ]
-      }
-    ],
-    "aliases": [
-      "xenoblade 3",
-      "xc3",
-      "aionios",
-      "xenoblade switch 2"
-    ]
-  },
-  {
     "id": "arcade-archives-rabio-lepus-8000",
     "title": "Arcade Archives RABIO LEPUS",
     "platform": "switch",
@@ -204609,144 +204316,6 @@
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
         ]
-      }
-    ]
-  },
-  {
-    "id": "pok-mon-scarlatto-c000",
-    "title": "Pokémon Scarlatto",
-    "platform": "both",
-    "titleId": "0100A3D008C5C000",
-    "publisher": "Nintendo",
-    "releaseDate": "2022-11-18",
-    "genres": [
-      "Avventura",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/f3fdada130cc435faedc8fde455ede19cbe65b4f3fa83c4793e001f1e9d430f5.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053967",
-    "currentVersion": "v3.0.1",
-    "currentInternalVersion": 720896,
-    "lastUpdated": "2024-02-01T10:00:00Z",
-    "updates": [
-      {
-        "version": "v3.0.1",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 720896,
-        "releaseDate": "2024-02-01",
-        "type": "patch",
-        "title": "Hotfix Epilogo Frangimare & Stabilità Terarium",
-        "changelog": [
-          "Risolti problemi di progressione durante l'evento epilogo Frangimare a Nordivia.",
-          "Corretto un crash raro quando si utilizzano oggetti speciali nel Cerchio Sincronia dell'Istituto Mirtillo.",
-          "Migliorata la fluidità del framerate nei biomi acquatici e polari del Terarium."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.2",
-        "internalVersion": 655360,
-        "releaseDate": "2023-12-14",
-        "type": "major",
-        "title": "DLC Parte 2: Il disco indaco & Volo Koraidon/Miraidon",
-        "changelog": [
-          "Rilasciato il DLC Il disco indaco con accesso all'Istituto Mirtillo e al Terarium subacqueo.",
-          "Sbloccata la nuova abilità di volo permanente per Koraidon e Miraidon.",
-          "Aggiunte oltre 200 specie storiche e leggendari di precedenti generazioni catturabili.",
-          "Introdotta la funzione Sincronizzazione Pokémon per controllare direttamente i Pokémon nel mondo aperto."
-        ]
-      },
-      {
-        "version": "v2.0.1",
-        "previousVersion": "v1.3.2",
-        "internalVersion": 524288,
-        "releaseDate": "2023-09-13",
-        "type": "major",
-        "title": "DLC Parte 1: La maschera turchese & Nuova Fotocamera",
-        "changelog": [
-          "Rilasciato il DLC La maschera turchese nella regione di Nordivia con festival dei folletti.",
-          "Nuova funzione Fotocamera con bastone per selfie ed espressioni Pokémon personalizzate.",
-          "Aggiunta la Roto-stick e la modalità Caccia all'orco."
-        ]
-      }
-    ],
-    "dlc": [
-      {
-        "id": "sv-area-zero",
-        "title": "Il tesoro dell'Area Zero (La maschera turchese & Il disco indaco)",
-        "releaseDate": "2023-12-14",
-        "price": "34,99 €",
-        "type": "Pass di Espansione",
-        "description": "Due espansioni narrative complete: Parte 1 nella terra rurale di Nordivia con Ogerpon e Parte 2 all'Istituto Mirtillo nel Terarium sottomarino con Terapagos e il volo libero per i leggendari."
-      }
-    ]
-  },
-  {
-    "id": "pok-mon-violetto-e000",
-    "title": "Pokémon Violetto",
-    "platform": "both",
-    "titleId": "01008F6008C5E000",
-    "publisher": "Nintendo",
-    "releaseDate": "2022-11-18",
-    "genres": [
-      "Avventura",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/be731523292e749c620b1d7de4d654a864ccf6486ff52fb9a2d8df2f29bfc8a8.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053972",
-    "currentVersion": "v3.0.1",
-    "currentInternalVersion": 720896,
-    "lastUpdated": "2024-02-01T10:00:00Z",
-    "updates": [
-      {
-        "version": "v3.0.1",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 720896,
-        "releaseDate": "2024-02-01",
-        "type": "patch",
-        "title": "Hotfix Epilogo Frangimare & Stabilità Terarium",
-        "changelog": [
-          "Risolti problemi di progressione durante l'evento epilogo Frangimare a Nordivia.",
-          "Corretto un crash raro quando si utilizzano oggetti speciali nel Cerchio Sincronia dell'Istituto Mirtillo.",
-          "Migliorata la fluidità del framerate nei biomi acquatici e polari del Terarium."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.2",
-        "internalVersion": 655360,
-        "releaseDate": "2023-12-14",
-        "type": "major",
-        "title": "DLC Parte 2: Il disco indaco & Volo Koraidon/Miraidon",
-        "changelog": [
-          "Rilasciato il DLC Il disco indaco con accesso all'Istituto Mirtillo e al Terarium subacqueo.",
-          "Sbloccata la nuova abilità di volo permanente per Koraidon e Miraidon.",
-          "Aggiunte oltre 200 specie storiche e leggendari di precedenti generazioni catturabili.",
-          "Introdotta la funzione Sincronizzazione Pokémon per controllare direttamente i Pokémon nel mondo aperto."
-        ]
-      },
-      {
-        "version": "v2.0.1",
-        "previousVersion": "v1.3.2",
-        "internalVersion": 524288,
-        "releaseDate": "2023-09-13",
-        "type": "major",
-        "title": "DLC Parte 1: La maschera turchese & Nuova Fotocamera",
-        "changelog": [
-          "Rilasciato il DLC La maschera turchese nella regione di Nordivia con festival dei folletti.",
-          "Nuova funzione Fotocamera con bastone per selfie ed espressioni Pokémon personalizzate.",
-          "Aggiunta la Roto-stick e la modalità Caccia all'orco."
-        ]
-      }
-    ],
-    "dlc": [
-      {
-        "id": "sv-area-zero",
-        "title": "Il tesoro dell'Area Zero (La maschera turchese & Il disco indaco)",
-        "releaseDate": "2023-12-14",
-        "price": "34,99 €",
-        "type": "Pass di Espansione",
-        "description": "Due espansioni narrative complete: Parte 1 nella terra rurale di Nordivia con Ogerpon e Parte 2 all'Istituto Mirtillo nel Terarium sottomarino con Terapagos e il volo libero per i leggendari."
       }
     ]
   },
@@ -205483,38 +205052,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "hogwarts-legacy-e000",
-    "title": "Hogwarts Legacy",
-    "platform": "both",
-    "titleId": "0100F7E00C70E000",
-    "publisher": "WB Games",
-    "releaseDate": "2023-11-14",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/72ce0a17215521a167c3da579db4cc48a2f7a52eacc81ad985ba20fd6817fdc2.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000062277",
-    "currentVersion": "v1.0.5",
-    "currentInternalVersion": 327680,
-    "lastUpdated": "2024-06-06T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.5",
-        "previousVersion": "v1.0.4",
-        "internalVersion": 327680,
-        "releaseDate": "2024-06-06",
-        "type": "major",
-        "title": "Summer Update: Modalità Fotografica & Quest Negozio di Hogsmeade",
-        "changelog": [
-          "Aggiunta la Modalità Fotografica completa con filtri, pose, effetti luce e controllo inclinazione.",
-          "Sbloccata per tutti i giocatori la quest del negozio infestate di Hogsmeade con l'elfa Penny.",
-          "Aggiunta la ricetta della pozione Felix Felicis e la cavalcatura Ippogrifo d'Onice.",
-          "Ottimizzati i caricamenti delle porte di Hogwarts e la stabilità audio durante il volo con scopa."
         ]
       }
     ]
@@ -207748,38 +207285,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "the-legend-of-zelda-echoes-of-wisdom-c000",
-    "title": "The Legend of Zelda: Echoes of Wisdom",
-    "platform": "switch",
-    "titleId": "01008CF01BAAC000",
-    "publisher": "Nintendo",
-    "releaseDate": "2024-09-26",
-    "genres": [
-      "Avventura",
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/47d83bc5f512617a3e650e03c43d89c69c09adb41363c626397ff67580aa3130.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084619",
-    "currentVersion": "v1.0.2",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2024-10-15T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.2",
-        "previousVersion": "v1.0.1",
-        "internalVersion": 131072,
-        "releaseDate": "2024-10-15",
-        "type": "patch",
-        "title": "Fix Stabilità Mondo del Nulla & Fluidità Hyrule",
-        "changelog": [
-          "Risolto un problema per cui le repliche di determinati mostri volanti potevano incastrarsi negli squarci.",
-          "Migliorata la stabilità del framerate durante l'esplorazione a cavallo e nei villaggi affollati.",
-          "Corretto un bug nella quest secondaria delle fate radiose che impediva il conteggio dei cuori."
         ]
       }
     ]
@@ -266379,6 +265884,39 @@
     ]
   },
   {
+    "id": "stardew-valley-8000",
+    "title": "Stardew Valley",
+    "platform": "switch",
+    "titleId": "0100E65002BB8000",
+    "publisher": "ConcernedApe",
+    "releaseDate": "2017-10-05",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Simulazione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/71a9f69d79b31b589f88fd9f945c8ae34b064ac718276a2fe829ec3f3469cd85.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000001802",
+    "currentVersion": "v1.6.9",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2024-11-04T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.6.9",
+        "previousVersion": "v1.5.4",
+        "internalVersion": 131072,
+        "releaseDate": "2024-11-04",
+        "type": "major",
+        "title": "Aggiornamento Monumentale Stardew Valley 1.6 su Console",
+        "changelog": [
+          "Nuovo festival monumentale della Fiera del Deserto di tre giorni in primavera, e due festival di pesca.",
+          "Nuovo tipo di fattoria: Meadowlands Farm con erba blu nutriente per gli animali.",
+          "Aggiunto il sistema di maestria avanzata per forgiare attrezzi di iridio con abilità speciali.",
+          "Supporto per animali domestici multipli (cani, gatti, tartarughe) e oltre 280 nuovi oggetti d'arredo."
+        ]
+      }
+    ]
+  },
+  {
     "id": "i-think-you-can-c000",
     "title": "I Think You Can",
     "platform": "switch",
@@ -267954,6 +267492,39 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "super-mario-party-jamboree-8000",
+    "title": "Super Mario Party Jamboree",
+    "platform": "switch",
+    "titleId": "0100965017338000",
+    "publisher": "Nintendo",
+    "releaseDate": "2024-10-17",
+    "genres": [
+      "Party",
+      "Multiplayer",
+      "Da tavolo"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/d75d7dadb24b36c6ff761285a134f28a4f1e9912198707994e9d89ee3b139908.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084609",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2024-10-28T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2024-10-28",
+        "type": "patch",
+        "title": "Bilanciamento Minigiochi Bowserathlon & Stabilità Online",
+        "changelog": [
+          "Ricalibrati i punti e la difficoltà nei minigiochi della modalità Bowserathlon a 20 giocatori.",
+          "Migliorata la stabilità delle stanze di gioco online per le partite a tabellone classico.",
+          "Corretti bug nelle animazioni dei compagni Jamboree durante le prove speciali dei tabelloni."
         ]
       }
     ]
@@ -270156,6 +269727,39 @@
     ]
   },
   {
+    "id": "minecraft-4000",
+    "title": "Minecraft",
+    "platform": "both",
+    "titleId": "0100D71004694000",
+    "publisher": "Mojang",
+    "releaseDate": "2018-06-21",
+    "genres": [
+      "Azione",
+      "Avventura"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000000963",
+    "currentVersion": "v1.21.30",
+    "currentInternalVersion": 1048576,
+    "lastUpdated": "2024-10-22T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.21.30",
+        "previousVersion": "v1.20.0",
+        "internalVersion": 1048576,
+        "releaseDate": "2024-10-22",
+        "type": "major",
+        "title": "Tricky Trials (Prove Impegnative) & Nuova Arma Mazza",
+        "changelog": [
+          "Introdotte le monumentali Camere delle Prove sotterranee con i Generatori di Prove e i forzieri protetti.",
+          "Nuova arma da mischia Mazza (Mace) con colpi devastanti proporzionali all'altezza di caduta.",
+          "Nuovi mob ostili: il Breeze che rimbalza proiettili d'aria e il Bogged (scheletro delle paludi velenoso).",
+          "Aggiunto il blocco Artigiano (Crafter) per l'autofabbricazione automatica alimentata da pietrarossa."
+        ]
+      }
+    ]
+  },
+  {
     "id": "sleeping-beauty-the-kingdom-of-lost-dreams-8000",
     "title": "Sleeping Beauty: The Kingdom of Lost Dreams",
     "platform": "switch",
@@ -271974,6 +271578,38 @@
     ]
   },
   {
+    "id": "the-legend-of-zelda-echoes-of-wisdom-c000",
+    "title": "The Legend of Zelda: Echoes of Wisdom",
+    "platform": "switch",
+    "titleId": "01008CF01BAAC000",
+    "publisher": "Nintendo",
+    "releaseDate": "2024-09-26",
+    "genres": [
+      "Avventura",
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/47d83bc5f512617a3e650e03c43d89c69c09adb41363c626397ff67580aa3130.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084619",
+    "currentVersion": "v1.0.2",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2024-10-15T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.2",
+        "previousVersion": "v1.0.1",
+        "internalVersion": 131072,
+        "releaseDate": "2024-10-15",
+        "type": "patch",
+        "title": "Fix Stabilità Mondo del Nulla & Fluidità Hyrule",
+        "changelog": [
+          "Risolto un problema per cui le repliche di determinati mostri volanti potevano incastrarsi negli squarci.",
+          "Migliorata la stabilità del framerate durante l'esplorazione a cavallo e nei villaggi affollati.",
+          "Corretto un bug nella quest secondaria delle fate radiose che impediva il conteggio dei cuori."
+        ]
+      }
+    ]
+  },
+  {
     "id": "9-r-i-p-6000",
     "title": "9 R.I.P.",
     "platform": "switch",
@@ -273602,6 +273238,40 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fortnite-e000",
+    "title": "Fortnite",
+    "platform": "both",
+    "titleId": "010025400AECE000",
+    "publisher": "Epic Games",
+    "releaseDate": "2018-06-12",
+    "genres": [
+      "Azione",
+      "Sparatutto",
+      "Strategia",
+      "Altro"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/56567fccfd11a87038d1e0cfbe65231438a5efa47499d1940db838cee3f9eab5.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000010190",
+    "currentVersion": "v31.40",
+    "currentInternalVersion": 1048576,
+    "lastUpdated": "2024-10-12T10:00:00Z",
+    "updates": [
+      {
+        "version": "v31.40",
+        "previousVersion": "v30.00",
+        "internalVersion": 1048576,
+        "releaseDate": "2024-10-12",
+        "type": "major",
+        "title": "Fortnitemares 2024 & Ottimizzazione Motore Switch",
+        "changelog": [
+          "Evento di Halloween Fortnitemares con motosega da combattimento e fucile a pompa a pallettoni.",
+          "Ottimizzazione del rendering Unreal Engine per mantenere 30 FPS più stabili durante i combattimenti ravvicinati.",
+          "Ridotti i tempi di caricamento delle texture all'atterraggio dal bus della battaglia."
         ]
       }
     ]
@@ -281158,6 +280828,73 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2024-09-13T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "splatoon-3-0000",
+    "title": "Splatoon 3",
+    "platform": "switch",
+    "titleId": "0100C2500FC20000",
+    "publisher": "Nintendo",
+    "releaseDate": "2022-09-09",
+    "genres": [
+      "Sparatutto"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/42a7307607d6f66477cc21eb39fb1dfb2d648f7208ff5b18e2f5263d53b042d2.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000046396",
+    "currentVersion": "v9.0.0",
+    "currentInternalVersion": 589824,
+    "lastUpdated": "2024-09-12T10:00:00Z",
+    "updates": [
+      {
+        "version": "v9.0.0",
+        "previousVersion": "v8.0.0",
+        "internalVersion": 589824,
+        "releaseDate": "2024-09-12",
+        "type": "major",
+        "title": "Grand Festival Finale & Ricalibrazione Totale Armi",
+        "changelog": [
+          "Supporto al Grand Festival celebrativo mondiale di 72 ore con tre palchi dal vivo per i gruppi musicali.",
+          "Ricalibrate le statistiche di danno e raggio per oltre 40 armi principali e speciali.",
+          "Sbloccati i badge celebrativi per i fan di Sea Sirens, Off the Hook e Deep Cut."
+        ]
+      },
+      {
+        "version": "v8.0.0",
+        "previousVersion": "v7.0.0",
+        "internalVersion": 524288,
+        "releaseDate": "2024-06-01",
+        "type": "major",
+        "title": "Sizzle Season 2024: Nuove Armi Decavitator e Wellstring V",
+        "changelog": [
+          "Aggiunte le armi Decavitator (Lama tergicristallo pesante) e Wellstring V (Arco a ventaglio a 5 frecce).",
+          "Nuovo scenario di battaglia competitivo: Lemuria Hub.",
+          "Nuova modalità Big Run speciale su Salmon Run Next Wave."
+        ]
+      },
+      {
+        "version": "v7.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 458752,
+        "releaseDate": "2024-02-22",
+        "type": "major",
+        "title": "DLC Torre dell'Ordine (Side Order) & Fresh Season",
+        "changelog": [
+          "Rilasciato il DLC per giocatore singolo \"Torre dell'Ordine\" con progressione a chip di colore e stile roguelite.",
+          "Nuovo hub di piazza Coloropoli vintage ispirato a Inkopolis Square.",
+          "Nuovi set di armi Ordine con finiture monocromatiche esclusive."
+        ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "splatoon3-pass",
+        "title": "Pass di Espansione: Coloropoli & Torre dell'Ordine",
+        "releaseDate": "2024-02-22",
+        "price": "24,99 €",
+        "type": "Pass di Espansione",
+        "description": "Due ondate di contenuti: il ritorno dell'iconico hub di Coloropoli dal primo capitolo e la campagna roguelite per giocatore singolo \"Torre dell'Ordine\" con chip colore e progressione a piani."
+      }
+    ]
   },
   {
     "id": "nubla-0000",
@@ -296093,38 +295830,6 @@
     ]
   },
   {
-    "id": "paper-mario-il-portale-millenario-e000",
-    "title": "Paper Mario: Il Portale Millenario",
-    "platform": "switch",
-    "titleId": "0100ECD018EBE000",
-    "publisher": "Nintendo",
-    "releaseDate": "2024-05-23",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/99dbd1920b53d89663e83751e76a6750f90b1f5ed373e940800f1ca991186acc.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000073127",
-    "currentVersion": "v1.0.1",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2024-06-18T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2024-06-18",
-        "type": "patch",
-        "title": "Fix Progressione Capitolo 7 & Stabilità Mostra Galleria",
-        "changelog": [
-          "Risolto un problema di progressione raro nel Capitolo 7 che poteva impedire l'interazione con il cannone di Fannullonia.",
-          "Corretti glitch di rendering sulle animazioni delle ombre di Mario di carta durante il salto avvitato.",
-          "Migliorata la reattività dell'interfaccia durante il cambio compagni nelle battaglie sul palco."
-        ]
-      }
-    ]
-  },
-  {
     "id": "toilet-hero-2000",
     "title": "Toilet Hero",
     "platform": "switch",
@@ -301383,6 +301088,38 @@
     ]
   },
   {
+    "id": "paper-mario-il-portale-millenario-e000",
+    "title": "Paper Mario: Il Portale Millenario",
+    "platform": "switch",
+    "titleId": "0100ECD018EBE000",
+    "publisher": "Nintendo",
+    "releaseDate": "2024-05-23",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Avventura"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/99dbd1920b53d89663e83751e76a6750f90b1f5ed373e940800f1ca991186acc.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000073127",
+    "currentVersion": "v1.0.1",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2024-06-18T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2024-06-18",
+        "type": "patch",
+        "title": "Fix Progressione Capitolo 7 & Stabilità Mostra Galleria",
+        "changelog": [
+          "Risolto un problema di progressione raro nel Capitolo 7 che poteva impedire l'interazione con il cannone di Fannullonia.",
+          "Corretti glitch di rendering sulle animazioni delle ombre di Mario di carta durante il salto avvitato.",
+          "Migliorata la reattività dell'interfaccia durante il cambio compagni nelle battaglie sul palco."
+        ]
+      }
+    ]
+  },
+  {
     "id": "wargroove-6000",
     "title": "Wargroove",
     "platform": "switch",
@@ -303927,6 +303664,38 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hogwarts-legacy-e000",
+    "title": "Hogwarts Legacy",
+    "platform": "both",
+    "titleId": "0100F7E00C70E000",
+    "publisher": "WB Games",
+    "releaseDate": "2023-11-14",
+    "genres": [
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/72ce0a17215521a167c3da579db4cc48a2f7a52eacc81ad985ba20fd6817fdc2.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000062277",
+    "currentVersion": "v1.0.5",
+    "currentInternalVersion": 327680,
+    "lastUpdated": "2024-06-06T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.5",
+        "previousVersion": "v1.0.4",
+        "internalVersion": 327680,
+        "releaseDate": "2024-06-06",
+        "type": "major",
+        "title": "Summer Update: Modalità Fotografica & Quest Negozio di Hogsmeade",
+        "changelog": [
+          "Aggiunta la Modalità Fotografica completa con filtri, pose, effetti luce e controllo inclinazione.",
+          "Sbloccata per tutti i giocatori la quest del negozio infestate di Hogsmeade con l'elfa Penny.",
+          "Aggiunta la ricetta della pozione Felix Felicis e la cavalcatura Ippogrifo d'Onice.",
+          "Ottimizzati i caricamenti delle porte di Hogwarts e la stabilità audio durante il volo con scopa."
         ]
       }
     ]
@@ -335924,6 +335693,144 @@
     "updates": []
   },
   {
+    "id": "pok-mon-scarlatto-c000",
+    "title": "Pokémon Scarlatto",
+    "platform": "both",
+    "titleId": "0100A3D008C5C000",
+    "publisher": "Nintendo",
+    "releaseDate": "2022-11-18",
+    "genres": [
+      "Avventura",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/f3fdada130cc435faedc8fde455ede19cbe65b4f3fa83c4793e001f1e9d430f5.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053967",
+    "currentVersion": "v3.0.1",
+    "currentInternalVersion": 720896,
+    "lastUpdated": "2024-02-01T10:00:00Z",
+    "updates": [
+      {
+        "version": "v3.0.1",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 720896,
+        "releaseDate": "2024-02-01",
+        "type": "patch",
+        "title": "Hotfix Epilogo Frangimare & Stabilità Terarium",
+        "changelog": [
+          "Risolti problemi di progressione durante l'evento epilogo Frangimare a Nordivia.",
+          "Corretto un crash raro quando si utilizzano oggetti speciali nel Cerchio Sincronia dell'Istituto Mirtillo.",
+          "Migliorata la fluidità del framerate nei biomi acquatici e polari del Terarium."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.2",
+        "internalVersion": 655360,
+        "releaseDate": "2023-12-14",
+        "type": "major",
+        "title": "DLC Parte 2: Il disco indaco & Volo Koraidon/Miraidon",
+        "changelog": [
+          "Rilasciato il DLC Il disco indaco con accesso all'Istituto Mirtillo e al Terarium subacqueo.",
+          "Sbloccata la nuova abilità di volo permanente per Koraidon e Miraidon.",
+          "Aggiunte oltre 200 specie storiche e leggendari di precedenti generazioni catturabili.",
+          "Introdotta la funzione Sincronizzazione Pokémon per controllare direttamente i Pokémon nel mondo aperto."
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "previousVersion": "v1.3.2",
+        "internalVersion": 524288,
+        "releaseDate": "2023-09-13",
+        "type": "major",
+        "title": "DLC Parte 1: La maschera turchese & Nuova Fotocamera",
+        "changelog": [
+          "Rilasciato il DLC La maschera turchese nella regione di Nordivia con festival dei folletti.",
+          "Nuova funzione Fotocamera con bastone per selfie ed espressioni Pokémon personalizzate.",
+          "Aggiunta la Roto-stick e la modalità Caccia all'orco."
+        ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "sv-area-zero",
+        "title": "Il tesoro dell'Area Zero (La maschera turchese & Il disco indaco)",
+        "releaseDate": "2023-12-14",
+        "price": "34,99 €",
+        "type": "Pass di Espansione",
+        "description": "Due espansioni narrative complete: Parte 1 nella terra rurale di Nordivia con Ogerpon e Parte 2 all'Istituto Mirtillo nel Terarium sottomarino con Terapagos e il volo libero per i leggendari."
+      }
+    ]
+  },
+  {
+    "id": "pok-mon-violetto-e000",
+    "title": "Pokémon Violetto",
+    "platform": "both",
+    "titleId": "01008F6008C5E000",
+    "publisher": "Nintendo",
+    "releaseDate": "2022-11-18",
+    "genres": [
+      "Avventura",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/be731523292e749c620b1d7de4d654a864ccf6486ff52fb9a2d8df2f29bfc8a8.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000053972",
+    "currentVersion": "v3.0.1",
+    "currentInternalVersion": 720896,
+    "lastUpdated": "2024-02-01T10:00:00Z",
+    "updates": [
+      {
+        "version": "v3.0.1",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 720896,
+        "releaseDate": "2024-02-01",
+        "type": "patch",
+        "title": "Hotfix Epilogo Frangimare & Stabilità Terarium",
+        "changelog": [
+          "Risolti problemi di progressione durante l'evento epilogo Frangimare a Nordivia.",
+          "Corretto un crash raro quando si utilizzano oggetti speciali nel Cerchio Sincronia dell'Istituto Mirtillo.",
+          "Migliorata la fluidità del framerate nei biomi acquatici e polari del Terarium."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.2",
+        "internalVersion": 655360,
+        "releaseDate": "2023-12-14",
+        "type": "major",
+        "title": "DLC Parte 2: Il disco indaco & Volo Koraidon/Miraidon",
+        "changelog": [
+          "Rilasciato il DLC Il disco indaco con accesso all'Istituto Mirtillo e al Terarium subacqueo.",
+          "Sbloccata la nuova abilità di volo permanente per Koraidon e Miraidon.",
+          "Aggiunte oltre 200 specie storiche e leggendari di precedenti generazioni catturabili.",
+          "Introdotta la funzione Sincronizzazione Pokémon per controllare direttamente i Pokémon nel mondo aperto."
+        ]
+      },
+      {
+        "version": "v2.0.1",
+        "previousVersion": "v1.3.2",
+        "internalVersion": 524288,
+        "releaseDate": "2023-09-13",
+        "type": "major",
+        "title": "DLC Parte 1: La maschera turchese & Nuova Fotocamera",
+        "changelog": [
+          "Rilasciato il DLC La maschera turchese nella regione di Nordivia con festival dei folletti.",
+          "Nuova funzione Fotocamera con bastone per selfie ed espressioni Pokémon personalizzate.",
+          "Aggiunta la Roto-stick e la modalità Caccia all'orco."
+        ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "sv-area-zero",
+        "title": "Il tesoro dell'Area Zero (La maschera turchese & Il disco indaco)",
+        "releaseDate": "2023-12-14",
+        "price": "34,99 €",
+        "type": "Pass di Espansione",
+        "description": "Due espansioni narrative complete: Parte 1 nella terra rurale di Nordivia con Ogerpon e Parte 2 all'Istituto Mirtillo nel Terarium sottomarino con Terapagos e il volo libero per i leggendari."
+      }
+    ]
+  },
+  {
     "id": "udo-2000",
     "title": "UDO",
     "platform": "switch",
@@ -338853,61 +338760,6 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2024-01-23T00:00:00Z",
     "updates": []
-  },
-  {
-    "id": "monster-hunter-rise-2000",
-    "title": "Monster Hunter Rise",
-    "platform": "both",
-    "titleId": "0100B04011742000",
-    "publisher": "CAPCOM",
-    "releaseDate": "2021-03-26",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/29cf40c01c060327371d34a8b388bbe537e2941cf34e7665329210ec467b5f09.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000029015",
-    "currentVersion": "v16.0.0",
-    "currentInternalVersion": 1048576,
-    "lastUpdated": "2023-06-08T10:00:00Z",
-    "updates": [
-      {
-        "version": "v16.0.0",
-        "previousVersion": "v15.0.0",
-        "internalVersion": 1048576,
-        "releaseDate": "2023-06-08",
-        "type": "major",
-        "title": "Sunbreak Aggiornamento Finale: Malzeno Primordiale",
-        "changelog": [
-          "Aggiunto il Malzeno Primordiale come scontro finale epico della saga Sunbreak.",
-          "Nuove abilità di armatura \"Risveglio del Sangue\" e decorazioni gioiello livello 4 potenziate.",
-          "Aumentato il livello massimo delle Ricerche Anomalie fino al Grado 300.",
-          "Aggiunte le missioni \"Indagine Speciale\" per i cacciatori più esperti."
-        ]
-      },
-      {
-        "version": "v15.0.0",
-        "previousVersion": "v14.0.0",
-        "internalVersion": 983040,
-        "releaseDate": "2023-04-20",
-        "type": "major",
-        "title": "Sunbreak Free Title Update 5: Amatsu & Shagaru Magala Risorto",
-        "changelog": [
-          "Aggiunto il Drago Antico Amatsu con tempeste violente alla Fonte Infernale.",
-          "Aggiunto lo Shagaru Magala Risorto con attacchi frenesia ampliati.",
-          "Nuova funzione di fusione talismani \"Fusione Qurious\"."
-        ]
-      }
-    ],
-    "dlc": [
-      {
-        "id": "mhr-sunbreak",
-        "title": "Monster Hunter Rise: Sunbreak",
-        "releaseDate": "2022-06-30",
-        "price": "39,99 €",
-        "type": "Espansione Massiccia",
-        "description": "Massiccia espansione Master Rank ambientata all'Avamposto di Elgado: nuovi mostri iconici (Malzeno, Lunagaron, Garangolm), nuove abilità Scambio Filinsetto e indagini sulle Anomalie."
-      }
-    ]
   },
   {
     "id": "sudoku-game-for-kids-c000",
@@ -346248,38 +346100,6 @@
     ]
   },
   {
-    "id": "super-mario-rpg-8000",
-    "title": "Super Mario RPG",
-    "platform": "switch",
-    "titleId": "0100BC0018138000",
-    "publisher": "Nintendo",
-    "releaseDate": "2023-11-17",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2de1d450409a806d3df3a9effa12003dfd20a6f81ff911d298c34cf813f68e7c.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000068684",
-    "currentVersion": "v1.0.1",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2023-12-13T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2023-12-13",
-        "type": "patch",
-        "title": "Fix Blocco Paratroopa a Monstro Town & Stabilità Culex",
-        "changelog": [
-          "Corretto il bug in cui Paratroopa poteva scomparire a Monstro Town, impedendo la scalata della scogliera.",
-          "Risolto un problema audio che causava un loop sonoro infinito durante lo scontro opzionale con Culex 3D.",
-          "Migliorata la reattività dell'input per i comandi d'azione a catena con tempismo perfetto."
-        ]
-      }
-    ]
-  },
-  {
     "id": "train-traffic-manager-e000",
     "title": "Train Traffic Manager",
     "platform": "switch",
@@ -346341,6 +346161,38 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "super-mario-rpg-8000",
+    "title": "Super Mario RPG",
+    "platform": "switch",
+    "titleId": "0100BC0018138000",
+    "publisher": "Nintendo",
+    "releaseDate": "2023-11-17",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2de1d450409a806d3df3a9effa12003dfd20a6f81ff911d298c34cf813f68e7c.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000068684",
+    "currentVersion": "v1.0.1",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2023-12-13T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2023-12-13",
+        "type": "patch",
+        "title": "Fix Blocco Paratroopa a Monstro Town & Stabilità Culex",
+        "changelog": [
+          "Corretto il bug in cui Paratroopa poteva scomparire a Monstro Town, impedendo la scalata della scogliera.",
+          "Risolto un problema audio che causava un loop sonoro infinito durante lo scontro opzionale con Culex 3D.",
+          "Migliorata la reattività dell'input per i comandi d'azione a catena con tempismo perfetto."
         ]
       }
     ]
@@ -364465,6 +364317,49 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pikmin-4-a000",
+    "title": "Pikmin 4",
+    "platform": "switch",
+    "titleId": "0100B7C00933A000",
+    "publisher": "Nintendo",
+    "releaseDate": "2023-07-21",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/78e5730069e6073f43a420e83c135d526354e35e65b25f0426360598ef4e50ad.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000005306",
+    "currentVersion": "v1.0.2",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2023-09-26T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.2",
+        "previousVersion": "v1.0.1",
+        "internalVersion": 131072,
+        "releaseDate": "2023-09-26",
+        "type": "patch",
+        "title": "Fix Progressione Esplorazione 100% & Dandori Split-Screen",
+        "changelog": [
+          "Corretto un errore in cui il contatore di completamento delle caverne poteva rimanere bloccato al 99%.",
+          "Risolto un bug che poteva far incastrare Occin durante il trasporto di tesori subacquei con i Pikmin blu.",
+          "Migliorato il framerate e ridotti i cali di fluidità durante le Battaglie Dandori a 2 giocatori su schermo diviso."
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2023-07-28",
+        "type": "patch",
+        "title": "Miglioramento Salvataggi Missioni Notturne",
+        "changelog": [
+          "Risolto un problema nei salvataggi automatici durante le difese notturne dei lumipolli.",
+          "Corrette anomalie nel puntamento del fischietto con il controllo sensori di movimento dei Joy-Con."
         ]
       }
     ]
@@ -387491,6 +387386,61 @@
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
         ]
+      }
+    ]
+  },
+  {
+    "id": "monster-hunter-rise-2000",
+    "title": "Monster Hunter Rise",
+    "platform": "both",
+    "titleId": "0100B04011742000",
+    "publisher": "CAPCOM",
+    "releaseDate": "2021-03-26",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/29cf40c01c060327371d34a8b388bbe537e2941cf34e7665329210ec467b5f09.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000029015",
+    "currentVersion": "v16.0.0",
+    "currentInternalVersion": 1048576,
+    "lastUpdated": "2023-06-08T10:00:00Z",
+    "updates": [
+      {
+        "version": "v16.0.0",
+        "previousVersion": "v15.0.0",
+        "internalVersion": 1048576,
+        "releaseDate": "2023-06-08",
+        "type": "major",
+        "title": "Sunbreak Aggiornamento Finale: Malzeno Primordiale",
+        "changelog": [
+          "Aggiunto il Malzeno Primordiale come scontro finale epico della saga Sunbreak.",
+          "Nuove abilità di armatura \"Risveglio del Sangue\" e decorazioni gioiello livello 4 potenziate.",
+          "Aumentato il livello massimo delle Ricerche Anomalie fino al Grado 300.",
+          "Aggiunte le missioni \"Indagine Speciale\" per i cacciatori più esperti."
+        ]
+      },
+      {
+        "version": "v15.0.0",
+        "previousVersion": "v14.0.0",
+        "internalVersion": 983040,
+        "releaseDate": "2023-04-20",
+        "type": "major",
+        "title": "Sunbreak Free Title Update 5: Amatsu & Shagaru Magala Risorto",
+        "changelog": [
+          "Aggiunto il Drago Antico Amatsu con tempeste violente alla Fonte Infernale.",
+          "Aggiunto lo Shagaru Magala Risorto con attacchi frenesia ampliati.",
+          "Nuova funzione di fusione talismani \"Fusione Qurious\"."
+        ]
+      }
+    ],
+    "dlc": [
+      {
+        "id": "mhr-sunbreak",
+        "title": "Monster Hunter Rise: Sunbreak",
+        "releaseDate": "2022-06-30",
+        "price": "39,99 €",
+        "type": "Espansione Massiccia",
+        "description": "Massiccia espansione Master Rank ambientata all'Avamposto di Elgado: nuovi mostri iconici (Malzeno, Lunagaron, Garangolm), nuove abilità Scambio Filinsetto e indagini sulle Anomalie."
       }
     ]
   },
@@ -412744,38 +412694,6 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2023-02-09T00:00:00Z",
     "updates": []
-  },
-  {
-    "id": "metroid-prime-remastered-c000",
-    "title": "Metroid Prime Remastered",
-    "platform": "both",
-    "titleId": "010012101468C000",
-    "publisher": "Nintendo",
-    "releaseDate": "2023-02-09",
-    "genres": [
-      "Azione",
-      "Sparatutto in prima persona"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/418713343fee828aa15035530a16c3b104b3f1301615cb0f50f2edad775ed1f0.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000063710",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-05-10T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-05-10",
-        "type": "performance",
-        "title": "Modalità 120 FPS Switch 2 & Supporto HDR",
-        "changelog": [
-          "Introdotto il supporto a 120 FPS fluidi a 1440p dinamico su display compatibili HDMI 2.1 per Switch 2.",
-          "Aggiunta opzione per feedback aptico HD avanzato dei Joy-Con di Switch 2 durante lo sparo del Cannone Braccio.",
-          "Migliorata la nitidezza dei riflessi sul visore di Samus."
-        ]
-      }
-    ]
   },
   {
     "id": "hair-salon-cool-stories-4000",
@@ -472244,6 +472162,38 @@
     ]
   },
   {
+    "id": "kirby-e-la-terra-perduta-e000",
+    "title": "Kirby e la terra perduta",
+    "platform": "switch",
+    "titleId": "01004D300C5AE000",
+    "publisher": "Nintendo",
+    "releaseDate": "2022-03-25",
+    "genres": [
+      "Azione",
+      "Piattaforme"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/41c295a0de741ba76606a0ab91dcc1b5b9a4ee002e7621c6fce6a8146190f5fd.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000046406",
+    "currentVersion": "v1.0.1",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2022-04-20T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2022-04-20",
+        "type": "patch",
+        "title": "Miglioramento Stabilità Coop & Rendering Boccomorfosi",
+        "changelog": [
+          "Risolto un bug che poteva non conteggiare correttamente i Waddle Dee salvati durante la modalità cooperativa a 2 giocatori.",
+          "Migliorata la fluidità della telecamera durante le sequenze Boccomorfosi nei livelli acquatici e industriali.",
+          "Corretto un glitch di collisione che poteva spingere Kirby fuori dalla mappa nella Città di Waddle Dee."
+        ]
+      }
+    ]
+  },
+  {
     "id": "wild-west-crops-a000",
     "title": "Wild West Crops",
     "platform": "switch",
@@ -474607,6 +474557,37 @@
     ]
   },
   {
+    "id": "detective-inspector-mysterious-clues-2000",
+    "title": "Detective Inspector: Mysterious Clues",
+    "platform": "switch",
+    "titleId": "0100BD5017D52000",
+    "publisher": "Gametry",
+    "releaseDate": "2022-03-10",
+    "genres": [
+      "Arcade",
+      "Puzzle"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/35751db26fe323fed81e831a5d542c00a0940ecb1a11aff47cc5bb0f72373918.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000051653",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2022-04-07T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2022-04-07",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
     "id": "metroid-dread-c000",
     "title": "Metroid Dread",
     "platform": "both",
@@ -474646,37 +474627,6 @@
           "Introdotta la Modalità Terrore: qualsiasi danno subito da nemici, pericoli o E.M.M.I. causa game over immediato.",
           "Introdotta la Modalità Principiante: recupero energia aumentato e danni ridotti per completare la storia in tranquillità.",
           "Aggiunta schermata riepilogativa finale con statistiche accurate sui tempi e percentuali."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "detective-inspector-mysterious-clues-2000",
-    "title": "Detective Inspector: Mysterious Clues",
-    "platform": "switch",
-    "titleId": "0100BD5017D52000",
-    "publisher": "Gametry",
-    "releaseDate": "2022-03-10",
-    "genres": [
-      "Arcade",
-      "Puzzle"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/35751db26fe323fed81e831a5d542c00a0940ecb1a11aff47cc5bb0f72373918.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000051653",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2022-04-07T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2022-04-07",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
         ]
       }
     ]
@@ -477940,6 +477890,52 @@
     ]
   },
   {
+    "id": "leggende-pok-mon-arceus-a000",
+    "title": "Leggende Pokémon: Arceus",
+    "platform": "switch",
+    "titleId": "01001F5010DFA000",
+    "publisher": "Nintendo",
+    "releaseDate": "2022-01-28",
+    "genres": [
+      "Avventura",
+      "Gioco di ruolo (RPG)",
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/326e62331eaaa529d1d2e1780abc96e5427c672b85b68f95ce672bcbb6a98be4.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000039946",
+    "currentVersion": "v1.1.1",
+    "currentInternalVersion": 196608,
+    "lastUpdated": "2022-03-18T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.1",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 196608,
+        "releaseDate": "2022-03-18",
+        "type": "patch",
+        "title": "Fix Missioni Secondarie & Stabilità Hisui",
+        "changelog": [
+          "Corretto un problema che impediva di ottenere la Pietra Splendente completando la richiesta 102.",
+          "Risolto un glitch di telecamera durante l'esplorazione del Tempio di Nevepoli."
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.2",
+        "internalVersion": 131072,
+        "releaseDate": "2022-02-27",
+        "type": "major",
+        "title": "La nuova alba di Hisui (Daybreak) & Comparse Massicce Multiple",
+        "changelog": [
+          "Introdotte le comparse massicce multiple in tutte le terre di Hisui con condizioni meteo tempestose.",
+          "Aggiunta la Sfida dei Guardiani al Villaggio Giubilo per sfidare i capitani in battaglie consecutive.",
+          "Aggiunta la Lotta eterna dei sogni con Arceus nei sogni di riposo del protagonista.",
+          "Nuovi arredi e opzioni per lo studio fotografico del villaggio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "sea-battle-minimal-c000",
     "title": "Sea Battle Minimal",
     "platform": "switch",
@@ -478469,52 +478465,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "leggende-pok-mon-arceus-a000",
-    "title": "Leggende Pokémon: Arceus",
-    "platform": "switch",
-    "titleId": "01001F5010DFA000",
-    "publisher": "Nintendo",
-    "releaseDate": "2022-01-28",
-    "genres": [
-      "Avventura",
-      "Gioco di ruolo (RPG)",
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/326e62331eaaa529d1d2e1780abc96e5427c672b85b68f95ce672bcbb6a98be4.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000039946",
-    "currentVersion": "v1.1.1",
-    "currentInternalVersion": 196608,
-    "lastUpdated": "2022-03-18T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.1",
-        "previousVersion": "v1.1.0",
-        "internalVersion": 196608,
-        "releaseDate": "2022-03-18",
-        "type": "patch",
-        "title": "Fix Missioni Secondarie & Stabilità Hisui",
-        "changelog": [
-          "Corretto un problema che impediva di ottenere la Pietra Splendente completando la richiesta 102.",
-          "Risolto un glitch di telecamera durante l'esplorazione del Tempio di Nevepoli."
-        ]
-      },
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.2",
-        "internalVersion": 131072,
-        "releaseDate": "2022-02-27",
-        "type": "major",
-        "title": "La nuova alba di Hisui (Daybreak) & Comparse Massicce Multiple",
-        "changelog": [
-          "Introdotte le comparse massicce multiple in tutte le terre di Hisui con condizioni meteo tempestose.",
-          "Aggiunta la Sfida dei Guardiani al Villaggio Giubilo per sfidare i capitani in battaglie consecutive.",
-          "Aggiunta la Lotta eterna dei sogni con Arceus nei sogni di riposo del protagonista.",
-          "Nuovi arredi e opzioni per lo studio fotografico del villaggio."
         ]
       }
     ]
@@ -550185,6 +550135,37 @@
     ]
   },
   {
+    "id": "super-mario-3d-world-bowser-s-fury-a000",
+    "title": "Super Mario 3D World + Bowser's Fury",
+    "platform": "switch",
+    "titleId": "010028600EBDA000",
+    "publisher": "Nintendo",
+    "releaseDate": "2021-02-12",
+    "genres": [
+      "Piattaforme"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/40a70858c413f8a416fb3b31342624f2ca1f04a70f356fcc3f4f07dadbd2cc90.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000034440",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2021-03-24T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2021-03-24",
+        "type": "patch",
+        "title": "Miglioramento Stabilità Online & Movimento Sgattaiolante",
+        "changelog": [
+          "Migliorata la sincronizzazione di rete nelle sessioni cooperative online a 4 giocatori.",
+          "Corretti glitch di collisione che potevano verificarsi controllando Bowser Jr. in modalità cooperativa su Sgattaiolago.",
+          "Risolto un problema grafico durante l'apparizione della tempesta di Bowser Furioso."
+        ]
+      }
+    ]
+  },
+  {
     "id": "tesla-force-8000",
     "title": "Tesla Force",
     "platform": "switch",
@@ -567109,6 +567090,52 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gear-club-unlimited-2-tracks-edition",
+    "title": "Gear.Club Unlimited 2 – Tracks Edition",
+    "platform": "switch",
+    "titleId": "01009180108A4000",
+    "publisher": "Microids / Eden Games",
+    "releaseDate": "2020-08-27",
+    "genres": [
+      "Corse",
+      "Simulazione",
+      "Sport"
+    ],
+    "coverImage": "/covers/gear-club-unlimited-2-tracks.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000010447",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2020-11-20T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2020-11-20",
+        "type": "patch",
+        "title": "Fix Strategia Pit-Stop e Time Attack Le Mans",
+        "changelog": [
+          "Ottimizzata la gestione automatica e manuale dei pit stop per cambio gomme e rifornimento nel tracciato di Le Mans.",
+          "Risolto un problema di collisione nei cordoli della chicane Ford.",
+          "Migliorata la stabilità del framerate durante le partenze con griglia completa."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 0,
+        "releaseDate": "2020-08-27",
+        "type": "major",
+        "title": "Lancio Edizione Ufficiale 24 Ore di Le Mans",
+        "changelog": [
+          "Edizione completa comprensiva del circuito ufficiale della 24 Ore di Le Mans e della campagna Endurance.",
+          "Introdotta la gestione dell'usura dei pneumatici, del consumo carburante e delle strategie ai box.",
+          "Include bolidi da corsa leggendari: Porsche 919 Hybrid, Ford GT40 MK I, Nissan GT-R LM Nismo e Mercedes AMG GT3."
         ]
       }
     ]
@@ -595196,51 +595223,6 @@
     "updates": []
   },
   {
-    "id": "luigi-s-mansion-3-6000",
-    "title": "Luigi's Mansion 3",
-    "platform": "switch",
-    "titleId": "0100DCA0064A6000",
-    "publisher": "Nintendo",
-    "releaseDate": "2019-10-31",
-    "genres": [
-      "Avventura",
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/32c1f6e3cb827923f9f74b6494501721d782459cf6102b1020ac5f34023c7d0a.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000001619",
-    "currentVersion": "v1.4.0",
-    "currentInternalVersion": 262144,
-    "lastUpdated": "2020-04-29T10:00:00Z",
-    "updates": [
-      {
-        "version": "v1.4.0",
-        "previousVersion": "v1.3.0",
-        "internalVersion": 262144,
-        "releaseDate": "2020-04-29",
-        "type": "major",
-        "title": "Pacchetto Multigiocatore Parte 2: Tre Nuovi Minigiochi Torre del Caos",
-        "changelog": [
-          "Aggiunti tre nuovi minigiochi per la modalità Giochi di Fantasmi: Flipper spettrale, Sfida della zattera e Hockey spettrale.",
-          "Nuovi costumi speciali per Luigi: Mago, Medievale e Discoteca con fantasmi tematici abbinati.",
-          "Migliorata la stabilità delle stanze online per 8 giocatori."
-        ]
-      },
-      {
-        "version": "v1.3.0",
-        "previousVersion": "v1.2.0",
-        "internalVersion": 196608,
-        "releaseDate": "2020-03-03",
-        "type": "major",
-        "title": "Pacchetto Multigiocatore Parte 1: Modalità 20 Piani Torre del Caos",
-        "changelog": [
-          "Aggiunta l'opzione a 20 piani per la scalata della Torre del Caos.",
-          "Aggiunti i costumi Cavaliere, Grottesco e Mummia.",
-          "Nuova sezione Galleria d'arte per ascoltare le tracce della colonna sonora."
-        ]
-      }
-    ]
-  },
-  {
     "id": "madorica-real-estate-0000",
     "title": "Madorica Real Estate",
     "platform": "switch",
@@ -595449,6 +595431,51 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "luigi-s-mansion-3-6000",
+    "title": "Luigi's Mansion 3",
+    "platform": "switch",
+    "titleId": "0100DCA0064A6000",
+    "publisher": "Nintendo",
+    "releaseDate": "2019-10-31",
+    "genres": [
+      "Avventura",
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/32c1f6e3cb827923f9f74b6494501721d782459cf6102b1020ac5f34023c7d0a.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000001619",
+    "currentVersion": "v1.4.0",
+    "currentInternalVersion": 262144,
+    "lastUpdated": "2020-04-29T10:00:00Z",
+    "updates": [
+      {
+        "version": "v1.4.0",
+        "previousVersion": "v1.3.0",
+        "internalVersion": 262144,
+        "releaseDate": "2020-04-29",
+        "type": "major",
+        "title": "Pacchetto Multigiocatore Parte 2: Tre Nuovi Minigiochi Torre del Caos",
+        "changelog": [
+          "Aggiunti tre nuovi minigiochi per la modalità Giochi di Fantasmi: Flipper spettrale, Sfida della zattera e Hockey spettrale.",
+          "Nuovi costumi speciali per Luigi: Mago, Medievale e Discoteca con fantasmi tematici abbinati.",
+          "Migliorata la stabilità delle stanze online per 8 giocatori."
+        ]
+      },
+      {
+        "version": "v1.3.0",
+        "previousVersion": "v1.2.0",
+        "internalVersion": 196608,
+        "releaseDate": "2020-03-03",
+        "type": "major",
+        "title": "Pacchetto Multigiocatore Parte 1: Modalità 20 Piani Torre del Caos",
+        "changelog": [
+          "Aggiunta l'opzione a 20 piani per la scalata della Torre del Caos.",
+          "Aggiunti i costumi Cavaliere, Grottesco e Mummia.",
+          "Nuova sezione Galleria d'arte per ascoltare le tracce della colonna sonora."
         ]
       }
     ]

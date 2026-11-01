@@ -152,6 +152,14 @@ class GameStore {
       game._searchIndex = normalizeSearchText(`${game.title} ${game.titleId || ''} ${game.publisher || ''} ${game.id || ''} ${game._aliases}`);
 
       this.gamesById.set(game.id, game);
+      if (Array.isArray(game.aliases)) {
+        for (const alias of game.aliases) {
+          const slug = alias.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+          if (slug && !this.gamesById.has(slug)) {
+            this.gamesById.set(slug, game);
+          }
+        }
+      }
       if (game.titleId) {
         this.gamesByTitleId.set(game.titleId.toUpperCase(), game);
       }
