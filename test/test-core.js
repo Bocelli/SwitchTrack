@@ -305,3 +305,20 @@ test('Splatoon Raiders: verifica esclusiva Switch 2, patch v1.1.1 e copertina de
   const searchRaiders = store.getGames({ search: 'splatoon raiders' });
   assert.ok(searchRaiders.some(g => g.id === 'splatoon-raiders'), 'Ricerca splatoon raiders deve trovare il titolo');
 });
+
+test('The Duskbloods: verifica stato upcoming 2027 e assenza da ultimi aggiornamenti', () => {
+  store.load();
+  const dusk = store.getGameById('the-duskbloods-switch2');
+  assert.ok(dusk, 'The Duskbloods deve esistere nel catalogo');
+  assert.equal(dusk.status, 'upcoming', 'The Duskbloods NON è ancora uscito (rinviato al 2027)');
+  assert.ok(dusk.releaseDate >= '2027', 'Data di uscita nel 2027');
+  assert.equal(dusk.platform, 'switch2', 'Esclusiva Switch 2');
+
+  // Non deve comparire negli ultimi aggiornamenti rilasciati
+  const latest = store.getLatestUpdates(20);
+  assert.ok(!latest.some(u => u.gameId === 'the-duskbloods-switch2'), 'Non deve essere in ultimi aggiornamenti');
+
+  // Deve comparire nel filtro upcoming
+  const upcoming = store.getGames({ platform: 'upcoming' });
+  assert.ok(upcoming.some(g => g.id === 'the-duskbloods-switch2'), 'Deve essere nel filtro upcoming');
+});

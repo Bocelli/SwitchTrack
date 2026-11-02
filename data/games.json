@@ -45,17 +45,18 @@
     "platform": "switch2",
     "titleId": "0100D1C01FC82000",
     "publisher": "FromSoftware / Nintendo",
-    "releaseDate": "2026-10-15",
+    "releaseDate": "2027-04-30",
     "genres": [
       "Action RPG",
-      "Soulslike",
-      "Dark Fantasy"
+      "PvPvE",
+      "Dark Fantasy",
+      "Multiplayer"
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/9e8b0b57118ca83df05cb4ff7c6b98625ae7d995a94ecfb926b6f849ffb0c79f.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Duskbloods-2950000.html",
-    "currentVersion": "v1.0.4",
-    "currentInternalVersion": 196608,
-    "lastUpdated": "2026-10-28T12:00:00Z",
+    "currentVersion": "Network Test (v0.8.0)",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-08-31T10:00:00Z",
     "aliases": [
       "duskbloods",
       "from software switch 2",
@@ -64,31 +65,20 @@
     ],
     "updates": [
       {
-        "version": "v1.0.4",
-        "previousVersion": "v1.0.2",
-        "internalVersion": 196608,
-        "releaseDate": "2026-10-28",
-        "type": "patch",
-        "title": "Patch 1.0.4: Bilanciamento armi da sangue, fix parry e matchmaking online",
+        "version": "Network Test Build",
+        "previousVersion": null,
+        "internalVersion": 0,
+        "releaseDate": "2026-08-31",
+        "type": "event",
+        "title": "Chiusura Network Test & Rinvio Ufficiale al 2027",
         "changelog": [
-          "Corretto il timing delle finestre di parry su schermi a 120 Hz.",
-          "Migliorata la stabilità del matchmaking per le invasioni cooperative PvP."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-10-15",
-        "type": "major",
-        "title": "Lancio Esclusivo Nintendo Switch 2",
-        "changelog": [
-          "Debutto mondiale della nuova IP dark fantasy di FromSoftware in collaborazione con Nintendo.",
-          "Supporto Ray-Tracing avanzato in modalità Dock e 60 FPS granitici in modalità portatile."
+          "Concluso il Global Closed Network Test PvPvE a 8 giocatori su Nintendo Switch 2 (28-30 agosto 2026).",
+          "Comunicato ufficiale FromSoftware e Hidetaka Miyazaki: uscita posticipata al 2027 per perfezionare il bilanciamento PvPvE, le abilità dei Bloodsworn e l'infrastruttura di rete.",
+          "Mantenuto il pre-ordine attivo su Nintendo eShop."
         ]
       }
     ],
-    "status": "released"
+    "status": "upcoming"
   },
   {
     "id": "survival-kids-switch2",
