@@ -15,6 +15,62 @@ const DATA_FILE = path.resolve(__dirname, '../data/games.json');
 
 export const CATALOG = [
   {
+    id: "splatoon-raiders",
+    title: "Splatoon Raiders",
+    platform: "switch2",
+    titleId: "0100A8501FA02000",
+    publisher: "Nintendo",
+    releaseDate: "2026-07-23",
+    genres: ["Azione", "Sparatutto", "Looter-Shooter", "PvE", "Cooperativo"],
+    coverImage: "/covers/splatoon-raiders.png",
+    eshopUrl: "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Splatoon-Raiders-2940120.html",
+    currentVersion: "v1.1.1",
+    currentInternalVersion: 131072,
+    lastUpdated: "2026-08-06T10:00:00Z",
+    aliases: [
+      "splatoon raiders",
+      "raiders",
+      "splatoon 4",
+      "deep cut",
+      "salmonid",
+      "spirhalite",
+      "splatchet"
+    ],
+    updates: [
+      {
+        version: "v1.1.1",
+        previousVersion: "v1.0.0",
+        internalVersion: 131072,
+        releaseDate: "2026-08-06",
+        type: "patch",
+        title: "Patch 1.1.1: Fix Touchscreen Switch 2, Regolazione Limiter & Bugfix Dungeons",
+        changelog: [
+          "Regolazione Limiter Serbatoio: la rimozione del limitatore del serbatoio ora richiede solo una singola pressione del pulsante A anziché tenerlo premuto, risolvendo le segnalazioni di softlock.",
+          "Risolto un crash critico su Nintendo Switch 2 che si verificava toccando lo schermo touch durante la schermata di caricamento con la nebbia vorticosa.",
+          "Risolto un problema per cui la barra Showstopper Gauge non si nascondeva automaticamente dopo l'inattività nella Nave Rifugio o nei dungeon.",
+          "Corretto un glitch per cui l'effetto Emergency Damage Up non si applicava al danno esplosivo dei passi dello Splatchet (Explosive Steps).",
+          "Risolto un blocco del movimento che poteva verificarsi usando lo Splatchet subito dopo un salto a parete (Squid Roll).",
+          "Risolto un problema nei Dirupi Soyu (Soyu Cliffs) dove un Fish Stick poteva incastrarsi nel terreno diventando impossibile da sconfiggere.",
+          "Corretto un bug nel mini-gioco arcade HOPPING dove il bot d'esplorazione smetteva di bersagliare i Salmonoidi."
+        ]
+      },
+      {
+        version: "v1.0.0",
+        previousVersion: "v0.9.0",
+        internalVersion: 65536,
+        releaseDate: "2026-07-23",
+        type: "major",
+        title: "Lancio Esclusivo Nintendo Switch 2",
+        changelog: [
+          "Rilascio globale in contemporanea mondiale in esclusiva su Nintendo Switch 2.",
+          "Campagna PvE single-player e cooperativa online ambientata nell'arcipelago di Spirhalite, con la partecipazione del trio Deep Cut.",
+          "Supporto per grafica 4K 60FPS in modalità dock con supporto DLSS e HDR, comandi di mira giroscopica e feedback aptico HD Rumble."
+        ]
+      }
+    ],
+    status: "released"
+  },
+  {
     id: "another-eden-begins-c000",
     title: "Another Eden Begins",
     platform: "both",

@@ -278,3 +278,29 @@ test('Another Eden Begins: verifica patch v1.1.3, supporto Switch 2 e changelog'
   assert.equal(latest[0].version, 'v1.1.3');
   assert.ok(latest[0].changelog.some(c => c.includes('New Game+')), 'Il changelog deve menzionare New Game+');
 });
+
+test('Splatoon Raiders: verifica esclusiva Switch 2, patch v1.1.1 e copertina dedicata', () => {
+  store.load();
+  const game = store.getGameById('splatoon-raiders');
+  assert.ok(game, 'Splatoon Raiders deve esistere nel catalogo');
+  assert.equal(game.platform, 'switch2', 'Deve essere esclusiva Nintendo Switch 2');
+  assert.equal(game.currentVersion, 'v1.1.1', 'Versione corrente deve essere v1.1.1');
+  assert.equal(game.publisher, 'Nintendo');
+  assert.ok(game.updates && game.updates.length >= 2, 'Deve avere gli aggiornamenti tracciati');
+  assert.equal(game.coverImage, '/covers/splatoon-raiders.png');
+
+  // Verifica che il file di copertina esista sul disco
+  const coverDiskPath = path.resolve(__dirname, '../public/covers/splatoon-raiders.png');
+  assert.ok(fs.existsSync(coverDiskPath), 'Il file cover su disco deve esistere');
+  assert.ok(fs.statSync(coverDiskPath).size > 100000, 'Cover con risoluzione e dimensione adeguate');
+
+  // Verifica filtri di ricerca
+  const s2Catalog = store.getGames({ platform: 'switch2' });
+  assert.ok(s2Catalog.some(g => g.id === 'splatoon-raiders'), 'Deve comparire nel catalogo Switch 2');
+
+  const s1Catalog = store.getGames({ platform: 'switch' });
+  assert.ok(!s1Catalog.some(g => g.id === 'splatoon-raiders'), 'NON deve comparire nei titoli Switch 1');
+
+  const searchRaiders = store.getGames({ search: 'splatoon raiders' });
+  assert.ok(searchRaiders.some(g => g.id === 'splatoon-raiders'), 'Ricerca splatoon raiders deve trovare il titolo');
+});
