@@ -1,5 +1,247 @@
 [
   {
+    "id": "kirby-and-the-world-beyond",
+    "title": "Kirby and the World Beyond",
+    "platform": "switch2",
+    "titleId": "0100F9A019DA6000",
+    "publisher": "Nintendo",
+    "releaseDate": "2027-03-26",
+    "genres": [
+      "Piattaforme",
+      "3D",
+      "Azione",
+      "Avventura"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/5b89daec2f37cbb4891ff8e906b3a2a68894dfba277cb7c8b09da5bb70f2142e.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Kirby-and-the-World-Beyond-2980000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-12T10:00:00Z",
+    "aliases": [
+      "kirby world beyond",
+      "kirby switch 2",
+      "kirby 3d",
+      "kirby 2027"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2027-03-26",
+        "type": "major",
+        "title": "Annuncio Ufficiale & Apertura Pre-ordini",
+        "changelog": [
+          "Nuovo capitolo platform 3D open-zone sviluppato da HAL Laboratory in esclusiva per Switch 2.",
+          "Pre-ordine disponibile su Nintendo eShop."
+        ]
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "id": "the-duskbloods-switch2",
+    "title": "The Duskbloods",
+    "platform": "switch2",
+    "titleId": "0100D1C01FC82000",
+    "publisher": "FromSoftware / Nintendo",
+    "releaseDate": "2026-10-15",
+    "genres": [
+      "Action RPG",
+      "Soulslike",
+      "Dark Fantasy"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/9e8b0b57118ca83df05cb4ff7c6b98625ae7d995a94ecfb926b6f849ffb0c79f.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Duskbloods-2950000.html",
+    "currentVersion": "v1.0.4",
+    "currentInternalVersion": 196608,
+    "lastUpdated": "2026-10-28T12:00:00Z",
+    "aliases": [
+      "duskbloods",
+      "from software switch 2",
+      "miyazaki switch 2",
+      "the dusk bloods"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.4",
+        "previousVersion": "v1.0.2",
+        "internalVersion": 196608,
+        "releaseDate": "2026-10-28",
+        "type": "patch",
+        "title": "Patch 1.0.4: Bilanciamento armi da sangue, fix parry e matchmaking online",
+        "changelog": [
+          "Corretto il timing delle finestre di parry su schermi a 120 Hz.",
+          "Migliorata la stabilità del matchmaking per le invasioni cooperative PvP."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Lancio Esclusivo Nintendo Switch 2",
+        "changelog": [
+          "Debutto mondiale della nuova IP dark fantasy di FromSoftware in collaborazione con Nintendo.",
+          "Supporto Ray-Tracing avanzato in modalità Dock e 60 FPS granitici in modalità portatile."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
+    "id": "survival-kids-switch2",
+    "title": "Survival Kids",
+    "platform": "switch2",
+    "titleId": "0100E2B018FA4000",
+    "publisher": "Konami",
+    "releaseDate": "2025-06-05",
+    "genres": [
+      "Avventura",
+      "Sopravvivenza",
+      "Simulazione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/7ea6da5a6a68393e1178619bcbb73e9e1bb9715a9990b79e72ea98c39cf139bb.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Survival-Kids-2880010.html",
+    "currentVersion": "v1.0.1",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2025-08-10T10:00:00Z",
+    "aliases": [
+      "survival kids",
+      "lost in blue",
+      "isola deserta"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-08-10",
+        "type": "patch",
+        "title": "Fix gestione inventario e calcolo del meteo tropicale",
+        "changelog": [
+          "Risolto un bug per cui gli oggetti lasciati sulla spiaggia sparivano con l'alta marea.",
+          "Migliorata la transizione giorno/notte e la simulazione della pioggia."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-05",
+        "type": "major",
+        "title": "Lancio Day-One Nintendo Switch 2",
+        "changelog": [
+          "Ritorno del leggendario survival adventure open world in esclusiva su Switch 2."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
+    "id": "sid-meiers-civilization-vii-switch2",
+    "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
+    "platform": "switch2",
+    "titleId": "0100C3F019E88000",
+    "publisher": "2K",
+    "releaseDate": "2025-06-05",
+    "genres": [
+      "Strategia",
+      "A turni",
+      "Simulazione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2c388efd9ac1399f57ebbf79590eb7781b0a8eb77a5eeb558fca8c42a59a9301.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Civilization-VII-2900110.html",
+    "currentVersion": "v1.2.0",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-05-18T10:00:00Z",
+    "aliases": [
+      "civilization 7",
+      "civ 7",
+      "sid meier civilization vii"
+    ],
+    "updates": [
+      {
+        "version": "v1.2.0",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-05-18",
+        "type": "major",
+        "title": "Aggiornamento Civiltà Antiche & Calcolo Turni Accelerato",
+        "changelog": [
+          "Velocità di calcolo dei turni dell'intelligenza artificiale aumentata del 40% grazie alla CPU di Switch 2.",
+          "Aggiunte 3 nuove civiltà storiche e ribilanciamento degli alberi delle ere."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-05",
+        "type": "major",
+        "title": "Lancio Nintendo Switch 2 al Day-One",
+        "changelog": [
+          "Rilascio simultaneo globale in concomitanza con il lancio di Nintendo Switch 2.",
+          "Supporto ai controlli mouse tramite touchscreen e Joy-Con 2 puntatore."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
+    "id": "final-fantasy-vii-remake-intergrade",
+    "title": "Final Fantasy VII Remake Intergrade",
+    "platform": "switch2",
+    "titleId": "01007E501BC20000",
+    "publisher": "Square Enix",
+    "releaseDate": "2026-01-22",
+    "genres": [
+      "Azione",
+      "RPG",
+      "JRPG"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/78a9c8f93db4c8ea43731a54f058098319f3f4c62294daec5b08ecb661d989f2.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Final-Fantasy-VII-Remake-Intergrade-2850120.html",
+    "currentVersion": "v1.0.2",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-02-15T10:00:00Z",
+    "aliases": [
+      "ff7 remake",
+      "final fantasy 7 remake",
+      "intergrade",
+      "cloud strife",
+      "yuffie"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.2",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-02-15",
+        "type": "patch",
+        "title": "Patch 1.0.2: Miglioramenti stabilità e rendering texture a Midgar",
+        "changelog": [
+          "Ottimizzato lo streaming delle texture nei bassifondi del Settore 7 su Switch 2.",
+          "Risolto un calo di framerate durante la battaglia contro l'Aerodistruttore."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-01-22",
+        "type": "major",
+        "title": "Lancio ufficiale Nintendo Switch 2 (Include EPISODE INTERmission)",
+        "changelog": [
+          "Rilascio dell'edizione completa con il capitolo dedicato a Yuffie Kisaragi su Switch 2.",
+          "Grafica 1440p 60 FPS stabili in modalità TV e 1080p nativi in portatile con supporto DLSS."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
     "id": "splatoon-raiders",
     "title": "Splatoon Raiders",
     "platform": "switch2",
@@ -2954,7 +3196,7 @@
   {
     "id": "core-keeper-a000",
     "title": "Core Keeper",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010070201D1BA000",
     "publisher": "Fireshine Games",
     "releaseDate": "2024-10-17",
@@ -2964,10 +3206,22 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/5835c3aa413e077c036dfa630b447667f317f4a3698fcb8630c57a6ffc38643a.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000073034",
-    "currentVersion": "v36.0.0",
+    "currentVersion": "v1.2.0",
     "currentInternalVersion": 2359296,
-    "lastUpdated": "2026-09-21T12:00:00Z",
+    "lastUpdated": "2026-01-15T12:00:00Z",
     "updates": [
+      {
+        "version": "v1.2.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-01-15",
+        "type": "major",
+        "title": "Nintendo Switch 2 Edition: 60 FPS stabili & Multiplayer 8 Giocatori",
+        "changelog": [
+          "Risoluzione 4K nativa e 60 FPS stabili anche nelle caverne più affollate.",
+          "Multiplayer cooperativo online esteso a 8 giocatori simultanei su Switch 2."
+        ]
+      },
       {
         "version": "v36.0.0",
         "previousVersion": "v34.0.0",
@@ -4302,7 +4556,7 @@
   {
     "id": "no-man-s-sky-6000",
     "title": "No Man's Sky",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100853015E86000",
     "publisher": "Hello Games",
     "releaseDate": "2022-10-07",
@@ -4314,10 +4568,23 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/705c707307705fbc6f301137df744763d1095f9f64fd749a99fe57b6e551607d.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000044643",
-    "currentVersion": "v78.0.0",
+    "currentVersion": "v5.1.0",
     "currentInternalVersion": 5111808,
-    "lastUpdated": "2026-09-17T12:00:00Z",
+    "lastUpdated": "2025-06-05T12:00:00Z",
     "updates": [
+      {
+        "version": "v5.1.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-06-05",
+        "type": "major",
+        "title": "Nintendo Switch 2 Day-One Upgrade: Grafica Ultra, Nubi Volumetriche & 60 FPS",
+        "changelog": [
+          "Upgrade next-gen completo: grafica a dettagli Ultra equivalente alle versioni desktop di fascia alta.",
+          "Distanza visiva quadruplicata, oceani dinamici e nubi volumetriche in tempo reale.",
+          "Tempi di salto iperspaziale ridotti da oltre 30 secondi a meno di 3 secondi."
+        ]
+      },
       {
         "version": "v78.0.0",
         "previousVersion": "v77.0.0",
@@ -18749,7 +19016,7 @@
   {
     "id": "1000xresist-6000",
     "title": "1000xRESIST",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100B02019866000",
     "publisher": "Fellow Traveller",
     "releaseDate": "2024-05-09",
@@ -18758,10 +19025,21 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/4fea77866c2379eb0d40ff588d39725a1bd7f086bb8c5ef573b7e855ef481ce8.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000059157",
-    "currentVersion": "v8.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 524288,
-    "lastUpdated": "2026-08-31T12:00:00Z",
+    "lastUpdated": "2025-09-10T12:00:00Z",
     "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-09-10",
+        "type": "performance",
+        "title": "Nintendo Switch 2 Edition Audio & Visual Boost",
+        "changelog": [
+          "Audio 3D spaziale avanzato e texture ad altissima definizione per Switch 2."
+        ]
+      },
       {
         "version": "v8.0.0",
         "previousVersion": "v7.0.0",
@@ -35657,7 +35935,7 @@
   {
     "id": "tamagotchi-plaza-a000",
     "title": "Tamagotchi Plaza",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "010064C01A9BA000",
     "publisher": "BANDAI NAMCO Entertainment",
     "releaseDate": "2025-06-27",
@@ -35666,10 +35944,21 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/1e40f3d48edb3fe9414a076ddf1cc891a637df8e6978739fe185a33f43d34274.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000064037",
-    "currentVersion": "v9.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 589824,
-    "lastUpdated": "2026-08-16T12:00:00Z",
+    "lastUpdated": "2025-06-27T12:00:00Z",
     "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-27",
+        "type": "patch",
+        "title": "Nintendo Switch 2 Edition Upgrade",
+        "changelog": [
+          "Miglioramenti di rendering e supporto HD Rumble per i mini-giochi su Switch 2."
+        ]
+      },
       {
         "version": "v9.0.0",
         "previousVersion": "v8.0.0",
@@ -79935,7 +80224,7 @@
   {
     "id": "rune-factory-guardians-of-azuma-0000",
     "title": "Rune Factory: Guardians of Azuma",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01003AF0200B0000",
     "publisher": "Marvelous Europe",
     "releaseDate": "2025-06-05",
@@ -79945,10 +80234,22 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/9d241dd7cb7d1849d562c877bcffcd6df0f00f8ec46dc84fededdaa477ebad99.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000085004",
-    "currentVersion": "v9.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 589824,
-    "lastUpdated": "2026-05-13T12:00:00Z",
+    "lastUpdated": "2025-06-05T12:00:00Z",
     "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-05",
+        "type": "performance",
+        "title": "Nintendo Switch 2 Edition Day-One Upgrade",
+        "changelog": [
+          "Risoluzione 1440p dinamica a 60 FPS stabili sia in modalità portatile che su TV.",
+          "Caricamenti istantanei delle aree del villaggio grazie alla memoria ultra-veloce di Switch 2."
+        ]
+      },
       {
         "version": "v9.0.0",
         "previousVersion": "v8.0.0",
@@ -146817,7 +147118,7 @@
   {
     "id": "shadow-labyrinth-a000",
     "title": "Shadow Labyrinth",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100E4301E0EA000",
     "publisher": "BANDAI NAMCO Entertainment",
     "releaseDate": "2025-07-18",
@@ -146826,10 +147127,21 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/ffd9df17b6185f2074220a699e9cef13df8c59b6991f8054c38c4f50e0b9d739.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000077050",
-    "currentVersion": "v5.0.0",
+    "currentVersion": "v1.1.0",
     "currentInternalVersion": 327680,
-    "lastUpdated": "2025-11-24T12:00:00Z",
+    "lastUpdated": "2025-07-18T12:00:00Z",
     "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-07-18",
+        "type": "patch",
+        "title": "Switch 2 Edition Enhancement",
+        "changelog": [
+          "Effetti di luce volumetrica avanzati e framerate a 120 FPS su schermi compatibili."
+        ]
+      },
       {
         "version": "v5.0.0",
         "previousVersion": "v4.0.0",
@@ -267561,7 +267873,7 @@
   {
     "id": "super-mario-party-jamboree-8000",
     "title": "Super Mario Party Jamboree",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100965017338000",
     "publisher": "Nintendo",
     "releaseDate": "2024-10-17",
@@ -267572,10 +267884,23 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/d75d7dadb24b36c6ff761285a134f28a4f1e9912198707994e9d89ee3b139908.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084609",
-    "currentVersion": "v1.1.0",
+    "currentVersion": "v2.0.0",
     "currentInternalVersion": 65536,
-    "lastUpdated": "2024-10-28T10:00:00Z",
+    "lastUpdated": "2025-07-24T12:00:00Z",
     "updates": [
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-07-24",
+        "type": "major",
+        "title": "Nintendo Switch 2 Edition: Modalità Jamboree TV & Risoluzione 4K",
+        "changelog": [
+          "Compatibilità estesa e miglioramenti grafici a 4K 60 FPS per Nintendo Switch 2.",
+          "Integrazione della nuova modalità online interattiva Jamboree TV.",
+          "Supporto migliorato ai sensori di movimento ad alta precisione dei Joy-Con 2."
+        ]
+      },
       {
         "version": "v1.1.0",
         "previousVersion": "v1.0.0",
@@ -364386,7 +364711,7 @@
   {
     "id": "pikmin-4-a000",
     "title": "Pikmin 4",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100B7C00933A000",
     "publisher": "Nintendo",
     "releaseDate": "2023-07-21",
@@ -364395,10 +364720,23 @@
     ],
     "coverImage": "https://img-eshop.cdn.nintendo.net/i/78e5730069e6073f43a420e83c135d526354e35e65b25f0426360598ef4e50ad.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000005306",
-    "currentVersion": "v1.0.2",
+    "currentVersion": "v2.0.0",
     "currentInternalVersion": 131072,
-    "lastUpdated": "2023-09-26T10:00:00Z",
+    "lastUpdated": "2026-11-01T12:00:00Z",
     "updates": [
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.2",
+        "internalVersion": 131072,
+        "releaseDate": "2026-11-01",
+        "type": "major",
+        "title": "Nintendo Switch 2 Edition: Espansione Accademia Dandori & Grafica 4K",
+        "changelog": [
+          "Supporto completo e ottimizzazione grafica nativa per Nintendo Switch 2 (4K a 60 FPS in dock).",
+          "Nuova modalità campagna aggiuntiva: Accademia Dandori con 30 sfide cooperative inedite.",
+          "Supporto ai comandi avanzati e al feedback aptico dei controller Joy-Con 2."
+        ]
+      },
       {
         "version": "v1.0.2",
         "previousVersion": "v1.0.1",

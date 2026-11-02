@@ -316,10 +316,13 @@ class GameStore {
    */
   getLatestUpdates(limit = 8) {
     const allUpdates = [];
+    const today = new Date().toISOString().split('T')[0];
 
     for (const game of this.games) {
+      if (game.status === 'upcoming') continue;
       if (Array.isArray(game.updates)) {
         for (const update of game.updates) {
+          if (update.releaseDate && update.releaseDate > today) continue;
           allUpdates.push({
             gameId: game.id,
             gameTitle: game.title,

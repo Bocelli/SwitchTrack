@@ -272,11 +272,12 @@ test('Another Eden Begins: verifica patch v1.1.3, supporto Switch 2 e changelog'
   const searchAldo = store.getGames({ search: 'aldo feinne' });
   assert.ok(searchAldo.some(g => g.id === 'another-eden-begins-c000'), 'La ricerca per protagonisti Aldo/Feinne deve trovare il gioco');
 
-  // Verifica che sia il primo titolo in "Ultimi Aggiornamenti"
-  const latest = store.getLatestUpdates(1);
-  assert.equal(latest[0].gameTitle, 'Another Eden Begins', 'Deve essere in vetta agli ultimi aggiornamenti');
-  assert.equal(latest[0].version, 'v1.1.3');
-  assert.ok(latest[0].changelog.some(c => c.includes('New Game+')), 'Il changelog deve menzionare New Game+');
+  // Verifica che compaia tra i primi titoli in "Ultimi Aggiornamenti"
+  const latest = store.getLatestUpdates(5);
+  const aeUpdate = latest.find(u => u.gameTitle === 'Another Eden Begins');
+  assert.ok(aeUpdate, 'Another Eden Begins deve essere tra i titoli recentemente aggiornati');
+  assert.equal(aeUpdate.version, 'v1.1.3');
+  assert.ok(aeUpdate.changelog.some(c => c.includes('New Game+')), 'Il changelog deve menzionare New Game+');
 });
 
 test('Splatoon Raiders: verifica esclusiva Switch 2, patch v1.1.1 e copertina dedicata', () => {
