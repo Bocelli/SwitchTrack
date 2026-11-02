@@ -13,7 +13,7 @@
       "Serial Killer",
       "Farming"
     ],
-    "coverImage": "/covers/grave-seasons.svg",
+    "coverImage": "/covers/grave-seasons.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Grave-Seasons-2986000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -48,7 +48,7 @@
       "Narrativo",
       "Post-apocalittico"
     ],
-    "coverImage": "/covers/road-of-dust-and-sorrow.svg",
+    "coverImage": "/covers/road-of-dust-and-sorrow.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/The-Road-of-Dust-and-Sorrow-2971000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -82,7 +82,7 @@
       "Hack and Slash",
       "Roguelike"
     ],
-    "coverImage": "/covers/13z-zodiac-trials.svg",
+    "coverImage": "/covers/13z-zodiac-trials.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/13Z-The-Zodiac-Trials-2961000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -118,7 +118,7 @@
       "Co-op",
       "Multiplayer"
     ],
-    "coverImage": "/covers/sonic-pico-park.svg",
+    "coverImage": "/covers/sonic-pico-park.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Sonic-Pico-Park-2951000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -154,7 +154,7 @@
       "Acrobatico",
       "Giganti"
     ],
-    "coverImage": "/covers/attack-on-titan-3.svg",
+    "coverImage": "/covers/attack-on-titan-3.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Attack-on-Titan-3-2978000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -191,7 +191,7 @@
       "Avventura",
       "Co-op"
     ],
-    "coverImage": "/covers/he-man-dragon-pearl.svg",
+    "coverImage": "/covers/he-man-dragon-pearl.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/He-Man-Dragon-Pearl-2972000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -228,7 +228,7 @@
       "Co-op",
       "Fantasy"
     ],
-    "coverImage": "/covers/trine-6.svg",
+    "coverImage": "/covers/trine-6.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Trine-6-Together-in-Time-2982000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -265,7 +265,7 @@
       "Anime",
       "Visual Novel"
     ],
-    "coverImage": "/covers/fate-extra-record.svg",
+    "coverImage": "/covers/fate-extra-record.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Fate-Extra-Record-2962000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -303,7 +303,7 @@
       "2D",
       "Platform"
     ],
-    "coverImage": "/covers/nocturnal-ii.svg",
+    "coverImage": "/covers/nocturnal-ii.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Nocturnal-II-2948000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -339,7 +339,7 @@
       "Survival",
       "Bullet Hell"
     ],
-    "coverImage": "/covers/warhammer-survivors.svg",
+    "coverImage": "/covers/warhammer-survivors.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Warhammer-Survivors-2947000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -375,7 +375,7 @@
       "Accogliente",
       "Sociale"
     ],
-    "coverImage": "/covers/loftia.svg",
+    "coverImage": "/covers/loftia.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Loftia-2942000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -411,7 +411,7 @@
       "Commedia",
       "Casual"
     ],
-    "coverImage": "/covers/tanuki-pons-summer.svg",
+    "coverImage": "/covers/tanuki-pons-summer.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Tanuki-Pons-Summer-2945000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -448,7 +448,7 @@
       "Open World",
       "Fantascienza"
     ],
-    "coverImage": "/covers/xenoblade-genesis.svg",
+    "coverImage": "/covers/xenoblade-genesis.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Xenoblade-Genesis-3001000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -486,7 +486,7 @@
       "Open World",
       "Cattura mostri"
     ],
-    "coverImage": "/covers/pokemon-winds-waves.svg",
+    "coverImage": "/covers/pokemon-winds-waves.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Pokemon-Winds-Pokemon-Waves-3000000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -524,7 +524,7 @@
       "Sparatutto",
       "Spionaggio"
     ],
-    "coverImage": "/covers/007-first-light.svg",
+    "coverImage": "/covers/007-first-light.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/007-First-Light-2996000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -562,7 +562,7 @@
       "Mistero",
       "Simulazione"
     ],
-    "coverImage": "/covers/persona-4-revival.svg",
+    "coverImage": "/covers/persona-4-revival.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Persona-4-Revival-2992000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -600,7 +600,7 @@
       "Esplorazione",
       "Enigmi"
     ],
-    "coverImage": "/covers/tomb-raider-legacy-atlantis.svg",
+    "coverImage": "/covers/tomb-raider-legacy-atlantis.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Tomb-Raider-Legacy-of-Atlantis-2985000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -637,7 +637,7 @@
       "2D",
       "Giappone Feudale"
     ],
-    "coverImage": "/covers/muramasa-revenant-blades.svg",
+    "coverImage": "/covers/muramasa-revenant-blades.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Muramasa-Revenant-Blades-2975000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -674,7 +674,7 @@
       "Pixel Art",
       "Magia"
     ],
-    "coverImage": "/covers/witchbrook.svg",
+    "coverImage": "/covers/witchbrook.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Witchbrook-2965000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -712,7 +712,7 @@
       "Metroidvania",
       "Fantascienza"
     ],
-    "coverImage": "/covers/metroid-ravenous.svg",
+    "coverImage": "/covers/metroid-ravenous.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Metroid-Ravenous-2995000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -789,7 +789,7 @@
       "Remake",
       "Fantasy"
     ],
-    "coverImage": "/covers/zelda-ocarina-switch2.svg",
+    "coverImage": "/covers/zelda-ocarina-switch2.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Legend-of-Zelda-Ocarina-of-Time-Switch-2-Edition-2990001.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -1115,7 +1115,7 @@
       "Gioco di ruolo (RPG)",
       "Avventura"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/35fc0e9e5683511765f66e0489100f4a41575cb5660f23d55d7f6ab1a98cedff.jpg",
+    "coverImage": "/covers/yu-gi-oh-tag-force-gx.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000120382",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1133,7 +1133,7 @@
       "Gioco di ruolo (RPG)",
       "Strategia"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/ab33bf82a42120f1ed8e5371262b9eaa933830ec291b4ea25fc95befe7a82b3e.jpg",
+    "coverImage": "/covers/astonishia-story.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000129971",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1153,7 +1153,7 @@
       "Simulazione",
       "Multiplayer"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/3ea0b1c4edba6fd493990024911496cbddf592f54237fb997193270288df4d68.jpg",
+    "coverImage": "/covers/power-racing-bundle-4.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000118682",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1173,7 +1173,7 @@
       "Gioco di ruolo (RPG)",
       "Simulazione"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/847c92aeea7e297cf041859773ed250c7753fd4e167dc5a6f9794f36a8dee17f.jpg",
+    "coverImage": "/covers/aeruta.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000080761",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1190,7 +1190,7 @@
     "genres": [
       "Gioco di ruolo (RPG)"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/d13e2a3cd0f211de83afacbaeedebf173fccfe0c27527078088ca877430200df.jpg",
+    "coverImage": "/covers/dragon-quest-monsters.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000092409",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1208,7 +1208,7 @@
       "Azione",
       "Avventura"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/6970c21795996a36a9fa8a7d5eccca0a74882a326e5acf19d9e3f9ebe09e6591.jpg",
+    "coverImage": "/covers/fall-up.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000098134",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1228,7 +1228,7 @@
       "Piattaforme",
       "Arcade"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/0e0386d2273b3c39418b9084e161409da3cc669de4e75d8c3ab8aaa4aa441b5f.jpg",
+    "coverImage": "/covers/marupoyo.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000100155",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1246,7 +1246,7 @@
       "Party",
       "Gioco di ruolo (RPG)"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/34c94e7ce93e819b1ea6c62949595709ccb2495fd9bbc75e9bfd9178ff5a875a.jpg",
+    "coverImage": "/covers/prinny-party.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1264,7 +1264,7 @@
       "Da tavolo",
       "Multiplayer"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/77fd27bdbad592d221f7bf9637ad60f4b3a17d4447043ad5847f1f0c3ae91d12.jpg",
+    "coverImage": "/covers/hasbro-games-junior.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000119533",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
@@ -1283,7 +1283,7 @@
       "Azione",
       "Arcade"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/929e915197cd8c2300c71cab31ddd8e6173ff15d6258246faf984e68ea84002c.jpg",
+    "coverImage": "/covers/manic-miner.jpg",
     "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000131565",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,

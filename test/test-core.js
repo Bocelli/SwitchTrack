@@ -366,4 +366,15 @@ test('Audit Giochi in Arrivo (Upcoming): zero copertine rotte, verifica fisica s
   const metroid = store.getGameById('metroid-ravenous-switch2');
   assert.ok(metroid, 'Metroid Ravenous deve esistere');
   assert.equal(metroid.status, 'upcoming');
+
+  // Verifica che TUTTI i 34 giochi in arrivo abbiano copertine raster (JPG/PNG) fisiche e zero SVG segnaposto
+  for (const up of upcoming) {
+    assert.ok(up.coverImage, `Il gioco ${up.id} deve avere una copertina`);
+    assert.ok(!up.coverImage.endsWith('.svg'), `Il gioco ${up.id} non deve avere una copertina SVG segnaposto`);
+    if (up.coverImage.startsWith('/covers/')) {
+      const diskPath = path.resolve(__dirname, '../public' + up.coverImage);
+      assert.ok(fs.existsSync(diskPath), `La copertina su disco ${up.coverImage} deve esistere`);
+      assert.ok(fs.statSync(diskPath).size > 10000, `La copertina ${up.coverImage} deve avere dimensione reale (> 10KB)`);
+    }
+  }
 });

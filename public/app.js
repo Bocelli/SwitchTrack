@@ -300,17 +300,12 @@ function createGameCardHtml(game) {
  */
 function attachCardListeners(container) {
   container.querySelectorAll('.game-cover-img').forEach(img => {
-    const handleFallback = () => {
-      const fallback = img.getAttribute('data-fallback');
-      if (fallback && img.getAttribute('src') !== fallback) {
-        img.src = fallback;
+    img.addEventListener('error', function() {
+      const fallback = this.getAttribute('data-fallback');
+      if (fallback && this.getAttribute('src') !== fallback) {
+        this.src = fallback;
       }
-    };
-    if (img.complete && img.naturalWidth === 0) {
-      handleFallback();
-    } else {
-      img.addEventListener('error', handleFallback, { once: true });
-    }
+    }, { once: true });
   });
 
   container.querySelectorAll('.open-modal-btn').forEach(btn => {
@@ -608,17 +603,12 @@ async function openGameModal(gameId) {
     // Fallback immagine modale
     const modalCover = elements.modalContent.querySelector('.modal-cover');
     if (modalCover) {
-      const handleModalFallback = () => {
-        const fallback = modalCover.getAttribute('data-fallback');
-        if (fallback && modalCover.getAttribute('src') !== fallback) {
-          modalCover.src = fallback;
+      modalCover.addEventListener('error', function() {
+        const fallback = this.getAttribute('data-fallback');
+        if (fallback && this.getAttribute('src') !== fallback) {
+          this.src = fallback;
         }
-      };
-      if (modalCover.complete && modalCover.naturalWidth === 0) {
-        handleModalFallback();
-      } else {
-        modalCover.addEventListener('error', handleModalFallback, { once: true });
-      }
+      }, { once: true });
     }
 
     elements.modal.classList.add('open');
