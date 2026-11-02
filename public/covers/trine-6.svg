@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="grad_trine_6_svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95" />
+      <stop offset="100%" stop-color="#2e1065" />
+    </linearGradient>
+    <radialGradient id="glow_trine_6_svg" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#00c3e3" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid_trine_6_svg" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#grad_trine_6_svg)" />
+  <rect width="800" height="450" fill="url(#grid_trine_6_svg)" />
+  <rect width="800" height="450" fill="url(#glow_trine_6_svg)" />
+
+  <!-- Badge Piattaforma -->
+  <g transform="translate(50, 50)">
+    <rect width="280" height="32" rx="6" fill="#00c3e3" fill-opacity="0.2" stroke="#00c3e3" stroke-width="1.5" />
+    <circle cx="16" cy="16" r="5" fill="#00c3e3" />
+    <text x="30" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#ffffff" letter-spacing="1.5">NINTENDO SWITCH & SWITCH 2</text>
+  </g>
+
+  <!-- Badge In Arrivo -->
+  <g transform="translate(345, 50)">
+    <rect width="120" height="32" rx="6" fill="rgba(234, 179, 8, 0.2)" stroke="#eab308" stroke-width="1" />
+    <text x="60" y="21" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#fef08a" text-anchor="middle">IN ARRIVO</text>
+  </g>
+
+  <!-- Titolo del Gioco -->
+  <text x="50" y="220" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+    Trine 6: Together in Time
+  </text>
+
+  <!-- Editore -->
+  <text x="50" y="265" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="#cbd5e1">
+    Frozenbyte
+  </text>
+
+  <!-- Linea inferiore decorativa Joy-Con -->
+  <rect x="0" y="442" width="800" height="8" fill="#00c3e3" />
+</svg>

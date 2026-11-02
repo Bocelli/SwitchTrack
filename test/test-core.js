@@ -322,3 +322,48 @@ test('The Duskbloods: verifica stato upcoming 2027 e assenza da ultimi aggiornam
   const upcoming = store.getGames({ platform: 'upcoming' });
   assert.ok(upcoming.some(g => g.id === 'the-duskbloods-switch2'), 'Deve essere nel filtro upcoming');
 });
+
+test('Audit Giochi in Arrivo (Upcoming): zero copertine rotte, verifica fisica su disco e catalogo completo', () => {
+  store.load();
+  const upcoming = store.getGames({ platform: 'upcoming' });
+  assert.ok(upcoming.length >= 20, 'Devono esserci tutti i giochi in arrivo censiti (almeno 20)');
+
+  // Verifica copertina Kirby
+  const kirby = store.getGameById('kirby-and-the-world-beyond');
+  assert.ok(kirby, 'Kirby deve esistere');
+  assert.equal(kirby.status, 'upcoming');
+  assert.equal(kirby.coverImage, '/covers/kirby-and-the-world-beyond.png');
+  const kirbyPath = path.resolve(__dirname, '../public' + kirby.coverImage);
+  assert.ok(fs.existsSync(kirbyPath), 'La copertina di Kirby deve esistere fisicamente su disco');
+  assert.ok(fs.statSync(kirbyPath).size > 100000, 'Copertina di Kirby con risoluzione reale');
+
+  // Verifica copertina The Duskbloods
+  const dusk = store.getGameById('the-duskbloods-switch2');
+  assert.ok(dusk, 'The Duskbloods deve esistere');
+  assert.equal(dusk.coverImage, '/covers/the-duskbloods.jpg');
+  const duskPath = path.resolve(__dirname, '../public' + dusk.coverImage);
+  assert.ok(fs.existsSync(duskPath), 'La copertina di The Duskbloods deve esistere fisicamente su disco');
+  assert.ok(fs.statSync(duskPath).size > 50000, 'Copertina di The Duskbloods valida');
+
+  // Verifica globale: ogni singola copertina /covers/ di qualsiasi gioco in data/games.json DEVE esistere su disco
+  const allGames = store.getGames();
+  for (const g of allGames) {
+    if (g.coverImage && g.coverImage.startsWith('/covers/')) {
+      const diskPath = path.resolve(__dirname, '../public' + g.coverImage);
+      assert.ok(fs.existsSync(diskPath), `La copertina per ${g.id} (${g.coverImage}) DEVE esistere su disco senza eccezioni`);
+    }
+  }
+
+  // Verifica titoli chiave in arrivo
+  const oot = store.getGameById('zelda-ocarina-of-time-switch2');
+  assert.ok(oot, 'Zelda Ocarina of Time Switch 2 deve esistere tra i giochi in arrivo');
+  assert.equal(oot.status, 'upcoming');
+
+  const layton = store.getGameById('professor-layton-and-the-new-world-of-steam');
+  assert.ok(layton, 'Professor Layton deve esistere tra i giochi in arrivo');
+  assert.equal(layton.status, 'upcoming');
+
+  const metroid = store.getGameById('metroid-ravenous-switch2');
+  assert.ok(metroid, 'Metroid Ravenous deve esistere');
+  assert.equal(metroid.status, 'upcoming');
+});

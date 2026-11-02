@@ -1,5 +1,820 @@
 [
   {
+    "id": "grave-seasons",
+    "title": "Grave Seasons",
+    "platform": "both",
+    "titleId": "01007D501DB10000",
+    "publisher": "Perfect Garbage",
+    "releaseDate": "2027-03-09",
+    "status": "upcoming",
+    "genres": [
+      "Simulazione",
+      "Mistero",
+      "Serial Killer",
+      "Farming"
+    ],
+    "coverImage": "/covers/grave-seasons.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Grave-Seasons-2986000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T10:00:00Z",
+    "aliases": [
+      "grave seasons",
+      "fattoria serial killer",
+      "farming sim mistero"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-09",
+        "type": "major",
+        "title": "Annuncio Ufficiale Data",
+        "changelog": [
+          "Simulatore agricolo sovrannaturale in cui uno degli abitanti del villaggio è un serial killer segreto da smascherare."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-road-of-dust-and-sorrow",
+    "title": "The Road of Dust and Sorrow",
+    "platform": "both",
+    "titleId": "01004C201FC90000",
+    "publisher": "Team 17",
+    "releaseDate": "2026-12-03",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "Narrativo",
+      "Post-apocalittico"
+    ],
+    "coverImage": "/covers/road-of-dust-and-sorrow.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/The-Road-of-Dust-and-Sorrow-2971000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-18T10:00:00Z",
+    "aliases": [
+      "road of dust and sorrow",
+      "polvere e dolore"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-12-03",
+        "type": "major",
+        "title": "Annuncio Ufficiale Team 17",
+        "changelog": [
+          "Viaggio narrativo emotivo attraverso terre desolate con scelte morali permanenti."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13z-zodiac-trials",
+    "title": "13Z: The Zodiac Trials",
+    "platform": "both",
+    "titleId": "01001B301EB80000",
+    "publisher": "Mixed Realms",
+    "releaseDate": "2027-01-14",
+    "status": "upcoming",
+    "genres": [
+      "Action RPG",
+      "Hack and Slash",
+      "Roguelike"
+    ],
+    "coverImage": "/covers/13z-zodiac-trials.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/13Z-The-Zodiac-Trials-2961000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-16T10:00:00Z",
+    "aliases": [
+      "13z",
+      "zodiac trials",
+      "segni zodiacali"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-14",
+        "type": "major",
+        "title": "Annuncio Ufficiale Roguelike",
+        "changelog": [
+          "Sfida i 12 guardiani dello zodiaco in un action roguelite rapido e brutale con abilità celesti."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sonic-pico-park",
+    "title": "Sonic Pico Park",
+    "platform": "both",
+    "titleId": "01002A401DC70000",
+    "publisher": "SEGA",
+    "releaseDate": "2026-11-12",
+    "status": "upcoming",
+    "genres": [
+      "Party",
+      "Puzzle",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "coverImage": "/covers/sonic-pico-park.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Sonic-Pico-Park-2951000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-26T10:00:00Z",
+    "aliases": [
+      "sonic pico park",
+      "pico park sonic",
+      "sega party"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Presentazione Ufficiale SEGA",
+        "changelog": [
+          "Cross-over cooperativo fino a 8 giocatori simultanei nei panni di Sonic, Tails, Knuckles e Amy."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "attack-on-titan-3-switch2",
+    "title": "Attack on Titan 3",
+    "platform": "switch2",
+    "titleId": "01003B501FA60000",
+    "publisher": "Koei Tecmo",
+    "releaseDate": "2026-12-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Anime",
+      "Acrobatico",
+      "Giganti"
+    ],
+    "coverImage": "/covers/attack-on-titan-3.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Attack-on-Titan-3-2978000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-14T10:00:00Z",
+    "aliases": [
+      "aot 3",
+      "attack on titan 3",
+      "shingeki no kyojin 3",
+      "eren yeager"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-12-10",
+        "type": "major",
+        "title": "Annuncio Ufficiale Koei Tecmo",
+        "changelog": [
+          "Capitolo finale della trilogia d'azione acrobatica con manovra tridimensionale a 60 FPS stabili su Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "he-man-dragon-pearl-of-destruction",
+    "title": "He-Man and the Masters of the Universe: Dragon Pearl of Destruction",
+    "platform": "both",
+    "titleId": "01005C701EB10000",
+    "publisher": "Mattel / Outright Games",
+    "releaseDate": "2027-02-04",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Picchiaduro",
+      "Avventura",
+      "Co-op"
+    ],
+    "coverImage": "/covers/he-man-dragon-pearl.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/He-Man-Dragon-Pearl-2972000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-18T10:00:00Z",
+    "aliases": [
+      "he-man",
+      "masters of the universe",
+      "skeletor",
+      "dragon pearl"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-04",
+        "type": "major",
+        "title": "Apertura Scheda Ufficiale",
+        "changelog": [
+          "Avventura d'azione cooperativa ambientata su Eternia contro le forze di Skeletor."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trine-6-together-in-time",
+    "title": "Trine 6: Together in Time",
+    "platform": "both",
+    "titleId": "01008D201BC90000",
+    "publisher": "Frozenbyte / THQ Nordic",
+    "releaseDate": "2027-03-04",
+    "status": "upcoming",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Co-op",
+      "Fantasy"
+    ],
+    "coverImage": "/covers/trine-6.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Trine-6-Together-in-Time-2982000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-02T10:00:00Z",
+    "aliases": [
+      "trine 6",
+      "trine",
+      "amadeus pontius zoya",
+      "together in time"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-04",
+        "type": "major",
+        "title": "Annuncio Sesto Capitolo Trine",
+        "changelog": [
+          "Nuove meccaniche di manipolazione temporale cooperative per 4 giocatori."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fate-extra-record",
+    "title": "Fate/Extra Record",
+    "platform": "both",
+    "titleId": "01009A101CC50000",
+    "publisher": "Bandai Namco / Type-Moon",
+    "releaseDate": "2027-01-28",
+    "status": "upcoming",
+    "genres": [
+      "RPG",
+      "A turni",
+      "Anime",
+      "Visual Novel"
+    ],
+    "coverImage": "/covers/fate-extra-record.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Fate-Extra-Record-2962000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-28T10:00:00Z",
+    "aliases": [
+      "fate extra",
+      "fate extra record",
+      "type moon",
+      "nero claudius",
+      "saber"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-28",
+        "type": "major",
+        "title": "Data di Uscita Confermata in Occidente",
+        "changelog": [
+          "Remake in 3D completo della celebre Guerra del Santo Graal della Luna."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nocturnal-ii",
+    "title": "Nocturnal II",
+    "platform": "both",
+    "titleId": "01006E301DC80000",
+    "publisher": "Sunnyside Games",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Metroidvania",
+      "2D",
+      "Platform"
+    ],
+    "coverImage": "/covers/nocturnal-ii.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Nocturnal-II-2948000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-20T10:00:00Z",
+    "aliases": [
+      "nocturnal 2",
+      "nocturnal ii",
+      "spada di fuoco"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Data di Rilascio e Trailer Ufficiale",
+        "changelog": [
+          "Nuove abilità elementali del fuoco e ambientazioni interamente ridisegnate a mano."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "warhammer-survivors",
+    "title": "Warhammer Survivors",
+    "platform": "both",
+    "titleId": "01007F101CD60000",
+    "publisher": "Games Workshop / Poncle",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Roguelite",
+      "Survival",
+      "Bullet Hell"
+    ],
+    "coverImage": "/covers/warhammer-survivors.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Warhammer-Survivors-2947000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-25T10:00:00Z",
+    "aliases": [
+      "warhammer survivors",
+      "warhammer 40k",
+      "space marine survivors"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Annuncio Ufficiale Collaborazione",
+        "changelog": [
+          "L'universo di Warhammer 40,000 incontra il gameplay assuefacente in stile Vampire Survivors."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "loftia",
+    "title": "Loftia",
+    "platform": "both",
+    "titleId": "01004E801BC30000",
+    "publisher": "QLOC",
+    "releaseDate": "2026-11-03",
+    "status": "upcoming",
+    "genres": [
+      "MMO",
+      "Simulazione",
+      "Accogliente",
+      "Sociale"
+    ],
+    "coverImage": "/covers/loftia.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Loftia-2942000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-24T10:00:00Z",
+    "aliases": [
+      "loftia",
+      "cozy mmo",
+      "simulazione solarpunk"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-03",
+        "type": "major",
+        "title": "Lancio Globale Ufficiale",
+        "changelog": [
+          "MMO accogliente a tema solarpunk focalizzato sulla cooperazione e la sostenibilità ecologica."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tanuki-pons-summer",
+    "title": "Tanuki: Pon's Summer",
+    "platform": "both",
+    "titleId": "01003D901CD80000",
+    "publisher": "Raw Fury",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "BMX",
+      "Commedia",
+      "Casual"
+    ],
+    "coverImage": "/covers/tanuki-pons-summer.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Tanuki-Pons-Summer-2945000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T10:00:00Z",
+    "aliases": [
+      "tanuki",
+      "pon's summer",
+      "tanuki bmx",
+      "postino procione"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Apertura Pre-order e Data Definitiva",
+        "changelog": [
+          "Vesti i panni di un tanuki postino che compie acrobazie in BMX per le strade di una cittadina giapponese estiva."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xenoblade-genesis-switch2",
+    "title": "Xenoblade Genesis",
+    "platform": "switch2",
+    "titleId": "01008C401FA70000",
+    "publisher": "Nintendo / Monolith Soft",
+    "releaseDate": "2027-09-17",
+    "status": "upcoming",
+    "genres": [
+      "JRPG",
+      "Azione",
+      "Open World",
+      "Fantascienza"
+    ],
+    "coverImage": "/covers/xenoblade-genesis.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Xenoblade-Genesis-3001000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-12T10:00:00Z",
+    "aliases": [
+      "xenoblade genesis",
+      "xenoblade 4",
+      "monolith soft switch 2",
+      "klaus",
+      "conduit"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-09-17",
+        "type": "major",
+        "title": "Annuncio Nuovo Arco Narrativo Monolith Soft",
+        "changelog": [
+          "Inizio della nuova saga dell'universo Xenoblade ideata da Tetsuya Takahashi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pokemon-winds-waves-switch2",
+    "title": "Pokémon Winds & Pokémon Waves",
+    "platform": "switch2",
+    "titleId": "01005A301DF20000",
+    "publisher": "Nintendo / The Pokémon Company",
+    "releaseDate": "2027-11-19",
+    "status": "upcoming",
+    "genres": [
+      "RPG",
+      "Avventura",
+      "Open World",
+      "Cattura mostri"
+    ],
+    "coverImage": "/covers/pokemon-winds-waves.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Pokemon-Winds-Pokemon-Waves-3000000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-10T10:00:00Z",
+    "aliases": [
+      "pokemon winds",
+      "pokemon waves",
+      "pokemon gen 10",
+      "decima generazione pokemon",
+      "pokemon switch 2"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-11-19",
+        "type": "major",
+        "title": "Annuncio Decima Generazione Pokémon",
+        "changelog": [
+          "Nuova regione open-world arcipelago interamente esplorabile senza schermate di caricamento in esclusiva su Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007-first-light-switch2",
+    "title": "007 First Light",
+    "platform": "switch2",
+    "titleId": "01006B101DC40000",
+    "publisher": "IO Interactive",
+    "releaseDate": "2027-03-18",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Stealth",
+      "Sparatutto",
+      "Spionaggio"
+    ],
+    "coverImage": "/covers/007-first-light.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/007-First-Light-2996000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-25T10:00:00Z",
+    "aliases": [
+      "007",
+      "james bond",
+      "first light",
+      "project 007",
+      "io interactive 007"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-18",
+        "type": "major",
+        "title": "Presentazione Mondiale Gameplay",
+        "changelog": [
+          "Storia inedita sulle origini di James Bond creata dagli autori della saga Hitman."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "persona-4-revival-switch2",
+    "title": "Persona 4 Revival",
+    "platform": "switch2",
+    "titleId": "01001D401EF80000",
+    "publisher": "Atlus / SEGA",
+    "releaseDate": "2027-02-18",
+    "status": "upcoming",
+    "genres": [
+      "JRPG",
+      "A turni",
+      "Mistero",
+      "Simulazione"
+    ],
+    "coverImage": "/covers/persona-4-revival.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Persona-4-Revival-2992000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-05T10:00:00Z",
+    "aliases": [
+      "persona 4",
+      "p4r",
+      "persona 4 remake",
+      "inaba",
+      "yu narukami"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-18",
+        "type": "major",
+        "title": "Annuncio Ufficiale Atlus",
+        "changelog": [
+          "Remake completo con lo stile visivo e le meccaniche di combattimento di Persona 3 Reload e Persona 5 Royal."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tomb-raider-legacy-of-atlantis-switch2",
+    "title": "Tomb Raider: Legacy of Atlantis",
+    "platform": "switch2",
+    "titleId": "01004C801BE90000",
+    "publisher": "Crystal Dynamics / Amazon Games",
+    "releaseDate": "2027-02-12",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Esplorazione",
+      "Enigmi"
+    ],
+    "coverImage": "/covers/tomb-raider-legacy-atlantis.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Tomb-Raider-Legacy-of-Atlantis-2985000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-18T10:00:00Z",
+    "aliases": [
+      "tomb raider",
+      "lara croft",
+      "legacy of atlantis",
+      "tomb raider switch 2"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-12",
+        "type": "major",
+        "title": "Annuncio Ufficiale Nuova Avventura di Lara Croft",
+        "changelog": [
+          "Sviluppato su Unreal Engine 5 e ottimizzato per l'architettura NVIDIA DLSS di Nintendo Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "muramasa-revenant-blades-switch2",
+    "title": "Muramasa: Revenant Blades",
+    "platform": "switch2",
+    "titleId": "01009B401CF22000",
+    "publisher": "Marvelous / Vanillaware",
+    "releaseDate": "2027-02-04",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Hack and Slash",
+      "2D",
+      "Giappone Feudale"
+    ],
+    "coverImage": "/covers/muramasa-revenant-blades.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Muramasa-Revenant-Blades-2975000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-15T10:00:00Z",
+    "aliases": [
+      "muramasa",
+      "vanillaware switch 2",
+      "revenant blades",
+      "oboro muramasa"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-04",
+        "type": "major",
+        "title": "Annuncio Ufficiale Vanillaware",
+        "changelog": [
+          "Ritorno del capolavoro d'azione 2D dipinto a mano in 4K nativo con nuovi capitoli di trama su Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "witchbrook",
+    "title": "Witchbrook",
+    "platform": "both",
+    "titleId": "010057401AC32000",
+    "publisher": "Chucklefish",
+    "releaseDate": "2027-01-28",
+    "status": "upcoming",
+    "genres": [
+      "RPG",
+      "Simulazione di vita",
+      "Pixel Art",
+      "Magia"
+    ],
+    "coverImage": "/covers/witchbrook.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Witchbrook-2965000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-20T10:00:00Z",
+    "aliases": [
+      "witchbrook",
+      "chucklefish",
+      "scuola di magia",
+      "stardew valley magico"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-28",
+        "type": "major",
+        "title": "Annuncio Data di Rilascio",
+        "changelog": [
+          "Simulatore di vita magica a pixel art sviluppato da Chucklefish per Nintendo Switch e Switch 2.",
+          "Include modalità cooperativa online e cross-play."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "metroid-ravenous-switch2",
+    "title": "Metroid Ravenous",
+    "platform": "switch2",
+    "titleId": "01008A201DF50000",
+    "publisher": "Nintendo",
+    "releaseDate": "2027-01-28",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Metroidvania",
+      "Fantascienza"
+    ],
+    "coverImage": "/covers/metroid-ravenous.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Metroid-Ravenous-2995000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-01T10:00:00Z",
+    "aliases": [
+      "metroid ravenous",
+      "samus aran",
+      "metroid 2d switch 2",
+      "metroid 6"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-28",
+        "type": "major",
+        "title": "Annuncio Ufficiale & Teaser Trailer",
+        "changelog": [
+          "Nuovo capitolo 2D a scorrimento in esclusiva per Nintendo Switch 2, seguito ideale di Metroid Dread.",
+          "Supporto a 120 FPS in modalità portatile e TV."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "professor-layton-and-the-new-world-of-steam",
+    "title": "Professor Layton and the New World of Steam",
+    "platform": "both",
+    "titleId": "0100768019C40000",
+    "publisher": "Level-5",
+    "releaseDate": "2026-12-10",
+    "status": "upcoming",
+    "genres": [
+      "Puzzle",
+      "Avventura",
+      "Mistero",
+      "Steampunk"
+    ],
+    "coverImage": "/covers/professor-layton-steam.png",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Professor-Layton-and-the-New-World-of-Steam-2970000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T10:00:00Z",
+    "aliases": [
+      "professor layton",
+      "il professor layton e il nuovo mondo a vapore",
+      "layton steam",
+      "luke triton",
+      "steam bison"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-12-10",
+        "type": "major",
+        "title": "Apertura Pre-ordini e Data Ufficiale",
+        "changelog": [
+          "Nuovo mistero ambientato un anno dopo Il Futuro Perduto nella città industriale di Steam Bison.",
+          "Uscita in simultanea per Nintendo Switch e Nintendo Switch 2 con enigmi tattili potenziati."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zelda-ocarina-of-time-switch2",
+    "title": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 Edition",
+    "platform": "switch2",
+    "titleId": "0100B1A01EB02000",
+    "publisher": "Nintendo",
+    "releaseDate": "2026-11-05",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Remake",
+      "Fantasy"
+    ],
+    "coverImage": "/covers/zelda-ocarina-switch2.svg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Legend-of-Zelda-Ocarina-of-Time-Switch-2-Edition-2990001.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-20T10:00:00Z",
+    "aliases": [
+      "ocarina of time",
+      "oot",
+      "zelda oot",
+      "ocarina of time switch 2",
+      "zelda remake"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Annuncio Ufficiale Nintendo Direct",
+        "changelog": [
+          "Remake completo con motore grafico next-gen in 4K a 60 FPS e supporto ray-tracing su Switch 2.",
+          "Audio orchestrale registrato ex novo e controlli adattivi Joy-Con 2."
+        ]
+      }
+    ]
+  },
+  {
     "id": "kirby-and-the-world-beyond",
     "title": "Kirby and the World Beyond",
     "platform": "switch2",
@@ -12,7 +827,7 @@
       "Azione",
       "Avventura"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/5b89daec2f37cbb4891ff8e906b3a2a68894dfba277cb7c8b09da5bb70f2142e.jpg",
+    "coverImage": "/covers/kirby-and-the-world-beyond.png",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Kirby-and-the-World-Beyond-2980000.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
@@ -26,8 +841,6 @@
     "updates": [
       {
         "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
         "releaseDate": "2027-03-26",
         "type": "major",
         "title": "Annuncio Ufficiale & Apertura Pre-ordini",
@@ -52,9 +865,9 @@
       "Dark Fantasy",
       "Multiplayer"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/9e8b0b57118ca83df05cb4ff7c6b98625ae7d995a94ecfb926b6f849ffb0c79f.jpg",
+    "coverImage": "/covers/the-duskbloods.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Duskbloods-2950000.html",
-    "currentVersion": "Network Test (v0.8.0)",
+    "currentVersion": "Network Test Build (v0.8.0)",
     "currentInternalVersion": 0,
     "lastUpdated": "2026-08-31T10:00:00Z",
     "aliases": [
@@ -66,15 +879,12 @@
     "updates": [
       {
         "version": "Network Test Build",
-        "previousVersion": null,
-        "internalVersion": 0,
         "releaseDate": "2026-08-31",
         "type": "event",
         "title": "Chiusura Network Test & Rinvio Ufficiale al 2027",
         "changelog": [
-          "Concluso il Global Closed Network Test PvPvE a 8 giocatori su Nintendo Switch 2 (28-30 agosto 2026).",
-          "Comunicato ufficiale FromSoftware e Hidetaka Miyazaki: uscita posticipata al 2027 per perfezionare il bilanciamento PvPvE, le abilità dei Bloodsworn e l'infrastruttura di rete.",
-          "Mantenuto il pre-ordine attivo su Nintendo eShop."
+          "Concluso il Global Closed Network Test per 8 giocatori su Nintendo Switch 2 (28-30 agosto 2026).",
+          "Comunicato ufficiale FromSoftware e Hidetaka Miyazaki: lancio posticipato al 2027 per rifinire il netcode e il bilanciamento PvPvE."
         ]
       }
     ],
@@ -92,7 +902,7 @@
       "Sopravvivenza",
       "Simulazione"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/7ea6da5a6a68393e1178619bcbb73e9e1bb9715a9990b79e72ea98c39cf139bb.jpg",
+    "coverImage": "/covers/survival-kids.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Survival-Kids-2880010.html",
     "currentVersion": "v1.0.1",
     "currentInternalVersion": 65536,
@@ -141,7 +951,7 @@
       "A turni",
       "Simulazione"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/2c388efd9ac1399f57ebbf79590eb7781b0a8eb77a5eeb558fca8c42a59a9301.jpg",
+    "coverImage": "/covers/sid-meiers-civilization-vii.png",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Civilization-VII-2900110.html",
     "currentVersion": "v1.2.0",
     "currentInternalVersion": 131072,
@@ -191,7 +1001,7 @@
       "RPG",
       "JRPG"
     ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/78a9c8f93db4c8ea43731a54f058098319f3f4c62294daec5b08ecb661d989f2.jpg",
+    "coverImage": "/covers/final-fantasy-vii-remake-intergrade.png",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Final-Fantasy-VII-Remake-Intergrade-2850120.html",
     "currentVersion": "v1.0.2",
     "currentInternalVersion": 131072,
