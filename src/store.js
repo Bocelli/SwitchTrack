@@ -144,7 +144,9 @@ class GameStore {
       }
 
       // Identifica automaticamente se un gioco non è ancora uscito (pre-order o data futura)
-      const isUpcoming = Boolean(game.status === 'upcoming' || (game.releaseDate && game.releaseDate > today));
+      const isFutureDate = Boolean(game.releaseDate && game.releaseDate > today);
+      const isPastOrToday = Boolean(game.releaseDate && game.releaseDate <= today);
+      const isUpcoming = isFutureDate || (game.status === 'upcoming' && !isPastOrToday);
       game.status = isUpcoming ? 'upcoming' : 'released';
 
       // Precalcola alias e indice di ricerca normalizzato per ricerche veloci in <5ms

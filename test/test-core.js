@@ -355,19 +355,19 @@ test('Audit Giochi in Arrivo (Upcoming): zero copertine rotte, verifica fisica s
   }
 
   // Verifica titoli chiave in arrivo
-  const oot = store.getGameById('zelda-ocarina-of-time-switch2');
-  assert.ok(oot, 'Zelda Ocarina of Time Switch 2 deve esistere tra i giochi in arrivo');
-  assert.equal(oot.status, 'upcoming');
+  const witchbrook = store.getGameById('witchbrook');
+  assert.ok(witchbrook, 'Witchbrook deve esistere tra i giochi in arrivo');
+  assert.equal(witchbrook.status, 'upcoming');
 
   const layton = store.getGameById('professor-layton-and-the-new-world-of-steam');
   assert.ok(layton, 'Professor Layton deve esistere tra i giochi in arrivo');
   assert.equal(layton.status, 'upcoming');
 
   const metroid = store.getGameById('metroid-ravenous-switch2');
-  assert.ok(metroid, 'Metroid Ravenous deve esistere');
+  assert.ok(metroid, 'Metroid Ravenous deve esistere tra i giochi in arrivo');
   assert.equal(metroid.status, 'upcoming');
 
-  // Verifica che TUTTI i 34 giochi in arrivo abbiano copertine raster (JPG/PNG) fisiche e zero SVG segnaposto
+  // Verifica che TUTTI i giochi in arrivo abbiano copertine raster (JPG/PNG) fisiche e zero SVG segnaposto
   for (const up of upcoming) {
     assert.ok(up.coverImage, `Il gioco ${up.id} deve avere una copertina`);
     assert.ok(!up.coverImage.endsWith('.svg'), `Il gioco ${up.id} non deve avere una copertina SVG segnaposto`);
@@ -377,4 +377,37 @@ test('Audit Giochi in Arrivo (Upcoming): zero copertine rotte, verifica fisica s
       assert.ok(fs.statSync(diskPath).size > 10000, `La copertina ${up.coverImage} deve avere dimensione reale (> 10KB)`);
     }
   }
+});
+
+test('The Legend of Zelda: Ocarina of Time Switch 2: lancio 5 novembre 2026, status released, Day-One Patch v1.0.1 e top ultimi aggiornamenti', () => {
+  store.load();
+  const oot = store.getGameById('zelda-ocarina-of-time-switch2');
+  assert.ok(oot, 'Zelda Ocarina of Time Switch 2 deve esistere nel catalogo');
+  assert.equal(oot.status, 'released', 'Dopo il 5 novembre 2026 deve essere nello stato released');
+  assert.equal(oot.currentVersion, 'v1.0.1', 'Deve avere la versione v1.0.1 post Day-One patch');
+  assert.equal(oot.releaseDate, '2026-11-05', 'Data di lancio ufficiale');
+  assert.ok(oot.updates.length >= 2, 'Deve avere sia l\'annuncio che la patch Day-One');
+
+  const dayOne = oot.updates[0];
+  assert.equal(dayOne.version, 'v1.0.1');
+  assert.equal(dayOne.releaseDate, '2026-11-05');
+  assert.ok(dayOne.title.includes('Day-One Patch v1.0.1'));
+  assert.ok(dayOne.changelog.some(c => c.includes('VRR')), 'Changelog deve citare calibrazione VRR');
+
+  // Verifica primo posto nel carosello ultimi aggiornamenti
+  const latestUpdates = store.getLatestUpdates(5);
+  assert.equal(latestUpdates[0].gameId, 'zelda-ocarina-of-time-switch2', 'Zelda Ocarina of Time deve essere il #1 negli ultimi aggiornamenti');
+  assert.equal(latestUpdates[0].version, 'v1.0.1');
+});
+
+test('Automatic Calendar Transition Engine: transizione automatica giochi da upcoming a released con patch Day-One', async () => {
+  const { runSync } = await import('../scripts/sync-upstream-updates.js');
+  const result = await runSync({ now: '2026-11-06T12:00:00Z' });
+  assert.ok(result, 'runSync deve restituire un oggetto con i risultati');
+  assert.equal(typeof result.updatedGamesCount, 'number');
+
+  store.load();
+  const oot = store.getGameById('zelda-ocarina-of-time-switch2');
+  assert.equal(oot.status, 'released', 'Zelda deve essere released');
+  assert.equal(oot.currentVersion, 'v1.0.1', 'Zelda deve mantenere la patch Day-One v1.0.1');
 });

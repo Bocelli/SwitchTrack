@@ -1,1259 +1,5 @@
 [
   {
-    "id": "grave-seasons",
-    "title": "Grave Seasons",
-    "platform": "both",
-    "titleId": "01007D501DB10000",
-    "publisher": "Perfect Garbage",
-    "releaseDate": "2027-03-09",
-    "status": "upcoming",
-    "genres": [
-      "Simulazione",
-      "Mistero",
-      "Serial Killer",
-      "Farming"
-    ],
-    "coverImage": "/covers/grave-seasons.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Grave-Seasons-2986000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-22T10:00:00Z",
-    "aliases": [
-      "grave seasons",
-      "fattoria serial killer",
-      "farming sim mistero"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-03-09",
-        "type": "major",
-        "title": "Annuncio Ufficiale Data",
-        "changelog": [
-          "Simulatore agricolo sovrannaturale in cui uno degli abitanti del villaggio è un serial killer segreto da smascherare."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "the-road-of-dust-and-sorrow",
-    "title": "The Road of Dust and Sorrow",
-    "platform": "both",
-    "titleId": "01004C201FC90000",
-    "publisher": "Team 17",
-    "releaseDate": "2026-12-03",
-    "status": "upcoming",
-    "genres": [
-      "Avventura",
-      "Narrativo",
-      "Post-apocalittico"
-    ],
-    "coverImage": "/covers/road-of-dust-and-sorrow.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/The-Road-of-Dust-and-Sorrow-2971000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-18T10:00:00Z",
-    "aliases": [
-      "road of dust and sorrow",
-      "polvere e dolore"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-12-03",
-        "type": "major",
-        "title": "Annuncio Ufficiale Team 17",
-        "changelog": [
-          "Viaggio narrativo emotivo attraverso terre desolate con scelte morali permanenti."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "13z-zodiac-trials",
-    "title": "13Z: The Zodiac Trials",
-    "platform": "both",
-    "titleId": "01001B301EB80000",
-    "publisher": "Mixed Realms",
-    "releaseDate": "2027-01-14",
-    "status": "upcoming",
-    "genres": [
-      "Action RPG",
-      "Hack and Slash",
-      "Roguelike"
-    ],
-    "coverImage": "/covers/13z-zodiac-trials.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/13Z-The-Zodiac-Trials-2961000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-16T10:00:00Z",
-    "aliases": [
-      "13z",
-      "zodiac trials",
-      "segni zodiacali"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-01-14",
-        "type": "major",
-        "title": "Annuncio Ufficiale Roguelike",
-        "changelog": [
-          "Sfida i 12 guardiani dello zodiaco in un action roguelite rapido e brutale con abilità celesti."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sonic-pico-park",
-    "title": "Sonic Pico Park",
-    "platform": "both",
-    "titleId": "01002A401DC70000",
-    "publisher": "SEGA",
-    "releaseDate": "2026-11-12",
-    "status": "upcoming",
-    "genres": [
-      "Party",
-      "Puzzle",
-      "Co-op",
-      "Multiplayer"
-    ],
-    "coverImage": "/covers/sonic-pico-park.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Sonic-Pico-Park-2951000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-26T10:00:00Z",
-    "aliases": [
-      "sonic pico park",
-      "pico park sonic",
-      "sega party"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Presentazione Ufficiale SEGA",
-        "changelog": [
-          "Cross-over cooperativo fino a 8 giocatori simultanei nei panni di Sonic, Tails, Knuckles e Amy."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "attack-on-titan-3-switch2",
-    "title": "Attack on Titan 3",
-    "platform": "switch2",
-    "titleId": "01003B501FA60000",
-    "publisher": "Koei Tecmo",
-    "releaseDate": "2026-12-10",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Anime",
-      "Acrobatico",
-      "Giganti"
-    ],
-    "coverImage": "/covers/attack-on-titan-3.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Attack-on-Titan-3-2978000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-14T10:00:00Z",
-    "aliases": [
-      "aot 3",
-      "attack on titan 3",
-      "shingeki no kyojin 3",
-      "eren yeager"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-12-10",
-        "type": "major",
-        "title": "Annuncio Ufficiale Koei Tecmo",
-        "changelog": [
-          "Capitolo finale della trilogia d'azione acrobatica con manovra tridimensionale a 60 FPS stabili su Switch 2."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "he-man-dragon-pearl-of-destruction",
-    "title": "He-Man and the Masters of the Universe: Dragon Pearl of Destruction",
-    "platform": "both",
-    "titleId": "01005C701EB10000",
-    "publisher": "Mattel / Outright Games",
-    "releaseDate": "2027-02-04",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Picchiaduro",
-      "Avventura",
-      "Co-op"
-    ],
-    "coverImage": "/covers/he-man-dragon-pearl.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/He-Man-Dragon-Pearl-2972000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-18T10:00:00Z",
-    "aliases": [
-      "he-man",
-      "masters of the universe",
-      "skeletor",
-      "dragon pearl"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-02-04",
-        "type": "major",
-        "title": "Apertura Scheda Ufficiale",
-        "changelog": [
-          "Avventura d'azione cooperativa ambientata su Eternia contro le forze di Skeletor."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "trine-6-together-in-time",
-    "title": "Trine 6: Together in Time",
-    "platform": "both",
-    "titleId": "01008D201BC90000",
-    "publisher": "Frozenbyte / THQ Nordic",
-    "releaseDate": "2027-03-04",
-    "status": "upcoming",
-    "genres": [
-      "Platform",
-      "Puzzle",
-      "Co-op",
-      "Fantasy"
-    ],
-    "coverImage": "/covers/trine-6.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Trine-6-Together-in-Time-2982000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-02T10:00:00Z",
-    "aliases": [
-      "trine 6",
-      "trine",
-      "amadeus pontius zoya",
-      "together in time"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-03-04",
-        "type": "major",
-        "title": "Annuncio Sesto Capitolo Trine",
-        "changelog": [
-          "Nuove meccaniche di manipolazione temporale cooperative per 4 giocatori."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "fate-extra-record",
-    "title": "Fate/Extra Record",
-    "platform": "both",
-    "titleId": "01009A101CC50000",
-    "publisher": "Bandai Namco / Type-Moon",
-    "releaseDate": "2027-01-28",
-    "status": "upcoming",
-    "genres": [
-      "RPG",
-      "A turni",
-      "Anime",
-      "Visual Novel"
-    ],
-    "coverImage": "/covers/fate-extra-record.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Fate-Extra-Record-2962000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-09-28T10:00:00Z",
-    "aliases": [
-      "fate extra",
-      "fate extra record",
-      "type moon",
-      "nero claudius",
-      "saber"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-01-28",
-        "type": "major",
-        "title": "Data di Uscita Confermata in Occidente",
-        "changelog": [
-          "Remake in 3D completo della celebre Guerra del Santo Graal della Luna."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "nocturnal-ii",
-    "title": "Nocturnal II",
-    "platform": "both",
-    "titleId": "01006E301DC80000",
-    "publisher": "Sunnyside Games",
-    "releaseDate": "2026-11-10",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Metroidvania",
-      "2D",
-      "Platform"
-    ],
-    "coverImage": "/covers/nocturnal-ii.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Nocturnal-II-2948000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-20T10:00:00Z",
-    "aliases": [
-      "nocturnal 2",
-      "nocturnal ii",
-      "spada di fuoco"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Data di Rilascio e Trailer Ufficiale",
-        "changelog": [
-          "Nuove abilità elementali del fuoco e ambientazioni interamente ridisegnate a mano."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "warhammer-survivors",
-    "title": "Warhammer Survivors",
-    "platform": "both",
-    "titleId": "01007F101CD60000",
-    "publisher": "Games Workshop / Poncle",
-    "releaseDate": "2026-11-10",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Roguelite",
-      "Survival",
-      "Bullet Hell"
-    ],
-    "coverImage": "/covers/warhammer-survivors.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Warhammer-Survivors-2947000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-25T10:00:00Z",
-    "aliases": [
-      "warhammer survivors",
-      "warhammer 40k",
-      "space marine survivors"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Annuncio Ufficiale Collaborazione",
-        "changelog": [
-          "L'universo di Warhammer 40,000 incontra il gameplay assuefacente in stile Vampire Survivors."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "loftia",
-    "title": "Loftia",
-    "platform": "both",
-    "titleId": "01004E801BC30000",
-    "publisher": "QLOC",
-    "releaseDate": "2026-11-03",
-    "status": "upcoming",
-    "genres": [
-      "MMO",
-      "Simulazione",
-      "Accogliente",
-      "Sociale"
-    ],
-    "coverImage": "/covers/loftia.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Loftia-2942000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-24T10:00:00Z",
-    "aliases": [
-      "loftia",
-      "cozy mmo",
-      "simulazione solarpunk"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-03",
-        "type": "major",
-        "title": "Lancio Globale Ufficiale",
-        "changelog": [
-          "MMO accogliente a tema solarpunk focalizzato sulla cooperazione e la sostenibilità ecologica."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tanuki-pons-summer",
-    "title": "Tanuki: Pon's Summer",
-    "platform": "both",
-    "titleId": "01003D901CD80000",
-    "publisher": "Raw Fury",
-    "releaseDate": "2026-11-10",
-    "status": "upcoming",
-    "genres": [
-      "Avventura",
-      "BMX",
-      "Commedia",
-      "Casual"
-    ],
-    "coverImage": "/covers/tanuki-pons-summer.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Tanuki-Pons-Summer-2945000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-22T10:00:00Z",
-    "aliases": [
-      "tanuki",
-      "pon's summer",
-      "tanuki bmx",
-      "postino procione"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Apertura Pre-order e Data Definitiva",
-        "changelog": [
-          "Vesti i panni di un tanuki postino che compie acrobazie in BMX per le strade di una cittadina giapponese estiva."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "xenoblade-genesis-switch2",
-    "title": "Xenoblade Genesis",
-    "platform": "switch2",
-    "titleId": "01008C401FA70000",
-    "publisher": "Nintendo / Monolith Soft",
-    "releaseDate": "2027-09-17",
-    "status": "upcoming",
-    "genres": [
-      "JRPG",
-      "Azione",
-      "Open World",
-      "Fantascienza"
-    ],
-    "coverImage": "/covers/xenoblade-genesis.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Xenoblade-Genesis-3001000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-12T10:00:00Z",
-    "aliases": [
-      "xenoblade genesis",
-      "xenoblade 4",
-      "monolith soft switch 2",
-      "klaus",
-      "conduit"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-09-17",
-        "type": "major",
-        "title": "Annuncio Nuovo Arco Narrativo Monolith Soft",
-        "changelog": [
-          "Inizio della nuova saga dell'universo Xenoblade ideata da Tetsuya Takahashi."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pokemon-winds-waves-switch2",
-    "title": "Pokémon Winds & Pokémon Waves",
-    "platform": "switch2",
-    "titleId": "01005A301DF20000",
-    "publisher": "Nintendo / The Pokémon Company",
-    "releaseDate": "2027-11-19",
-    "status": "upcoming",
-    "genres": [
-      "RPG",
-      "Avventura",
-      "Open World",
-      "Cattura mostri"
-    ],
-    "coverImage": "/covers/pokemon-winds-waves.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Pokemon-Winds-Pokemon-Waves-3000000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-10T10:00:00Z",
-    "aliases": [
-      "pokemon winds",
-      "pokemon waves",
-      "pokemon gen 10",
-      "decima generazione pokemon",
-      "pokemon switch 2"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-11-19",
-        "type": "major",
-        "title": "Annuncio Decima Generazione Pokémon",
-        "changelog": [
-          "Nuova regione open-world arcipelago interamente esplorabile senza schermate di caricamento in esclusiva su Switch 2."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "007-first-light-switch2",
-    "title": "007 First Light",
-    "platform": "switch2",
-    "titleId": "01006B101DC40000",
-    "publisher": "IO Interactive",
-    "releaseDate": "2027-03-18",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Stealth",
-      "Sparatutto",
-      "Spionaggio"
-    ],
-    "coverImage": "/covers/007-first-light.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/007-First-Light-2996000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-09-25T10:00:00Z",
-    "aliases": [
-      "007",
-      "james bond",
-      "first light",
-      "project 007",
-      "io interactive 007"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-03-18",
-        "type": "major",
-        "title": "Presentazione Mondiale Gameplay",
-        "changelog": [
-          "Storia inedita sulle origini di James Bond creata dagli autori della saga Hitman."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "persona-4-revival-switch2",
-    "title": "Persona 4 Revival",
-    "platform": "switch2",
-    "titleId": "01001D401EF80000",
-    "publisher": "Atlus / SEGA",
-    "releaseDate": "2027-02-18",
-    "status": "upcoming",
-    "genres": [
-      "JRPG",
-      "A turni",
-      "Mistero",
-      "Simulazione"
-    ],
-    "coverImage": "/covers/persona-4-revival.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Persona-4-Revival-2992000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-05T10:00:00Z",
-    "aliases": [
-      "persona 4",
-      "p4r",
-      "persona 4 remake",
-      "inaba",
-      "yu narukami"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-02-18",
-        "type": "major",
-        "title": "Annuncio Ufficiale Atlus",
-        "changelog": [
-          "Remake completo con lo stile visivo e le meccaniche di combattimento di Persona 3 Reload e Persona 5 Royal."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tomb-raider-legacy-of-atlantis-switch2",
-    "title": "Tomb Raider: Legacy of Atlantis",
-    "platform": "switch2",
-    "titleId": "01004C801BE90000",
-    "publisher": "Crystal Dynamics / Amazon Games",
-    "releaseDate": "2027-02-12",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Esplorazione",
-      "Enigmi"
-    ],
-    "coverImage": "/covers/tomb-raider-legacy-atlantis.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Tomb-Raider-Legacy-of-Atlantis-2985000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-09-18T10:00:00Z",
-    "aliases": [
-      "tomb raider",
-      "lara croft",
-      "legacy of atlantis",
-      "tomb raider switch 2"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-02-12",
-        "type": "major",
-        "title": "Annuncio Ufficiale Nuova Avventura di Lara Croft",
-        "changelog": [
-          "Sviluppato su Unreal Engine 5 e ottimizzato per l'architettura NVIDIA DLSS di Nintendo Switch 2."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "muramasa-revenant-blades-switch2",
-    "title": "Muramasa: Revenant Blades",
-    "platform": "switch2",
-    "titleId": "01009B401CF22000",
-    "publisher": "Marvelous / Vanillaware",
-    "releaseDate": "2027-02-04",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Hack and Slash",
-      "2D",
-      "Giappone Feudale"
-    ],
-    "coverImage": "/covers/muramasa-revenant-blades.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Muramasa-Revenant-Blades-2975000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-09-15T10:00:00Z",
-    "aliases": [
-      "muramasa",
-      "vanillaware switch 2",
-      "revenant blades",
-      "oboro muramasa"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-02-04",
-        "type": "major",
-        "title": "Annuncio Ufficiale Vanillaware",
-        "changelog": [
-          "Ritorno del capolavoro d'azione 2D dipinto a mano in 4K nativo con nuovi capitoli di trama su Switch 2."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "witchbrook",
-    "title": "Witchbrook",
-    "platform": "both",
-    "titleId": "010057401AC32000",
-    "publisher": "Chucklefish",
-    "releaseDate": "2027-01-28",
-    "status": "upcoming",
-    "genres": [
-      "RPG",
-      "Simulazione di vita",
-      "Pixel Art",
-      "Magia"
-    ],
-    "coverImage": "/covers/witchbrook.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Witchbrook-2965000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-09-20T10:00:00Z",
-    "aliases": [
-      "witchbrook",
-      "chucklefish",
-      "scuola di magia",
-      "stardew valley magico"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-01-28",
-        "type": "major",
-        "title": "Annuncio Data di Rilascio",
-        "changelog": [
-          "Simulatore di vita magica a pixel art sviluppato da Chucklefish per Nintendo Switch e Switch 2.",
-          "Include modalità cooperativa online e cross-play."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "metroid-ravenous-switch2",
-    "title": "Metroid Ravenous",
-    "platform": "switch2",
-    "titleId": "01008A201DF50000",
-    "publisher": "Nintendo",
-    "releaseDate": "2027-01-28",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Metroidvania",
-      "Fantascienza"
-    ],
-    "coverImage": "/covers/metroid-ravenous.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Metroid-Ravenous-2995000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-01T10:00:00Z",
-    "aliases": [
-      "metroid ravenous",
-      "samus aran",
-      "metroid 2d switch 2",
-      "metroid 6"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-01-28",
-        "type": "major",
-        "title": "Annuncio Ufficiale & Teaser Trailer",
-        "changelog": [
-          "Nuovo capitolo 2D a scorrimento in esclusiva per Nintendo Switch 2, seguito ideale di Metroid Dread.",
-          "Supporto a 120 FPS in modalità portatile e TV."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "professor-layton-and-the-new-world-of-steam",
-    "title": "Professor Layton and the New World of Steam",
-    "platform": "both",
-    "titleId": "0100768019C40000",
-    "publisher": "Level-5",
-    "releaseDate": "2026-12-10",
-    "status": "upcoming",
-    "genres": [
-      "Puzzle",
-      "Avventura",
-      "Mistero",
-      "Steampunk"
-    ],
-    "coverImage": "/covers/professor-layton-steam.png",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Professor-Layton-and-the-New-World-of-Steam-2970000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-15T10:00:00Z",
-    "aliases": [
-      "professor layton",
-      "il professor layton e il nuovo mondo a vapore",
-      "layton steam",
-      "luke triton",
-      "steam bison"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-12-10",
-        "type": "major",
-        "title": "Apertura Pre-ordini e Data Ufficiale",
-        "changelog": [
-          "Nuovo mistero ambientato un anno dopo Il Futuro Perduto nella città industriale di Steam Bison.",
-          "Uscita in simultanea per Nintendo Switch e Nintendo Switch 2 con enigmi tattili potenziati."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "zelda-ocarina-of-time-switch2",
-    "title": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 Edition",
-    "platform": "switch2",
-    "titleId": "0100B1A01EB02000",
-    "publisher": "Nintendo",
-    "releaseDate": "2026-11-05",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Remake",
-      "Fantasy"
-    ],
-    "coverImage": "/covers/zelda-ocarina-switch2.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Legend-of-Zelda-Ocarina-of-Time-Switch-2-Edition-2990001.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-20T10:00:00Z",
-    "aliases": [
-      "ocarina of time",
-      "oot",
-      "zelda oot",
-      "ocarina of time switch 2",
-      "zelda remake"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-05",
-        "type": "major",
-        "title": "Annuncio Ufficiale Nintendo Direct",
-        "changelog": [
-          "Remake completo con motore grafico next-gen in 4K a 60 FPS e supporto ray-tracing su Switch 2.",
-          "Audio orchestrale registrato ex novo e controlli adattivi Joy-Con 2."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "kirby-and-the-world-beyond",
-    "title": "Kirby and the World Beyond",
-    "platform": "switch2",
-    "titleId": "0100F9A019DA6000",
-    "publisher": "Nintendo",
-    "releaseDate": "2027-03-26",
-    "genres": [
-      "Piattaforme",
-      "3D",
-      "Azione",
-      "Avventura"
-    ],
-    "coverImage": "/covers/kirby-and-the-world-beyond.png",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Kirby-and-the-World-Beyond-2980000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-09-12T10:00:00Z",
-    "aliases": [
-      "kirby world beyond",
-      "kirby switch 2",
-      "kirby 3d",
-      "kirby 2027"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2027-03-26",
-        "type": "major",
-        "title": "Annuncio Ufficiale & Apertura Pre-ordini",
-        "changelog": [
-          "Nuovo capitolo platform 3D open-zone sviluppato da HAL Laboratory in esclusiva per Switch 2.",
-          "Pre-ordine disponibile su Nintendo eShop."
-        ]
-      }
-    ],
-    "status": "upcoming"
-  },
-  {
-    "id": "the-duskbloods-switch2",
-    "title": "The Duskbloods",
-    "platform": "switch2",
-    "titleId": "0100D1C01FC82000",
-    "publisher": "FromSoftware / Nintendo",
-    "releaseDate": "2027-04-30",
-    "genres": [
-      "Action RPG",
-      "PvPvE",
-      "Dark Fantasy",
-      "Multiplayer"
-    ],
-    "coverImage": "/covers/the-duskbloods.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Duskbloods-2950000.html",
-    "currentVersion": "Network Test Build (v0.8.0)",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-08-31T10:00:00Z",
-    "aliases": [
-      "duskbloods",
-      "from software switch 2",
-      "miyazaki switch 2",
-      "the dusk bloods"
-    ],
-    "updates": [
-      {
-        "version": "Network Test Build",
-        "releaseDate": "2026-08-31",
-        "type": "event",
-        "title": "Chiusura Network Test & Rinvio Ufficiale al 2027",
-        "changelog": [
-          "Concluso il Global Closed Network Test per 8 giocatori su Nintendo Switch 2 (28-30 agosto 2026).",
-          "Comunicato ufficiale FromSoftware e Hidetaka Miyazaki: lancio posticipato al 2027 per rifinire il netcode e il bilanciamento PvPvE."
-        ]
-      }
-    ],
-    "status": "upcoming"
-  },
-  {
-    "id": "survival-kids-switch2",
-    "title": "Survival Kids",
-    "platform": "switch2",
-    "titleId": "0100E2B018FA4000",
-    "publisher": "Konami",
-    "releaseDate": "2025-06-05",
-    "genres": [
-      "Avventura",
-      "Sopravvivenza",
-      "Simulazione"
-    ],
-    "coverImage": "/covers/survival-kids.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Survival-Kids-2880010.html",
-    "currentVersion": "v1.0.1",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2025-08-10T10:00:00Z",
-    "aliases": [
-      "survival kids",
-      "lost in blue",
-      "isola deserta"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-08-10",
-        "type": "patch",
-        "title": "Fix gestione inventario e calcolo del meteo tropicale",
-        "changelog": [
-          "Risolto un bug per cui gli oggetti lasciati sulla spiaggia sparivano con l'alta marea.",
-          "Migliorata la transizione giorno/notte e la simulazione della pioggia."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-06-05",
-        "type": "major",
-        "title": "Lancio Day-One Nintendo Switch 2",
-        "changelog": [
-          "Ritorno del leggendario survival adventure open world in esclusiva su Switch 2."
-        ]
-      }
-    ],
-    "status": "released"
-  },
-  {
-    "id": "sid-meiers-civilization-vii-switch2",
-    "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
-    "platform": "switch2",
-    "titleId": "0100C3F019E88000",
-    "publisher": "2K",
-    "releaseDate": "2025-06-05",
-    "genres": [
-      "Strategia",
-      "A turni",
-      "Simulazione"
-    ],
-    "coverImage": "/covers/sid-meiers-civilization-vii.png",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Civilization-VII-2900110.html",
-    "currentVersion": "v1.2.0",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2026-05-18T10:00:00Z",
-    "aliases": [
-      "civilization 7",
-      "civ 7",
-      "sid meier civilization vii"
-    ],
-    "updates": [
-      {
-        "version": "v1.2.0",
-        "previousVersion": "v1.1.0",
-        "internalVersion": 131072,
-        "releaseDate": "2026-05-18",
-        "type": "major",
-        "title": "Aggiornamento Civiltà Antiche & Calcolo Turni Accelerato",
-        "changelog": [
-          "Velocità di calcolo dei turni dell'intelligenza artificiale aumentata del 40% grazie alla CPU di Switch 2.",
-          "Aggiunte 3 nuove civiltà storiche e ribilanciamento degli alberi delle ere."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-06-05",
-        "type": "major",
-        "title": "Lancio Nintendo Switch 2 al Day-One",
-        "changelog": [
-          "Rilascio simultaneo globale in concomitanza con il lancio di Nintendo Switch 2.",
-          "Supporto ai controlli mouse tramite touchscreen e Joy-Con 2 puntatore."
-        ]
-      }
-    ],
-    "status": "released"
-  },
-  {
-    "id": "final-fantasy-vii-remake-intergrade",
-    "title": "Final Fantasy VII Remake Intergrade",
-    "platform": "switch2",
-    "titleId": "01007E501BC20000",
-    "publisher": "Square Enix",
-    "releaseDate": "2026-01-22",
-    "genres": [
-      "Azione",
-      "RPG",
-      "JRPG"
-    ],
-    "coverImage": "/covers/final-fantasy-vii-remake-intergrade.png",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Final-Fantasy-VII-Remake-Intergrade-2850120.html",
-    "currentVersion": "v1.0.2",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2026-02-15T10:00:00Z",
-    "aliases": [
-      "ff7 remake",
-      "final fantasy 7 remake",
-      "intergrade",
-      "cloud strife",
-      "yuffie"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.2",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2026-02-15",
-        "type": "patch",
-        "title": "Patch 1.0.2: Miglioramenti stabilità e rendering texture a Midgar",
-        "changelog": [
-          "Ottimizzato lo streaming delle texture nei bassifondi del Settore 7 su Switch 2.",
-          "Risolto un calo di framerate durante la battaglia contro l'Aerodistruttore."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-01-22",
-        "type": "major",
-        "title": "Lancio ufficiale Nintendo Switch 2 (Include EPISODE INTERmission)",
-        "changelog": [
-          "Rilascio dell'edizione completa con il capitolo dedicato a Yuffie Kisaragi su Switch 2.",
-          "Grafica 1440p 60 FPS stabili in modalità TV e 1080p nativi in portatile con supporto DLSS."
-        ]
-      }
-    ],
-    "status": "released"
-  },
-  {
-    "id": "splatoon-raiders",
-    "title": "Splatoon Raiders",
-    "platform": "switch2",
-    "titleId": "0100A8501FA02000",
-    "publisher": "Nintendo",
-    "releaseDate": "2026-07-23",
-    "genres": [
-      "Azione",
-      "Sparatutto",
-      "Looter-Shooter",
-      "PvE",
-      "Cooperativo"
-    ],
-    "coverImage": "/covers/splatoon-raiders.png",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Splatoon-Raiders-2940120.html",
-    "currentVersion": "v1.1.1",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2026-08-06T10:00:00Z",
-    "aliases": [
-      "splatoon raiders",
-      "raiders",
-      "splatoon 4",
-      "deep cut",
-      "salmonid",
-      "spirhalite",
-      "splatchet"
-    ],
-    "updates": [
-      {
-        "version": "v1.1.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2026-08-06",
-        "type": "patch",
-        "title": "Patch 1.1.1: Fix Touchscreen Switch 2, Regolazione Limiter & Bugfix Dungeons",
-        "changelog": [
-          "Regolazione Limiter Serbatoio: la rimozione del limitatore del serbatoio ora richiede solo una singola pressione del pulsante A anziché tenerlo premuto, risolvendo le segnalazioni di softlock.",
-          "Risolto un crash critico su Nintendo Switch 2 che si verificava toccando lo schermo touch durante la schermata di caricamento con la nebbia vorticosa.",
-          "Risolto un problema per cui la barra Showstopper Gauge non si nascondeva automaticamente dopo l'inattività nella Nave Rifugio o nei dungeon.",
-          "Corretto un glitch per cui l'effetto Emergency Damage Up non si applicava al danno esplosivo dei passi dello Splatchet (Explosive Steps).",
-          "Risolto un blocco del movimento che poteva verificarsi usando lo Splatchet subito dopo un salto a parete (Squid Roll).",
-          "Risolto un problema nei Dirupi Soyu (Soyu Cliffs) dove un Fish Stick poteva incastrarsi nel terreno diventando impossibile da sconfiggere.",
-          "Corretto un bug nel mini-gioco arcade HOPPING dove il bot d'esplorazione smetteva di bersagliare i Salmonoidi."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-07-23",
-        "type": "major",
-        "title": "Lancio Esclusivo Nintendo Switch 2",
-        "changelog": [
-          "Rilascio globale in contemporanea mondiale in esclusiva su Nintendo Switch 2.",
-          "Campagna PvE single-player e cooperativa online ambientata nell'arcipelago di Spirhalite, con la partecipazione del trio Deep Cut.",
-          "Supporto per grafica 4K 60FPS in modalità dock con supporto DLSS e HDR, comandi di mira giroscopica e feedback aptico HD Rumble."
-        ]
-      }
-    ],
-    "status": "released"
-  },
-  {
-    "id": "yu-gi-oh-tag-force-gx-0000",
-    "title": "Yu-Gi-Oh! TAG FORCE GX",
-    "platform": "switch",
-    "titleId": "0100F550276E0000",
-    "publisher": "KONAMI",
-    "releaseDate": "2027-02-16",
-    "genres": [
-      "Strategia",
-      "Gioco di ruolo (RPG)",
-      "Avventura"
-    ],
-    "coverImage": "/covers/yu-gi-oh-tag-force-gx.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000120382",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2027-02-16T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "astonishia-story-2000",
-    "title": "Astonishia Story",
-    "platform": "switch",
-    "titleId": "01001C2028ED2000",
-    "publisher": "NIS America",
-    "releaseDate": "2027-02-11",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Strategia"
-    ],
-    "coverImage": "/covers/astonishia-story.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000129971",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2027-02-11T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "power-racing-bundle-4-0000",
-    "title": "Power Racing Bundle 4",
-    "platform": "switch",
-    "titleId": "0100305027340000",
-    "publisher": "SuperPowerUpGames",
-    "releaseDate": "2026-12-25",
-    "genres": [
-      "Corse",
-      "Sport",
-      "Simulazione",
-      "Multiplayer"
-    ],
-    "coverImage": "/covers/power-racing-bundle-4.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000118682",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-12-25T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "aeruta-2000",
-    "title": "Aeruta",
-    "platform": "switch",
-    "titleId": "01003F501F012000",
-    "publisher": "GRAVITY GAME ARISE",
-    "releaseDate": "2026-12-09",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Gioco di ruolo (RPG)",
-      "Simulazione"
-    ],
-    "coverImage": "/covers/aeruta.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000080761",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-12-09T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "dragon-quest-monsters-il-regno-sfiorito-0000",
-    "title": "DRAGON QUEST MONSTERS: Il regno sfiorito",
-    "platform": "switch",
-    "titleId": "01000F1021FB0000",
-    "publisher": "SQUARE ENIX",
-    "releaseDate": "2026-12-03",
-    "genres": [
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "/covers/dragon-quest-monsters.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000092409",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-12-03T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "fall-up-8000",
-    "title": "Fall Up",
-    "platform": "switch",
-    "titleId": "01005C1023928000",
-    "publisher": "Astrolabe Games",
-    "releaseDate": "2026-12-03",
-    "genres": [
-      "Azione",
-      "Avventura"
-    ],
-    "coverImage": "/covers/fall-up.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000098134",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-12-03T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "marupoyo-the-round-chick-s-adventure-6000",
-    "title": "Marupoyo: The Round Chick's Adventure",
-    "platform": "switch",
-    "titleId": "0100D80024146000",
-    "publisher": "Casual Brothers",
-    "releaseDate": "2026-11-26",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Piattaforme",
-      "Arcade"
-    ],
-    "coverImage": "/covers/marupoyo.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000100155",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-11-26T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "prinny-party-going-overboard-6000",
-    "title": "Prinny Party: Going Overboard!",
-    "platform": "switch",
-    "titleId": "0100643028646000",
-    "publisher": "NIS America",
-    "releaseDate": "2026-11-11",
-    "genres": [
-      "Party",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "/covers/prinny-party.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-11-11T00:00:00Z",
-    "updates": []
-  },
-  {
     "id": "hasbro-games-junior-collection-0000",
     "title": "Hasbro Games™ Junior Collection",
     "platform": "switch",
@@ -1270,6 +16,60 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-11-06T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "zelda-ocarina-of-time-switch2",
+    "title": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 Edition",
+    "platform": "switch2",
+    "titleId": "0100B1A01EB02000",
+    "publisher": "Nintendo",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Remake",
+      "Fantasy"
+    ],
+    "coverImage": "/covers/zelda-ocarina-switch2.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Legend-of-Zelda-Ocarina-of-Time-Switch-2-Edition-2990001.html",
+    "currentVersion": "v1.0.1",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "aliases": [
+      "ocarina of time",
+      "oot",
+      "zelda oot",
+      "ocarina of time switch 2",
+      "zelda remake"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-11-05",
+        "type": "patch",
+        "title": "Day-One Patch v1.0.1: Calibrazione VRR/HDR, Ottimizzazioni Switch 2 & QoL",
+        "changelog": [
+          "Supporto e ottimizzazione nativa per Variable Refresh Rate (VRR) e risoluzione 4K a 60 FPS in modalità Docked su Switch 2.",
+          "Calibrazione dinamica HDR e bilanciamento della gamma luminosa nei dungeon bui (Shadow Temple, Bottom of the Well).",
+          "Risolti problemi di collisione poligonale e glitch audio durante l'uso dell'Ocarina con i controlli aptici Joy-Con 2.",
+          "Migliorata la responsività della telecamera Z-Targeting con supporto giroscopico a bassa latenza.",
+          "Miglioramenti generali della stabilità di sistema e tempi di caricamento ridotti all'ingresso nelle aree di Hyrule Field."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Annuncio Ufficiale Nintendo Direct",
+        "changelog": [
+          "Remake completo con motore grafico next-gen in 4K a 60 FPS e supporto ray-tracing su Switch 2.",
+          "Audio orchestrale registrato ex novo e controlli adattivi Joy-Con 2."
+        ]
+      }
+    ]
   },
   {
     "id": "manic-miner-0000",
@@ -1289,6 +89,62 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-11-05T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "pikmin-4-a000",
+    "title": "Pikmin 4",
+    "platform": "both",
+    "titleId": "0100B7C00933A000",
+    "publisher": "Nintendo",
+    "releaseDate": "2023-07-21",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/78e5730069e6073f43a420e83c135d526354e35e65b25f0426360598ef4e50ad.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000005306",
+    "currentVersion": "v2.0.0",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-11-01T12:00:00Z",
+    "updates": [
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.2",
+        "internalVersion": 131072,
+        "releaseDate": "2026-11-01",
+        "type": "major",
+        "title": "Nintendo Switch 2 Edition: Espansione Accademia Dandori & Grafica 4K",
+        "changelog": [
+          "Supporto completo e ottimizzazione grafica nativa per Nintendo Switch 2 (4K a 60 FPS in dock).",
+          "Nuova modalità campagna aggiuntiva: Accademia Dandori con 30 sfide cooperative inedite.",
+          "Supporto ai comandi avanzati e al feedback aptico dei controller Joy-Con 2."
+        ]
+      },
+      {
+        "version": "v1.0.2",
+        "previousVersion": "v1.0.1",
+        "internalVersion": 131072,
+        "releaseDate": "2023-09-26",
+        "type": "patch",
+        "title": "Fix Progressione Esplorazione 100% & Dandori Split-Screen",
+        "changelog": [
+          "Corretto un errore in cui il contatore di completamento delle caverne poteva rimanere bloccato al 99%.",
+          "Risolto un bug che poteva far incastrare Occin durante il trasporto di tesori subacquei con i Pikmin blu.",
+          "Migliorato il framerate e ridotti i cali di fluidità durante le Battaglie Dandori a 2 giocatori su schermo diviso."
+        ]
+      },
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2023-07-28",
+        "type": "patch",
+        "title": "Miglioramento Salvataggi Missioni Notturne",
+        "changelog": [
+          "Risolto un problema nei salvataggi automatici durante le difese notturne dei lumipolli.",
+          "Corrette anomalie nel puntamento del fischietto con il controllo sensori di movimento dei Joy-Con."
+        ]
+      }
+    ]
   },
   {
     "id": "tarot-tokens-4000",
@@ -1905,6 +761,42 @@
       }
     ],
     "status": "released"
+  },
+  {
+    "id": "loftia",
+    "title": "Loftia",
+    "platform": "both",
+    "titleId": "01004E801BC30000",
+    "publisher": "QLOC",
+    "releaseDate": "2026-11-03",
+    "status": "released",
+    "genres": [
+      "MMO",
+      "Simulazione",
+      "Accogliente",
+      "Sociale"
+    ],
+    "coverImage": "/covers/loftia.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Loftia-2942000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-24T10:00:00Z",
+    "aliases": [
+      "loftia",
+      "cozy mmo",
+      "simulazione solarpunk"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-03",
+        "type": "major",
+        "title": "Lancio Globale Ufficiale",
+        "changelog": [
+          "MMO accogliente a tema solarpunk focalizzato sulla cooperazione e la sostenibilità ecologica."
+        ]
+      }
+    ]
   },
   {
     "id": "demons-night-fever-4000",
@@ -3994,133 +2886,6 @@
     ]
   },
   {
-    "id": "core-keeper-a000",
-    "title": "Core Keeper",
-    "platform": "both",
-    "titleId": "010070201D1BA000",
-    "publisher": "Fireshine Games",
-    "releaseDate": "2024-10-17",
-    "genres": [
-      "Avventura",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/5835c3aa413e077c036dfa630b447667f317f4a3698fcb8630c57a6ffc38643a.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000073034",
-    "currentVersion": "v1.2.0",
-    "currentInternalVersion": 2359296,
-    "lastUpdated": "2026-01-15T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.2.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2026-01-15",
-        "type": "major",
-        "title": "Nintendo Switch 2 Edition: 60 FPS stabili & Multiplayer 8 Giocatori",
-        "changelog": [
-          "Risoluzione 4K nativa e 60 FPS stabili anche nelle caverne più affollate.",
-          "Multiplayer cooperativo online esteso a 8 giocatori simultanei su Switch 2."
-        ]
-      },
-      {
-        "version": "v36.0.0",
-        "previousVersion": "v34.0.0",
-        "internalVersion": 2359296,
-        "releaseDate": "2026-09-21",
-        "type": "major",
-        "title": "Aggiornamento software v36.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v34.0.0",
-        "previousVersion": "v33.0.0",
-        "internalVersion": 2228224,
-        "releaseDate": "2026-06-12",
-        "type": "patch",
-        "title": "Aggiornamento software v34.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v33.0.0",
-        "previousVersion": "v32.0.0",
-        "internalVersion": 2162688,
-        "releaseDate": "2026-06-03",
-        "type": "patch",
-        "title": "Aggiornamento software v33.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v32.0.0",
-        "previousVersion": "v31.0.0",
-        "internalVersion": 2097152,
-        "releaseDate": "2026-05-26",
-        "type": "patch",
-        "title": "Aggiornamento software v32.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v31.0.0",
-        "previousVersion": "v28.0.0",
-        "internalVersion": 2031616,
-        "releaseDate": "2026-05-13",
-        "type": "patch",
-        "title": "Aggiornamento software v31.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v28.0.0",
-        "previousVersion": "v27.0.0",
-        "internalVersion": 1835008,
-        "releaseDate": "2026-04-01",
-        "type": "patch",
-        "title": "Aggiornamento software v28.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v27.0.0",
-        "previousVersion": "v26.0.0",
-        "internalVersion": 1769472,
-        "releaseDate": "2026-03-24",
-        "type": "patch",
-        "title": "Aggiornamento software v27.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v26.0.0",
-        "previousVersion": "v25.0.0",
-        "internalVersion": 1703936,
-        "releaseDate": "2026-03-11",
-        "type": "patch",
-        "title": "Aggiornamento software v26.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
     "id": "sento-survivor-slip-grab-and-bathe-in-glory-6000",
     "title": "SENTO SURVIVOR : Slip, Grab, and Bathe in Glory!",
     "platform": "switch",
@@ -5346,136 +4111,6 @@
         "releaseDate": "2025-01-29",
         "type": "patch",
         "title": "Aggiornamento software v17.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "no-man-s-sky-6000",
-    "title": "No Man's Sky",
-    "platform": "both",
-    "titleId": "0100853015E86000",
-    "publisher": "Hello Games",
-    "releaseDate": "2022-10-07",
-    "genres": [
-      "Azione",
-      "Avventura",
-      "Simulazione",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/705c707307705fbc6f301137df744763d1095f9f64fd749a99fe57b6e551607d.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000044643",
-    "currentVersion": "v5.1.0",
-    "currentInternalVersion": 5111808,
-    "lastUpdated": "2025-06-05T12:00:00Z",
-    "updates": [
-      {
-        "version": "v5.1.0",
-        "previousVersion": "v5.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2025-06-05",
-        "type": "major",
-        "title": "Nintendo Switch 2 Day-One Upgrade: Grafica Ultra, Nubi Volumetriche & 60 FPS",
-        "changelog": [
-          "Upgrade next-gen completo: grafica a dettagli Ultra equivalente alle versioni desktop di fascia alta.",
-          "Distanza visiva quadruplicata, oceani dinamici e nubi volumetriche in tempo reale.",
-          "Tempi di salto iperspaziale ridotti da oltre 30 secondi a meno di 3 secondi."
-        ]
-      },
-      {
-        "version": "v78.0.0",
-        "previousVersion": "v77.0.0",
-        "internalVersion": 5111808,
-        "releaseDate": "2026-09-17",
-        "type": "major",
-        "title": "Aggiornamento software v78.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v77.0.0",
-        "previousVersion": "v76.0.0",
-        "internalVersion": 5046272,
-        "releaseDate": "2026-08-16",
-        "type": "patch",
-        "title": "Aggiornamento software v77.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v76.0.0",
-        "previousVersion": "v75.0.0",
-        "internalVersion": 4980736,
-        "releaseDate": "2026-06-09",
-        "type": "patch",
-        "title": "Aggiornamento software v76.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v75.0.0",
-        "previousVersion": "v72.0.0",
-        "internalVersion": 4915200,
-        "releaseDate": "2026-05-13",
-        "type": "patch",
-        "title": "Aggiornamento software v75.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v72.0.0",
-        "previousVersion": "v71.0.0",
-        "internalVersion": 4718592,
-        "releaseDate": "2026-03-05",
-        "type": "patch",
-        "title": "Aggiornamento software v72.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v71.0.0",
-        "previousVersion": "v70.0.0",
-        "internalVersion": 4653056,
-        "releaseDate": "2026-02-27",
-        "type": "patch",
-        "title": "Aggiornamento software v71.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v70.0.0",
-        "previousVersion": "v69.0.0",
-        "internalVersion": 4587520,
-        "releaseDate": "2026-02-19",
-        "type": "patch",
-        "title": "Aggiornamento software v70.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v69.0.0",
-        "previousVersion": "v68.0.0",
-        "internalVersion": 4521984,
-        "releaseDate": "2026-02-12",
-        "type": "patch",
-        "title": "Aggiornamento software v69.0.0",
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
@@ -19806,119 +18441,6 @@
         "releaseDate": "2021-11-10",
         "type": "patch",
         "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "1000xresist-6000",
-    "title": "1000xRESIST",
-    "platform": "both",
-    "titleId": "0100B02019866000",
-    "publisher": "Fellow Traveller",
-    "releaseDate": "2024-05-09",
-    "genres": [
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/4fea77866c2379eb0d40ff588d39725a1bd7f086bb8c5ef573b7e855ef481ce8.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000059157",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 524288,
-    "lastUpdated": "2025-09-10T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-09-10",
-        "type": "performance",
-        "title": "Nintendo Switch 2 Edition Audio & Visual Boost",
-        "changelog": [
-          "Audio 3D spaziale avanzato e texture ad altissima definizione per Switch 2."
-        ]
-      },
-      {
-        "version": "v8.0.0",
-        "previousVersion": "v7.0.0",
-        "internalVersion": 524288,
-        "releaseDate": "2026-08-31",
-        "type": "major",
-        "title": "Aggiornamento software v8.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v7.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 458752,
-        "releaseDate": "2026-08-19",
-        "type": "patch",
-        "title": "Aggiornamento software v7.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v6.0.0",
-        "previousVersion": "v5.0.0",
-        "internalVersion": 393216,
-        "releaseDate": "2026-08-16",
-        "type": "patch",
-        "title": "Aggiornamento software v6.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v5.0.0",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2025-11-04",
-        "type": "patch",
-        "title": "Aggiornamento software v5.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2024-10-23",
-        "type": "patch",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2024-06-18",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2024-05-10",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
@@ -36733,131 +35255,6 @@
     ]
   },
   {
-    "id": "tamagotchi-plaza-a000",
-    "title": "Tamagotchi Plaza",
-    "platform": "both",
-    "titleId": "010064C01A9BA000",
-    "publisher": "BANDAI NAMCO Entertainment",
-    "releaseDate": "2025-06-27",
-    "genres": [
-      "Simulazione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/1e40f3d48edb3fe9414a076ddf1cc891a637df8e6978739fe185a33f43d34274.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000064037",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 589824,
-    "lastUpdated": "2025-06-27T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-06-27",
-        "type": "patch",
-        "title": "Nintendo Switch 2 Edition Upgrade",
-        "changelog": [
-          "Miglioramenti di rendering e supporto HD Rumble per i mini-giochi su Switch 2."
-        ]
-      },
-      {
-        "version": "v9.0.0",
-        "previousVersion": "v8.0.0",
-        "internalVersion": 589824,
-        "releaseDate": "2026-08-16",
-        "type": "major",
-        "title": "Aggiornamento software v9.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v8.0.0",
-        "previousVersion": "v7.0.0",
-        "internalVersion": 524288,
-        "releaseDate": "2026-06-09",
-        "type": "patch",
-        "title": "Aggiornamento software v8.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v7.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 458752,
-        "releaseDate": "2026-02-18",
-        "type": "patch",
-        "title": "Aggiornamento software v7.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v6.0.0",
-        "previousVersion": "v5.0.0",
-        "internalVersion": 393216,
-        "releaseDate": "2025-11-12",
-        "type": "patch",
-        "title": "Aggiornamento software v6.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v5.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2025-09-14",
-        "type": "patch",
-        "title": "Aggiornamento software v5.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2025-07-13",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-06-25",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-06-18",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
     "id": "rift-of-the-necrodancer-c000",
     "title": "Rift of the NecroDancer",
     "platform": "switch",
@@ -53215,6 +51612,68 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2026-08-07T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "splatoon-raiders",
+    "title": "Splatoon Raiders",
+    "platform": "switch2",
+    "titleId": "0100A8501FA02000",
+    "publisher": "Nintendo",
+    "releaseDate": "2026-07-23",
+    "genres": [
+      "Azione",
+      "Sparatutto",
+      "Looter-Shooter",
+      "PvE",
+      "Cooperativo"
+    ],
+    "coverImage": "/covers/splatoon-raiders.png",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Splatoon-Raiders-2940120.html",
+    "currentVersion": "v1.1.1",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-08-06T10:00:00Z",
+    "aliases": [
+      "splatoon raiders",
+      "raiders",
+      "splatoon 4",
+      "deep cut",
+      "salmonid",
+      "spirhalite",
+      "splatchet"
+    ],
+    "updates": [
+      {
+        "version": "v1.1.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-08-06",
+        "type": "patch",
+        "title": "Patch 1.1.1: Fix Touchscreen Switch 2, Regolazione Limiter & Bugfix Dungeons",
+        "changelog": [
+          "Regolazione Limiter Serbatoio: la rimozione del limitatore del serbatoio ora richiede solo una singola pressione del pulsante A anziché tenerlo premuto, risolvendo le segnalazioni di softlock.",
+          "Risolto un crash critico su Nintendo Switch 2 che si verificava toccando lo schermo touch durante la schermata di caricamento con la nebbia vorticosa.",
+          "Risolto un problema per cui la barra Showstopper Gauge non si nascondeva automaticamente dopo l'inattività nella Nave Rifugio o nei dungeon.",
+          "Corretto un glitch per cui l'effetto Emergency Damage Up non si applicava al danno esplosivo dei passi dello Splatchet (Explosive Steps).",
+          "Risolto un blocco del movimento che poteva verificarsi usando lo Splatchet subito dopo un salto a parete (Squid Roll).",
+          "Risolto un problema nei Dirupi Soyu (Soyu Cliffs) dove un Fish Stick poteva incastrarsi nel terreno diventando impossibile da sconfiggere.",
+          "Corretto un bug nel mini-gioco arcade HOPPING dove il bot d'esplorazione smetteva di bersagliare i Salmonoidi."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-07-23",
+        "type": "major",
+        "title": "Lancio Esclusivo Nintendo Switch 2",
+        "changelog": [
+          "Rilascio globale in contemporanea mondiale in esclusiva su Nintendo Switch 2.",
+          "Campagna PvE single-player e cooperativa online ambientata nell'arcipelago di Spirhalite, con la partecipazione del trio Deep Cut.",
+          "Supporto per grafica 4K 60FPS in modalità dock con supporto DLSS e HDR, comandi di mira giroscopica e feedback aptico HD Rumble."
+        ]
+      }
+    ],
+    "status": "released"
   },
   {
     "id": "fixfox-0000",
@@ -74514,6 +72973,56 @@
     ]
   },
   {
+    "id": "sid-meiers-civilization-vii-switch2",
+    "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
+    "platform": "switch2",
+    "titleId": "0100C3F019E88000",
+    "publisher": "2K",
+    "releaseDate": "2025-06-05",
+    "genres": [
+      "Strategia",
+      "A turni",
+      "Simulazione"
+    ],
+    "coverImage": "/covers/sid-meiers-civilization-vii.png",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Civilization-VII-2900110.html",
+    "currentVersion": "v1.2.0",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-05-18T10:00:00Z",
+    "aliases": [
+      "civilization 7",
+      "civ 7",
+      "sid meier civilization vii"
+    ],
+    "updates": [
+      {
+        "version": "v1.2.0",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-05-18",
+        "type": "major",
+        "title": "Aggiornamento Civiltà Antiche & Calcolo Turni Accelerato",
+        "changelog": [
+          "Velocità di calcolo dei turni dell'intelligenza artificiale aumentata del 40% grazie alla CPU di Switch 2.",
+          "Aggiunte 3 nuove civiltà storiche e ribilanciamento degli alberi delle ere."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-05",
+        "type": "major",
+        "title": "Lancio Nintendo Switch 2 al Day-One",
+        "changelog": [
+          "Rilascio simultaneo globale in concomitanza con il lancio di Nintendo Switch 2.",
+          "Supporto ai controlli mouse tramite touchscreen e Joy-Con 2 puntatore."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
     "id": "zelda-botw",
     "title": "The Legend of Zelda: Breath of the Wild",
     "platform": "both",
@@ -81012,133 +79521,6 @@
         "previousVersion": "v1.0.0",
         "internalVersion": 131072,
         "releaseDate": "2026-03-03",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "rune-factory-guardians-of-azuma-0000",
-    "title": "Rune Factory: Guardians of Azuma",
-    "platform": "both",
-    "titleId": "01003AF0200B0000",
-    "publisher": "Marvelous Europe",
-    "releaseDate": "2025-06-05",
-    "genres": [
-      "Gioco di ruolo (RPG)",
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/9d241dd7cb7d1849d562c877bcffcd6df0f00f8ec46dc84fededdaa477ebad99.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000085004",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 589824,
-    "lastUpdated": "2025-06-05T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-06-05",
-        "type": "performance",
-        "title": "Nintendo Switch 2 Edition Day-One Upgrade",
-        "changelog": [
-          "Risoluzione 1440p dinamica a 60 FPS stabili sia in modalità portatile che su TV.",
-          "Caricamenti istantanei delle aree del villaggio grazie alla memoria ultra-veloce di Switch 2."
-        ]
-      },
-      {
-        "version": "v9.0.0",
-        "previousVersion": "v8.0.0",
-        "internalVersion": 589824,
-        "releaseDate": "2026-05-13",
-        "type": "major",
-        "title": "Aggiornamento software v9.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v8.0.0",
-        "previousVersion": "v7.0.0",
-        "internalVersion": 524288,
-        "releaseDate": "2026-02-12",
-        "type": "patch",
-        "title": "Aggiornamento software v8.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v7.0.0",
-        "previousVersion": "v6.0.0",
-        "internalVersion": 458752,
-        "releaseDate": "2025-11-06",
-        "type": "patch",
-        "title": "Aggiornamento software v7.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v6.0.0",
-        "previousVersion": "v5.0.0",
-        "internalVersion": 393216,
-        "releaseDate": "2025-10-01",
-        "type": "patch",
-        "title": "Aggiornamento software v6.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v5.0.0",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2025-07-15",
-        "type": "patch",
-        "title": "Aggiornamento software v5.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2025-06-27",
-        "type": "patch",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2025-06-12",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-06-10",
         "type": "patch",
         "title": "Aggiornamento software v2.0.0",
         "changelog": [
@@ -111657,6 +110039,58 @@
     ]
   },
   {
+    "id": "final-fantasy-vii-remake-intergrade",
+    "title": "Final Fantasy VII Remake Intergrade",
+    "platform": "switch2",
+    "titleId": "01007E501BC20000",
+    "publisher": "Square Enix",
+    "releaseDate": "2026-01-22",
+    "genres": [
+      "Azione",
+      "RPG",
+      "JRPG"
+    ],
+    "coverImage": "/covers/final-fantasy-vii-remake-intergrade.png",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Final-Fantasy-VII-Remake-Intergrade-2850120.html",
+    "currentVersion": "v1.0.2",
+    "currentInternalVersion": 131072,
+    "lastUpdated": "2026-02-15T10:00:00Z",
+    "aliases": [
+      "ff7 remake",
+      "final fantasy 7 remake",
+      "intergrade",
+      "cloud strife",
+      "yuffie"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.2",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-02-15",
+        "type": "patch",
+        "title": "Patch 1.0.2: Miglioramenti stabilità e rendering texture a Midgar",
+        "changelog": [
+          "Ottimizzato lo streaming delle texture nei bassifondi del Settore 7 su Switch 2.",
+          "Risolto un calo di framerate durante la battaglia contro l'Aerodistruttore."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-01-22",
+        "type": "major",
+        "title": "Lancio ufficiale Nintendo Switch 2 (Include EPISODE INTERmission)",
+        "changelog": [
+          "Rilascio dell'edizione completa con il capitolo dedicato a Yuffie Kisaragi su Switch 2.",
+          "Grafica 1440p 60 FPS stabili in modalità TV e 1080p nativi in portatile con supporto DLSS."
+        ]
+      }
+    ],
+    "status": "released"
+  },
+  {
     "id": "escape-prison-obby-getaway-2000",
     "title": "Escape Prison Obby: Getaway",
     "platform": "switch",
@@ -132435,6 +130869,133 @@
     "updates": []
   },
   {
+    "id": "core-keeper-a000",
+    "title": "Core Keeper",
+    "platform": "both",
+    "titleId": "010070201D1BA000",
+    "publisher": "Fireshine Games",
+    "releaseDate": "2024-10-17",
+    "genres": [
+      "Avventura",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/5835c3aa413e077c036dfa630b447667f317f4a3698fcb8630c57a6ffc38643a.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000073034",
+    "currentVersion": "v1.2.0",
+    "currentInternalVersion": 2359296,
+    "lastUpdated": "2026-01-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.2.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-01-15",
+        "type": "major",
+        "title": "Nintendo Switch 2 Edition: 60 FPS stabili & Multiplayer 8 Giocatori",
+        "changelog": [
+          "Risoluzione 4K nativa e 60 FPS stabili anche nelle caverne più affollate.",
+          "Multiplayer cooperativo online esteso a 8 giocatori simultanei su Switch 2."
+        ]
+      },
+      {
+        "version": "v36.0.0",
+        "previousVersion": "v34.0.0",
+        "internalVersion": 2359296,
+        "releaseDate": "2026-09-21",
+        "type": "major",
+        "title": "Aggiornamento software v36.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v34.0.0",
+        "previousVersion": "v33.0.0",
+        "internalVersion": 2228224,
+        "releaseDate": "2026-06-12",
+        "type": "patch",
+        "title": "Aggiornamento software v34.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v33.0.0",
+        "previousVersion": "v32.0.0",
+        "internalVersion": 2162688,
+        "releaseDate": "2026-06-03",
+        "type": "patch",
+        "title": "Aggiornamento software v33.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v32.0.0",
+        "previousVersion": "v31.0.0",
+        "internalVersion": 2097152,
+        "releaseDate": "2026-05-26",
+        "type": "patch",
+        "title": "Aggiornamento software v32.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v31.0.0",
+        "previousVersion": "v28.0.0",
+        "internalVersion": 2031616,
+        "releaseDate": "2026-05-13",
+        "type": "patch",
+        "title": "Aggiornamento software v31.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v28.0.0",
+        "previousVersion": "v27.0.0",
+        "internalVersion": 1835008,
+        "releaseDate": "2026-04-01",
+        "type": "patch",
+        "title": "Aggiornamento software v28.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v27.0.0",
+        "previousVersion": "v26.0.0",
+        "internalVersion": 1769472,
+        "releaseDate": "2026-03-24",
+        "type": "patch",
+        "title": "Aggiornamento software v27.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v26.0.0",
+        "previousVersion": "v25.0.0",
+        "internalVersion": 1703936,
+        "releaseDate": "2026-03-11",
+        "type": "patch",
+        "title": "Aggiornamento software v26.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
     "id": "dreamscapes-nightmare-s-heir-e000",
     "title": "Dreamscapes - Nightmare’s Heir",
     "platform": "switch",
@@ -147906,95 +146467,6 @@
         "previousVersion": "v1.0.0",
         "internalVersion": 65536,
         "releaseDate": "2023-11-28",
-        "type": "patch",
-        "title": "Aggiornamento software v1.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "shadow-labyrinth-a000",
-    "title": "Shadow Labyrinth",
-    "platform": "both",
-    "titleId": "0100E4301E0EA000",
-    "publisher": "BANDAI NAMCO Entertainment",
-    "releaseDate": "2025-07-18",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/ffd9df17b6185f2074220a699e9cef13df8c59b6991f8054c38c4f50e0b9d739.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000077050",
-    "currentVersion": "v1.1.0",
-    "currentInternalVersion": 327680,
-    "lastUpdated": "2025-07-18T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-07-18",
-        "type": "patch",
-        "title": "Switch 2 Edition Enhancement",
-        "changelog": [
-          "Effetti di luce volumetrica avanzati e framerate a 120 FPS su schermi compatibili."
-        ]
-      },
-      {
-        "version": "v5.0.0",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 327680,
-        "releaseDate": "2025-11-24",
-        "type": "major",
-        "title": "Aggiornamento software v5.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 262144,
-        "releaseDate": "2025-09-14",
-        "type": "patch",
-        "title": "Aggiornamento software v4.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v3.0.0",
-        "previousVersion": "v2.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2025-07-13",
-        "type": "patch",
-        "title": "Aggiornamento software v3.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-07-01",
-        "type": "patch",
-        "title": "Aggiornamento software v2.0.0",
-        "changelog": [
-          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
-          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2025-06-10",
         "type": "patch",
         "title": "Aggiornamento software v1.0.0",
         "changelog": [
@@ -181416,6 +179888,119 @@
     "updates": []
   },
   {
+    "id": "1000xresist-6000",
+    "title": "1000xRESIST",
+    "platform": "both",
+    "titleId": "0100B02019866000",
+    "publisher": "Fellow Traveller",
+    "releaseDate": "2024-05-09",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/4fea77866c2379eb0d40ff588d39725a1bd7f086bb8c5ef573b7e855ef481ce8.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000059157",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 524288,
+    "lastUpdated": "2025-09-10T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-09-10",
+        "type": "performance",
+        "title": "Nintendo Switch 2 Edition Audio & Visual Boost",
+        "changelog": [
+          "Audio 3D spaziale avanzato e texture ad altissima definizione per Switch 2."
+        ]
+      },
+      {
+        "version": "v8.0.0",
+        "previousVersion": "v7.0.0",
+        "internalVersion": 524288,
+        "releaseDate": "2026-08-31",
+        "type": "major",
+        "title": "Aggiornamento software v8.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v7.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 458752,
+        "releaseDate": "2026-08-19",
+        "type": "patch",
+        "title": "Aggiornamento software v7.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v6.0.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 393216,
+        "releaseDate": "2026-08-16",
+        "type": "patch",
+        "title": "Aggiornamento software v6.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v5.0.0",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-11-04",
+        "type": "patch",
+        "title": "Aggiornamento software v5.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 262144,
+        "releaseDate": "2024-10-23",
+        "type": "patch",
+        "title": "Aggiornamento software v4.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2024-06-18",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2024-05-10",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
     "id": "hot-stakes-casino-american-roulette-a000",
     "title": "Hot Stakes Casino - American Roulette",
     "platform": "switch",
@@ -184181,6 +182766,55 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2025-08-11T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "survival-kids-switch2",
+    "title": "Survival Kids",
+    "platform": "switch2",
+    "titleId": "0100E2B018FA4000",
+    "publisher": "Konami",
+    "releaseDate": "2025-06-05",
+    "genres": [
+      "Avventura",
+      "Sopravvivenza",
+      "Simulazione"
+    ],
+    "coverImage": "/covers/survival-kids.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Survival-Kids-2880010.html",
+    "currentVersion": "v1.0.1",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2025-08-10T10:00:00Z",
+    "aliases": [
+      "survival kids",
+      "lost in blue",
+      "isola deserta"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.1",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-08-10",
+        "type": "patch",
+        "title": "Fix gestione inventario e calcolo del meteo tropicale",
+        "changelog": [
+          "Risolto un bug per cui gli oggetti lasciati sulla spiaggia sparivano con l'alta marea.",
+          "Migliorata la transizione giorno/notte e la simulazione della pioggia."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-05",
+        "type": "major",
+        "title": "Lancio Day-One Nintendo Switch 2",
+        "changelog": [
+          "Ritorno del leggendario survival adventure open world in esclusiva su Switch 2."
+        ]
+      }
+    ],
+    "status": "released"
   },
   {
     "id": "cyber-car-seller-simulator-c000",
@@ -189824,6 +188458,52 @@
     ]
   },
   {
+    "id": "super-mario-party-jamboree-8000",
+    "title": "Super Mario Party Jamboree",
+    "platform": "both",
+    "titleId": "0100965017338000",
+    "publisher": "Nintendo",
+    "releaseDate": "2024-10-17",
+    "genres": [
+      "Party",
+      "Multiplayer",
+      "Da tavolo"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/d75d7dadb24b36c6ff761285a134f28a4f1e9912198707994e9d89ee3b139908.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084609",
+    "currentVersion": "v2.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2025-07-24T12:00:00Z",
+    "updates": [
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.1.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-07-24",
+        "type": "major",
+        "title": "Nintendo Switch 2 Edition: Modalità Jamboree TV & Risoluzione 4K",
+        "changelog": [
+          "Compatibilità estesa e miglioramenti grafici a 4K 60 FPS per Nintendo Switch 2.",
+          "Integrazione della nuova modalità online interattiva Jamboree TV.",
+          "Supporto migliorato ai sensori di movimento ad alta precisione dei Joy-Con 2."
+        ]
+      },
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2024-10-28",
+        "type": "patch",
+        "title": "Bilanciamento Minigiochi Bowserathlon & Stabilità Online",
+        "changelog": [
+          "Ricalibrati i punti e la difficoltà nei minigiochi della modalità Bowserathlon a 20 giocatori.",
+          "Migliorata la stabilità delle stanze di gioco online per le partite a tabellone classico.",
+          "Corretti bug nelle animazioni dei compagni Jamboree durante le prove speciali dei tabelloni."
+        ]
+      }
+    ]
+  },
+  {
     "id": "transporter-8000",
     "title": "Transporter",
     "platform": "switch",
@@ -191172,6 +189852,95 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2025-07-19T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "shadow-labyrinth-a000",
+    "title": "Shadow Labyrinth",
+    "platform": "both",
+    "titleId": "0100E4301E0EA000",
+    "publisher": "BANDAI NAMCO Entertainment",
+    "releaseDate": "2025-07-18",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/ffd9df17b6185f2074220a699e9cef13df8c59b6991f8054c38c4f50e0b9d739.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000077050",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 327680,
+    "lastUpdated": "2025-07-18T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-07-18",
+        "type": "patch",
+        "title": "Switch 2 Edition Enhancement",
+        "changelog": [
+          "Effetti di luce volumetrica avanzati e framerate a 120 FPS su schermi compatibili."
+        ]
+      },
+      {
+        "version": "v5.0.0",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-11-24",
+        "type": "major",
+        "title": "Aggiornamento software v5.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 262144,
+        "releaseDate": "2025-09-14",
+        "type": "patch",
+        "title": "Aggiornamento software v4.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2025-07-13",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-07-01",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-10",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
   },
   {
     "id": "truck-simulator-2023-driver-europe-c000",
@@ -197739,6 +196508,131 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2025-06-28T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "tamagotchi-plaza-a000",
+    "title": "Tamagotchi Plaza",
+    "platform": "both",
+    "titleId": "010064C01A9BA000",
+    "publisher": "BANDAI NAMCO Entertainment",
+    "releaseDate": "2025-06-27",
+    "genres": [
+      "Simulazione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/1e40f3d48edb3fe9414a076ddf1cc891a637df8e6978739fe185a33f43d34274.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000064037",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 589824,
+    "lastUpdated": "2025-06-27T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-27",
+        "type": "patch",
+        "title": "Nintendo Switch 2 Edition Upgrade",
+        "changelog": [
+          "Miglioramenti di rendering e supporto HD Rumble per i mini-giochi su Switch 2."
+        ]
+      },
+      {
+        "version": "v9.0.0",
+        "previousVersion": "v8.0.0",
+        "internalVersion": 589824,
+        "releaseDate": "2026-08-16",
+        "type": "major",
+        "title": "Aggiornamento software v9.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v8.0.0",
+        "previousVersion": "v7.0.0",
+        "internalVersion": 524288,
+        "releaseDate": "2026-06-09",
+        "type": "patch",
+        "title": "Aggiornamento software v8.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v7.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 458752,
+        "releaseDate": "2026-02-18",
+        "type": "patch",
+        "title": "Aggiornamento software v7.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v6.0.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 393216,
+        "releaseDate": "2025-11-12",
+        "type": "patch",
+        "title": "Aggiornamento software v6.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v5.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-09-14",
+        "type": "patch",
+        "title": "Aggiornamento software v5.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2025-07-13",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-06-25",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-18",
+        "type": "patch",
+        "title": "Aggiornamento software v1.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
   },
   {
     "id": "ping-pong-up-6000",
@@ -210912,6 +209806,263 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2025-06-06T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "no-man-s-sky-6000",
+    "title": "No Man's Sky",
+    "platform": "both",
+    "titleId": "0100853015E86000",
+    "publisher": "Hello Games",
+    "releaseDate": "2022-10-07",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Simulazione",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/705c707307705fbc6f301137df744763d1095f9f64fd749a99fe57b6e551607d.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000044643",
+    "currentVersion": "v5.1.0",
+    "currentInternalVersion": 5111808,
+    "lastUpdated": "2025-06-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v5.1.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-06-05",
+        "type": "major",
+        "title": "Nintendo Switch 2 Day-One Upgrade: Grafica Ultra, Nubi Volumetriche & 60 FPS",
+        "changelog": [
+          "Upgrade next-gen completo: grafica a dettagli Ultra equivalente alle versioni desktop di fascia alta.",
+          "Distanza visiva quadruplicata, oceani dinamici e nubi volumetriche in tempo reale.",
+          "Tempi di salto iperspaziale ridotti da oltre 30 secondi a meno di 3 secondi."
+        ]
+      },
+      {
+        "version": "v78.0.0",
+        "previousVersion": "v77.0.0",
+        "internalVersion": 5111808,
+        "releaseDate": "2026-09-17",
+        "type": "major",
+        "title": "Aggiornamento software v78.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v77.0.0",
+        "previousVersion": "v76.0.0",
+        "internalVersion": 5046272,
+        "releaseDate": "2026-08-16",
+        "type": "patch",
+        "title": "Aggiornamento software v77.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v76.0.0",
+        "previousVersion": "v75.0.0",
+        "internalVersion": 4980736,
+        "releaseDate": "2026-06-09",
+        "type": "patch",
+        "title": "Aggiornamento software v76.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v75.0.0",
+        "previousVersion": "v72.0.0",
+        "internalVersion": 4915200,
+        "releaseDate": "2026-05-13",
+        "type": "patch",
+        "title": "Aggiornamento software v75.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v72.0.0",
+        "previousVersion": "v71.0.0",
+        "internalVersion": 4718592,
+        "releaseDate": "2026-03-05",
+        "type": "patch",
+        "title": "Aggiornamento software v72.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v71.0.0",
+        "previousVersion": "v70.0.0",
+        "internalVersion": 4653056,
+        "releaseDate": "2026-02-27",
+        "type": "patch",
+        "title": "Aggiornamento software v71.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v70.0.0",
+        "previousVersion": "v69.0.0",
+        "internalVersion": 4587520,
+        "releaseDate": "2026-02-19",
+        "type": "patch",
+        "title": "Aggiornamento software v70.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v69.0.0",
+        "previousVersion": "v68.0.0",
+        "internalVersion": 4521984,
+        "releaseDate": "2026-02-12",
+        "type": "patch",
+        "title": "Aggiornamento software v69.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rune-factory-guardians-of-azuma-0000",
+    "title": "Rune Factory: Guardians of Azuma",
+    "platform": "both",
+    "titleId": "01003AF0200B0000",
+    "publisher": "Marvelous Europe",
+    "releaseDate": "2025-06-05",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Azione"
+    ],
+    "coverImage": "https://img-eshop.cdn.nintendo.net/i/9d241dd7cb7d1849d562c877bcffcd6df0f00f8ec46dc84fededdaa477ebad99.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000085004",
+    "currentVersion": "v1.1.0",
+    "currentInternalVersion": 589824,
+    "lastUpdated": "2025-06-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.1.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 65536,
+        "releaseDate": "2025-06-05",
+        "type": "performance",
+        "title": "Nintendo Switch 2 Edition Day-One Upgrade",
+        "changelog": [
+          "Risoluzione 1440p dinamica a 60 FPS stabili sia in modalità portatile che su TV.",
+          "Caricamenti istantanei delle aree del villaggio grazie alla memoria ultra-veloce di Switch 2."
+        ]
+      },
+      {
+        "version": "v9.0.0",
+        "previousVersion": "v8.0.0",
+        "internalVersion": 589824,
+        "releaseDate": "2026-05-13",
+        "type": "major",
+        "title": "Aggiornamento software v9.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v8.0.0",
+        "previousVersion": "v7.0.0",
+        "internalVersion": 524288,
+        "releaseDate": "2026-02-12",
+        "type": "patch",
+        "title": "Aggiornamento software v8.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v7.0.0",
+        "previousVersion": "v6.0.0",
+        "internalVersion": 458752,
+        "releaseDate": "2025-11-06",
+        "type": "patch",
+        "title": "Aggiornamento software v7.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v6.0.0",
+        "previousVersion": "v5.0.0",
+        "internalVersion": 393216,
+        "releaseDate": "2025-10-01",
+        "type": "patch",
+        "title": "Aggiornamento software v6.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v5.0.0",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 327680,
+        "releaseDate": "2025-07-15",
+        "type": "patch",
+        "title": "Aggiornamento software v5.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 262144,
+        "releaseDate": "2025-06-27",
+        "type": "patch",
+        "title": "Aggiornamento software v4.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v3.0.0",
+        "previousVersion": "v2.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2025-06-12",
+        "type": "patch",
+        "title": "Aggiornamento software v3.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      },
+      {
+        "version": "v2.0.0",
+        "previousVersion": "v1.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2025-06-10",
+        "type": "patch",
+        "title": "Aggiornamento software v2.0.0",
+        "changelog": [
+          "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
+          "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
+        ]
+      }
+    ]
   },
   {
     "id": "bumblebee-storm-of-friendship-a000",
@@ -268666,52 +267817,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "super-mario-party-jamboree-8000",
-    "title": "Super Mario Party Jamboree",
-    "platform": "both",
-    "titleId": "0100965017338000",
-    "publisher": "Nintendo",
-    "releaseDate": "2024-10-17",
-    "genres": [
-      "Party",
-      "Multiplayer",
-      "Da tavolo"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/d75d7dadb24b36c6ff761285a134f28a4f1e9912198707994e9d89ee3b139908.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000084609",
-    "currentVersion": "v2.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2025-07-24T12:00:00Z",
-    "updates": [
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.1.0",
-        "internalVersion": 131072,
-        "releaseDate": "2025-07-24",
-        "type": "major",
-        "title": "Nintendo Switch 2 Edition: Modalità Jamboree TV & Risoluzione 4K",
-        "changelog": [
-          "Compatibilità estesa e miglioramenti grafici a 4K 60 FPS per Nintendo Switch 2.",
-          "Integrazione della nuova modalità online interattiva Jamboree TV.",
-          "Supporto migliorato ai sensori di movimento ad alta precisione dei Joy-Con 2."
-        ]
-      },
-      {
-        "version": "v1.1.0",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2024-10-28",
-        "type": "patch",
-        "title": "Bilanciamento Minigiochi Bowserathlon & Stabilità Online",
-        "changelog": [
-          "Ricalibrati i punti e la difficoltà nei minigiochi della modalità Bowserathlon a 20 giocatori.",
-          "Migliorata la stabilità delle stanze di gioco online per le partite a tabellone classico.",
-          "Corretti bug nelle animazioni dei compagni Jamboree durante le prove speciali dei tabelloni."
         ]
       }
     ]
@@ -365504,62 +364609,6 @@
         "changelog": [
           "Miglioramenti generali della stabilità di sistema per ottimizzare l'esperienza utente.",
           "Correzioni di bug minori e ottimizzazioni di performance per Nintendo Switch."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pikmin-4-a000",
-    "title": "Pikmin 4",
-    "platform": "both",
-    "titleId": "0100B7C00933A000",
-    "publisher": "Nintendo",
-    "releaseDate": "2023-07-21",
-    "genres": [
-      "Avventura"
-    ],
-    "coverImage": "https://img-eshop.cdn.nintendo.net/i/78e5730069e6073f43a420e83c135d526354e35e65b25f0426360598ef4e50ad.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000005306",
-    "currentVersion": "v2.0.0",
-    "currentInternalVersion": 131072,
-    "lastUpdated": "2026-11-01T12:00:00Z",
-    "updates": [
-      {
-        "version": "v2.0.0",
-        "previousVersion": "v1.0.2",
-        "internalVersion": 131072,
-        "releaseDate": "2026-11-01",
-        "type": "major",
-        "title": "Nintendo Switch 2 Edition: Espansione Accademia Dandori & Grafica 4K",
-        "changelog": [
-          "Supporto completo e ottimizzazione grafica nativa per Nintendo Switch 2 (4K a 60 FPS in dock).",
-          "Nuova modalità campagna aggiuntiva: Accademia Dandori con 30 sfide cooperative inedite.",
-          "Supporto ai comandi avanzati e al feedback aptico dei controller Joy-Con 2."
-        ]
-      },
-      {
-        "version": "v1.0.2",
-        "previousVersion": "v1.0.1",
-        "internalVersion": 131072,
-        "releaseDate": "2023-09-26",
-        "type": "patch",
-        "title": "Fix Progressione Esplorazione 100% & Dandori Split-Screen",
-        "changelog": [
-          "Corretto un errore in cui il contatore di completamento delle caverne poteva rimanere bloccato al 99%.",
-          "Risolto un bug che poteva far incastrare Occin durante il trasporto di tesori subacquei con i Pikmin blu.",
-          "Migliorato il framerate e ridotti i cali di fluidità durante le Battaglie Dandori a 2 giocatori su schermo diviso."
-        ]
-      },
-      {
-        "version": "v1.0.1",
-        "previousVersion": "v1.0.0",
-        "internalVersion": 65536,
-        "releaseDate": "2023-07-28",
-        "type": "patch",
-        "title": "Miglioramento Salvataggi Missioni Notturne",
-        "changelog": [
-          "Risolto un problema nei salvataggi automatici durante le difese notturne dei lumipolli.",
-          "Corrette anomalie nel puntamento del fischietto con il controllo sensori di movimento dei Joy-Con."
         ]
       }
     ]
@@ -676377,5 +675426,971 @@
     "currentInternalVersion": 0,
     "lastUpdated": "2017-04-06T00:00:00Z",
     "updates": []
+  },
+  {
+    "id": "warhammer-survivors",
+    "title": "Warhammer Survivors",
+    "platform": "both",
+    "titleId": "01007F101CD60000",
+    "publisher": "Games Workshop / Poncle",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Roguelite",
+      "Survival",
+      "Bullet Hell"
+    ],
+    "coverImage": "/covers/warhammer-survivors.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Warhammer-Survivors-2947000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-25T10:00:00Z",
+    "aliases": [
+      "warhammer survivors",
+      "warhammer 40k",
+      "space marine survivors"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Annuncio Ufficiale Collaborazione",
+        "changelog": [
+          "L'universo di Warhammer 40,000 incontra il gameplay assuefacente in stile Vampire Survivors."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tanuki-pons-summer",
+    "title": "Tanuki: Pon's Summer",
+    "platform": "both",
+    "titleId": "01003D901CD80000",
+    "publisher": "Raw Fury",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "BMX",
+      "Commedia",
+      "Casual"
+    ],
+    "coverImage": "/covers/tanuki-pons-summer.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Tanuki-Pons-Summer-2945000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T10:00:00Z",
+    "aliases": [
+      "tanuki",
+      "pon's summer",
+      "tanuki bmx",
+      "postino procione"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Apertura Pre-order e Data Definitiva",
+        "changelog": [
+          "Vesti i panni di un tanuki postino che compie acrobazie in BMX per le strade di una cittadina giapponese estiva."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nocturnal-ii",
+    "title": "Nocturnal II",
+    "platform": "both",
+    "titleId": "01006E301DC80000",
+    "publisher": "Sunnyside Games",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Metroidvania",
+      "2D",
+      "Platform"
+    ],
+    "coverImage": "/covers/nocturnal-ii.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Nocturnal-II-2948000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-20T10:00:00Z",
+    "aliases": [
+      "nocturnal 2",
+      "nocturnal ii",
+      "spada di fuoco"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Data di Rilascio e Trailer Ufficiale",
+        "changelog": [
+          "Nuove abilità elementali del fuoco e ambientazioni interamente ridisegnate a mano."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prinny-party-going-overboard-6000",
+    "title": "Prinny Party: Going Overboard!",
+    "platform": "switch",
+    "titleId": "0100643028646000",
+    "publisher": "NIS America",
+    "releaseDate": "2026-11-11",
+    "genres": [
+      "Party",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "/covers/prinny-party.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-11-11T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "sonic-pico-park",
+    "title": "Sonic Pico Park",
+    "platform": "both",
+    "titleId": "01002A401DC70000",
+    "publisher": "SEGA",
+    "releaseDate": "2026-11-12",
+    "status": "upcoming",
+    "genres": [
+      "Party",
+      "Puzzle",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "coverImage": "/covers/sonic-pico-park.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Sonic-Pico-Park-2951000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-26T10:00:00Z",
+    "aliases": [
+      "sonic pico park",
+      "pico park sonic",
+      "sega party"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Presentazione Ufficiale SEGA",
+        "changelog": [
+          "Cross-over cooperativo fino a 8 giocatori simultanei nei panni di Sonic, Tails, Knuckles e Amy."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marupoyo-the-round-chick-s-adventure-6000",
+    "title": "Marupoyo: The Round Chick's Adventure",
+    "platform": "switch",
+    "titleId": "0100D80024146000",
+    "publisher": "Casual Brothers",
+    "releaseDate": "2026-11-26",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Piattaforme",
+      "Arcade"
+    ],
+    "coverImage": "/covers/marupoyo.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000100155",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-11-26T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "dragon-quest-monsters-il-regno-sfiorito-0000",
+    "title": "DRAGON QUEST MONSTERS: Il regno sfiorito",
+    "platform": "switch",
+    "titleId": "01000F1021FB0000",
+    "publisher": "SQUARE ENIX",
+    "releaseDate": "2026-12-03",
+    "genres": [
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "/covers/dragon-quest-monsters.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000092409",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-12-03T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "fall-up-8000",
+    "title": "Fall Up",
+    "platform": "switch",
+    "titleId": "01005C1023928000",
+    "publisher": "Astrolabe Games",
+    "releaseDate": "2026-12-03",
+    "genres": [
+      "Azione",
+      "Avventura"
+    ],
+    "coverImage": "/covers/fall-up.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000098134",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-12-03T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "the-road-of-dust-and-sorrow",
+    "title": "The Road of Dust and Sorrow",
+    "platform": "both",
+    "titleId": "01004C201FC90000",
+    "publisher": "Team 17",
+    "releaseDate": "2026-12-03",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "Narrativo",
+      "Post-apocalittico"
+    ],
+    "coverImage": "/covers/road-of-dust-and-sorrow.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/The-Road-of-Dust-and-Sorrow-2971000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-18T10:00:00Z",
+    "aliases": [
+      "road of dust and sorrow",
+      "polvere e dolore"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-12-03",
+        "type": "major",
+        "title": "Annuncio Ufficiale Team 17",
+        "changelog": [
+          "Viaggio narrativo emotivo attraverso terre desolate con scelte morali permanenti."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aeruta-2000",
+    "title": "Aeruta",
+    "platform": "switch",
+    "titleId": "01003F501F012000",
+    "publisher": "GRAVITY GAME ARISE",
+    "releaseDate": "2026-12-09",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Gioco di ruolo (RPG)",
+      "Simulazione"
+    ],
+    "coverImage": "/covers/aeruta.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000080761",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-12-09T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "professor-layton-and-the-new-world-of-steam",
+    "title": "Professor Layton and the New World of Steam",
+    "platform": "both",
+    "titleId": "0100768019C40000",
+    "publisher": "Level-5",
+    "releaseDate": "2026-12-10",
+    "status": "upcoming",
+    "genres": [
+      "Puzzle",
+      "Avventura",
+      "Mistero",
+      "Steampunk"
+    ],
+    "coverImage": "/covers/professor-layton-steam.png",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Professor-Layton-and-the-New-World-of-Steam-2970000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T10:00:00Z",
+    "aliases": [
+      "professor layton",
+      "il professor layton e il nuovo mondo a vapore",
+      "layton steam",
+      "luke triton",
+      "steam bison"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-12-10",
+        "type": "major",
+        "title": "Apertura Pre-ordini e Data Ufficiale",
+        "changelog": [
+          "Nuovo mistero ambientato un anno dopo Il Futuro Perduto nella città industriale di Steam Bison.",
+          "Uscita in simultanea per Nintendo Switch e Nintendo Switch 2 con enigmi tattili potenziati."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "attack-on-titan-3-switch2",
+    "title": "Attack on Titan 3",
+    "platform": "switch2",
+    "titleId": "01003B501FA60000",
+    "publisher": "Koei Tecmo",
+    "releaseDate": "2026-12-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Anime",
+      "Acrobatico",
+      "Giganti"
+    ],
+    "coverImage": "/covers/attack-on-titan-3.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Attack-on-Titan-3-2978000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-14T10:00:00Z",
+    "aliases": [
+      "aot 3",
+      "attack on titan 3",
+      "shingeki no kyojin 3",
+      "eren yeager"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-12-10",
+        "type": "major",
+        "title": "Annuncio Ufficiale Koei Tecmo",
+        "changelog": [
+          "Capitolo finale della trilogia d'azione acrobatica con manovra tridimensionale a 60 FPS stabili su Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power-racing-bundle-4-0000",
+    "title": "Power Racing Bundle 4",
+    "platform": "switch",
+    "titleId": "0100305027340000",
+    "publisher": "SuperPowerUpGames",
+    "releaseDate": "2026-12-25",
+    "genres": [
+      "Corse",
+      "Sport",
+      "Simulazione",
+      "Multiplayer"
+    ],
+    "coverImage": "/covers/power-racing-bundle-4.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000118682",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-12-25T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "13z-zodiac-trials",
+    "title": "13Z: The Zodiac Trials",
+    "platform": "both",
+    "titleId": "01001B301EB80000",
+    "publisher": "Mixed Realms",
+    "releaseDate": "2027-01-14",
+    "status": "upcoming",
+    "genres": [
+      "Action RPG",
+      "Hack and Slash",
+      "Roguelike"
+    ],
+    "coverImage": "/covers/13z-zodiac-trials.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/13Z-The-Zodiac-Trials-2961000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-16T10:00:00Z",
+    "aliases": [
+      "13z",
+      "zodiac trials",
+      "segni zodiacali"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-14",
+        "type": "major",
+        "title": "Annuncio Ufficiale Roguelike",
+        "changelog": [
+          "Sfida i 12 guardiani dello zodiaco in un action roguelite rapido e brutale con abilità celesti."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "metroid-ravenous-switch2",
+    "title": "Metroid Ravenous",
+    "platform": "switch2",
+    "titleId": "01008A201DF50000",
+    "publisher": "Nintendo",
+    "releaseDate": "2027-01-28",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Metroidvania",
+      "Fantascienza"
+    ],
+    "coverImage": "/covers/metroid-ravenous.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Metroid-Ravenous-2995000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-01T10:00:00Z",
+    "aliases": [
+      "metroid ravenous",
+      "samus aran",
+      "metroid 2d switch 2",
+      "metroid 6"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-28",
+        "type": "major",
+        "title": "Annuncio Ufficiale & Teaser Trailer",
+        "changelog": [
+          "Nuovo capitolo 2D a scorrimento in esclusiva per Nintendo Switch 2, seguito ideale di Metroid Dread.",
+          "Supporto a 120 FPS in modalità portatile e TV."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fate-extra-record",
+    "title": "Fate/Extra Record",
+    "platform": "both",
+    "titleId": "01009A101CC50000",
+    "publisher": "Bandai Namco / Type-Moon",
+    "releaseDate": "2027-01-28",
+    "status": "upcoming",
+    "genres": [
+      "RPG",
+      "A turni",
+      "Anime",
+      "Visual Novel"
+    ],
+    "coverImage": "/covers/fate-extra-record.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Fate-Extra-Record-2962000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-28T10:00:00Z",
+    "aliases": [
+      "fate extra",
+      "fate extra record",
+      "type moon",
+      "nero claudius",
+      "saber"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-28",
+        "type": "major",
+        "title": "Data di Uscita Confermata in Occidente",
+        "changelog": [
+          "Remake in 3D completo della celebre Guerra del Santo Graal della Luna."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "witchbrook",
+    "title": "Witchbrook",
+    "platform": "both",
+    "titleId": "010057401AC32000",
+    "publisher": "Chucklefish",
+    "releaseDate": "2027-01-28",
+    "status": "upcoming",
+    "genres": [
+      "RPG",
+      "Simulazione di vita",
+      "Pixel Art",
+      "Magia"
+    ],
+    "coverImage": "/covers/witchbrook.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Witchbrook-2965000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-20T10:00:00Z",
+    "aliases": [
+      "witchbrook",
+      "chucklefish",
+      "scuola di magia",
+      "stardew valley magico"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-01-28",
+        "type": "major",
+        "title": "Annuncio Data di Rilascio",
+        "changelog": [
+          "Simulatore di vita magica a pixel art sviluppato da Chucklefish per Nintendo Switch e Switch 2.",
+          "Include modalità cooperativa online e cross-play."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "he-man-dragon-pearl-of-destruction",
+    "title": "He-Man and the Masters of the Universe: Dragon Pearl of Destruction",
+    "platform": "both",
+    "titleId": "01005C701EB10000",
+    "publisher": "Mattel / Outright Games",
+    "releaseDate": "2027-02-04",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Picchiaduro",
+      "Avventura",
+      "Co-op"
+    ],
+    "coverImage": "/covers/he-man-dragon-pearl.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/He-Man-Dragon-Pearl-2972000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-18T10:00:00Z",
+    "aliases": [
+      "he-man",
+      "masters of the universe",
+      "skeletor",
+      "dragon pearl"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-04",
+        "type": "major",
+        "title": "Apertura Scheda Ufficiale",
+        "changelog": [
+          "Avventura d'azione cooperativa ambientata su Eternia contro le forze di Skeletor."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "muramasa-revenant-blades-switch2",
+    "title": "Muramasa: Revenant Blades",
+    "platform": "switch2",
+    "titleId": "01009B401CF22000",
+    "publisher": "Marvelous / Vanillaware",
+    "releaseDate": "2027-02-04",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Hack and Slash",
+      "2D",
+      "Giappone Feudale"
+    ],
+    "coverImage": "/covers/muramasa-revenant-blades.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Muramasa-Revenant-Blades-2975000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-15T10:00:00Z",
+    "aliases": [
+      "muramasa",
+      "vanillaware switch 2",
+      "revenant blades",
+      "oboro muramasa"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-04",
+        "type": "major",
+        "title": "Annuncio Ufficiale Vanillaware",
+        "changelog": [
+          "Ritorno del capolavoro d'azione 2D dipinto a mano in 4K nativo con nuovi capitoli di trama su Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "astonishia-story-2000",
+    "title": "Astonishia Story",
+    "platform": "switch",
+    "titleId": "01001C2028ED2000",
+    "publisher": "NIS America",
+    "releaseDate": "2027-02-11",
+    "genres": [
+      "Gioco di ruolo (RPG)",
+      "Strategia"
+    ],
+    "coverImage": "/covers/astonishia-story.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000129971",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2027-02-11T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "tomb-raider-legacy-of-atlantis-switch2",
+    "title": "Tomb Raider: Legacy of Atlantis",
+    "platform": "switch2",
+    "titleId": "01004C801BE90000",
+    "publisher": "Crystal Dynamics / Amazon Games",
+    "releaseDate": "2027-02-12",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Avventura",
+      "Esplorazione",
+      "Enigmi"
+    ],
+    "coverImage": "/covers/tomb-raider-legacy-atlantis.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Tomb-Raider-Legacy-of-Atlantis-2985000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-18T10:00:00Z",
+    "aliases": [
+      "tomb raider",
+      "lara croft",
+      "legacy of atlantis",
+      "tomb raider switch 2"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-12",
+        "type": "major",
+        "title": "Annuncio Ufficiale Nuova Avventura di Lara Croft",
+        "changelog": [
+          "Sviluppato su Unreal Engine 5 e ottimizzato per l'architettura NVIDIA DLSS di Nintendo Switch 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yu-gi-oh-tag-force-gx-0000",
+    "title": "Yu-Gi-Oh! TAG FORCE GX",
+    "platform": "switch",
+    "titleId": "0100F550276E0000",
+    "publisher": "KONAMI",
+    "releaseDate": "2027-02-16",
+    "genres": [
+      "Strategia",
+      "Gioco di ruolo (RPG)",
+      "Avventura"
+    ],
+    "coverImage": "/covers/yu-gi-oh-tag-force-gx.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000120382",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2027-02-16T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "persona-4-revival-switch2",
+    "title": "Persona 4 Revival",
+    "platform": "switch2",
+    "titleId": "01001D401EF80000",
+    "publisher": "Atlus / SEGA",
+    "releaseDate": "2027-02-18",
+    "status": "upcoming",
+    "genres": [
+      "JRPG",
+      "A turni",
+      "Mistero",
+      "Simulazione"
+    ],
+    "coverImage": "/covers/persona-4-revival.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Persona-4-Revival-2992000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-05T10:00:00Z",
+    "aliases": [
+      "persona 4",
+      "p4r",
+      "persona 4 remake",
+      "inaba",
+      "yu narukami"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-02-18",
+        "type": "major",
+        "title": "Annuncio Ufficiale Atlus",
+        "changelog": [
+          "Remake completo con lo stile visivo e le meccaniche di combattimento di Persona 3 Reload e Persona 5 Royal."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trine-6-together-in-time",
+    "title": "Trine 6: Together in Time",
+    "platform": "both",
+    "titleId": "01008D201BC90000",
+    "publisher": "Frozenbyte / THQ Nordic",
+    "releaseDate": "2027-03-04",
+    "status": "upcoming",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Co-op",
+      "Fantasy"
+    ],
+    "coverImage": "/covers/trine-6.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Trine-6-Together-in-Time-2982000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-02T10:00:00Z",
+    "aliases": [
+      "trine 6",
+      "trine",
+      "amadeus pontius zoya",
+      "together in time"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-04",
+        "type": "major",
+        "title": "Annuncio Sesto Capitolo Trine",
+        "changelog": [
+          "Nuove meccaniche di manipolazione temporale cooperative per 4 giocatori."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grave-seasons",
+    "title": "Grave Seasons",
+    "platform": "both",
+    "titleId": "01007D501DB10000",
+    "publisher": "Perfect Garbage",
+    "releaseDate": "2027-03-09",
+    "status": "upcoming",
+    "genres": [
+      "Simulazione",
+      "Mistero",
+      "Serial Killer",
+      "Farming"
+    ],
+    "coverImage": "/covers/grave-seasons.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Grave-Seasons-2986000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T10:00:00Z",
+    "aliases": [
+      "grave seasons",
+      "fattoria serial killer",
+      "farming sim mistero"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-09",
+        "type": "major",
+        "title": "Annuncio Ufficiale Data",
+        "changelog": [
+          "Simulatore agricolo sovrannaturale in cui uno degli abitanti del villaggio è un serial killer segreto da smascherare."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007-first-light-switch2",
+    "title": "007 First Light",
+    "platform": "switch2",
+    "titleId": "01006B101DC40000",
+    "publisher": "IO Interactive",
+    "releaseDate": "2027-03-18",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Stealth",
+      "Sparatutto",
+      "Spionaggio"
+    ],
+    "coverImage": "/covers/007-first-light.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/007-First-Light-2996000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-25T10:00:00Z",
+    "aliases": [
+      "007",
+      "james bond",
+      "first light",
+      "project 007",
+      "io interactive 007"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-18",
+        "type": "major",
+        "title": "Presentazione Mondiale Gameplay",
+        "changelog": [
+          "Storia inedita sulle origini di James Bond creata dagli autori della saga Hitman."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kirby-and-the-world-beyond",
+    "title": "Kirby and the World Beyond",
+    "platform": "switch2",
+    "titleId": "0100F9A019DA6000",
+    "publisher": "Nintendo",
+    "releaseDate": "2027-03-26",
+    "genres": [
+      "Piattaforme",
+      "3D",
+      "Azione",
+      "Avventura"
+    ],
+    "coverImage": "/covers/kirby-and-the-world-beyond.png",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Kirby-and-the-World-Beyond-2980000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-09-12T10:00:00Z",
+    "aliases": [
+      "kirby world beyond",
+      "kirby switch 2",
+      "kirby 3d",
+      "kirby 2027"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-03-26",
+        "type": "major",
+        "title": "Annuncio Ufficiale & Apertura Pre-ordini",
+        "changelog": [
+          "Nuovo capitolo platform 3D open-zone sviluppato da HAL Laboratory in esclusiva per Switch 2.",
+          "Pre-ordine disponibile su Nintendo eShop."
+        ]
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "id": "the-duskbloods-switch2",
+    "title": "The Duskbloods",
+    "platform": "switch2",
+    "titleId": "0100D1C01FC82000",
+    "publisher": "FromSoftware / Nintendo",
+    "releaseDate": "2027-04-30",
+    "genres": [
+      "Action RPG",
+      "PvPvE",
+      "Dark Fantasy",
+      "Multiplayer"
+    ],
+    "coverImage": "/covers/the-duskbloods.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Duskbloods-2950000.html",
+    "currentVersion": "Network Test Build (v0.8.0)",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-08-31T10:00:00Z",
+    "aliases": [
+      "duskbloods",
+      "from software switch 2",
+      "miyazaki switch 2",
+      "the dusk bloods"
+    ],
+    "updates": [
+      {
+        "version": "Network Test Build",
+        "releaseDate": "2026-08-31",
+        "type": "event",
+        "title": "Chiusura Network Test & Rinvio Ufficiale al 2027",
+        "changelog": [
+          "Concluso il Global Closed Network Test per 8 giocatori su Nintendo Switch 2 (28-30 agosto 2026).",
+          "Comunicato ufficiale FromSoftware e Hidetaka Miyazaki: lancio posticipato al 2027 per rifinire il netcode e il bilanciamento PvPvE."
+        ]
+      }
+    ],
+    "status": "upcoming"
+  },
+  {
+    "id": "xenoblade-genesis-switch2",
+    "title": "Xenoblade Genesis",
+    "platform": "switch2",
+    "titleId": "01008C401FA70000",
+    "publisher": "Nintendo / Monolith Soft",
+    "releaseDate": "2027-09-17",
+    "status": "upcoming",
+    "genres": [
+      "JRPG",
+      "Azione",
+      "Open World",
+      "Fantascienza"
+    ],
+    "coverImage": "/covers/xenoblade-genesis.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Xenoblade-Genesis-3001000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-12T10:00:00Z",
+    "aliases": [
+      "xenoblade genesis",
+      "xenoblade 4",
+      "monolith soft switch 2",
+      "klaus",
+      "conduit"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-09-17",
+        "type": "major",
+        "title": "Annuncio Nuovo Arco Narrativo Monolith Soft",
+        "changelog": [
+          "Inizio della nuova saga dell'universo Xenoblade ideata da Tetsuya Takahashi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pokemon-winds-waves-switch2",
+    "title": "Pokémon Winds & Pokémon Waves",
+    "platform": "switch2",
+    "titleId": "01005A301DF20000",
+    "publisher": "Nintendo / The Pokémon Company",
+    "releaseDate": "2027-11-19",
+    "status": "upcoming",
+    "genres": [
+      "RPG",
+      "Avventura",
+      "Open World",
+      "Cattura mostri"
+    ],
+    "coverImage": "/covers/pokemon-winds-waves.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Pokemon-Winds-Pokemon-Waves-3000000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-10T10:00:00Z",
+    "aliases": [
+      "pokemon winds",
+      "pokemon waves",
+      "pokemon gen 10",
+      "decima generazione pokemon",
+      "pokemon switch 2"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2027-11-19",
+        "type": "major",
+        "title": "Annuncio Decima Generazione Pokémon",
+        "changelog": [
+          "Nuova regione open-world arcipelago interamente esplorabile senza schermate di caricamento in esclusiva su Switch 2."
+        ]
+      }
+    ]
   }
 ]
