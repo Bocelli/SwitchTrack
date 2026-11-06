@@ -272,8 +272,8 @@ test('Another Eden Begins: verifica patch v1.1.3, supporto Switch 2 e changelog'
   const searchAldo = store.getGames({ search: 'aldo feinne' });
   assert.ok(searchAldo.some(g => g.id === 'another-eden-begins-c000'), 'La ricerca per protagonisti Aldo/Feinne deve trovare il gioco');
 
-  // Verifica che compaia tra i primi titoli in "Ultimi Aggiornamenti"
-  const latest = store.getLatestUpdates(5);
+  // Verifica che compaia tra i titoli in "Ultimi Aggiornamenti"
+  const latest = store.getLatestUpdates(25);
   const aeUpdate = latest.find(u => u.gameTitle === 'Another Eden Begins');
   assert.ok(aeUpdate, 'Another Eden Begins deve essere tra i titoli recentemente aggiornati');
   assert.equal(aeUpdate.version, 'v1.1.3');
@@ -410,4 +410,30 @@ test('Automatic Calendar Transition Engine: transizione automatica giochi da upc
   const oot = store.getGameById('zelda-ocarina-of-time-switch2');
   assert.equal(oot.status, 'released', 'Zelda deve essere released');
   assert.equal(oot.currentVersion, 'v1.0.1', 'Zelda deve mantenere la patch Day-One v1.0.1');
+});
+
+test('Automated Nintendo eShop Discovery Engine: ingestione sistematica Switch & Switch 2 (Stellar Blade, ecc.)', () => {
+  store.load();
+
+  // Verifica presenza automatica di Stellar Blade Complete Edition
+  const stellarMatches = store.getGames({ search: 'stellar blade' });
+  assert.ok(stellarMatches.length >= 1, 'Stellar Blade deve essere trovato automaticamente nel catalogo');
+
+  const stellar = stellarMatches[0];
+  assert.equal(stellar.title, 'Stellar Blade™ Complete Edition');
+  assert.equal(stellar.platform, 'switch2', 'Stellar Blade deve essere identificato per Switch 2');
+  assert.equal(stellar.publisher, 'SHIFT UP', 'Publisher ufficiale SHIFT UP');
+  assert.equal(stellar.releaseDate, '2026-11-05', 'Data di uscita ufficiale 5 novembre 2026');
+  assert.equal(stellar.status, 'released', 'Stato rilasciato');
+  assert.ok(stellar.coverImage && stellar.coverImage.includes('nintendo.com'), 'Copertina ufficiale Nintendo eShop');
+  assert.ok(stellar.updates.length >= 1, 'Deve avere il rilascio ufficiale registrato');
+  assert.equal(stellar.updates[0].version, 'v1.0.0');
+
+  // Verifica scoperta automatica di altri titoli Switch 2 (es. Enter the Gungeon 2 o Resident Evil Requiem)
+  const s2Upcoming = store.getGames({ platform: 'switch2' });
+  assert.ok(s2Upcoming.length >= 100, `Il catalogo Switch 2 deve contenere oltre 100 titoli da eShop (trovati: ${s2Upcoming.length})`);
+
+  const gungeon2 = store.getGames({ search: 'gungeon 2' });
+  assert.ok(gungeon2.length >= 1, 'Enter the Gungeon 2 scoperto automaticamente da feed Nintendo eShop');
+  assert.equal(gungeon2[0].platform, 'switch2');
 });

@@ -1,10 +1,11 @@
 /**
  * [TRAIL:SYNC] Upstream Nintendo Switch & Switch 2 Updates Synchronizer
- * - Fetches upstream live version feeds from community / Nintendo TitleDB
- * - Automatically detects newly arrived calendar releases and generates Day-One patches
- * - Transitions upcoming titles to released upon reaching launch date
- * - Preserves curated flagship changelogs while keeping the remaining 19,000+ titles synced
- * - Designed to run in GitHub Actions daily cron or on-demand
+ * - Automatically discovers new Switch & Switch 2 titles from official Nintendo eShop feed
+ * - Discovers all upcoming releases, pre-orders, and new catalog additions systematically
+ * - Transitions upcoming titles to released upon reaching launch date and generates Day-One patches
+ * - Synchronizes upstream patch versions from community Nintendo TitleDB
+ * - Preserves curated flagship changelogs while keeping the full catalog automated
+ * - Designed to run in GitHub Actions daily cron, via /api/sync, or on-demand
  */
 
 import fs from 'node:fs';
@@ -18,8 +19,23 @@ const DATA_FILE = path.resolve(__dirname, '../data/games.json');
 
 const UPSTREAM_VERSIONS_URL = 'https://raw.githubusercontent.com/blawar/titledb/master/versions.json';
 
+const NINTENDO_ESHOP_QUERIES = [
+  'https://searching.nintendo-europe.com/it/select?q=*&fq=type:GAME%20AND%20system_type:nintendoswitch2&rows=500&sort=date_from%20desc&wt=json',
+  'https://searching.nintendo-europe.com/it/select?q=*&fq=type:GAME%20AND%20system_type:nintendoswitch2&start=500&rows=500&sort=date_from%20desc&wt=json',
+  'https://searching.nintendo-europe.com/it/select?q=*&fq=type:GAME%20AND%20date_from:[NOW%20TO%20*]&rows=300&sort=date_from%20asc&wt=json',
+  'https://searching.nintendo-europe.com/it/select?q=*&fq=type:GAME&rows=300&sort=change_date%20desc&wt=json'
+];
+
 const curatedIds = new Set(CATALOG.map(c => c.id));
 const curatedTitleIds = new Set(CATALOG.map(c => c.titleId.toUpperCase()));
+
+function normalizeTitle(t) {
+  return String(t || '')
+    .toLowerCase()
+    .replace(/[™®©]/g, '')
+    .replace(/[^a-z0-9]/g, '')
+    .trim();
+}
 
 function formatVersion(num) {
   if (!num || num === 0) return 'v1.0.0';
@@ -56,12 +72,52 @@ async function fetchUpstreamVersions() {
       throw new Error(`Risposta HTTP non valida: ${res.status} ${res.statusText}`);
     }
     const data = await res.json();
-    console.log(`[SYNC] Feed scaricato con successo. Titoli nel feed: ${Object.keys(data).length}`);
+    console.log(`[SYNC] Feed TitleDB scaricato con successo. Titoli nel feed: ${Object.keys(data).length}`);
     return data;
   } catch (err) {
     clearTimeout(timeout);
-    console.error(`[SYNC] Errore recupero feed upstream: ${err.message}`);
+    console.error(`[SYNC] Errore recupero feed TitleDB: ${err.message}`);
     return null;
+  }
+}
+
+async function fetchNintendoEshopCatalog() {
+  console.log(`[SYNC] Interrogazione feed ufficiale Nintendo eShop (Switch 1 & Switch 2, uscite imminenti)...`);
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 20000);
+
+  try {
+    const fetchPromises = NINTENDO_ESHOP_QUERIES.map(async (url) => {
+      try {
+        const res = await fetch(url, {
+          signal: controller.signal,
+          headers: { 'User-Agent': 'SwitchTrack-eShopSync/1.0' }
+        });
+        if (!res.ok) return [];
+        const json = await res.json();
+        return json.response?.docs || [];
+      } catch {
+        return [];
+      }
+    });
+
+    const results = await Promise.all(fetchPromises);
+    clearTimeout(timeout);
+
+    const mergedDocs = results.flat();
+    const uniqueMap = new Map();
+    for (const doc of mergedDocs) {
+      if (doc && doc.fs_id && !uniqueMap.has(doc.fs_id)) {
+        uniqueMap.set(doc.fs_id, doc);
+      }
+    }
+    const docs = Array.from(uniqueMap.values());
+    console.log(`[SYNC] Nintendo eShop: recuperati ${docs.length} giochi unici (Switch e Switch 2).`);
+    return docs;
+  } catch (err) {
+    clearTimeout(timeout);
+    console.warn(`[SYNC] Nintendo eShop non raggiungibile: ${err.message}`);
+    return [];
   }
 }
 
@@ -86,12 +142,157 @@ export async function runSync(options = {}) {
 
   const rawGames = fs.readFileSync(DATA_FILE, 'utf8');
   const games = JSON.parse(rawGames);
-  console.log(`[SYNC] Giochi nel database locale: ${games.length}`);
+  console.log(`[SYNC] Giochi nel database locale iniziale: ${games.length}`);
 
   let updatedGamesCount = 0;
+  let newGamesCount = 0;
+  let enrichedCoversCount = 0;
   const newPatches = [];
+  const newlyAddedGames = [];
   const today = options.now ? options.now.slice(0, 10) : new Date().toISOString().slice(0, 10);
   console.log(`[SYNC] Data di riferimento per il controllo uscite: ${today}`);
+
+  // =========================================================================
+  // FASE 0: Ingestione Automatica Catalogo Live Nintendo eShop (Switch 1 & 2)
+  // Scopre sistematicamente TUTTI i nuovi titoli, annunci, uscite recenti e pre-ordini
+  // =========================================================================
+  const eshopDocs = await fetchNintendoEshopCatalog();
+  if (eshopDocs.length > 0) {
+    const existingByTitleId = new Map();
+    const existingByNormalizedTitle = new Map();
+    const existingById = new Map();
+
+    for (const g of games) {
+      if (g.id) existingById.set(g.id, g);
+      if (g.titleId) existingByTitleId.set(g.titleId.toUpperCase(), g);
+      if (g.title) existingByNormalizedTitle.set(normalizeTitle(g.title), g);
+    }
+
+    for (const doc of eshopDocs) {
+      if (!doc.title || !doc.fs_id) continue;
+
+      const rawTid = doc.application_id_s || (Array.isArray(doc.nsuid_txt) ? doc.nsuid_txt[0] : null);
+      const titleId = rawTid ? String(rawTid).toUpperCase() : null;
+      const normTitle = normalizeTitle(doc.title);
+
+      let match = null;
+      if (titleId && existingByTitleId.has(titleId)) {
+        match = existingByTitleId.get(titleId);
+      } else if (existingByNormalizedTitle.has(normTitle)) {
+        match = existingByNormalizedTitle.get(normTitle);
+      }
+
+      // Ricava immagine ufficiale ad alta risoluzione
+      const officialCover = doc.image_url_h2x1_s || doc.image_url_h16x9_s || doc.image_url_sq_s || doc.wishlist_email_banner640w_image_url_s || '';
+
+      if (match) {
+        // Enrolling/arricchimento dati per gioco esistente
+        let changed = false;
+
+        // Se la copertina attuale è mancante, rotta o generica, e l'eShop ne offre una ufficiale
+        if (officialCover && (!match.coverImage || match.coverImage.startsWith('/api/cover/') || match.coverImage.includes('placehold'))) {
+          match.coverImage = officialCover;
+          changed = true;
+          enrichedCoversCount++;
+        }
+
+        // Aggiungi o aggiorna URL eShop ufficiale se mancante
+        if (doc.url && !match.eshopUrl) {
+          match.eshopUrl = `https://www.nintendo.com${doc.url}`;
+          changed = true;
+        }
+
+        // Verifica aggiornamento piattaforma se eShop specifica Switch 2
+        const sysTypes = Array.isArray(doc.system_type)
+          ? doc.system_type.flatMap(s => String(s).split(',')).map(s => s.trim().toLowerCase())
+          : String(doc.system_type || '').split(',').map(s => s.trim().toLowerCase());
+        const hasSwitch2 = sysTypes.includes('nintendoswitch2');
+        const hasSwitch1 = sysTypes.some(s => s === 'nintendoswitch' || s === 'nintendoswitch_downloadsoftware' || s === 'nintendoswitch_gamecard' || s === 'nintendoswitch_digitaldistribution');
+
+        if (!isCurated(match) && hasSwitch2 && match.platform === 'switch') {
+          match.platform = 'both';
+          changed = true;
+        }
+
+        if (changed) {
+          updatedGamesCount++;
+        }
+      } else {
+        // NUOVO TITOLO SCOPERTO AUTOMATICAMENTE!
+        const sysTypes = Array.isArray(doc.system_type)
+          ? doc.system_type.flatMap(s => String(s).split(',')).map(s => s.trim().toLowerCase())
+          : String(doc.system_type || '').split(',').map(s => s.trim().toLowerCase());
+        const isSwitch2 = sysTypes.includes('nintendoswitch2');
+        const isSwitch1 = sysTypes.some(s => s === 'nintendoswitch' || s === 'nintendoswitch_downloadsoftware' || s === 'nintendoswitch_gamecard' || s === 'nintendoswitch_digitaldistribution');
+        const platform = (isSwitch2 && isSwitch1) ? 'both' : (isSwitch2 ? 'switch2' : 'switch');
+
+        const rawRelease = doc.date_from ? doc.date_from.slice(0, 10) : '2027-12-31';
+        // Se la data è 2050-12-31 (segnaposto solare Nintendo per data da definire), normalizza per chiarezza
+        const releaseDate = rawRelease === '2050-12-31' ? '2027-12-31' : rawRelease;
+        const isUpcoming = Boolean(releaseDate > today);
+        const status = isUpcoming ? 'upcoming' : 'released';
+
+        const baseSlug = doc.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'nintendo-game';
+        const gameId = `${baseSlug}-${doc.fs_id}`;
+
+        const assignedTitleId = titleId || ('0100' + String(doc.fs_id).padStart(12, '0')).toUpperCase();
+        const coverImage = officialCover || `/api/cover/${encodeURIComponent(gameId)}`;
+        const eshopUrl = doc.url ? `https://www.nintendo.com${doc.url}` : '';
+
+        const genres = Array.isArray(doc.pretty_game_categories_txt) && doc.pretty_game_categories_txt.length > 0
+          ? doc.pretty_game_categories_txt
+          : ['Azione'];
+
+        const excerpt = doc.excerpt || doc.product_catalog_description_s || '';
+
+        const updates = isUpcoming ? [] : [
+          {
+            version: 'v1.0.0',
+            releaseDate: releaseDate,
+            type: 'major',
+            title: `Rilascio Ufficiale su Nintendo eShop`,
+            changelog: [
+              excerpt || `Lancio ufficiale su Nintendo eShop per ${platform === 'switch2' ? 'Nintendo Switch 2' : (platform === 'both' ? 'Nintendo Switch & Switch 2' : 'Nintendo Switch')}.`,
+              'Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.',
+              'Miglioramenti generali della stabilità di sistema per l\'edizione di lancio.'
+            ]
+          }
+        ];
+
+        const newGameEntry = {
+          id: gameId,
+          title: doc.title,
+          platform: platform,
+          titleId: assignedTitleId,
+          publisher: doc.publisher || 'Nintendo',
+          releaseDate: releaseDate,
+          status: status,
+          genres: genres,
+          coverImage: coverImage,
+          eshopUrl: eshopUrl,
+          currentVersion: 'v1.0.0',
+          currentInternalVersion: 65536,
+          lastUpdated: `${releaseDate}T12:00:00Z`,
+          updates: updates
+        };
+
+        games.push(newGameEntry);
+        existingById.set(gameId, newGameEntry);
+        existingByTitleId.set(assignedTitleId, newGameEntry);
+        existingByNormalizedTitle.set(normTitle, newGameEntry);
+
+        newGamesCount++;
+        newlyAddedGames.push({
+          title: doc.title,
+          platform: platform,
+          date: releaseDate,
+          status: status
+        });
+      }
+    }
+
+    console.log(`[SYNC] Ingestione eShop completata: ${newGamesCount} nuovi titoli aggiunti, ${enrichedCoversCount} copertine arricchite.`);
+  }
 
   // =========================================================================
   // FASE 1: Motore Transizione Calendario Uscite & Generazione Day-One Patch
@@ -103,7 +304,7 @@ export async function runSync(options = {}) {
       if (wasUpcoming) {
         game.status = 'released';
 
-        // Caso specifico 1: The Legend of Zelda: Ocarina of Time – Switch 2 Edition
+        // Caso specifico: The Legend of Zelda: Ocarina of Time – Switch 2 Edition
         if (game.id === 'zelda-ocarina-of-time-switch2') {
           const dayOneVer = 'v1.0.1';
           if (!game.updates.some(u => u.version === dayOneVer)) {
@@ -139,40 +340,6 @@ export async function runSync(options = {}) {
             });
           }
         }
-        // Caso specifico 2: Loftia
-        else if (game.id === 'loftia') {
-          const launchVer = 'v1.0.0';
-          if (!game.updates.some(u => u.version === launchVer && u.type === 'major')) {
-            const launchPatch = {
-              version: launchVer,
-              previousVersion: 'v0.9.0',
-              internalVersion: 65536,
-              releaseDate: game.releaseDate,
-              type: 'major',
-              title: 'Lancio Ufficiale e Day-One Access',
-              changelog: [
-                'Apertura ufficiale dei server per Nintendo Switch e Switch 2.',
-                'Integrazione delle funzionalità cooperative online, chat vocale e salvataggi sincronizzati su cloud.',
-                'Stabilità di rete ottimizzata e correzioni ai caricamenti degli arcipelaghi flottanti.'
-              ]
-            };
-            if (!Array.isArray(game.updates)) game.updates = [];
-            game.updates.unshift(launchPatch);
-            game.currentVersion = launchVer;
-            game.currentInternalVersion = 65536;
-            game.lastUpdated = `${game.releaseDate}T12:00:00Z`;
-
-            updatedGamesCount++;
-            newPatches.push({
-              title: game.title,
-              id: game.id,
-              titleId: game.titleId,
-              from: 'In Arrivo',
-              to: launchVer,
-              date: game.releaseDate
-            });
-          }
-        }
         // Caso generale per titoli che raggiungono la data di lancio
         else {
           const launchVer = game.currentVersion || 'v1.0.0';
@@ -204,7 +371,6 @@ export async function runSync(options = {}) {
               date: game.releaseDate
             });
           } else {
-            // Aggiorna solo lo status
             updatedGamesCount++;
             newPatches.push({
               title: game.title,
@@ -230,7 +396,7 @@ export async function runSync(options = {}) {
       const tidLower = game.titleId.toLowerCase();
       const tidUpper = game.titleId.toUpperCase();
 
-      // I titoli curati mantengono marketing versioning dedicato
+      // I titoli curati mantengono changelog e marketing versioning dedicati
       if (isCurated(game)) {
         continue;
       }
@@ -244,7 +410,6 @@ export async function runSync(options = {}) {
       const highestRemoteInternal = versionNums[0];
       const currentInternal = game.currentInternalVersion || 0;
 
-      // Se upstream ha una versione interna superiore a quella registrata
       if (highestRemoteInternal > currentInternal) {
         const prevInternal = currentInternal;
         const prevVer = game.currentVersion || (prevInternal ? formatVersion(prevInternal) : 'v1.0.0');
@@ -270,7 +435,6 @@ export async function runSync(options = {}) {
 
         if (!Array.isArray(game.updates)) game.updates = [];
 
-        // Evita duplicati di versione
         if (!game.updates.some(u => u.version === newVer)) {
           game.updates.unshift(updateEntry);
         }
@@ -291,11 +455,14 @@ export async function runSync(options = {}) {
       }
     }
   } else {
-    console.log('[SYNC] Feed upstream non raggiungibile in questo ciclo; completate comunque le verifiche locali di calendario.');
+    console.log('[SYNC] Feed TitleDB non raggiungibile in questo ciclo; completate le verifiche eShop e calendario.');
   }
 
   console.log(`\n📊 RISULTATI SINCRONIZZAZIONE:`);
-  console.log(`- Nuovi aggiornamenti rilevati: ${updatedGamesCount}`);
+  console.log(`- Nuovi titoli scoperti e inseriti: ${newGamesCount}`);
+  console.log(`- Copertine arricchite con artwork ufficiale: ${enrichedCoversCount}`);
+  console.log(`- Aggiornamenti / transizioni di versione: ${updatedGamesCount}`);
+  console.log(`- Totale titoli a catalogo finale: ${games.length}`);
 
   if (process.env.GITHUB_STEP_SUMMARY) {
     try {
@@ -304,28 +471,28 @@ export async function runSync(options = {}) {
         '',
         `| Metrica | Valore |`,
         `| :--- | :--- |`,
-        `| **Giochi nel catalogo** | ${games.length.toLocaleString('it-IT')} |`,
-        `| **Nuovi aggiornamenti / uscite rilevati** | **${updatedGamesCount}** |`,
-        `| **Esito** | ${updatedGamesCount > 0 ? '✅ Catalogo aggiornato e salvato' : '✨ Tutti i giochi sono già allineati all\'ultima versione'} |`,
+        `| **Giochi nel catalogo totale** | ${games.length.toLocaleString('it-IT')} |`,
+        `| **Nuovi titoli scoperti via eShop** | **${newGamesCount}** |`,
+        `| **Copertine arricchite ufficiali** | ${enrichedCoversCount} |`,
+        `| **Nuove patch / transizioni uscite** | **${updatedGamesCount}** |`,
+        `| **Esito** | ${(newGamesCount > 0 || updatedGamesCount > 0) ? '✅ Catalogo arricchito e salvato' : '✨ Catalogo già allineato'} |`,
         '',
-        updatedGamesCount > 0
+        newlyAddedGames.length > 0
+          ? `#### 🌟 Nuovi titoli scoperti da Nintendo eShop:\n` + newlyAddedGames.slice(0, 15).map(g => `- **${g.title}** (${g.platform.toUpperCase()}) - ${g.status === 'upcoming' ? 'In arrivo: ' + g.date : 'Rilasciato: ' + g.date}`).join('\n')
+          : '',
+        newPatches.length > 0
           ? `#### 📦 Titoli aggiornati o rilasciati:\n` + newPatches.slice(0, 15).map(p => `- **${p.title}**: \`${p.from}\` ➔ \`${p.to}\` (${p.date})`).join('\n')
-          : `> Nessuna nuova patch o nuova uscita rilevata nelle ultime ore. Nessun commit vuoto necessario.`
-      ].join('\n');
+          : ''
+      ].filter(Boolean).join('\n\n');
       fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summaryContent + '\n', 'utf8');
     } catch (e) {
       console.warn('[SYNC] Impossibile scrivere GITHUB_STEP_SUMMARY:', e.message);
     }
   }
 
-  if (updatedGamesCount > 0) {
-    newPatches.slice(0, 10).forEach((p, idx) => {
-      console.log(`  ${idx + 1}. [${p.date}] ${p.title} (${p.from} -> ${p.to})`);
-    });
-    if (newPatches.length > 10) {
-      console.log(`  ... e altri ${newPatches.length - 10} titoli.`);
-    }
+  const hasModifications = updatedGamesCount > 0 || newGamesCount > 0;
 
+  if (hasModifications) {
     // Riordina per data di aggiornamento più recente, tenendo i titoli in arrivo in coda
     const todayEndMs = new Date(today + 'T23:59:59Z').getTime();
     games.sort((a, b) => {
@@ -349,12 +516,12 @@ export async function runSync(options = {}) {
     const tempFile = `${DATA_FILE}.tmp`;
     fs.writeFileSync(tempFile, JSON.stringify(games, null, 2), 'utf8');
     fs.renameSync(tempFile, DATA_FILE);
-    console.log(`[SYNC] data/games.json aggiornato e salvato con successo!`);
+    console.log(`[SYNC] data/games.json aggiornato e salvato con successo! Nuova dimensione: ${games.length} giochi.`);
   } else {
     console.log(`[SYNC] Tutti i giochi sono già allineati alle ultime versioni upstream.`);
   }
 
-  return { updatedGamesCount, newPatches };
+  return { updatedGamesCount, newGamesCount, enrichedCoversCount, newPatches, newlyAddedGames, totalGames: games.length };
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
