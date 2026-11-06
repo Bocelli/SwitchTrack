@@ -306,6 +306,14 @@ function attachCardListeners(container) {
         this.src = fallback;
       }
     }, { once: true });
+
+    // Fallback immediato se l'immagine è già fallita prima del binding listener
+    if (img.complete && img.naturalWidth === 0) {
+      const fallback = img.getAttribute('data-fallback');
+      if (fallback && img.getAttribute('src') !== fallback) {
+        img.src = fallback;
+      }
+    }
   });
 
   container.querySelectorAll('.open-modal-btn').forEach(btn => {
@@ -609,6 +617,13 @@ async function openGameModal(gameId) {
           this.src = fallback;
         }
       }, { once: true });
+
+      if (modalCover.complete && modalCover.naturalWidth === 0) {
+        const fallback = modalCover.getAttribute('data-fallback');
+        if (fallback && modalCover.getAttribute('src') !== fallback) {
+          modalCover.src = fallback;
+        }
+      }
     }
 
     elements.modal.classList.add('open');

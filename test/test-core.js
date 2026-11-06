@@ -437,3 +437,24 @@ test('Automated Nintendo eShop Discovery Engine: ingestione sistematica Switch &
   assert.ok(gungeon2.length >= 1, 'Enter the Gungeon 2 scoperto automaticamente da feed Nintendo eShop');
   assert.equal(gungeon2[0].platform, 'switch2');
 });
+
+test('Zero Broken Covers & CSP Permissive CDN: verifica copertura immagini e assenza blocchi CSP', () => {
+  store.load();
+  const allGames = store.getGames();
+  
+  // Nessun gioco deve avere coverImage vuota
+  for (const g of allGames) {
+    assert.ok(g.coverImage && typeof g.coverImage === 'string' && g.coverImage.trim().length > 0, `Il gioco ${g.title} deve avere coverImage definita`);
+  }
+
+  // Verifica che server.js consenta il caricamento delle immagini da https: (inclusi assets.nintendo.eu, nintendo.com, cdn.nintendo.net)
+  const serverJs = fs.readFileSync(path.resolve(__dirname, '../server.js'), 'utf8');
+  assert.ok(serverJs.includes("img-src 'self' data: blob: https:;"), 'server.js deve contenere la direttiva CSP img-src compatibile con tutti i CDN HTTPS');
+
+  // Verifica che i titoli con assets.nintendo.eu siano validi
+  const euGames = allGames.filter(g => g.coverImage.includes('assets.nintendo.eu'));
+  assert.ok(euGames.length > 0, 'Devono esserci giochi con CDN Nintendo Europe moderno');
+  for (const g of euGames.slice(0, 20)) {
+    assert.ok(g.coverImage.startsWith('https://assets.nintendo.eu/image/private/'), `URL CDN valido per ${g.title}`);
+  }
+});

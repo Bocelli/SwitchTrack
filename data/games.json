@@ -2884,6 +2884,39 @@
     ]
   },
   {
+    "id": "isekai-princess-monster-siege-3225426",
+    "title": "Isekai Princess: Monster Siege",
+    "platform": "switch",
+    "titleId": "0100956029F6E000",
+    "publisher": "TROOOZE",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Avventura",
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sqmiuetjudrb9rfvi246",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Isekai-Princess-Monster-Siege-3225426.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "A princess and a soldier who were never meant to meet join forces in another world! An arcade-style 2D side-scrolling shooter you can't put down.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "demons-night-fever-4000",
     "title": "DEMONS' NIGHT FEVER",
     "platform": "switch",
@@ -3659,6 +3692,38 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Pronti, partenza, via! Sei corridori competono, solo uno vincerà!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "angry-panda-3237371",
+    "title": "Angry Panda",
+    "platform": "switch",
+    "titleId": "010086502A74E000",
+    "publisher": "Upscale Studio",
+    "releaseDate": "2026-10-16",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/uhyfxd58cnbif9aynven",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Angry-Panda-3237371.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-16T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-16",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Il Bambù è Sparito. Angry Panda è Qui.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -8197,7 +8262,7 @@
       "Party",
       "Sport"
     ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/d2xmoma8ono2gegne7yl",
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/akhqawxviawagowopijm",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/MotionPlay-Sports-3209127.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
