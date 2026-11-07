@@ -692130,6 +692130,25 @@
     "updates": []
   },
   {
+    "id": "reverie-in-the-moonlight-nintendo-switch-2-edition-3221688",
+    "title": "Reverie in the Moonlight – Nintendo Switch™ 2 Edition",
+    "platform": "switch2",
+    "titleId": "0100BD1025E02000",
+    "publisher": "room6",
+    "releaseDate": "2026-11-19",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rpbkzyxvbugrurpwgyzh",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Nintendo-Switch-2-Edition/Reverie-in-the-Moonlight-Nintendo-Switch-2-Edition-3221688.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": []
+  },
+  {
     "id": "marupoyo-the-round-chick-s-adventure-6000",
     "title": "Marupoyo: The Round Chick's Adventure",
     "platform": "switch",
