@@ -424,6 +424,68 @@
     ]
   },
   {
+    "id": "valkyrie-tune-synthesis-of-souls-3225442",
+    "title": "VALKYRIE TUNE：Synthesis of Souls",
+    "platform": "switch",
+    "titleId": "01009A702639C000",
+    "publisher": "Good Smile Company",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/n0g49ccoad9nddcclxub",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/VALKYRIE-TUNE-Synthesis-of-Souls-3225442.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "A visual novel that brings the \"Valkyrie Tune\" plastic model series by Good Smile Company to life. \n",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hide-hue-3222283",
+    "title": "Hide & Hue",
+    "platform": "switch",
+    "titleId": "0100C9C02A80C000",
+    "publisher": "RandomSpin Games",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rzyh4swp3xe3wuiwndj1",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Hide-Hue-3222283.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Paint to blend in, freeze, and hide — or switch sides and hunt.\n",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "manic-miner-0000",
     "title": "MANIC MINER",
     "platform": "switch",
@@ -736,6 +798,37 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Affronta sette demoni astuti e raggiungi la verità.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "look-outside-3227954",
+    "title": "Look Outside",
+    "platform": "switch2",
+    "titleId": "040041B0299B8000",
+    "publisher": "Devolver Digital",
+    "releaseDate": "2026-10-30",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/wjtl1spv3g12wqlkpoit",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Look-Outside-3227954.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-30T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-30",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Il mondo sta finendo. Fuori c'è qualcosa di bellissimo. Dovresti guardare.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -1273,6 +1366,98 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "I cinque membri dell’equipaggio della Tulpar sono dispersi nelle profondità del cosmo, avvolti da un tramonto perenne. Dio ha ormai volto lo sguardo.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glow-box-3222186",
+    "title": "Glow Box",
+    "platform": "switch2",
+    "titleId": "04004BE02A364000",
+    "publisher": "Waku Waku Games",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vkqewoeomdhsw4ptqo3u",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Glow-Box-3222186.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "A 60-minute adventure where the only thing you can do is glow.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "melting-attacker-3226720",
+    "title": "Melting Attacker",
+    "platform": "switch",
+    "titleId": "0100F420250BC000",
+    "publisher": "MIZUBLUE GAMES",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Sport"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cmcofrywof4ro3brt3pz",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Melting-Attacker-3226720.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "A simple and easy-to-play action game!\nTake control of Melt the slime and defeat enemies by charging into them!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "smithsonian-planets-and-the-solar-system-3223289",
+    "title": "Smithsonian: Planets and the Solar System ",
+    "platform": "switch",
+    "titleId": "0100ADB02A36A000",
+    "publisher": "PlayDate Digital LLC",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Educativo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/pvn3yytnh1dlawplyzgb",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Smithsonian-Planets-and-the-Solar-System-3223289.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Un'avventura spaziale interattiva in cui i giovani esploratori scoprono i pianeti, imparano fatti affascinanti e si divertono esplorando il sistema solare.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -2248,6 +2433,36 @@
     ]
   },
   {
+    "id": "omni-growth-3222458",
+    "title": "Omni Growth",
+    "platform": "switch",
+    "titleId": "010082302A6E0000",
+    "publisher": "Brainium Games",
+    "releaseDate": "2026-10-23",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/fdsxxerq4lfjgexdtf8c",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Omni-Growth-3222458.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-23T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-23",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "mosse strategiche\nmangia tutti\nusa i tentacoli",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "nintendo-switch-sports-resort-3115652",
     "title": "Nintendo Switch Sports Resort",
     "platform": "switch2",
@@ -2917,6 +3132,39 @@
     ]
   },
   {
+    "id": "bottle-logic-puzzle-3222685",
+    "title": "Bottle Logic Puzzle",
+    "platform": "switch",
+    "titleId": "010065102A7E8000",
+    "publisher": "17Studio",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Arcade",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/yykiowkin8kqdzlehtle",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Bottle-Logic-Puzzle-3222685.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Versa, ordina e risolvi gli enigmi di Bottle Logic Puzzle!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "demons-night-fever-4000",
     "title": "DEMONS' NIGHT FEVER",
     "platform": "switch",
@@ -3263,6 +3511,39 @@
     ]
   },
   {
+    "id": "i-am-your-beast-3224014",
+    "title": "I Am Your Beast",
+    "platform": "switch",
+    "titleId": "0100DA102710A000",
+    "publisher": "Strange Scaffold",
+    "releaseDate": "2026-10-20",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Platform",
+      "Sparatutto",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/udczbtuecboryl4etvkr",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/I-Am-Your-Beast-3224014.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-20T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-20",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Hunt the military-industrial complex across stylish comic book micro-sandboxes in this fast-paced covert revenge thriller FPS from the developers of El Paso, Elsewhere.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "industria-3224030",
     "title": "Industria",
     "platform": "switch2",
@@ -3348,6 +3629,102 @@
         "title": "Lancio Ufficiale Nintendo Switch 2",
         "changelog": [
           "Debutto storico del franchise RuneScape su console Nintendo con il survival open-world co-op ambientato nel continente di Ashenfall."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "save-memes-2-3234989",
+    "title": "Save Memes 2",
+    "platform": "switch",
+    "titleId": "010074302921C000",
+    "publisher": "ASI GAMES TECHNOLOGIES",
+    "releaseDate": "2026-10-17",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/enceeu2tlphwicy4gkd2",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Save-Memes-2-3234989.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-17T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-17",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Save Memes 2 è un emozionante e dinamico gioco sparatutto che immerge i giocatori in un mondo di avventure fantastiche e sfide.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "somewhere-small-3223412",
+    "title": "SOMEWHERE SMALL",
+    "platform": "switch",
+    "titleId": "0100A1002A5B2000",
+    "publisher": "COMMANDO PANDA",
+    "releaseDate": "2026-10-17",
+    "status": "released",
+    "genres": [
+      "Applicazione",
+      "Lifestyle",
+      "Study",
+      "Utilità di sistema"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/j4i7ze3vwwwtmipecgnr",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/SOMEWHERE-SMALL-3223412.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-17T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-17",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Trasforma la tua Nintendo Switch™ in un piacevole compagno da scrivania in pixel art.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "easy-fishing-simulator-3219858",
+    "title": "Easy Fishing Simulator",
+    "platform": "switch",
+    "titleId": "0100ABF02A89C000",
+    "publisher": "Pix Arts",
+    "releaseDate": "2026-10-17",
+    "status": "released",
+    "genres": [
+      "Simulazione",
+      "Sport"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/iy8haahdhtp69fvllr53",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Easy-Fishing-Simulator-3219858.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-17T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-17",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Lancia, prendi, rilassati. Il divertimento della pesca a portata di tutti.\n",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
       }
     ]
@@ -3724,6 +4101,37 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Il Bambù è Sparito. Angry Panda è Qui.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "erf-the-year-after-3223403",
+    "title": "ERF + The Year After",
+    "platform": "switch",
+    "titleId": "0100C9202A5C4000",
+    "publisher": "Caracal Games",
+    "releaseDate": "2026-10-16",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/hphitbeez6lfznd4lgj6",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/ERF-The-Year-After-3223403.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-16T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-16",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Two strangers, two worlds, and two intimate stories about connection, loss, and the passage of time.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -4783,6 +5191,102 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Chained Beasts è un roguelike gladiatorio cooperativo per 1-4 giocatori. Combatti incatenato ai tuoi amici. Usa le catene o l'arena per sconfiggere i nemici e sopravvivere alla giornata.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arcade-archives-2-stinger-3222729",
+    "title": "Arcade Archives 2 STINGER",
+    "platform": "switch2",
+    "titleId": "040073F029536000",
+    "publisher": "HAMSTER",
+    "releaseDate": "2026-10-15",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/h13trojlqkm1wmsw036e",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Arcade-Archives-2-STINGER-3222729.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Destroy the enemy and infiltrate the base!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pixel-combat-zombie-shooter-3221664",
+    "title": "Pixel Combat: Zombie Shooter",
+    "platform": "switch",
+    "titleId": "0100F6C027E40000",
+    "publisher": "PRIME",
+    "releaseDate": "2026-10-15",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/r9kqfoyehwe3zkruyxok",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Pixel-Combat-Zombie-Shooter-3221664.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Quando il mondo è caduto nelle mani dei non morti, all'umanità è rimasta un'ultima speranza. E, per qualche motivo, quella speranza vive proprio a casa tua.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1-speed-cat-3222741",
+    "title": "+1 Speed Cat",
+    "platform": "switch",
+    "titleId": "0100DE602A966000",
+    "publisher": "Iurie",
+    "releaseDate": "2026-10-15",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Avventura",
+      "Azione",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gqsxgqdxts19jponnvm0",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/-1-Speed-Cat-3222741.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "CORRI, ACCELERA E RISCHIA IL TUTTO PER TUTTO!",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -42311,7 +42815,7 @@
   {
     "id": "cult-of-the-lamb-6000",
     "title": "Cult of the Lamb",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "01002E7016C46000",
     "publisher": "Devolver Digital",
     "releaseDate": "2022-08-11",
@@ -691944,6 +692448,24 @@
     "updates": []
   },
   {
+    "id": "shrek-2-remastered-3225566",
+    "title": "Shrek 2 Remastered",
+    "platform": "switch2",
+    "titleId": "04007150246F4000",
+    "publisher": "Aspyr",
+    "releaseDate": "2026-11-10",
+    "status": "upcoming",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/pbtmsxaavzwcxbzaetdm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Shrek-2-Remastered-3225566.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-10T12:00:00Z",
+    "updates": []
+  },
+  {
     "id": "prinny-party-going-overboard-6000",
     "title": "Prinny Party: Going Overboard!",
     "platform": "switch",
@@ -691959,6 +692481,25 @@
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 0,
     "lastUpdated": "2026-11-11T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "a-snail-s-tale-3238343",
+    "title": "A Snail's Tale",
+    "platform": "switch",
+    "titleId": "0100396020C48000",
+    "publisher": "Something Classic",
+    "releaseDate": "2026-11-11",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sg6bfftu7cxsfoblszzg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/A-Snail-s-Tale-3238343.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-11T12:00:00Z",
     "updates": []
   },
   {
@@ -692048,6 +692589,26 @@
     ],
     "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/az0b8tv4stzwbuzcsitf",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Whirlight-No-Time-To-Trip-3199656.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "the-thaumaturge-3232287",
+    "title": "The Thaumaturge",
+    "platform": "switch",
+    "titleId": "01009A40249B6000",
+    "publisher": "11 bit studios",
+    "releaseDate": "2026-11-12",
+    "status": "upcoming",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/mblybk9vjlhsihvxwyrf",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/The-Thaumaturge-3232287.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-11-12T12:00:00Z",
@@ -692681,6 +693242,26 @@
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-12-31T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "armatus-3224362",
+    "title": "Armatus",
+    "platform": "switch2",
+    "titleId": "040089402611E000",
+    "publisher": "Fictions",
+    "releaseDate": "2027-01-07",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/l6rzvhmmz3gterjkqo6n",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Armatus-3224362.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2027-01-07T12:00:00Z",
     "updates": []
   },
   {
