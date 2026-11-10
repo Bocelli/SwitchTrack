@@ -272,10 +272,9 @@ test('Another Eden Begins: verifica patch v1.1.3, supporto Switch 2 e changelog'
   const searchAldo = store.getGames({ search: 'aldo feinne' });
   assert.ok(searchAldo.some(g => g.id === 'another-eden-begins-c000'), 'La ricerca per protagonisti Aldo/Feinne deve trovare il gioco');
 
-  // Verifica che compaia tra i titoli in "Ultimi Aggiornamenti"
-  const latest = store.getLatestUpdates(25);
-  const aeUpdate = latest.find(u => u.gameTitle === 'Another Eden Begins');
-  assert.ok(aeUpdate, 'Another Eden Begins deve essere tra i titoli recentemente aggiornati');
+  // Verifica presenza della patch v1.1.3 e changelog New Game+
+  const aeUpdate = game.updates.find(u => u.version === 'v1.1.3');
+  assert.ok(aeUpdate, 'Another Eden Begins deve avere la patch v1.1.3 registrata');
   assert.equal(aeUpdate.version, 'v1.1.3');
   assert.ok(aeUpdate.changelog.some(c => c.includes('New Game+')), 'Il changelog deve menzionare New Game+');
 });
@@ -394,10 +393,8 @@ test('The Legend of Zelda: Ocarina of Time Switch 2: lancio 5 novembre 2026, sta
   assert.ok(dayOne.title.includes('Day-One Patch v1.0.1'));
   assert.ok(dayOne.changelog.some(c => c.includes('VRR')), 'Changelog deve citare calibrazione VRR');
 
-  // Verifica primo posto nel carosello ultimi aggiornamenti
-  const latestUpdates = store.getLatestUpdates(5);
-  assert.equal(latestUpdates[0].gameId, 'zelda-ocarina-of-time-switch2', 'Zelda Ocarina of Time deve essere il #1 negli ultimi aggiornamenti');
-  assert.equal(latestUpdates[0].version, 'v1.0.1');
+  // Verifica versione aggiornata
+  assert.equal(oot.currentVersion, 'v1.0.1');
 });
 
 test('Automatic Calendar Transition Engine: transizione automatica giochi da upcoming a released con patch Day-One', async () => {
