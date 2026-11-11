@@ -8,7 +8,8 @@
     "start": "node server.js",
     "dev": "node --watch server.js",
     "test": "node --test test/test-core.js",
-    "sync": "node scripts/sync-upstream-updates.js"
+    "sync": "node scripts/sync-upstream-updates.js",
+    "build:apk": "node scripts/build-apk.js"
   },
   "keywords": [
     "nintendo",

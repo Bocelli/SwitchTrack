@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwitchTrack</string>
+    <string name="loading">Caricamento SwitchTrack...</string>
+    <string name="offline_title">Nessuna Connessione</string>
+    <string name="offline_msg">Connettiti a Internet per visualizzare gli ultimi aggiornamenti di Nintendo Switch e Switch 2.</string>
+    <string name="retry">Riprova</string>
+</resources>

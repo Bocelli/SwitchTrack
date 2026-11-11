@@ -455,3 +455,21 @@ test('Zero Broken Covers & CSP Permissive CDN: verifica copertura immagini e ass
     assert.ok(g.coverImage.startsWith('https://assets.nintendo.eu/image/private/'), `URL CDN valido per ${g.title}`);
   }
 });
+
+test('Android APK Package: verifica esistenza, integrità e distribuzione dell\'APK SwitchTrack', () => {
+  const apkPath = path.resolve(__dirname, '../android/SwitchTrack.apk');
+  const publicApkPath = path.resolve(__dirname, '../public/downloads/SwitchTrack.apk');
+
+  assert.ok(fs.existsSync(apkPath), 'Il pacchetto android/SwitchTrack.apk deve esistere');
+  assert.ok(fs.existsSync(publicApkPath), 'Il pacchetto public/downloads/SwitchTrack.apk deve essere pronto per il download');
+
+  const stats = fs.statSync(apkPath);
+  assert.ok(stats.size > 10000, 'L\'APK deve avere dimensione superiore a 10KB');
+
+  // Verifica presenza del manifest e configurazione corretta
+  const manifestPath = path.resolve(__dirname, '../android/AndroidManifest.xml');
+  const manifest = fs.readFileSync(manifestPath, 'utf8');
+  assert.ok(manifest.includes('package="com.bocelli.switchtrack"'), 'Package name corretto');
+  assert.ok(manifest.includes('android:minSdkVersion="21"'), 'minSdkVersion 21 configurato');
+  assert.ok(manifest.includes('android:targetSdkVersion="33"'), 'targetSdkVersion 33 configurato');
+});
