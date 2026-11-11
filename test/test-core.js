@@ -473,3 +473,20 @@ test('Android APK Package: verifica esistenza, integrità e distribuzione dell\'
   assert.ok(manifest.includes('android:minSdkVersion="21"'), 'minSdkVersion 21 configurato');
   assert.ok(manifest.includes('android:targetSdkVersion="33"'), 'targetSdkVersion 33 configurato');
 });
+
+test('Android App Native Detection: nasconde pulsante download APK dentro app nativa o PWA', () => {
+  const indexHtml = fs.readFileSync(path.resolve(__dirname, '../public/index.html'), 'utf8');
+  const styleCss = fs.readFileSync(path.resolve(__dirname, '../public/style.css'), 'utf8');
+  const appJs = fs.readFileSync(path.resolve(__dirname, '../public/app.js'), 'utf8');
+
+  // Verifica che gli elementi di download abbiano la classe apk-download-element
+  assert.ok(indexHtml.includes('apk-download-element'), 'index.html deve contrassegnare i pulsanti download con apk-download-element');
+  
+  // Verifica che style.css nasconda apk-download-element quando attivo .is-native-app
+  assert.ok(styleCss.includes('.is-native-app .apk-download-element'), 'style.css deve contenere la regola per nascondere i download su .is-native-app');
+  assert.ok(styleCss.includes('display: none !important'), 'La regola deve usare display: none !important');
+
+  // Verifica che app.js rilevi il custom User-Agent SwitchTrackApp e la modalità standalone
+  assert.ok(appJs.includes("navigator.userAgent.includes('SwitchTrackApp')"), 'app.js deve rilevare il custom UA SwitchTrackApp');
+  assert.ok(appJs.includes("is-native-app"), 'app.js deve applicare la classe is-native-app al documento');
+});

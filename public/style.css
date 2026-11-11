@@ -68,6 +68,11 @@ html {
   max-width: 100%;
 }
 
+/* Nasconde i link di download dell'APK se l'utente è già all'interno dell'app Android nativa */
+.is-native-app .apk-download-element {
+  display: none !important;
+}
+
 body {
   min-height: 100vh;
   display: flex;

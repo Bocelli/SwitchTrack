@@ -6,6 +6,15 @@
  * - Direct eShop integration and Title ID copy
  */
 
+// Rilevamento ambiente nativo Android (APK SwitchTrack) o standalone PWA
+const isNativeApp = navigator.userAgent.includes('SwitchTrackApp') || 
+                    Boolean(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || 
+                    Boolean(navigator.standalone);
+
+if (isNativeApp) {
+  document.documentElement.classList.add('is-native-app');
+}
+
 // Stato dell'applicazione
 const state = {
   platform: 'all',
