@@ -1,5 +1,55 @@
 [
   {
+    "id": "a-snail-s-tale-3238343",
+    "title": "A Snail's Tale",
+    "platform": "switch",
+    "titleId": "0100396020C48000",
+    "publisher": "Something Classic",
+    "releaseDate": "2026-11-11",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sg6bfftu7cxsfoblszzg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/A-Snail-s-Tale-3238343.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-11T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-11",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prinny-party-going-overboard-6000",
+    "title": "Prinny Party: Going Overboard!",
+    "platform": "switch",
+    "titleId": "0100643028646000",
+    "publisher": "NIS America",
+    "releaseDate": "2026-11-11",
+    "genres": [
+      "Party",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "/covers/prinny-party.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-11-11T00:00:00Z",
+    "updates": []
+  },
+  {
     "id": "raccoin-chaos-max-edition-3227368",
     "title": "RACCOIN: Chaos Max Edition",
     "platform": "switch2",
@@ -768,6 +818,101 @@
     ]
   },
   {
+    "id": "1x1-street-football-mini-soccer-pvp-3218733",
+    "title": "1x1 Street Football: mini soccer PvP",
+    "platform": "switch",
+    "titleId": "0100990029816000",
+    "publisher": "Witenovastudio",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Picchiaduro",
+      "Sport"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/xvhcxv1vieyqx10rr2wm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/1x1-Street-Football-mini-soccer-PvP-3218733.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Porta la tua carriera in giro per il mondo, padroneggia abilità di strada uniche e sfida i tuoi amici nel PvP locale!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "next-of-kin-epiphany-3202697",
+    "title": "Next of Kin: Epiphany",
+    "platform": "switch",
+    "titleId": "0100492025B82000",
+    "publisher": "Spelkvall",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ria8jjvlwityw6fzwlbu",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Next-of-Kin-Epiphany-3202697.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Hai quello che serve per catturare “l’Epiphany Killer”?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geode-cave-3226521",
+    "title": "Geode Cave",
+    "platform": "switch",
+    "titleId": "010071A02AAB2000",
+    "publisher": "RandomSpin Games",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/p4k2cldwaxrtpihp3nfn",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Geode-Cave-3226521.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Rompi le geodi, ordina i cristalli e riaccendi un museo mineralogico sepolto, sala dopo sala.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "manic-miner-0000",
     "title": "MANIC MINER",
     "platform": "switch",
@@ -1174,6 +1319,38 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Un'avventura horror in stile lovecraftiano ambientata in un manicomio in rovina.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mercenary-corps-3219838",
+    "title": "Mercenary Corps",
+    "platform": "switch",
+    "titleId": "010084F02A8EC000",
+    "publisher": "Polygon Art",
+    "releaseDate": "2026-10-30",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Sparatutto",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/xrgzh6tyq1pcd6ocd3hd",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Mercenary-Corps-3219838.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-30T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-30",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Un mercenario armato distrugge una rete terroristica in un FPS esplosivo.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -1869,6 +2046,134 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Un'avventura spaziale interattiva in cui i giovani esploratori scoprono i pianeti, imparano fatti affascinanti e si divertono esplorando il sistema solare.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sleepless-night-mysteries-unsolved-case-files-3226874",
+    "title": "Sleepless Night Mysteries: Unsolved Case Files",
+    "platform": "switch",
+    "titleId": "0100658029802000",
+    "publisher": "TT",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Party",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/sleeplessnightmysteriesunsolvedcasefiles/16x9_SleeplessNightMysteriesUnsolvedCaseFiles_rw_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Sleepless-Night-Mysteries-Unsolved-Case-Files-3226874.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Riuscirai a svelare\ni misteri irrisolti?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "capsule-arcade-3226544",
+    "title": "Capsule Arcade",
+    "platform": "switch",
+    "titleId": "0100EB202A8F4000",
+    "publisher": "RandomSpin Games",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vkfyqw6bgi4gqg4lqvrm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Capsule-Arcade-3226544.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Apri le capsule, sistema ogni statuetta e riaccendi l’intera sala giochi.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gioco-di-fuga-r00m18-3222494",
+    "title": "Gioco di fuga R00M18",
+    "platform": "switch",
+    "titleId": "0100C2B02948A000",
+    "publisher": "AlignmentSharp",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/pkf963ydejribvszyaqt",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Gioco-di-fuga-R00M18-3222494.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Esplora lo spazio 3D e scappa",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "masters-of-art-19th-century-french-painting-quiz-3226689",
+    "title": "Masters of Art: 19th-Century French Painting Quiz",
+    "platform": "switch",
+    "titleId": "01000C002A7F6000",
+    "publisher": "TT",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Educativo",
+      "Party",
+      "Study",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gvwkdhwwtqflvw4wu2o8",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Masters-of-Art-19th-Century-French-Painting-Quiz-3226689.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Scopri i segreti dei grandi capolavori!",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -2774,6 +3079,39 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Un gioco creato da Coliseum Studio.\nColtiva una varietà di colture stagionali, raccoglile e vendi i tuoi prodotti ai clienti o direttamente al mercato locale.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subliminal-backrooms-horror-3224002",
+    "title": "Subliminal Backrooms Horror",
+    "platform": "switch",
+    "titleId": "0100D7A029930000",
+    "publisher": "MORAHAN Studio Games",
+    "releaseDate": "2026-10-24",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Picchiaduro",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/grkdqnjs1jlafckdet4z",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Subliminal-Backrooms-Horror-3224002.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-24T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-24",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Your darkest memories are waiting to be uncovered.\n",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -3825,6 +4163,265 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Versa, ordina e risolvi gli enigmi di Bottle Logic Puzzle!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "slot-learn-my-faves-hangul-3222581",
+    "title": "Slot & Learn My Faves Hangul",
+    "platform": "switch",
+    "titleId": "0100D5702A550000",
+    "publisher": "TT",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Rompicapo",
+      "Study",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/lltbto6ohnqulth9hwoj",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Slot-Learn-My-Faves-Hangul-3222581.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Riesci a scegliere il carattere Hangul?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iq-cross-logic-spot-the-pattern-solve-the-puzzle-3222675",
+    "title": "IQ Cross Logic: Spot the Pattern, Solve the Puzzle",
+    "platform": "switch",
+    "titleId": "010084C02A558000",
+    "publisher": "TT",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Rompicapo",
+      "Study",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cvrrywf7bpt5rsq1yogv",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/IQ-Cross-Logic-Spot-the-Pattern-Solve-the-Puzzle-3222675.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Individua le due regole!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reversi-brain-quiz-spot-the-max-flip-in-1-move-3222538",
+    "title": "Reversi Brain Quiz! - Spot the Max Flip in 1-Move -",
+    "platform": "switch",
+    "titleId": "010072802A3CE000",
+    "publisher": "TT",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Da tavolo",
+      "Rompicapo",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cex0tiz0rqads8tc4kda",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Reversi-Brain-Quiz-Spot-the-Max-Flip-in-1-Move-3222538.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Dove puoi girare più pedine?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glasses-waifu-cozy-spot-the-difference-3222548",
+    "title": "Glasses Waifu: Cozy Spot the Difference",
+    "platform": "switch",
+    "titleId": "0100B5402A640000",
+    "publisher": "MASK",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Educativo",
+      "Party",
+      "Rompicapo",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/glrbqyznsjgllha7eler",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Glasses-Waifu-Cozy-Spot-the-Difference-3222548.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Una pausa tenera con ragazze dagli occhiali",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "do-not-feed-the-monkeys-2099-3226199",
+    "title": "Do Not Feed The Monkeys 2099",
+    "platform": "switch",
+    "titleId": "0100CED01B708000",
+    "publisher": "Joystick Ventures",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gnqbq8qt79fmhb68h9ut",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Do-Not-Feed-The-Monkeys-2099-3226199.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Spia gli sconosciuti attraverso le telecamere di sicurezza per svelare una cospirazione intergalattica.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tingus-goose-3226096",
+    "title": "Tingus Goose",
+    "platform": "switch",
+    "titleId": "0100A01028D7E000",
+    "publisher": "Dark Product",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/qxoggpzusrvkdr3ukbeu",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Tingus-Goose-3226096.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Fai crescere le oche. Fai rimbalzare i bambini. Guadagna denaro.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sweet-home-look-and-find-7-collector-s-edition-3226850",
+    "title": "Sweet Home: Look and Find 7 Collector's Edition",
+    "platform": "switch",
+    "titleId": "010091D02A988000",
+    "publisher": "Ocean Media",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/je6n1lox1eer6ah324j2",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Sweet-Home-Look-and-Find-7-Collector-s-Edition-3226850.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Dove l'intimità diventa una storia!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "death-game-the-last-vote-3226793",
+    "title": "Death Game: The Last Vote",
+    "platform": "switch",
+    "titleId": "0100096023F1E000",
+    "publisher": "Lunaria Games",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/tv8qep5efyp6o0jhdjhr",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Death-Game-The-Last-Vote-3226793.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Ren wakes up in an unfamiliar room, with no memory of how it happened. Seven other people are there, just as lost. A faceless voice explains the rules: every night, a vote. Every night, someone will be eliminated. Ren just wants to get out.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -6124,6 +6721,102 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "CORRI, ACCELERA E RISCHIA IL TUTTO PER TUTTO!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "combat-bandit-3221676",
+    "title": "Combat Bandit",
+    "platform": "switch",
+    "titleId": "01001280296E0000",
+    "publisher": "TROOOZE",
+    "releaseDate": "2026-10-15",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Sparatutto",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ef7qiz75grqvclack4zn",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Combat-Bandit-3221676.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Stealth! Breach! Call in support! Your moves change the battlefield! Fight alone through a city in flames in this hardcore tactical TPS! Only you can end this operation!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "snail-puzzle-quest-3221655",
+    "title": "Snail Puzzle Quest",
+    "platform": "switch",
+    "titleId": "01000A902A622000",
+    "publisher": "Eathrabaria",
+    "releaseDate": "2026-10-15",
+    "status": "released",
+    "genres": [
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/uxwwmzx9kd1d3va6g4sm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Snail-Puzzle-Quest-3221655.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Guide a clever snail through challenging puzzles where every move matters. Find the right path, overcome tricky obstacles, and put your problem-solving skills to the test!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "puzzle-x-elegant-girls-3222618",
+    "title": "Puzzle X: Elegant Girls",
+    "platform": "switch",
+    "titleId": "0100957029E3A000",
+    "publisher": "17Studio",
+    "releaseDate": "2026-10-15",
+    "status": "released",
+    "genres": [
+      "Party",
+      "Rompicapo",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ldaexpy0b8aok4ohj4y6",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Puzzle-X-Elegant-Girls-3222618.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-15T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-15",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Ogni pezzo ti avvicina alla perfezione!",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -51583,7 +52276,7 @@
   {
     "id": "rooftops-alleys-the-parkour-game-2000",
     "title": "Rooftops & Alleys: The Parkour Game",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100FC20214B2000",
     "publisher": "Shine Research",
     "releaseDate": "2025-06-17",
@@ -693322,43 +694015,6 @@
     ]
   },
   {
-    "id": "prinny-party-going-overboard-6000",
-    "title": "Prinny Party: Going Overboard!",
-    "platform": "switch",
-    "titleId": "0100643028646000",
-    "publisher": "NIS America",
-    "releaseDate": "2026-11-11",
-    "genres": [
-      "Party",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "/covers/prinny-party.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-11-11T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "a-snail-s-tale-3238343",
-    "title": "A Snail's Tale",
-    "platform": "switch",
-    "titleId": "0100396020C48000",
-    "publisher": "Something Classic",
-    "releaseDate": "2026-11-11",
-    "status": "upcoming",
-    "genres": [
-      "Avventura",
-      "RPG"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sg6bfftu7cxsfoblszzg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/A-Snail-s-Tale-3238343.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-11T12:00:00Z",
-    "updates": []
-  },
-  {
     "id": "sonic-pico-park",
     "title": "Sonic Pico Park",
     "platform": "both",
@@ -693487,6 +694143,27 @@
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "beat-tokyo-with-jimotoism-3226608",
+    "title": "Beat Tokyo with Jimotoism",
+    "platform": "switch",
+    "titleId": "010093C02A8A6000",
+    "publisher": "kanamect",
+    "releaseDate": "2026-11-14",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "Educativo",
+      "Platform",
+      "Study"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/omiwyxb7pikmvqv6mnus",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Beat-Tokyo-with-Jimotoism-3226608.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-14T12:00:00Z",
     "updates": []
   },
   {
@@ -694572,6 +695249,26 @@
     ],
     "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/romancingsaga3destiniesunited/16x9_RomancingSaGa3DestiniesUnited_image500w.jpg",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Romancing-SaGa-3-Destinies-United-3184771.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2027-02-16T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "feed-the-deep-3221510",
+    "title": "Feed The Deep",
+    "platform": "switch",
+    "titleId": "0100EC9028012000",
+    "publisher": "CerebralFix",
+    "releaseDate": "2027-02-16",
+    "status": "upcoming",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/jr4dfwm2iwkl7ryax2bp",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Feed-The-Deep-3221510.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2027-02-16T12:00:00Z",
