@@ -1,499 +1,5 @@
 [
   {
-    "id": "moomin-midsummer-madness-3216822",
-    "title": "Moomin: Midsummer Madness",
-    "platform": "switch2",
-    "titleId": "04003030294E6000",
-    "publisher": "Shochiku",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Avventura",
-      "Rompicapo"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/byrmegmgfbx5e9qtrvtg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Moomin-Midsummer-Madness-3216822.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "metaphor-refantazio-3185680",
-    "title": "Metaphor: ReFantazio",
-    "platform": "switch2",
-    "titleId": "04005A702546E000",
-    "publisher": "SEGA",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "RPG"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/r8xw7pafioo8ffyrbrg3",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Metaphor-ReFantazio-3185680.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "whirlight-no-time-to-trip-3199656",
-    "title": "Whirlight - No Time To Trip",
-    "platform": "switch",
-    "titleId": "01006A9023EAA000",
-    "publisher": "Magic Hat",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Avventura",
-      "Rompicapo"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/az0b8tv4stzwbuzcsitf",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Whirlight-No-Time-To-Trip-3199656.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tidy-up-the-flower-shop-3235223",
-    "title": "Tidy Up the Flower Shop",
-    "platform": "switch",
-    "titleId": "010089902AE6C000",
-    "publisher": "Over The Moon",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Lifestyle",
-      "Simulazione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cn749ja1our3cjpcyqv7",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Tidy-Up-the-Flower-Shop-3235223.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "the-thaumaturge-3232287",
-    "title": "The Thaumaturge",
-    "platform": "switch",
-    "titleId": "01009A40249B6000",
-    "publisher": "11 bit studios",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Altro",
-      "Avventura",
-      "RPG"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/mblybk9vjlhsihvxwyrf",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/The-Thaumaturge-3232287.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "combat-kart-3240411",
-    "title": "Combat Kart",
-    "platform": "switch",
-    "titleId": "01000A701DF4C000",
-    "publisher": "Happy Player",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Avventura",
-      "Corse",
-      "RPG",
-      "Strategia"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vsp4flwlzlw5e5a8xrxu",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Combat-Kart-3240411.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "supermarket-simulator-3227145",
-    "title": "Supermarket Simulator ",
-    "platform": "switch2",
-    "titleId": "040037D028F1E000",
-    "publisher": "Silver Lining",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vp1tz74hu0hjvzig4sta",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Supermarket-Simulator-3227145.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "Progetta il tuo negozio ottimizzando efficienza ed estetica. Decidi dove esporre i prodotti, gestisci i corridoi e garantisci un’esperienza di acquisto fluida ai tuoi clienti. Ordina la merce usando un computer nel gioco.",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ciao-luigi-3239709",
-    "title": "Ciao, Luigi!",
-    "platform": "switch",
-    "titleId": "0100000003239709",
-    "publisher": "Nintendo Co., Ltd.",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://www.nintendo.com/eu/media/images/assets/smart_device_9/helloluigi_1/16x9_HelloLuigi_IT_image500w.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-dispositivi-smart/Ciao-Luigi--3239709.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "Tocca il viso di Luigi per giocare in “Ciao, Luigi!” per dispositivi smart.",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ciao-peach-3239695",
-    "title": "Ciao, Peach!",
-    "platform": "switch",
-    "titleId": "0100000003239695",
-    "publisher": "Nintendo Co., Ltd.",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://www.nintendo.com/eu/media/images/assets/smart_device_9/hellopeach_1/16x9_HelloPeach_IT_image500w.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-dispositivi-smart/Ciao-Peach--3239695.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-12T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "Tocca il viso di Peach per giocare in “Ciao, Peach!” per dispositivi smart.",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "a-snail-s-tale-3238343",
-    "title": "A Snail's Tale",
-    "platform": "switch",
-    "titleId": "0100396020C48000",
-    "publisher": "Something Classic",
-    "releaseDate": "2026-11-11",
-    "status": "released",
-    "genres": [
-      "Avventura",
-      "RPG"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sg6bfftu7cxsfoblszzg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/A-Snail-s-Tale-3238343.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-11T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-11",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "prinny-party-going-overboard-6000",
-    "title": "Prinny Party: Going Overboard!",
-    "platform": "switch",
-    "titleId": "0100643028646000",
-    "publisher": "NIS America",
-    "releaseDate": "2026-11-11",
-    "genres": [
-      "Party",
-      "Gioco di ruolo (RPG)"
-    ],
-    "coverImage": "/covers/prinny-party.jpg",
-    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 0,
-    "lastUpdated": "2026-11-11T00:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "raccoin-chaos-max-edition-3227368",
-    "title": "RACCOIN: Chaos Max Edition",
-    "platform": "switch2",
-    "titleId": "0400107026DA2000",
-    "publisher": "Playstack",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Arcade",
-      "Simulazione",
-      "Strategia"
-    ],
-    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/raccoinchaosmaxedition/16x9_RaccoinChaosMaxEdition_image500w.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/RACCOIN-Chaos-Max-Edition-3227368.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-10T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "unpetrified-echi-di-natura-3201158",
-    "title": "Unpetrified: Echi di Natura",
-    "platform": "switch",
-    "titleId": "01002C3024354000",
-    "publisher": "Mindscape",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Altro",
-      "Avventura",
-      "Educativo",
-      "Rompicapo"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gbqxwumhh7mvepilggj6",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Unpetrified-Echi-di-Natura-3201158.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-10T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "previousVersion": "v0.9.0",
-        "internalVersion": 65536,
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
-        "changelog": [
-          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
-          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "shrek-2-remastered-3225566",
-    "title": "Shrek 2 Remastered",
-    "platform": "switch2",
-    "titleId": "04007150246F4000",
-    "publisher": "Aspyr",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/pbtmsxaavzwcxbzaetdm",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Shrek-2-Remastered-3225566.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-10T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "DreamWorks Shrek 2 Remastered: ecco il ritorno di questa classica e caotica avventura in cooperativa con tutti i tuoi personaggi preferiti e una grafica rinnovata.",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "just-dance-decades-of-hits-nintendo-switch-2-edition-3241134",
-    "title": "Just Dance: Decades of Hits - Nintendo Switch™ 2 Edition",
-    "platform": "switch2",
-    "titleId": "70070000039425",
-    "publisher": "Ubisoft",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Multiplayer",
-      "Musica",
-      "Party"
-    ],
-    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/justdancedecadesofhitsnintendoswitch2edition/16x9_JustDanceDecadesOfHitsNintendoSwitch2Edition_image500w.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Nintendo-Switch-2-Edition/Just-Dance-Decades-of-Hits-Nintendo-Switch-2-Edition-3241134.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-10T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "UN'ESPERIENZA IMMERSIVA CHE ABBRACCIA SEI DECENNI",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "slime-jump-3239554",
-    "title": "Slime Jump",
-    "platform": "switch",
-    "titleId": "0100F87028812000",
-    "publisher": "ASI GAMES TECHNOLOGIES",
-    "releaseDate": "2026-11-07",
-    "status": "released",
-    "genres": [
-      "Arcade",
-      "Avventura"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nagr46xpbuzlggqtnm6v",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Slime-Jump-3239554.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-07T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-07",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "L’unico modo per far sopravvivere la piccola lumaca è saltare da un’isola all’altra.",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
     "id": "hasbro-games-junior-collection-0000",
     "title": "Hasbro Games™ Junior Collection",
     "platform": "switch2",
@@ -2789,6 +2295,36 @@
     ]
   },
   {
+    "id": "hokko-spaces-3220714",
+    "title": "Hokko Spaces",
+    "platform": "switch",
+    "titleId": "01002C4029876000",
+    "publisher": "Team17",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nz4azagpugd5okowr55k",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Hokko-Spaces-3220714.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Costruisci mondi in miniatura senza fretta, accogli abitanti amichevoli e immortala i momenti di pace.\n",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "zelda-totk",
     "title": "The Legend of Zelda: Tears of the Kingdom",
     "platform": "switch2",
@@ -3398,6 +2934,36 @@
     ]
   },
   {
+    "id": "the-outlast-trials-3229445",
+    "title": "The Outlast Trials",
+    "platform": "switch2",
+    "titleId": "0400F96027858000",
+    "publisher": "Red Barrels",
+    "releaseDate": "2026-10-27",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/th2msj8gy2gw0ibpphz5",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Outlast-Trials-3229445.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-27T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-27",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Red Barrels ti invita a provare un terrore sconvolgente, questa volta con gli amici.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "9-r-i-p-sequel-8000",
     "title": "9 R.I.P. sequel",
     "platform": "switch",
@@ -3518,42 +3084,6 @@
     "status": "released"
   },
   {
-    "id": "sonic-pico-park",
-    "title": "Sonic Pico Park",
-    "platform": "both",
-    "titleId": "01002A401DC70000",
-    "publisher": "SEGA",
-    "releaseDate": "2026-11-12",
-    "status": "released",
-    "genres": [
-      "Party",
-      "Puzzle",
-      "Co-op",
-      "Multiplayer"
-    ],
-    "coverImage": "/covers/sonic-pico-park.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Sonic-Pico-Park-2951000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-26T10:00:00Z",
-    "aliases": [
-      "sonic pico park",
-      "pico park sonic",
-      "sega party"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-12",
-        "type": "major",
-        "title": "Presentazione Ufficiale SEGA",
-        "changelog": [
-          "Cross-over cooperativo fino a 8 giocatori simultanei nei panni di Sonic, Tails, Knuckles e Amy."
-        ]
-      }
-    ]
-  },
-  {
     "id": "cyberpunk-2077-switch2",
     "title": "Cyberpunk 2077",
     "platform": "switch2",
@@ -3590,42 +3120,6 @@
       "cyberpunk-2077",
       "cyberpunk 2077",
       "cyberpunk"
-    ]
-  },
-  {
-    "id": "warhammer-survivors",
-    "title": "Warhammer Survivors",
-    "platform": "switch2",
-    "titleId": "01007F101CD60000",
-    "publisher": "Games Workshop / Poncle",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Azione",
-      "Roguelite",
-      "Survival",
-      "Bullet Hell"
-    ],
-    "coverImage": "/covers/warhammer-survivors.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Warhammer-Survivors-2947000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-25T10:00:00Z",
-    "aliases": [
-      "warhammer survivors",
-      "warhammer 40k",
-      "space marine survivors"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Annuncio Ufficiale Collaborazione",
-        "changelog": [
-          "L'universo di Warhammer 40,000 incontra il gameplay assuefacente in stile Vampire Survivors."
-        ]
-      }
     ]
   },
   {
@@ -5236,43 +4730,6 @@
     ]
   },
   {
-    "id": "tanuki-pons-summer",
-    "title": "Tanuki: Pon's Summer",
-    "platform": "switch2",
-    "titleId": "01003D901CD80000",
-    "publisher": "Raw Fury",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Avventura",
-      "BMX",
-      "Commedia",
-      "Casual"
-    ],
-    "coverImage": "/covers/tanuki-pons-summer.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Tanuki-Pons-Summer-2945000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-22T10:00:00Z",
-    "aliases": [
-      "tanuki",
-      "pon's summer",
-      "tanuki bmx",
-      "postino procione"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Apertura Pre-order e Data Definitiva",
-        "changelog": [
-          "Vesti i panni di un tanuki postino che compie acrobazie in BMX per le strade di una cittadina giapponese estiva."
-        ]
-      }
-    ]
-  },
-  {
     "id": "demons-night-fever-4000",
     "title": "DEMONS' NIGHT FEVER",
     "platform": "switch",
@@ -5446,6 +4903,39 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Scivola, Consegna e Salva la Giornata della Pizza",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pocket-mirror-goldenertraum-3225591",
+    "title": "Pocket Mirror ~ GoldenerTraum",
+    "platform": "switch",
+    "titleId": "010029A024AD8000",
+    "publisher": "KOMODO",
+    "releaseDate": "2026-10-21",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "Azione",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/zvk2oiaqqeamrugtaq1o",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Pocket-Mirror-GoldenerTraum-3225591.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-21T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-21",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Benvenuti in una meravigliosa e oscura avventura indie piena di enigmi, in cui la realtà e i sogni si intrecciano e segreti si nascondono dietro ogni angolo.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -5680,42 +5170,6 @@
           "Hunt the military-industrial complex across stylish comic book micro-sandboxes in this fast-paced covert revenge thriller FPS from the developers of El Paso, Elsewhere.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "nocturnal-ii",
-    "title": "Nocturnal II",
-    "platform": "both",
-    "titleId": "01006E301DC80000",
-    "publisher": "Sunnyside Games",
-    "releaseDate": "2026-11-10",
-    "status": "released",
-    "genres": [
-      "Azione",
-      "Metroidvania",
-      "2D",
-      "Platform"
-    ],
-    "coverImage": "/covers/nocturnal-ii.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Nocturnal-II-2948000.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-20T10:00:00Z",
-    "aliases": [
-      "nocturnal 2",
-      "nocturnal ii",
-      "spada di fuoco"
-    ],
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-11-10",
-        "type": "major",
-        "title": "Data di Rilascio e Trailer Ufficiale",
-        "changelog": [
-          "Nuove abilità elementali del fuoco e ambientazioni interamente ridisegnate a mano."
         ]
       }
     ]
@@ -694888,6 +694342,645 @@
     ]
   },
   {
+    "id": "slime-jump-3239554",
+    "title": "Slime Jump",
+    "platform": "switch",
+    "titleId": "0100F87028812000",
+    "publisher": "ASI GAMES TECHNOLOGIES",
+    "releaseDate": "2026-11-07",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nagr46xpbuzlggqtnm6v",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Slime-Jump-3239554.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-07T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-07",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "L’unico modo per far sopravvivere la piccola lumaca è saltare da un’isola all’altra.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "raccoin-chaos-max-edition-3227368",
+    "title": "RACCOIN: Chaos Max Edition",
+    "platform": "switch2",
+    "titleId": "0400107026DA2000",
+    "publisher": "Playstack",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/raccoinchaosmaxedition/16x9_RaccoinChaosMaxEdition_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/RACCOIN-Chaos-Max-Edition-3227368.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-10T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unpetrified-echi-di-natura-3201158",
+    "title": "Unpetrified: Echi di Natura",
+    "platform": "switch",
+    "titleId": "01002C3024354000",
+    "publisher": "Mindscape",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "Educativo",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gbqxwumhh7mvepilggj6",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Unpetrified-Echi-di-Natura-3201158.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-10T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shrek-2-remastered-3225566",
+    "title": "Shrek 2 Remastered",
+    "platform": "switch2",
+    "titleId": "04007150246F4000",
+    "publisher": "Aspyr",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/pbtmsxaavzwcxbzaetdm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Shrek-2-Remastered-3225566.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-10T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "DreamWorks Shrek 2 Remastered: ecco il ritorno di questa classica e caotica avventura in cooperativa con tutti i tuoi personaggi preferiti e una grafica rinnovata.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "just-dance-decades-of-hits-nintendo-switch-2-edition-3241134",
+    "title": "Just Dance: Decades of Hits - Nintendo Switch™ 2 Edition",
+    "platform": "switch2",
+    "titleId": "70070000039425",
+    "publisher": "Ubisoft",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Multiplayer",
+      "Musica",
+      "Party"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/justdancedecadesofhitsnintendoswitch2edition/16x9_JustDanceDecadesOfHitsNintendoSwitch2Edition_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Nintendo-Switch-2-Edition/Just-Dance-Decades-of-Hits-Nintendo-Switch-2-Edition-3241134.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-10T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "UN'ESPERIENZA IMMERSIVA CHE ABBRACCIA SEI DECENNI",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "warhammer-survivors",
+    "title": "Warhammer Survivors",
+    "platform": "switch2",
+    "titleId": "01007F101CD60000",
+    "publisher": "Games Workshop / Poncle",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Roguelite",
+      "Survival",
+      "Bullet Hell"
+    ],
+    "coverImage": "/covers/warhammer-survivors.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Warhammer-Survivors-2947000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-25T10:00:00Z",
+    "aliases": [
+      "warhammer survivors",
+      "warhammer 40k",
+      "space marine survivors"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Annuncio Ufficiale Collaborazione",
+        "changelog": [
+          "L'universo di Warhammer 40,000 incontra il gameplay assuefacente in stile Vampire Survivors."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tanuki-pons-summer",
+    "title": "Tanuki: Pon's Summer",
+    "platform": "switch2",
+    "titleId": "01003D901CD80000",
+    "publisher": "Raw Fury",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "BMX",
+      "Commedia",
+      "Casual"
+    ],
+    "coverImage": "/covers/tanuki-pons-summer.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Tanuki-Pons-Summer-2945000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T10:00:00Z",
+    "aliases": [
+      "tanuki",
+      "pon's summer",
+      "tanuki bmx",
+      "postino procione"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Apertura Pre-order e Data Definitiva",
+        "changelog": [
+          "Vesti i panni di un tanuki postino che compie acrobazie in BMX per le strade di una cittadina giapponese estiva."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nocturnal-ii",
+    "title": "Nocturnal II",
+    "platform": "both",
+    "titleId": "01006E301DC80000",
+    "publisher": "Sunnyside Games",
+    "releaseDate": "2026-11-10",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Metroidvania",
+      "2D",
+      "Platform"
+    ],
+    "coverImage": "/covers/nocturnal-ii.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Nocturnal-II-2948000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-20T10:00:00Z",
+    "aliases": [
+      "nocturnal 2",
+      "nocturnal ii",
+      "spada di fuoco"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-10",
+        "type": "major",
+        "title": "Data di Rilascio e Trailer Ufficiale",
+        "changelog": [
+          "Nuove abilità elementali del fuoco e ambientazioni interamente ridisegnate a mano."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-snail-s-tale-3238343",
+    "title": "A Snail's Tale",
+    "platform": "switch",
+    "titleId": "0100396020C48000",
+    "publisher": "Something Classic",
+    "releaseDate": "2026-11-11",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sg6bfftu7cxsfoblszzg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/A-Snail-s-Tale-3238343.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-11T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-11",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prinny-party-going-overboard-6000",
+    "title": "Prinny Party: Going Overboard!",
+    "platform": "switch",
+    "titleId": "0100643028646000",
+    "publisher": "NIS America",
+    "releaseDate": "2026-11-11",
+    "genres": [
+      "Party",
+      "Gioco di ruolo (RPG)"
+    ],
+    "coverImage": "/covers/prinny-party.jpg",
+    "eshopUrl": "https://ec.nintendo.com/IT/it/titles/70010000126213",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 0,
+    "lastUpdated": "2026-11-11T00:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "moomin-midsummer-madness-3216822",
+    "title": "Moomin: Midsummer Madness",
+    "platform": "switch2",
+    "titleId": "04003030294E6000",
+    "publisher": "Shochiku",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/byrmegmgfbx5e9qtrvtg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Moomin-Midsummer-Madness-3216822.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "metaphor-refantazio-3185680",
+    "title": "Metaphor: ReFantazio",
+    "platform": "switch2",
+    "titleId": "04005A702546E000",
+    "publisher": "SEGA",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/r8xw7pafioo8ffyrbrg3",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Metaphor-ReFantazio-3185680.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "whirlight-no-time-to-trip-3199656",
+    "title": "Whirlight - No Time To Trip",
+    "platform": "switch",
+    "titleId": "01006A9023EAA000",
+    "publisher": "Magic Hat",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/az0b8tv4stzwbuzcsitf",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Whirlight-No-Time-To-Trip-3199656.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tidy-up-the-flower-shop-3235223",
+    "title": "Tidy Up the Flower Shop",
+    "platform": "switch",
+    "titleId": "010089902AE6C000",
+    "publisher": "Over The Moon",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Lifestyle",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cn749ja1our3cjpcyqv7",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Tidy-Up-the-Flower-Shop-3235223.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-thaumaturge-3232287",
+    "title": "The Thaumaturge",
+    "platform": "switch",
+    "titleId": "01009A40249B6000",
+    "publisher": "11 bit studios",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/mblybk9vjlhsihvxwyrf",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/The-Thaumaturge-3232287.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "combat-kart-3240411",
+    "title": "Combat Kart",
+    "platform": "switch",
+    "titleId": "01000A701DF4C000",
+    "publisher": "Happy Player",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Corse",
+      "RPG",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vsp4flwlzlw5e5a8xrxu",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Combat-Kart-3240411.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "supermarket-simulator-3227145",
+    "title": "Supermarket Simulator ",
+    "platform": "switch2",
+    "titleId": "040037D028F1E000",
+    "publisher": "Silver Lining",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vp1tz74hu0hjvzig4sta",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Supermarket-Simulator-3227145.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Progetta il tuo negozio ottimizzando efficienza ed estetica. Decidi dove esporre i prodotti, gestisci i corridoi e garantisci un’esperienza di acquisto fluida ai tuoi clienti. Ordina la merce usando un computer nel gioco.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ciao-luigi-3239709",
+    "title": "Ciao, Luigi!",
+    "platform": "switch",
+    "titleId": "0100000003239709",
+    "publisher": "Nintendo Co., Ltd.",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/smart_device_9/helloluigi_1/16x9_HelloLuigi_IT_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-dispositivi-smart/Ciao-Luigi--3239709.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Tocca il viso di Luigi per giocare in “Ciao, Luigi!” per dispositivi smart.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ciao-peach-3239695",
+    "title": "Ciao, Peach!",
+    "platform": "switch",
+    "titleId": "0100000003239695",
+    "publisher": "Nintendo Co., Ltd.",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/smart_device_9/hellopeach_1/16x9_HelloPeach_IT_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-dispositivi-smart/Ciao-Peach--3239695.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Tocca il viso di Peach per giocare in “Ciao, Peach!” per dispositivi smart.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sonic-pico-park",
+    "title": "Sonic Pico Park",
+    "platform": "both",
+    "titleId": "01002A401DC70000",
+    "publisher": "SEGA",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Party",
+      "Puzzle",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "coverImage": "/covers/sonic-pico-park.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Sonic-Pico-Park-2951000.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-26T10:00:00Z",
+    "aliases": [
+      "sonic pico park",
+      "pico park sonic",
+      "sega party"
+    ],
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Presentazione Ufficiale SEGA",
+        "changelog": [
+          "Cross-over cooperativo fino a 8 giocatori simultanei nei panni di Sonic, Tails, Knuckles e Amy."
+        ]
+      }
+    ]
+  },
+  {
     "id": "beat-tokyo-with-jimotoism-3226608",
     "title": "Beat Tokyo with Jimotoism",
     "platform": "switch",
@@ -695081,6 +695174,47 @@
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-11-26T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "station-to-station-3242210",
+    "title": "Station to Station",
+    "platform": "switch2",
+    "titleId": "0400992029188000",
+    "publisher": "Engine Software",
+    "releaseDate": "2026-11-26",
+    "status": "upcoming",
+    "genres": [
+      "Rompicapo",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/srgwrgjlqaiyhq2vwxud",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Station-to-Station-3242210.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-26T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "100th-dawn-farm-defense-3230903",
+    "title": "100th Dawn: Farm & Defense",
+    "platform": "switch",
+    "titleId": "01002D202A290000",
+    "publisher": "GAME NACIONAL",
+    "releaseDate": "2026-11-28",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/tv7dkyzxwzi2yoyapplt",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/100th-Dawn-Farm-Defense-3230903.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-28T12:00:00Z",
     "updates": []
   },
   {
@@ -695290,6 +695424,24 @@
     "updates": []
   },
   {
+    "id": "the-dark-queen-of-mortholme-3225158",
+    "title": "The Dark Queen of Mortholme",
+    "platform": "switch",
+    "titleId": "0100832029F26000",
+    "publisher": "Rhine Games",
+    "releaseDate": "2026-12-03",
+    "status": "upcoming",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cqf69qnjuadsrx1dd4uk",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/The-Dark-Queen-of-Mortholme-3225158.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-12-03T12:00:00Z",
+    "updates": []
+  },
+  {
     "id": "monster-hunter-wilds-3183709",
     "title": "Monster Hunter Wilds",
     "platform": "switch2",
@@ -695306,6 +695458,26 @@
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-12-04T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "garbage-man-3230981",
+    "title": "Garbage Man",
+    "platform": "switch",
+    "titleId": "01006DB02A292000",
+    "publisher": "GAME NACIONAL",
+    "releaseDate": "2026-12-05",
+    "status": "upcoming",
+    "genres": [
+      "Altro",
+      "Azione",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gxictuoy2g1jzwy5t3hr",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Garbage-Man-3230981.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-12-05T12:00:00Z",
     "updates": []
   },
   {
