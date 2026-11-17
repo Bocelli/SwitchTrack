@@ -1,5 +1,39 @@
 [
   {
+    "id": "unicorn-academy-island-of-magic-3214101",
+    "title": "Unicorn Academy: Island of Magic",
+    "platform": "switch",
+    "titleId": "0100B76027538000",
+    "publisher": "Mindscape",
+    "releaseDate": "2026-11-17",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Corse",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/dsipukbo1vekph2ryiqs",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Unicorn-Academy-Island-of-Magic-3214101.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-17T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-17",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
     "id": "spirit-crossing-3226349",
     "title": "Spirit Crossing",
     "platform": "switch2",
@@ -564,6 +598,36 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Crash your rivals out of the way!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adorable-adventures-3235238",
+    "title": "Adorable Adventures",
+    "platform": "switch2",
+    "titleId": "0400AD80284A6000",
+    "publisher": "PQube",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ype9gkoqicijaswg4awx",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Adorable-Adventures-3235238.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Esplora paesaggi naturali pacifici con Boris, un curioso cucciolo di cinghiale.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -1798,6 +1862,36 @@
     ]
   },
   {
+    "id": "don-bradman-cricket-jr-3223341",
+    "title": "Don Bradman Cricket JR ",
+    "platform": "switch",
+    "titleId": "010042302831C000",
+    "publisher": "Tru Blu Games",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Sport"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/lvtpumvpbgijulhcv8rr",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Don-Bradman-Cricket-JR-3223341.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "VELOCE. DIVERTENTE. CRICKET!\nFacile da iniziare… impossibile da mollare.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "manic-miner-0000",
     "title": "MANIC MINER",
     "platform": "switch",
@@ -2399,6 +2493,39 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Un mercenario armato distrugge una rete terroristica in un FPS esplosivo.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yet-another-zombie-survivors-3223353",
+    "title": "Yet Another Zombie Survivors",
+    "platform": "switch",
+    "titleId": "01007CC01F1EE000",
+    "publisher": "Awesome Games",
+    "releaseDate": "2026-10-30",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Avventura",
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/zioiry63ohwf86zfbjae",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Yet-Another-Zombie-Survivors-3223353.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-30T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-30",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "L'Orda sta arrivando, ma sei pronto a combatterla!",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -4960,6 +5087,37 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "mosse strategiche\nmangia tutti\nusa i tentacoli",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seahorse-soap-patrol-3223305",
+    "title": "Seahorse Soap Patrol",
+    "platform": "switch",
+    "titleId": "01003FC02A182000",
+    "publisher": "Cascadia Games",
+    "releaseDate": "2026-10-23",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ahqsbroxpt6gixgx2seh",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Seahorse-Soap-Patrol-3223305.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-23T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-23",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Una squadra di cavallucci marini deve mandare al diavolo gli inquinatori!",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -7547,6 +7705,38 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Two strangers, two worlds, and two intimate stories about connection, loss, and the passage of time.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "escape-immersion-3223391",
+    "title": "Escape: Immersion",
+    "platform": "switch",
+    "titleId": "0100AB7029FB2000",
+    "publisher": "Upscale Studio",
+    "releaseDate": "2026-10-16",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/fsxmrlpfprj81utcsxue",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Escape-Immersion-3223391.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-16T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-16",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Nessuna speranza. Nessuna via di fuga.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -696215,27 +696405,6 @@
     ]
   },
   {
-    "id": "unicorn-academy-island-of-magic-3214101",
-    "title": "Unicorn Academy: Island of Magic",
-    "platform": "switch",
-    "titleId": "0100B76027538000",
-    "publisher": "Mindscape",
-    "releaseDate": "2026-11-17",
-    "status": "upcoming",
-    "genres": [
-      "Avventura",
-      "Corse",
-      "Rompicapo",
-      "Simulazione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/dsipukbo1vekph2ryiqs",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch/Unicorn-Academy-Island-of-Magic-3214101.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-17T12:00:00Z",
-    "updates": []
-  },
-  {
     "id": "the-binding-of-isaac-repentance-3198821",
     "title": "The Binding of Isaac: Repentance+",
     "platform": "switch2",
@@ -696445,6 +696614,26 @@
     ],
     "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nl48whknzx0hboa8bqfw",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/PixelHeroScramble-Plus-3199745.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-30T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "winx-club-moonlight-quest-3244107",
+    "title": "Winx Club - Moonlight Quest",
+    "platform": "switch",
+    "titleId": "010052002750A000",
+    "publisher": "Balio Studio",
+    "releaseDate": "2026-11-30",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Party"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/zsjqdgdccgdj3ozuxrnm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Winx-Club-Moonlight-Quest-3244107.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-11-30T12:00:00Z",
