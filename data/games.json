@@ -635,6 +635,69 @@
     ]
   },
   {
+    "id": "kaiju-boys-trap-giant-monsters-fall-in-love-3232393",
+    "title": "Kaiju Boys: Trap Giant Monsters & Fall in Love",
+    "platform": "switch",
+    "titleId": "010006E028CF0000",
+    "publisher": "Red Fables",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Lifestyle",
+      "RPG",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/p0xgrjkxfimef2uac2az",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Kaiju-Boys-Trap-Giant-Monsters-Fall-in-Love-3232393.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Fight him. Trap him. Date him. \nHold on... you're going out with the thing that ate the harbor?!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "myrummy-2-3226908",
+    "title": "MyRummy® 2",
+    "platform": "switch",
+    "titleId": "0100F7E025CBC000",
+    "publisher": "TREVA",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/dzxco6pco1cu2quvpu9s",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/MyRummy-2-3226908.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Il leggendario classico con le tessere: combina con astuzia, fai le mosse giuste e affidati a un pizzico di fortuna per liberarti per primo di tutte le tessere.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "a-snail-s-tale-3238343",
     "title": "A Snail's Tale",
     "platform": "switch",
@@ -1892,6 +1955,71 @@
     ]
   },
   {
+    "id": "billionaire-secret-affaire-forbidden-desire-boys-3227008",
+    "title": "Billionaire Secret Affaire: Forbidden Desire Boys",
+    "platform": "switch",
+    "titleId": "01003E00288AE000",
+    "publisher": "Red Fables",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Applicazione",
+      "Comunicazione",
+      "Lifestyle",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/bzgr8mk3ktp9vhx6j56b",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Billionaire-Secret-Affaire-Forbidden-Desire-Boys-3227008.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Rich men.\nHidden lives.\nA secret you were never meant to share.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "creepy-manga-hidden-horrors-spine-tingling-urban-legend-ghost-story-mystery-game-3232092",
+    "title": "Creepy Manga: Hidden Horrors~ Spine-Tingling Urban Legend & Ghost Story Mystery Game ~",
+    "platform": "switch",
+    "titleId": "010064002A3CA000",
+    "publisher": "TT",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gvidii4y2hfvkcwzczkn",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Creepy-Manga-Hidden-Horrors-Spine-Tingling-Urban-Legend-Ghost-Story-Mystery-Game--3232092.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Sembra davvero un manga normale?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "manic-miner-0000",
     "title": "MANIC MINER",
     "platform": "switch",
@@ -2526,6 +2654,38 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "L'Orda sta arrivando, ma sei pronto a combatterla!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "distorted-paranormal-activities-3245837",
+    "title": "Distorted – Paranormal Activities",
+    "platform": "switch",
+    "titleId": "01002AA027CE6000",
+    "publisher": "EpiXR Games",
+    "releaseDate": "2026-10-30",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/froinhiihs9bobidhaae",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Distorted-Paranormal-Activities-3245837.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-30T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-30",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Un gioco horror psicologico in cui vesti i panni di un investigatore del paranormale.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -3797,6 +3957,133 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "UNDERGROUNDED is a puzzle adventure game that takes you through nostalgic landscapes of America's past. ",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "love-love-mystery-club-3226571",
+    "title": "Love Love Mystery Club",
+    "platform": "switch",
+    "titleId": "0100389029BCA000",
+    "publisher": "Dolores Ent.",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "RPG",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gqvbqz9qt9axol0xmpnu",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Love-Love-Mystery-Club-3226571.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Simulatore di incontri horror immersivo",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "exorcist-guns-of-heaven-3226862",
+    "title": "Exorcist - Guns of Heaven",
+    "platform": "switch",
+    "titleId": "0100F0A028D4E000",
+    "publisher": "EpiXR Games",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/upj7ucv4eunapne7pzio",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Exorcist-Guns-of-Heaven-3226862.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Un frenetico e caotico FPS roguelike contro mostri letali!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "black-lily-s-tale-3230819",
+    "title": "Black Lily's Tale",
+    "platform": "switch",
+    "titleId": "010089A01EB32000",
+    "publisher": "1000-REKA",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/sozh6zlxtpz6gnmfhhkd",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Black-Lily-s-Tale-3230819.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "By [interrupting choices] and [typing in words], you will weave her feelings into the story.\nThis is simply a story of a girl falling in love with a girl.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "for-ages-10-and-up-my-first-code-logic-quiz-iq-pattern-quizzes-to-train-logical-thinking-3226956",
+    "title": "For Ages 10 and Up! My First Code Logic Quiz ~ IQ Pattern Quizzes to Train Logical Thinking ~",
+    "platform": "switch",
+    "titleId": "0100BA502A3D0000",
+    "publisher": "TT",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Rompicapo",
+      "Study",
+      "Training"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/cbnmrfmn8erfgmqf5joe",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/For-Ages-10-and-Up-My-First-Code-Logic-Quiz-IQ-Pattern-Quizzes-to-Train-Logical-Thinking--3226956.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Riesci a trovare il prossimo schema?",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -5118,6 +5405,38 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Una squadra di cavallucci marini deve mandare al diavolo gli inquinatori!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bad-dog-3245820",
+    "title": "Bad Dog",
+    "platform": "switch",
+    "titleId": "0100A7C02A69C000",
+    "publisher": "Upscale Studio",
+    "releaseDate": "2026-10-23",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/lbiilcimd73abnkrhcit",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Bad-Dog-3245820.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-23T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-23",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Chi è un Bad Boy?",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -6533,6 +6852,131 @@
     ]
   },
   {
+    "id": "my-friendly-neighborhood-3226211",
+    "title": "My Friendly Neighborhood",
+    "platform": "switch2",
+    "titleId": "0400D00026AB0000",
+    "publisher": "DreadXP",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/gedycm1cixnzddho0nv2",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/My-Friendly-Neighborhood-3226211.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Sta succedendo qualcosa di spaventoso nel tuo spettacolo di marionette preferito.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bundle-action-platform-3245669",
+    "title": "Bundle Action Platform",
+    "platform": "switch",
+    "titleId": "70070000041122",
+    "publisher": "Brainium Games",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Platform"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/bundleactionplatform/16x9_BundleActionPlatform_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Bundle-Action-Platform-3245669.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "mosse strategiche\ncombatti i boss\nsconfiggi i nemici",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cursed-gaze-3226177",
+    "title": "Cursed Gaze",
+    "platform": "switch",
+    "titleId": "0100E8002A808000",
+    "publisher": "Eathrabaria",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/dgoajo38u3id12vnhrzn",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Cursed-Gaze-3226177.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Guide a lonely Medusa through minimalist platforming puzzles, manipulate falling blocks, and find a path forward in a strange, emotional journey about isolation and the hope of escape.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "momolitos-3226978",
+    "title": "Momolitos",
+    "platform": "switch",
+    "titleId": "01001BB025678000",
+    "publisher": "Goca Games",
+    "releaseDate": "2026-10-22",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "RPG",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/e4xow9bablpqshqrgyyv",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Momolitos-3226978.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-22T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-22",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Nutri, fai evolvere e scopri oltre 600 adorabili forme di Momolito!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "tanuki-pons-summer",
     "title": "Tanuki: Pon's Summer",
     "platform": "switch2",
@@ -7263,6 +7707,38 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Un’avventura di pesca in cui ogni lancio ti porta più lontano.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dodge-mayhem-3245080",
+    "title": "Dodge Mayhem",
+    "platform": "switch",
+    "titleId": "0100E4A029C12000",
+    "publisher": "Entity3",
+    "releaseDate": "2026-10-17",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Corse"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/yiy3jffu5fsismhd3sx2",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Dodge-Mayhem-3245080.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-17T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-17",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Jetpack Mayhem",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -306065,7 +306541,7 @@
   {
     "id": "tales-from-toyotoki-arrival-of-the-witch-c000",
     "title": "Tales from Toyotoki: Arrival of the Witch",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100F4701E8EC000",
     "publisher": "Aksys Games",
     "releaseDate": "2024-08-22",
@@ -696574,6 +697050,25 @@
     ],
     "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/srgwrgjlqaiyhq2vwxud",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Station-to-Station-3242210.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-26T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "full-metal-sergeant-2-3226556",
+    "title": "Full Metal Sergeant 2",
+    "platform": "switch",
+    "titleId": "0100657029228000",
+    "publisher": "PolyCrunch Games",
+    "releaseDate": "2026-11-26",
+    "status": "upcoming",
+    "genres": [
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nzqul7nmwvkdzg9lkhym",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Full-Metal-Sergeant-2-3226556.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-11-26T12:00:00Z",
