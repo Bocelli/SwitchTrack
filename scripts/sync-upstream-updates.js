@@ -166,6 +166,11 @@ export async function runSync(options = {}) {
       if (g.id) existingById.set(g.id, g);
       if (g.titleId) existingByTitleId.set(g.titleId.toUpperCase(), g);
       if (g.title) existingByNormalizedTitle.set(normalizeTitle(g.title), g);
+      if (Array.isArray(g.aliases)) {
+        for (const a of g.aliases) {
+          existingByNormalizedTitle.set(normalizeTitle(a), g);
+        }
+      }
     }
 
     for (const doc of eshopDocs) {

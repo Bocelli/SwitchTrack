@@ -490,3 +490,25 @@ test('Android App Native Detection: nasconde pulsante download APK dentro app na
   assert.ok(appJs.includes("navigator.userAgent.includes('SwitchTrackApp')"), 'app.js deve rilevare il custom UA SwitchTrackApp');
   assert.ok(appJs.includes("is-native-app"), 'app.js deve applicare la classe is-native-app al documento');
 });
+
+test("Dragon's Dogma 2: verifica integrità, Title Update 4.2 (Delicious in Dungeon) e assenza duplicati", () => {
+  store.load();
+  const game = store.getGameById('dragons-dogma-2-dark-arisen');
+  assert.ok(game, "Dragon's Dogma 2 deve esistere nel catalogo");
+  assert.equal(game.platform, 'switch2', 'Deve essere per Nintendo Switch 2');
+  assert.equal(game.currentVersion, 'v4.2.0', 'Versione corrente deve essere v4.2.0');
+  
+  // Verifica assenza di duplicati
+  const dup = store.getGameById('dragon-s-dogma-2-dark-arisen-3110779');
+  assert.strictEqual(dup, null, 'Non devono esistere duplicati non allineati');
+
+  // Verifica presenza della patch v4.2.0 e changelog Delicious in Dungeon
+  const update42 = game.updates.find(u => u.version === 'v4.2.0');
+  assert.ok(update42, 'Deve contenere la patch v4.2.0');
+  assert.ok(update42.changelog.some(c => c.includes('Delicious in Dungeon')), 'Changelog deve includere Delicious in Dungeon');
+  assert.ok(update42.changelog.some(c => c.includes('Warfarer')), 'Changelog deve includere fix Warfarer');
+
+  // Verifica presenza tra gli aggiornamenti di novembre
+  const latest = store.getLatestUpdates(20);
+  assert.ok(latest.some(u => u.gameId === 'dragons-dogma-2-dark-arisen' && u.version === 'v4.2.0'), 'Deve comparire negli ultimi aggiornamenti');
+});

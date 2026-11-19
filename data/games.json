@@ -160,6 +160,39 @@
     ]
   },
   {
+    "id": "warhammer-40-000-boltgun-2-3240678",
+    "title": "Warhammer 40,000: Boltgun 2",
+    "platform": "switch2",
+    "titleId": "0400A7F02896C000",
+    "publisher": "Devolver Digital",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Sparatutto",
+      "Sparatutto in prima persona"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/mfforkt7gshtmuogazge",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Warhammer-40-000-Boltgun-2-3240678.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
     "id": "unicorn-academy-island-of-magic-3214101",
     "title": "Unicorn Academy: Island of Magic",
     "platform": "switch",
@@ -256,6 +289,93 @@
           "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
         ]
       }
+    ]
+  },
+  {
+    "id": "dragons-dogma-2-dark-arisen",
+    "title": "Dragon's Dogma 2",
+    "platform": "switch2",
+    "titleId": "0400BB80271AE000",
+    "publisher": "Capcom",
+    "releaseDate": "2026-04-16",
+    "genres": [
+      "Azione",
+      "RPG",
+      "Open World"
+    ],
+    "coverImage": "/covers/dragons-dogma-2.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Dragon-s-Dogma-2-Dark-Arisen-3110779.html",
+    "currentVersion": "v4.2.0",
+    "currentInternalVersion": 327680,
+    "lastUpdated": "2026-11-12T14:00:00Z",
+    "updates": [
+      {
+        "version": "v4.2.0",
+        "previousVersion": "v4.1.0",
+        "internalVersion": 327680,
+        "releaseDate": "2026-11-12",
+        "type": "patch",
+        "title": "Title Update 4.2 - Collaborazione Delicious in Dungeon & Fix Vocazioni",
+        "changelog": [
+          "Inizio dell'evento speciale crossover a tempo limitato (fino al 28 gennaio 2027) Delicious in Dungeon (Dungeon Food) su Nintendo Switch 2.",
+          "Aggiunti nel deposito del giocatore i set completi di armature e costumi dedicati ai protagonisti Laios e Marcille.",
+          "Eroe Prode (Warfarer): corretto un bug critico per cui equipaggiare la Freccia dell'Annientamento (Unmaking Arrow) con determinate combinazioni di armi provocava la posa a T dell'Arisen e il freeze del gioco.",
+          "Nemici: risolto il problema con i nemici catturati nel Vortice del Rancore (Rancor's Vortex) che impediva di sconfiggerli, lasciando il vortice permanente.",
+          "Nemici: risolto un glitch che manteneva attiva la barriera dell'Occhio Nefasto (Evil Eye) dopo essere stato abbattuto con una Freccia dell'Annientamento.",
+          "Pedine (Pawns): corretto il pathfinding per cui richiamare una pedina da un dirupo roccioso la portava erroneamente a saltare nel vuoto.",
+          "Pedine: risolto il loop infinito delle pedine di classe Ladro durante l'uso dell'abilità Cattura (Ensnare) sulle carcasse dei boss giganti.",
+          "Miglioramenti generali della stabilità di rendering dinamico e fluidità dell'interfaccia utente."
+        ]
+      },
+      {
+        "version": "v4.1.0",
+        "previousVersion": "v4.0.2",
+        "internalVersion": 262144,
+        "releaseDate": "2026-10-24",
+        "type": "patch",
+        "title": "Title Update 4.1 - Stabilità Handheld e Fix Pedine",
+        "changelog": [
+          "Risolti arresti anomali e freeze durante il risveglio dallo standby o il passaggio rapido tra modalità docked e portatile su Switch 2.",
+          "Migliorato il pathfinding e l'intelligenza artificiale delle pedine (Pawn) nelle gole montane di Battahl.",
+          "Corretti bug legati alle abilità del Guerriero, dell'Arciere Magico e dell'Eretico Mistico.",
+          "Risolti molteplici blocchi e desincronizzazioni nell'avanzamento delle missioni secondarie a Vernworth.",
+          "Migliorata la resa del frame-rate nelle aree urbane ad altissima densità di NPC."
+        ]
+      },
+      {
+        "version": "v4.0.2",
+        "previousVersion": "v4.0.0",
+        "internalVersion": 196608,
+        "releaseDate": "2026-08-14",
+        "type": "patch",
+        "title": "Ottimizzazione Frame Rate & Stabilità",
+        "changelog": [
+          "Migliorate le prestazioni di rendering dinamico (DLSS Ray Reconstruction) in presenza di nebbia volumetrica e battaglie contro grifoni multipli.",
+          "Risolti glitch visivi con le ombre dinamiche degli alberi in modalità notturna."
+        ]
+      },
+      {
+        "version": "v4.0.0",
+        "previousVersion": "v3.0.0",
+        "internalVersion": 131072,
+        "releaseDate": "2026-04-16",
+        "type": "major",
+        "title": "Lancio Versione Nintendo Switch 2",
+        "changelog": [
+          "Versione nativa Switch 2 con supporto a 60 FPS dinamici a 1440p, tempi di caricamento istantanei e texture ad altissima definizione."
+        ]
+      }
+    ],
+    "status": "released",
+    "aliases": [
+      "dragons-dogma-2",
+      "dragons dogma 2",
+      "Dragon's Dogma 2",
+      "Dragon's Dogma II",
+      "Dragon's Dogma 2: Dark Arisen",
+      "dragons-dogma-2-dark-arisen",
+      "0100D0601EE70000",
+      "0400BB80271AE000"
     ]
   },
   {
@@ -1126,6 +1246,40 @@
           "L’unico modo per far sopravvivere la piccola lumaca è saltare da un’isola all’altra.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "big-jhow-jet-3227991",
+    "title": "Big Jhow Jet",
+    "platform": "switch",
+    "titleId": "0100B5202A608000",
+    "publisher": "Nerd Games",
+    "releaseDate": "2026-11-07",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Corse",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/lcamu9q8wcaqbkn9k7dn",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Big-Jhow-Jet-3227991.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-07T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-07",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
         ]
       }
     ]
@@ -5329,6 +5483,39 @@
     ]
   },
   {
+    "id": "knock-em-dead-halloween-carnival-party-3228575",
+    "title": "Knock 'Em Dead! Halloween Carnival Party",
+    "platform": "switch",
+    "titleId": "010019702A992000",
+    "publisher": "Aldora Games",
+    "releaseDate": "2026-10-26",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Party",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/f7iswv8vi4fzoi0edtjd",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Knock-Em-Dead-Halloween-Carnival-Party-3228575.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-26T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-26",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Il luna park stregato apre a mezzanotte! 10 minigiochi di Halloween con i comandi di movimento o con entrambe le levette: mira, colpisci, lancia... e falli fuori tutti!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "metroid-prime-4-beyond",
     "title": "Metroid Prime 4: Beyond",
     "platform": "switch2",
@@ -5503,72 +5690,6 @@
           "L'universo di Warhammer 40,000 incontra il gameplay assuefacente in stile Vampire Survivors."
         ]
       }
-    ]
-  },
-  {
-    "id": "dragons-dogma-2-dark-arisen",
-    "title": "Dragon's Dogma 2",
-    "platform": "switch2",
-    "titleId": "0100D0601EE70000",
-    "publisher": "Capcom",
-    "releaseDate": "2026-04-16",
-    "genres": [
-      "Azione",
-      "RPG",
-      "Open World"
-    ],
-    "coverImage": "/covers/dragons-dogma-2.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Cerca/Cerca-299117.html?q=Dragon%27s+Dogma",
-    "currentVersion": "v4.1.0",
-    "currentInternalVersion": 262144,
-    "lastUpdated": "2026-10-24T14:30:00Z",
-    "updates": [
-      {
-        "version": "v4.1.0",
-        "previousVersion": "v4.0.2",
-        "internalVersion": 262144,
-        "releaseDate": "2026-10-24",
-        "type": "patch",
-        "title": "Title Update 4.1 - Stabilità Handheld e Fix Pedine",
-        "changelog": [
-          "Risolti arresti anomali e freeze durante il risveglio dallo standby o il passaggio rapido tra modalità docked e portatile su Switch 2.",
-          "Migliorato il pathfinding e l'intelligenza artificiale delle pedine (Pawn) nelle gole montane di Battahl.",
-          "Corretti bug legati alle abilità del Guerriero, dell'Arciere Magico e dell'Eretico Mistico.",
-          "Risolti molteplici blocchi e desincronizzazioni nell'avanzamento delle missioni secondarie a Vernworth.",
-          "Migliorata la resa del frame-rate nelle aree urbane ad altissima densità di NPC."
-        ]
-      },
-      {
-        "version": "v4.0.2",
-        "previousVersion": "v4.0.0",
-        "internalVersion": 196608,
-        "releaseDate": "2026-08-14",
-        "type": "patch",
-        "title": "Ottimizzazione Frame Rate & Stabilità",
-        "changelog": [
-          "Migliorate le prestazioni di rendering dinamico (DLSS Ray Reconstruction) in presenza di nebbia volumetrica e battaglie contro grifoni multipli.",
-          "Risolti glitch visivi con le ombre dinamiche degli alberi in modalità notturna."
-        ]
-      },
-      {
-        "version": "v4.0.0",
-        "previousVersion": "v3.0.0",
-        "internalVersion": 131072,
-        "releaseDate": "2026-04-16",
-        "type": "major",
-        "title": "Lancio Versione Nintendo Switch 2",
-        "changelog": [
-          "Versione nativa Switch 2 con supporto a 60 FPS dinamici a 1440p, tempi di caricamento istantanei e texture ad altissima definizione."
-        ]
-      }
-    ],
-    "status": "released",
-    "aliases": [
-      "dragons-dogma-2",
-      "dragons dogma 2",
-      "Dragon's Dogma 2",
-      "Dragon's Dogma II",
-      "dragons-dogma-2-dark-arisen"
     ]
   },
   {
@@ -5951,6 +6072,37 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Chi è un Bad Boy?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scp-3008-infinite-store-3247921",
+    "title": "SCP-3008: Infinite Store",
+    "platform": "switch",
+    "titleId": "01004E102A174000",
+    "publisher": "Upscale Studio",
+    "releaseDate": "2026-10-23",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rtlaf7w0qgxrwzk6ezx5",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/SCP-3008-Infinite-Store-3247921.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-23T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-23",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Il loop non finisce mai...",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -10500,38 +10652,6 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "A wild RC racing adventure with a lamb behind the handlebars!",
-          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
-          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "dragon-s-dogma-2-dark-arisen-3110779",
-    "title": "Dragon's Dogma 2: Dark Arisen",
-    "platform": "switch2",
-    "titleId": "0400BB80271AE000",
-    "publisher": "CAPCOM",
-    "releaseDate": "2026-10-09",
-    "status": "released",
-    "genres": [
-      "Avventura",
-      "Azione",
-      "RPG"
-    ],
-    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dragonsdogma2darkarisen/16x9_DragonsDogma2DarkArisen_image500w.jpg",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Dragon-s-Dogma-2-Dark-Arisen-3110779.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-10-09T12:00:00Z",
-    "updates": [
-      {
-        "version": "v1.0.0",
-        "releaseDate": "2026-10-09",
-        "type": "major",
-        "title": "Rilascio Ufficiale su Nintendo eShop",
-        "changelog": [
-          "La tua epica avventura inizia qui.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
