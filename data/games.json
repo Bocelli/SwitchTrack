@@ -1,5 +1,165 @@
 [
   {
+    "id": "the-binding-of-isaac-repentance-3198821",
+    "title": "The Binding of Isaac: Repentance+",
+    "platform": "switch2",
+    "titleId": "0400FA5025666000",
+    "publisher": "Nicalis",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/u0qf53ah8wsrb1czkykr",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Binding-of-Isaac-Repentance-3198821.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lost-sock-simulator-3000-3207382",
+    "title": "Lost Sock Simulator 3000",
+    "platform": "switch",
+    "titleId": "01004CB028580000",
+    "publisher": "Sonomio Games",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/deqwv5zmhwwngyafljy5",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Lost-Sock-Simulator-3000-3207382.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reverie-in-the-moonlight-nintendo-switch-2-edition-3221688",
+    "title": "Reverie in the Moonlight – Nintendo Switch™ 2 Edition",
+    "platform": "switch2",
+    "titleId": "0100BD1025E02000",
+    "publisher": "room6",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rpbkzyxvbugrurpwgyzh",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Nintendo-Switch-2-Edition/Reverie-in-the-Moonlight-Nintendo-Switch-2-Edition-3221688.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sumikkogurashi-welcome-to-poka-poka-onsen-3230957",
+    "title": "Sumikkogurashi Welcome to Poka Poka Onsen",
+    "platform": "switch2",
+    "titleId": "04004540284DE000",
+    "publisher": "NIPPON COLUMBIA",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Comunicazione",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/m2ndraqky1hycm3d8hlp",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Sumikkogurashi-Welcome-to-Poka-Poka-Onsen-3230957.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "previousVersion": "v0.9.0",
+        "internalVersion": 65536,
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale e Day-One Update (v1.0.0)",
+        "changelog": [
+          "Lancio ufficiale su Nintendo eShop per Nintendo Switch 2.",
+          "Miglioramenti generali della stabilità, ottimizzazione del caricamento e supporto controlli di sistema."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "la-mia-clinica-veterinaria-africa-3232347",
+    "title": "La mia clinica veterinaria – Africa",
+    "platform": "switch",
+    "titleId": "0100C3A026FF4000",
+    "publisher": "TREVA",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "Lifestyle",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/helsnfk30spoeudcphwl",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/La-mia-clinica-veterinaria-Africa-3232347.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Pazzi per gli animali selvatici? Il safari ti aspetta!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "unicorn-academy-island-of-magic-3214101",
     "title": "Unicorn Academy: Island of Magic",
     "platform": "switch",
@@ -691,6 +851,69 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Il leggendario classico con le tessere: combina con astuzia, fai le mosse giuste e affidati a un pizzico di fortuna per liberarti per primo di tutte le tessere.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cupiclaw-3232124",
+    "title": "Cupiclaw",
+    "platform": "switch",
+    "titleId": "010038902A2B8000",
+    "publisher": "Rainy Frog",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Rompicapo",
+      "Simulazione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/mf5nt9ux66zc1ukcokmy",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Cupiclaw-3232124.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Un'azione frenetica e adorabile all’artiglio, con un tocco roguelike!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-pet-shop-after-dark-3229357",
+    "title": "a pet shop after dark",
+    "platform": "switch",
+    "titleId": "01005FF02261A000",
+    "publisher": "Viridian Software",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Avventura"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/yjfmqn5azphnyhkwtfhl",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/a-pet-shop-after-dark-3229357.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "CERCASI PETSITTER. Un  gioco horror punta e clicca. Annaffia le piante, dai da mangiare agli animali, e NON spegnere le luci.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -2013,6 +2236,103 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Sembra davvero un manga normale?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sora-oasis-treasures-3232335",
+    "title": "Sora - Oasis Treasures",
+    "platform": "switch",
+    "titleId": "010084C0292D2000",
+    "publisher": "EpiXR Games",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Corse",
+      "Simulazione",
+      "Sport"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ynmcetpjsvcimmhsqlph",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Sora-Oasis-Treasures-3232335.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Librati in volo nei vibranti cieli della giungla e resta in contatto con il tuo stormo di pappagalli colorati.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "play-learn-my-first-korean-3232102",
+    "title": "Play & Learn My First Korean",
+    "platform": "switch",
+    "titleId": "010042502A554000",
+    "publisher": "TT",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Comunicazione",
+      "Rompicapo",
+      "Study"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/avx0hygfgblli0kwwdxm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Play-Learn-My-First-Korean-3232102.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Riesci a completare l'hangŭl?",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shelterra-the-skyworld-3231967",
+    "title": "Shelterra the Skyworld",
+    "platform": "switch",
+    "titleId": "01006320291BA000",
+    "publisher": "KEMCO",
+    "releaseDate": "2026-11-05",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "RPG",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/okotebytjqyvea61hqyv",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Shelterra-the-Skyworld-3231967.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-05T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-05",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Esplora un continente fluttuante in un classico GDR fantasy!",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
@@ -4091,6 +4411,134 @@
     ]
   },
   {
+    "id": "phantom-floor-3227967",
+    "title": "Phantom Floor",
+    "platform": "switch",
+    "titleId": "0100FAF029694000",
+    "publisher": "subSilico",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/vbzyw24ig6umpycu0emz",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Phantom-Floor-3227967.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Muoviti furtivo tra i corridoi bui, esplora le stanze, trova gli strumenti per fuggire, o diventerai il prossimo banchetto.\n",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "how-to-hook-fish-3232220",
+    "title": "How to hook Fish",
+    "platform": "switch",
+    "titleId": "010093A02A6C6000",
+    "publisher": "Picnic Play",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Simulazione",
+      "Strategia"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/zljzcilmdsnm3ek7rr9s",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/How-to-hook-Fish-3232220.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Explore. Scavenge. Survive.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frutageddon-fruit-platformer-3232030",
+    "title": "Frutageddon Fruit Platformer",
+    "platform": "switch",
+    "titleId": "0100F0202A684000",
+    "publisher": "Master Crowd Games",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/t8xxepyuwigzyqwnhrph",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Frutageddon-Fruit-Platformer-3232030.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Salta, spara e dondolati contro frutta e verdura ribelli. Trasforma i resti dei nemici in potenziamenti in questo platform d'azione a scorrimento laterale.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scarlet-deer-inn-3228563",
+    "title": "Scarlet Deer Inn",
+    "platform": "switch",
+    "titleId": "01008A601476E000",
+    "publisher": "Attu Games",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Altro",
+      "Avventura",
+      "Azione",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/igytzrncpuuxcaoz207x",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Scarlet-Deer-Inn-3228563.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Una cupa fiaba popolare medievale ricamata. Mentre la vita in un villaggio all’apparenza normale ruota attorno a faccende e pettegolezzi, sinistri segreti si celano sotto.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "zelda-totk",
     "title": "The Legend of Zelda: Tears of the Kingdom",
     "platform": "switch2",
@@ -4761,6 +5209,39 @@
     ]
   },
   {
+    "id": "ride-it-3229432",
+    "title": "Ride It!",
+    "platform": "switch",
+    "titleId": "010092C028570000",
+    "publisher": "Daydream Software",
+    "releaseDate": "2026-10-27",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Avventura",
+      "Platform",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/fa06zaz2wagddgrzkede",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Ride-It--3229432.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-27T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-27",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Volevi solo bere qualcosa. E la bici era proprio lì. Platform 3D e un bel po' di schianti ti separano da quel drink che ti meriti.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "9-r-i-p-sequel-8000",
     "title": "9 R.I.P. sequel",
     "platform": "switch",
@@ -4953,6 +5434,39 @@
       "cyberpunk-2077",
       "cyberpunk 2077",
       "cyberpunk"
+    ]
+  },
+  {
+    "id": "racing-flight-simulator-triple-pack-cars-jets-drones-3245910",
+    "title": "Racing & Flight Simulator Triple Pack – Cars, Jets & Drones",
+    "platform": "switch",
+    "titleId": "70070000040929",
+    "publisher": "CONSANN REAL ESTATE",
+    "releaseDate": "2026-10-25",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Corse",
+      "Simulazione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/racingandflightsimulatortriplepackcarsjetsanddrones/16x9_RacingAndFlightSimulatorTriplePackCarsJetsAndDrones_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Racing-Flight-Simulator-Triple-Pack-Cars-Jets-Drones-3245910.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-25T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-25",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Take control of every vehicle and prove your skills across skies, tracks, and city routes.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
     ]
   },
   {
@@ -696881,81 +697395,6 @@
     ]
   },
   {
-    "id": "the-binding-of-isaac-repentance-3198821",
-    "title": "The Binding of Isaac: Repentance+",
-    "platform": "switch2",
-    "titleId": "0400FA5025666000",
-    "publisher": "Nicalis",
-    "releaseDate": "2026-11-19",
-    "status": "upcoming",
-    "genres": [
-      "Azione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/u0qf53ah8wsrb1czkykr",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/The-Binding-of-Isaac-Repentance-3198821.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-19T12:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "lost-sock-simulator-3000-3207382",
-    "title": "Lost Sock Simulator 3000",
-    "platform": "switch",
-    "titleId": "01004CB028580000",
-    "publisher": "Sonomio Games",
-    "releaseDate": "2026-11-19",
-    "status": "upcoming",
-    "genres": [
-      "Altro",
-      "Simulazione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/deqwv5zmhwwngyafljy5",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Lost-Sock-Simulator-3000-3207382.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-19T12:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "reverie-in-the-moonlight-nintendo-switch-2-edition-3221688",
-    "title": "Reverie in the Moonlight – Nintendo Switch™ 2 Edition",
-    "platform": "switch2",
-    "titleId": "0100BD1025E02000",
-    "publisher": "room6",
-    "releaseDate": "2026-11-19",
-    "status": "upcoming",
-    "genres": [
-      "Azione",
-      "Sparatutto"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rpbkzyxvbugrurpwgyzh",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Nintendo-Switch-2-Edition/Reverie-in-the-Moonlight-Nintendo-Switch-2-Edition-3221688.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-19T12:00:00Z",
-    "updates": []
-  },
-  {
-    "id": "sumikkogurashi-welcome-to-poka-poka-onsen-3230957",
-    "title": "Sumikkogurashi Welcome to Poka Poka Onsen",
-    "platform": "switch2",
-    "titleId": "04004540284DE000",
-    "publisher": "NIPPON COLUMBIA",
-    "releaseDate": "2026-11-19",
-    "status": "upcoming",
-    "genres": [
-      "Comunicazione",
-      "Simulazione"
-    ],
-    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/m2ndraqky1hycm3d8hlp",
-    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Sumikkogurashi-Welcome-to-Poka-Poka-Onsen-3230957.html",
-    "currentVersion": "v1.0.0",
-    "currentInternalVersion": 65536,
-    "lastUpdated": "2026-11-19T12:00:00Z",
-    "updates": []
-  },
-  {
     "id": "piece-by-piece-3218817",
     "title": "Piece by Piece",
     "platform": "switch",
@@ -697069,6 +697508,43 @@
     ],
     "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nzqul7nmwvkdzg9lkhym",
     "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Full-Metal-Sergeant-2-3226556.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-26T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "cascade-3232172",
+    "title": "Cascade",
+    "platform": "switch",
+    "titleId": "010044B02A600000",
+    "publisher": "14Dimension",
+    "releaseDate": "2026-11-26",
+    "status": "upcoming",
+    "genres": [
+      "Azione",
+      "RPG"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/xjn2vpkn66m5zsjz8qxm",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Cascade-3232172.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-26T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "fortune-avenue-3246330",
+    "title": "Fortune Avenue",
+    "platform": "switch",
+    "titleId": "0100A4A02344E000",
+    "publisher": "Binogure Studio",
+    "releaseDate": "2026-11-26",
+    "status": "upcoming",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/afmogtugitmriwjwqacs",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Fortune-Avenue-3246330.html",
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-11-26T12:00:00Z",
@@ -697495,7 +697971,7 @@
   {
     "id": "il-professor-layton-e-il-nuovo-mondo-a-vapore-2339757",
     "title": "Il professor Layton e il Nuovo Mondo a vapore",
-    "platform": "switch",
+    "platform": "both",
     "titleId": "0100000002339757",
     "publisher": "LEVEL5",
     "releaseDate": "2026-12-10",
