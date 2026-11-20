@@ -193,6 +193,37 @@
     ]
   },
   {
+    "id": "arcade-archives-2-seicross-3248668",
+    "title": "Arcade Archives 2 SEICROSS",
+    "platform": "switch2",
+    "titleId": "040031E029704000",
+    "publisher": "HAMSTER",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ngvygnhaurn69bsscskq",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Arcade-Archives-2-SEICROSS-3248668.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Sneak into the mysterious fortress, evade pursuit and launch an attack!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "unicorn-academy-island-of-magic-3214101",
     "title": "Unicorn Academy: Island of Magic",
     "platform": "switch",
@@ -4686,6 +4717,101 @@
         "title": "Rilascio Ufficiale su Nintendo eShop",
         "changelog": [
           "Una cupa fiaba popolare medievale ricamata. Mentre la vita in un villaggio all’apparenza normale ruota attorno a faccende e pettegolezzi, sinistri segreti si celano sotto.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "two-great-space-shooter-in-one-bundle-3249025",
+    "title": "Two great Space Shooter in one bundle!",
+    "platform": "switch",
+    "titleId": "70070000040669",
+    "publisher": "EntwicklerX",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Azione",
+      "Picchiaduro",
+      "Sparatutto"
+    ],
+    "coverImage": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/twogreatspaceshooterinonebundle/16x9_TwoGreatSpaceShooterInOneBundle_image500w.jpg",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Two-great-Space-Shooter-in-one-bundle--3249025.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Two great Space Shooter in one bundle!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "schoolboy-escape-2-granny-house-3230879",
+    "title": "Schoolboy Escape 2: Granny House",
+    "platform": "switch",
+    "titleId": "0100D3F02A3D2000",
+    "publisher": "PRIME",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Avventura",
+      "Rompicapo"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/yg2ededik8zzzjlfcjvv",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Schoolboy-Escape-2-Granny-House-3230879.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Eludi i nonni, risolvi gli enigmi e trasforma una vacanza in paese in un’audace fuga.",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apache-heli-strike-desert-gunship-air-warfare-3230936",
+    "title": "Apache Heli Strike: Desert Gunship Air Warfare",
+    "platform": "switch",
+    "titleId": "0100F0302A740000",
+    "publisher": "PRIME",
+    "releaseDate": "2026-10-29",
+    "status": "released",
+    "genres": [
+      "Azione",
+      "Sparatutto"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/avztwa9xvzonh2a24x58",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Apache-Heli-Strike-Desert-Gunship-Air-Warfare-3230936.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-10-29T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-10-29",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Prendi il comando di un elicottero da combattimento. Pianifica l’attacco e colpisci dall’alto.",
           "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
           "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
         ]
