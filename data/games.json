@@ -224,6 +224,68 @@
     ]
   },
   {
+    "id": "arcade-archives-2-tx-1-v-8-3248608",
+    "title": "Arcade Archives 2 TX-1 V.8",
+    "platform": "switch2",
+    "titleId": "040094F029D6A000",
+    "publisher": "HAMSTER",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Corse"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/axfho7yq6nvqrqwimusc",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Arcade-Archives-2-TX-1-V-8-3248608.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Even More Upgrades!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arcade-archives-tx-1-v-8-3248620",
+    "title": "Arcade Archives TX-1 V.8",
+    "platform": "switch",
+    "titleId": "0100F33029D68000",
+    "publisher": "HAMSTER",
+    "releaseDate": "2026-11-19",
+    "status": "released",
+    "genres": [
+      "Arcade",
+      "Corse"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/nrzidmle475gn2eqbvqy",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/Arcade-Archives-TX-1-V-8-3248620.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-19T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-19",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Even More Upgrades!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "unicorn-academy-island-of-magic-3214101",
     "title": "Unicorn Academy: Island of Magic",
     "platform": "switch",
