@@ -496,8 +496,7 @@ test("Dragon's Dogma 2: verifica integrità, Title Update 4.2 (Delicious in Dung
   const game = store.getGameById('dragons-dogma-2-dark-arisen');
   assert.ok(game, "Dragon's Dogma 2 deve esistere nel catalogo");
   assert.equal(game.platform, 'switch2', 'Deve essere per Nintendo Switch 2');
-  assert.equal(game.currentVersion, 'v4.2.0', 'Versione corrente deve essere v4.2.0');
-  
+
   // Verifica assenza di duplicati
   const dup = store.getGameById('dragon-s-dogma-2-dark-arisen-3110779');
   assert.strictEqual(dup, null, 'Non devono esistere duplicati non allineati');
@@ -508,7 +507,9 @@ test("Dragon's Dogma 2: verifica integrità, Title Update 4.2 (Delicious in Dung
   assert.ok(update42.changelog.some(c => c.includes('Delicious in Dungeon')), 'Changelog deve includere Delicious in Dungeon');
   assert.ok(update42.changelog.some(c => c.includes('Warfarer')), 'Changelog deve includere fix Warfarer');
 
-  // v4.2.0 in testa alla lista del gioco: gli update sono ordinati dal più recente
-  // La posizione in "Ultimi Aggiornamenti" non si testa: scende da sola con le nuove uscite giornaliere
-  assert.equal(game.updates[0].version, 'v4.2.0', "v4.2.0 deve essere l'aggiornamento più recente di Dragon's Dogma 2");
+  // La versione corrente deve essere quella dell'update più recente, qualunque sia:
+  // una patch nuova di DD2 è un aggiornamento legittimo, non un errore del catalogo.
+  // La posizione in "Ultimi Aggiornamenti" non si testa: scende da sola con le nuove uscite giornaliere.
+  assert.ok(game.updates.length > 0, "Dragon's Dogma 2 deve avere almeno un aggiornamento");
+  assert.equal(game.currentVersion, game.updates[0].version, 'La versione corrente deve essere l\'ultima della lista');
 });
