@@ -508,7 +508,11 @@ test("Dragon's Dogma 2: verifica integrità, Title Update 4.2 (Delicious in Dung
   assert.ok(update42.changelog.some(c => c.includes('Delicious in Dungeon')), 'Changelog deve includere Delicious in Dungeon');
   assert.ok(update42.changelog.some(c => c.includes('Warfarer')), 'Changelog deve includere fix Warfarer');
 
-  // Verifica presenza tra gli aggiornamenti di novembre
-  const latest = store.getLatestUpdates(20);
-  assert.ok(latest.some(u => u.gameId === 'dragons-dogma-2-dark-arisen' && u.version === 'v4.2.0'), 'Deve comparire negli ultimi aggiornamenti');
+  // Verifica deterministica: v4.2.0 deve essere l'aggiornamento più recente del gioco
+  assert.equal(game.updates[0].version, 'v4.2.0', "v4.2.0 deve essere l'aggiornamento più recente di Dragon's Dogma 2");
+
+  // Verifica presenza nella finestra ampia degli aggiornamenti recenti
+  // (la top-20 ruota con le nuove uscite giornaliere: non è un riferimento stabile)
+  const latest = store.getLatestUpdates(500);
+  assert.ok(latest.some(u => u.gameId === 'dragons-dogma-2-dark-arisen' && u.version === 'v4.2.0'), 'Deve comparire negli aggiornamenti recenti');
 });
