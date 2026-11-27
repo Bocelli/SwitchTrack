@@ -2044,6 +2044,36 @@
     ]
   },
   {
+    "id": "eggconsole-mr-bump-pc-8801mkiisr-3236801",
+    "title": "EGGCONSOLE Mr.Bump PC-8801mkIISR",
+    "platform": "switch",
+    "titleId": "01009050299E2000",
+    "publisher": "D4 Enterprise",
+    "releaseDate": "2026-11-12",
+    "status": "released",
+    "genres": [
+      "Azione"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/heqzulemcvwdajnfedyy",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-scaricabili-per-Nintendo-Switch/EGGCONSOLE-Mr-Bump-PC-8801mkIISR-3236801.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-11-12T12:00:00Z",
+    "updates": [
+      {
+        "version": "v1.0.0",
+        "releaseDate": "2026-11-12",
+        "type": "major",
+        "title": "Rilascio Ufficiale su Nintendo eShop",
+        "changelog": [
+          "Control the \"Survival Ball\" and its unique inertia across 12 stages of traps and enemies. A deep masterpiece of energy, puzzles, and high-speed action!",
+          "Integrazione salvataggi cloud Nintendo Switch Online, controlli Joy-Con e supporto software day-one.",
+          "Miglioramenti generali della stabilità di sistema per l'edizione di lancio."
+        ]
+      }
+    ]
+  },
+  {
     "id": "a-snail-s-tale-3238343",
     "title": "A Snail's Tale",
     "platform": "switch",
@@ -700870,6 +700900,26 @@
     "currentVersion": "v1.0.0",
     "currentInternalVersion": 65536,
     "lastUpdated": "2026-12-11T12:00:00Z",
+    "updates": []
+  },
+  {
+    "id": "aeterna-lucis-3249731",
+    "title": "Aeterna Lucis",
+    "platform": "switch2",
+    "titleId": "04006BE02B260000",
+    "publisher": "Aeternum Game Studios",
+    "releaseDate": "2026-12-14",
+    "status": "upcoming",
+    "genres": [
+      "Avventura",
+      "Azione",
+      "Platform"
+    ],
+    "coverImage": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/ci3rg4unfqki5o7tnb6e",
+    "eshopUrl": "https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Aeterna-Lucis-3249731.html",
+    "currentVersion": "v1.0.0",
+    "currentInternalVersion": 65536,
+    "lastUpdated": "2026-12-14T12:00:00Z",
     "updates": []
   },
   {
